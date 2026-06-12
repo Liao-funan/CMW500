@@ -1,0 +1,2851 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM Signaling"/>
+<param name="Local" value="15baa4beeead4382.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="b8bc844bae56400c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.30)"/>
+<param name="Local" value="14a1ad5499714076.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.30 (Compared to V3.5.20)"/>
+<param name="Local" value="71d7a74e70684545.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.5.10)"/>
+<param name="Local" value="733928da0c87423e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.10 (Compared to V3.2.70)"/>
+<param name="Local" value="2ba35a36b6b945b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.60)"/>
+<param name="Local" value="0364b00f8776426e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.2.30)"/>
+<param name="Local" value="1a2a3e9fbeaa4e5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.30 (Compared to V3.2.20)"/>
+<param name="Local" value="69a8dfd5b20f473a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.20 (Compared to V3.2.10)"/>
+<param name="Local" value="c8e944fbb006465b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.10 (Compared to V3.0.20)"/>
+<param name="Local" value="58d9d10f7b1f4916.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.20 (Compared to V3.0.10)"/>
+<param name="Local" value="2f20c44d8d7c4c3e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.1.60)"/>
+<param name="Local" value="6d5729c67814473a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.60 (Compared to V2.1.25)"/>
+<param name="Local" value="98dde561b6d04c69.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.25 (Compared to V2.1.10)"/>
+<param name="Local" value="7d9df1b9cb9e43ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.10 (Compared to V2.0.20)"/>
+<param name="Local" value="7278e40bd13f4bcc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.20 (Compared to V2.0.10)"/>
+<param name="Local" value="a706d1c7d76947fd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.10 (Compared to V1.0.15.23)"/>
+<param name="Local" value="4af2e0a6209d4146.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.23 (Compared to V1.0.15.20)"/>
+<param name="Local" value="bcf1b52262404ca8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.20"/>
+<param name="Local" value="2df7cd7cf7434a9c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="cf43ed6373b24f27.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setups"/>
+<param name="Local" value="e9748d6b69cd4192.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario Standard Cell"/>
+<param name="Local" value="6dfb1a2dcd914155.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario IQ Out - RF In"/>
+<param name="Local" value="827bb9124ecf47a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario BCCH and TCH/PDCH"/>
+<param name="Local" value="dc7683e921854150.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for External Fading Scenarios"/>
+<param name="Local" value="a4afbf4b92d84973.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Standard Cell Internal Fading"/>
+<param name="Local" value="68ef644d31154d1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for RX Diversity Scenarios"/>
+<param name="Local" value="5ccf5fa818574cc3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Initiating Signaling Tests"/>
+<param name="Local" value="fd64a8c92a054493.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Fading"/>
+<param name="Local" value="8a44d22ddfcc4998.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="37ffed99bdd5436a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="99da92ee32c64c7f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AWGN Generator"/>
+<param name="Local" value="f958678521684c6d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="End-to-End Packet Data Connections"/>
+<param name="Local" value="2a74b42b586a45a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Measurements"/>
+<param name="Local" value="e0ba6e410df64f48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection States"/>
+<param name="Local" value="2604a37d92ae4ad2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CS Connection States"/>
+<param name="Local" value="a915c53bf312444c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PS Connection States"/>
+<param name="Local" value="d0cc9a2e127d4b6b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mobility Management"/>
+<param name="Local" value="340a0e9c80024a07.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM Characteristics"/>
+<param name="Local" value="429a22ac9d0b40f6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM Bands and Channels"/>
+<param name="Local" value="68830b6d453244c0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Control Levels"/>
+<param name="Local" value="c05784e2dcf9457a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GPRS Uplink Power Control"/>
+<param name="Local" value="6c995a6b2e724b4a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="VAMOS"/>
+<param name="Local" value="8ef9e2246b334db4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signals"/>
+<param name="Local" value="15e65bdd273c42d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER PS Measurement"/>
+<param name="Local" value="e58ad2b4d1ec4f81.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Procedure"/>
+<param name="Local" value="fbeb6cc1bd26431c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Mode"/>
+<param name="Local" value="9558207396b749a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="c41dd3994c1244e4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Modes"/>
+<param name="Local" value="bc17846d326448c5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Comparison of DBLER and BLER"/>
+<param name="Local" value="17a894363efb4a9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bits Per Radio Block / RLC Data Block"/>
+<param name="Local" value="1aab6b73b6f7488c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Measurement"/>
+<param name="Local" value="a8ca503052734040.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Procedure"/>
+<param name="Local" value="236293f650944b8e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="42aa1f6def974ca7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multiframe Structure and Data Rate"/>
+<param name="Local" value="e77c51d6df9647e4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER CS Measurement"/>
+<param name="Local" value="e02980ccb8b94929.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Procedure"/>
+<param name="Local" value="ec7e2158f5444a0c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode Burst by Burst"/>
+<param name="Local" value="84b8e3da50624a16.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode BER"/>
+<param name="Local" value="4829d2855c73442e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode RBER/FER"/>
+<param name="Local" value="4dde934b87e14243.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode FER FACCH"/>
+<param name="Local" value="8d54f79ef4454e5d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode FER SACCH"/>
+<param name="Local" value="984dbf60b3b8442c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode RBER/UFR"/>
+<param name="Local" value="ebfc4cb6112046f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode AMR Inband FER"/>
+<param name="Local" value="025063638e814fde.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode Mean BEP"/>
+<param name="Local" value="0b27d0fd58c746dc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode Signal Quality"/>
+<param name="Local" value="dbbff6e47ae443f8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Mode BFI"/>
+<param name="Local" value="95ac706deffb4a1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Loops"/>
+<param name="Local" value="b59d979d339049bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frame Structure for BER CS Tests"/>
+<param name="Local" value="a5525887d7324a74.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement"/>
+<param name="Local" value="5b89305ecd9945fd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing RLC Throughput Measurements"/>
+<param name="Local" value="94554ce46da845e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="6339954d28124469.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Measurement"/>
+<param name="Local" value="7be09011616b4e32.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing CMR Performance Measurements"/>
+<param name="Local" value="f0a370801eed4c79.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="484fac15aa614241.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="3e7693441feb4270.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling View"/>
+<param name="Local" value="288c06b17f444830.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status"/>
+<param name="Local" value="67c809c419e8417d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Event Log"/>
+<param name="Local" value="1912a1fa970d43a5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Measurement Report"/>
+<param name="Local" value="8814318ef1bf4f05.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Capabilities"/>
+<param name="Local" value="425765222a31465e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Info"/>
+<param name="Local" value="3a534762b3564a13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMW Voice Info"/>
+<param name="Local" value="a3e6f11eeb064d67.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Main Settings"/>
+<param name="Local" value="d080fd9189164565.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Slot Configuration Dialog"/>
+<param name="Local" value="9b294d8055034c93.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling and Connection Control"/>
+<param name="Local" value="7d1dadc84b9742ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="631406d533cf4e2f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Settings"/>
+<param name="Local" value="f6740ce4b0504d86.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings"/>
+<param name="Local" value="bfb4089530a54944.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Signal Routing"/>
+<param name="Local" value="320cef89e6e1422b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BCCH Settings"/>
+<param name="Local" value="7340d827c2eb4b18.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TCH/PDCH Settings"/>
+<param name="Local" value="1fb15e9b5ff34da2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Offset"/>
+<param name="Local" value="539c7dd8e1184c1b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Expected Uplink Power Settings"/>
+<param name="Local" value="e5f39ef24fac4374.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="112fcb845acf4e94.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="9b89d40caf944d43.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Settings"/>
+<param name="Local" value="d5554e67435c4c28.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Module AWGN"/>
+<param name="Local" value="37f7624694d7446e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Network Parameters"/>
+<param name="Local" value="9b32effa6d034108.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Network Parameters"/>
+<param name="Local" value="15bff94843514f81.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell Settings"/>
+<param name="Local" value="fbf7444009c74014.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell Reselection"/>
+<param name="Local" value="46ea5eb03d8c4181.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Network Identity"/>
+<param name="Local" value="019850b322fe4336.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Identity"/>
+<param name="Local" value="f55b7a00ac2b45da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Requested Mobile Data"/>
+<param name="Local" value="7e37b63108224b6d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell - Common Settings"/>
+<param name="Local" value="a2b788008c0c45f5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell - CS and PS Parameters"/>
+<param name="Local" value="3834bc3d0d194a88.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Timers and Constants"/>
+<param name="Local" value="01405641d49f4e60.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reject Causes"/>
+<param name="Local" value="99d1ac476dae4b41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Security Settings"/>
+<param name="Local" value="398c4d06de9a4444.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Time"/>
+<param name="Local" value="1edc9f64fb2e4ac1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Synchronization"/>
+<param name="Local" value="fbe9bef2f2a9499d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Parameters"/>
+<param name="Local" value="4ce2d9e387774d93.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common Connection Settings"/>
+<param name="Local" value="4fef249812c44753.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Circuit Switched General Connection Parameters"/>
+<param name="Local" value="7a103c24013f463b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AMR Configuration"/>
+<param name="Local" value="b83f82f3d4ee471d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="VAMOS Configuration"/>
+<param name="Local" value="8b791e95bcc14b04.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Packet Switched Connection Parameters"/>
+<param name="Local" value="6724fc99cff54b5d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signal Settings"/>
+<param name="Local" value="7276918710504080.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (SMS) Parameters"/>
+<param name="Local" value="ebf7c16e22b5490e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Outgoing SMS Parameters"/>
+<param name="Local" value="186e83099367442d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Outgoing SMS: Message Creation"/>
+<param name="Local" value="efad0669cc8d475a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Incoming SMS Parameters"/>
+<param name="Local" value="8d59f022d4f74b2c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (CBS) Parameters"/>
+<param name="Local" value="f786d94d15574919.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Level Settings"/>
+<param name="Local" value="01e2885dffee40ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Message Settings"/>
+<param name="Local" value="4593aa97ba224787.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Connection Parameters"/>
+<param name="Local" value="3ec990d07f654b95.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Measurement Report Settings"/>
+<param name="Local" value="3a4b39d06b024b7e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Message Monitoring Settings"/>
+<param name="Local" value="e5ad186b0c444738.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Show Features at Inactive SW Licenses"/>
+<param name="Local" value="f7da45e3633842f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Shortcut Softkeys"/>
+<param name="Local" value="daf7ce567a0a4759.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER PS Measurement"/>
+<param name="Local" value="6e58be6bd1e2455f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="927cc8b1f64f48fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PS BER Tab"/>
+<param name="Local" value="cc3a7c79ea594ee4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General BER PS Settings"/>
+<param name="Local" value="9b1394cfeaf84c31.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="af0cfe6d2efb4cfb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="4405cd6cc44947c1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Measurement"/>
+<param name="Local" value="ed33ba1c499c4c19.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="d1a5f208de314afe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PS BLER Tab"/>
+<param name="Local" value="c1431ea8163d4832.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="b860b2d263ac485d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER CS Measurement"/>
+<param name="Local" value="0d51fbbfdfae417e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="022c473371da4e27.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CS BER Tab"/>
+<param name="Local" value="0cb82936c6c5427d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General BER CS Settings"/>
+<param name="Local" value="55acd4518ce24bfd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="7d1461468de84af3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="c9ffc99a1ce34c55.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement"/>
+<param name="Local" value="1e441b31378d4883.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="389b8e6471884fea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Tab"/>
+<param name="Local" value="2a0651c7521c45a9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="78c548879d0e4662.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Measurement"/>
+<param name="Local" value="b6dd63a6d7dc424f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="997f9ed73eec40db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Tab"/>
+<param name="Local" value="c7e6a138312b49fe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Setting"/>
+<param name="Local" value="ffed05461c224505.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="1156177f4c064b0d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Configuration"/>
+<param name="Local" value="a43742d43b6b4f20.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Settings"/>
+<param name="Local" value="e964ac48b34044d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring BCCH, TCH and PDCH"/>
+<param name="Local" value="df6954979b594eb9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Internal Fading"/>
+<param name="Local" value="7531047841d6478c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Neighbor Cell and Reselection Parameters"/>
+<param name="Local" value="6eb4517df590416e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Network and MS Identities"/>
+<param name="Local" value="055fdb089b9741a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Requested Mobile Data"/>
+<param name="Local" value="82f933a448ef4b91.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Cell Parameters"/>
+<param name="Local" value="c9cd4ab029744984.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Timers and Constants"/>
+<param name="Local" value="3fc24b58c55e4513.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Reject Causes"/>
+<param name="Local" value="5ce9ffc437f44be2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Security Settings"/>
+<param name="Local" value="7045653f02114e17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Common Connection Settings"/>
+<param name="Local" value="5e8a001472544ed4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring General CS Connection Settings"/>
+<param name="Local" value="ccfb8d60e7ac4931.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring AMR Settings"/>
+<param name="Local" value="1b9a77939d654fff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring VAMOS Support"/>
+<param name="Local" value="096109f14b374fc0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring PS Connection Settings"/>
+<param name="Local" value="7d6e020c1aa94dfe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Trigger Signals"/>
+<param name="Local" value="9f7b8985b053492b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Message Monitoring"/>
+<param name="Local" value="9f3fbe0a17c2469b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Switching On the Cell Signal and the MS"/>
+<param name="Local" value="988c6924377e4a2d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the I/Q Settings"/>
+<param name="Local" value="aa4ff5cf8de248ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying MS Capabilities"/>
+<param name="Local" value="9b3f52d0c7dc41c4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying MS Info"/>
+<param name="Local" value="022b8917cef149cc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring MS Measurement Reports"/>
+<param name="Local" value="7a046fd370574cf2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying MS Measurement Reports"/>
+<param name="Local" value="3823d7236b174ebf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a CS Connection"/>
+<param name="Local" value="3117251838f944ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up an Audio CS Connection"/>
+<param name="Local" value="d005b8a43c99455a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieving CS Receiver Reports"/>
+<param name="Local" value="9d5a99a1e05a44f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sending / Receiving an SMS"/>
+<param name="Local" value="200b200e6e6d4ab7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sending a Cell Broadcast Message"/>
+<param name="Local" value="1e4ab09ac2544d84.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sending Date and Time Information to the MS"/>
+<param name="Local" value="571149d88e9a4003.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Intra-GSM CS Handover"/>
+<param name="Local" value="2f1b81d4038d4f15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Inter-RAT CS Handover"/>
+<param name="Local" value="db2f4cc35d9041de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a CS Handover to Another Instrument"/>
+<param name="Local" value="9ec0e8cd892c4495.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a PS Connection"/>
+<param name="Local" value="2ed92bb02680495c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieving PS Receiver Reports"/>
+<param name="Local" value="0fcd96eb7bee4a2f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Intra-GSM PS Handover"/>
+<param name="Local" value="86d79177e56b43da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Cell Change Order"/>
+<param name="Local" value="1ae85d7023694e22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Inter-RAT Handover to GSM"/>
+<param name="Local" value="3bd2fb32ed4a4859.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER PS Tests"/>
+<param name="Local" value="fa014d36ee1d4fab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Tests"/>
+<param name="Local" value="55dfb5271a3d4f9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER CS Tests"/>
+<param name="Local" value="c11621d35a5d4f21.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in Burst by Burst Mode"/>
+<param name="Local" value="853c43ed92e94df1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in BER Mode"/>
+<param name="Local" value="64ec85d1fa6f471c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in RBER/FER Mode"/>
+<param name="Local" value="ced77561fabc4328.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in FER FACCH and FER SACCH Mode"/>
+<param name="Local" value="f377a4e3b0574898.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in RBER/UFR Mode"/>
+<param name="Local" value="ee44ad19cc1e48bb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in AMR Inband FER Mode"/>
+<param name="Local" value="7613ccdaeb2a471b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in Mean BEP Mode"/>
+<param name="Local" value="178d97d7647b4868.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in Signal Quality Mode"/>
+<param name="Local" value="e41db300b20a4cd5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring in BFI Mode"/>
+<param name="Local" value="56908f66cd594a04.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Tests"/>
+<param name="Local" value="f889b13eaa77465d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the RLC Throughput Measurement"/>
+<param name="Local" value="b0e94a28ba454577.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Data Connection"/>
+<param name="Local" value="be69feef14514a41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an RLC Throughput Measurement"/>
+<param name="Local" value="3480832b3d9f43b6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Tests"/>
+<param name="Local" value="77d62315682543b1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the CMR Performance Measurement"/>
+<param name="Local" value="de2277a6f0b84ccd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a CMR Performance Measurement"/>
+<param name="Local" value="3e97d338cd244f4d.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="99f900fe588643f4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="353b242a54784244.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SIGN&lt;i&gt;"/>
+<param name="Local" value="13e7fbc736c94978.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CARRier&lt;c&gt;"/>
+<param name="Local" value="4d3017ff3c8f4267.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh and READ Commands"/>
+<param name="Local" value="7977931bcfed4cf0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for Signal Path Selection"/>
+<param name="Local" value="dcddfb7625134e7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="89cc0017805d4c54.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Control and States"/>
+<param name="Local" value="a142f4927ebd4f2e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GSM:SIGN&lt;i&gt;:CELL:STATe"/>
+<param name="Local" value="e07d0073bee54454.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GSM:SIGN&lt;i&gt;:CELL:STATe:ALL?"/>
+<param name="Local" value="d35e19624.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:GSM:SIGN&lt;i&gt;:CSWitched:ACTion"/>
+<param name="Local" value="a2a2a15307594ecd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:GSM:SIGN&lt;i&gt;:PSWitched:ACTion"/>
+<param name="Local" value="8c9767ee2ddd4026.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:CSWitched:STATe?"/>
+<param name="Local" value="a2b1efdd7b6e48c0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:PSWitched:STATe?"/>
+<param name="Local" value="9a45fb39ca7f4bfd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Event Log"/>
+<param name="Local" value="1ac3fc8f6abe4b20.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:GSM:SIGN&lt;i&gt;:ELOG"/>
+<param name="Local" value="14943f8d3db64464.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:ELOG:LAST?"/>
+<param name="Local" value="d35e19960.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:ELOG:ALL?"/>
+<param name="Local" value="d35e20000.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Information"/>
+<param name="Local" value="67c019ef829d4f4e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CS Measurement Reports"/>
+<param name="Local" value="e9cfcd2abdbe4888.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXLevel?"/>
+<param name="Local" value="d35e20062.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXLevel:RANGe?"/>
+<param name="Local" value="c90f5643553d4584.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXLevel:SUB?"/>
+<param name="Local" value="d35e20143.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXLevel:SUB:RANGe?"/>
+<param name="Local" value="e81f706626184609.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXQuality?"/>
+<param name="Local" value="d35e20224.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXQuality:RANGe?"/>
+<param name="Local" value="fa3522fc1a1d49d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXQuality:SUB?"/>
+<param name="Local" value="d35e20305.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:RXQuality:SUB:RANGe?"/>
+<param name="Local" value="3d7140b47d764c43.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:COUNt?"/>
+<param name="Local" value="d35e20387.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:MBEP?"/>
+<param name="Local" value="8636837037e54f6d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:MBEP:RANGe?"/>
+<param name="Local" value="f473e85d82ac4f22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:CBEP?"/>
+<param name="Local" value="1ffbdada60c7416c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:CBEP:RANGe?"/>
+<param name="Local" value="4bf343b9de8f48d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:NRBLocks?"/>
+<param name="Local" value="e605f7268af2459e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PS Measurement Reports"/>
+<param name="Local" value="ffbf6d909441485f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CVALue?"/>
+<param name="Local" value="d35e20610.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:CVALue:RANGe?"/>
+<param name="Local" value="c73af6116de14223.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:SVARiance?"/>
+<param name="Local" value="d35e20691.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:SVARiance:RANGe?"/>
+<param name="Local" value="7df09c97a05b4838.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:GMBep?"/>
+<param name="Local" value="d35e20772.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:GMBep:RANGe?"/>
+<param name="Local" value="86bcdc86d7564fd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:EMBep?"/>
+<param name="Local" value="d35e20858.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:EMBep:RANGe?"/>
+<param name="Local" value="73d042b6089e4eae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NSRQam&lt;ModOrder&gt;:MBEP?"/>
+<param name="Local" value="d35e20945.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NSRQam&lt;ModOrder&gt;:MBEP:RANGe?"/>
+<param name="Local" value="a6099b3b471743d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:HSRQam&lt;ModOrder&gt;:MBEP?"/>
+<param name="Local" value="d35e21039.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:HSRQam&lt;ModOrder&gt;:MBEP:RANGe?"/>
+<param name="Local" value="bd639a637cbc4abe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:GCBep?"/>
+<param name="Local" value="d35e21133.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:GCBep:RANGe?"/>
+<param name="Local" value="2479a2b2849f45bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:ECBep?"/>
+<param name="Local" value="d35e21210.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:ECBep:RANGe?"/>
+<param name="Local" value="d8990d9369494164.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NSRQam&lt;ModOrder&gt;:CBEP?"/>
+<param name="Local" value="d35e21287.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NSRQam&lt;ModOrder&gt;:CBEP:RANGe?"/>
+<param name="Local" value="d35e21331.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:HSRQam&lt;ModOrder&gt;:CBEP?"/>
+<param name="Local" value="d35e21384.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:HSRQam&lt;ModOrder&gt;:CBEP:RANGe?"/>
+<param name="Local" value="d35e21429.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell Measurement Reports"/>
+<param name="Local" value="29ae63394c054754.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:GSM:CELL&lt;no&gt;?"/>
+<param name="Local" value="d31027f41c1b487f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:GSM:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="122b30566466493d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:LTE:CELL&lt;no&gt;?"/>
+<param name="Local" value="1b1fb7ce31f0493a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:LTE:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="6f12f0fffa494d82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:TDSCdma:CELL&lt;no&gt;?"/>
+<param name="Local" value="86a33e248ca54246.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:TDSCdma:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="3bd4e07517d9465f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:WCDMa:CELL&lt;no&gt;?"/>
+<param name="Local" value="22669bbc102a4434.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:RREPort:NCELl:WCDMa:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="2258d0e246e34b8a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Capabilities"/>
+<param name="Local" value="d81cf97bdc484f56.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:BANDs?"/>
+<param name="Local" value="526af81ad02946ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:MSCLass:GPRS?"/>
+<param name="Local" value="d35e22317.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:MSCLass:EGPRs?"/>
+<param name="Local" value="d35e22348.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:MSCLass:DGPRs?"/>
+<param name="Local" value="d35e22379.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:MSCLass:DEGPrs?"/>
+<param name="Local" value="d35e22410.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:EDALlocation?"/>
+<param name="Local" value="d35e22441.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:CODec:GSM?"/>
+<param name="Local" value="e3557675c5204555.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:VAMos:LEVel?"/>
+<param name="Local" value="bfd37b0b7df04329.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:TCAPability:GEGPrs?"/>
+<param name="Local" value="bc89a9998440480e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Info"/>
+<param name="Local" value="8908876837b849ca.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:RXPower?"/>
+<param name="Local" value="846705653c134fa0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:IMEI?"/>
+<param name="Local" value="9228cbdddbad4daa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:IMSI?"/>
+<param name="Local" value="8f390badf1bb4519.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:DNUMber?"/>
+<param name="Local" value="d35e22851.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:SCATegory?"/>
+<param name="Local" value="bed7004d100a40ec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:MSADdress:IPV&lt;n&gt;?"/>
+<param name="Local" value="d35e22966.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:APN?"/>
+<param name="Local" value="d5f7dbabfba74c7a.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMW Voice Info"/>
+<param name="Local" value="a60486e191e749e5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:CVINfo?"/>
+<param name="Local" value="6754c787a10640cf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Slot Configuration and Resulting Throughput"/>
+<param name="Local" value="8a294ca5e4e449e9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:ASConfig"/>
+<param name="Local" value="e9e7052ef54f4299.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:DSConfig"/>
+<param name="Local" value="f717647cfa4b44c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:ENABle:UL"/>
+<param name="Local" value="1284440631b741e4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:GAMMa:UL"/>
+<param name="Local" value="d35e23230.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:ENABle:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="c7d182a2653f4cb9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:LEVel:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="e510722eed2f4d9f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:CSCHeme:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="aaba700213b9424b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:UDCYcle:DL"/>
+<param name="Local" value="97ebbfc6e6684f00.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SCONfig:COMBined:CARRier&lt;c&gt;"/>
+<param name="Local" value="2b7f406409f74662.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:CONNection:ETHRoughput:DL?"/>
+<param name="Local" value="8ad8ef1d1d104e3e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:CONNection:ETHRoughput:UL?"/>
+<param name="Local" value="1ac1166ba87f473c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Handover Settings"/>
+<param name="Local" value="8f6e896050494d66.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Handover Settings"/>
+<param name="Local" value="68792a6e77454377.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:CATalog:DESTination?"/>
+<param name="Local" value="9d8ed89819064df7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:DESTination"/>
+<param name="Local" value="d35e23779.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:MMODe"/>
+<param name="Local" value="d1d12cea4a2448d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:GSM:SIGN&lt;i&gt;:HANDover:STARt"/>
+<param name="Local" value="d35e23859.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:HANDover:STATe?"/>
+<param name="Local" value="6c4e57c7ff244ead.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:DUALband:BAND:TCH"/>
+<param name="Local" value="b1ec92132e3641ec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:DUALband:COMBined:CS"/>
+<param name="Local" value="b218b5d2a3a34148.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Intra-GSM Handover Settings"/>
+<param name="Local" value="2d411421781b4f9f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:TARGet"/>
+<param name="Local" value="084f891292d24b14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:BAND:TCH?"/>
+<param name="Local" value="42cb90dd85324beb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:CHANnel:TCH"/>
+<param name="Local" value="d35e24129.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:LEVel:TCH"/>
+<param name="Local" value="d19c0ff6ed4d4ac6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PCL"/>
+<param name="Local" value="d35e24207.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:TSLot"/>
+<param name="Local" value="d35e24240.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:CSCHeme:UL"/>
+<param name="Local" value="b72411ebeda44f2e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:ENABle:UL"/>
+<param name="Local" value="0dff7144e0fb4c04.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:GAMMa:UL"/>
+<param name="Local" value="d35e24369.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:ENABle:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="0779292b8a514531.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:LEVel:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="82fc2dda71394faa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:CSCHeme:DL:CARRier&lt;c&gt;"/>
+<param name="Local" value="dce8f62b982740d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:PSWitched:UDCYcle:DL"/>
+<param name="Local" value="be30ffdc0f114ddd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Handover Settings"/>
+<param name="Local" value="35a9b9e93bc54715.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:EXTernal:DESTination"/>
+<param name="Local" value="d0c7fb91cdb742d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:EXTernal:GSM"/>
+<param name="Local" value="f411118a78dc4dc7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:EXTernal:LTE"/>
+<param name="Local" value="8bb1cc1b485c4800.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:EXTernal:TDSCdma"/>
+<param name="Local" value="2a420157a84347e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:GSM:SIGN&lt;i&gt;:HANDover:EXTernal:WCDMa"/>
+<param name="Local" value="f6daf9341a834abf.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Routing Settings"/>
+<param name="Local" value="7222cc0672b54ce4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="742cf0b0869d4186.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:BATCh:FLEXible"/>
+<param name="Local" value="5018c752c7344aa9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:IORI:FLEXible"/>
+<param name="Local" value="7fddb2feb9ae465b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:SCELl:FLEXible"/>
+<param name="Local" value="18177ab6afbb49e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:SCFading:FLEXible:INTernal"/>
+<param name="Local" value="2afac56386ac4e70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:SCFading:FLEXible[:EXTernal]"/>
+<param name="Local" value="6a8d1448af534245.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:SCFDiversity:FLEXible:INTernal"/>
+<param name="Local" value="e49a0131ef334388.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario:SCFDiversity:FLEXible[:EXTernal]"/>
+<param name="Local" value="38e663f7a50f4ef9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;:SCENario?"/>
+<param name="Local" value="c1f625ab0a0b4925.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:SIGN&lt;i&gt;?"/>
+<param name="Local" value="20520c142bc946b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:EATTenuation:INPut"/>
+<param name="Local" value="4fb786cb00584586.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:EATTenuation:OUTPut&lt;n&gt;"/>
+<param name="Local" value="a7ce183058104b02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:EATTenuation:BCCH:OUTPut"/>
+<param name="Local" value="889f5a3ff35249b2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:EDC:INPut"/>
+<param name="Local" value="262130f7a5544df0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Settings"/>
+<param name="Local" value="d119b6d41a83448c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:IQOut:PATH&lt;n&gt;?"/>
+<param name="Local" value="73c9605434b94db8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:IQIN:PATH&lt;n&gt;"/>
+<param name="Local" value="4764b3c41d5d4ded.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BAND:BCCH"/>
+<param name="Local" value="425d8aff4f2e4e6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:CHANnel:BCCH"/>
+<param name="Local" value="3d3cc764b7a04d58.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:LEVel:BCCH"/>
+<param name="Local" value="b4dce7e590dc437e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:LEVel:BCCH:MINimum:ENABle"/>
+<param name="Local" value="183f91947f8a4d6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:PMAX:BCCH"/>
+<param name="Local" value="4477f18571fc46da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:CHANnel:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="1b59f4e5a85f4fb1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:LEVel:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="c8e9d587836d4c51.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:ENABle:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="78be1ef8a05743ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:MAIO:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="2940f77f1e204814.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:HSN:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="062bb2fb8b6f4b2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:SEQuence:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="e04e9a06a555498e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:PCL:TCH:CSWitched"/>
+<param name="Local" value="826c0b8884b04203.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:CHCCombined:TCH:CSWitched"/>
+<param name="Local" value="0f285ec313e247e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:FOFFset:DL"/>
+<param name="Local" value="d35e27424.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:FOFFset:UL"/>
+<param name="Local" value="aa5df6c863ae4dd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:ENPMode"/>
+<param name="Local" value="528308846e9d4f8b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="6e7d6584c48d4ecc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="fc81aaa9cf144b15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="52b437f3d6b843b3.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="d1bf37134eec4dde.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="b9c5ba5835064191.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:ENABle"/>
+<param name="Local" value="d35e27707.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:STANdard"/>
+<param name="Local" value="cf3e053a4be948f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:RESTart:MODE"/>
+<param name="Local" value="17214f7fb60b48b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:RESTart"/>
+<param name="Local" value="d35e27856.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:GLOBal:SEED"/>
+<param name="Local" value="d35e27878.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:ILOSs:MODE"/>
+<param name="Local" value="42dc62b9198f4610.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:ILOSs:LOSS[:USER]"/>
+<param name="Local" value="d02a92542a204ecc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:ILOSs:LOSS:NORMal?"/>
+<param name="Local" value="3ba9a5951e7d4c24.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:ILOSs:CSAMples?"/>
+<param name="Local" value="d35e28046.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:DSHift"/>
+<param name="Local" value="4c9cd7145cb84189.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:FSIMulator:DSHift:MODE"/>
+<param name="Local" value="5c4f2e044ad44337.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Settings"/>
+<param name="Local" value="bb660909f84d40c5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:POWer:NOISe?"/>
+<param name="Local" value="d35e28174.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:POWer:NOISe:TOTal?"/>
+<param name="Local" value="d35e28210.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:POWer:SUM?"/>
+<param name="Local" value="d35e28240.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Module AWGN"/>
+<param name="Local" value="f595cc24449d4943.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:AWGN:ENABle"/>
+<param name="Local" value="d35e28277.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:AWGN:BWIDth:RATio"/>
+<param name="Local" value="d35e28308.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:AWGN:BWIDth:NOISe?"/>
+<param name="Local" value="d35e28343.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:FADing:AWGN:SNRatio"/>
+<param name="Local" value="d35e28372.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Network Settings"/>
+<param name="Local" value="693e8672597949cd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Miscellaneous"/>
+<param name="Local" value="cb5fa60113f84e29.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSDomain"/>
+<param name="Local" value="d35e28430.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:DTMode"/>
+<param name="Local" value="cfcee7af56b84094.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:NSUPport"/>
+<param name="Local" value="5d9a3485d74543df.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell"/>
+<param name="Local" value="dfdf593e89b34e9b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:ALL:THResholds:HIGH"/>
+<param name="Local" value="d35e28530.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:LTE:THResholds:HIGH"/>
+<param name="Local" value="d35e28587.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:WCDMa:THResholds:HIGH"/>
+<param name="Local" value="d35e28625.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:TDSCdma:THResholds:HIGH"/>
+<param name="Local" value="28adfc457bb048d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:GSM:CELL&lt;n&gt;"/>
+<param name="Local" value="750e4276f7c54179.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:LTE:CELL&lt;n&gt;"/>
+<param name="Local" value="3be7d21eef6a453a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:WCDMa:CELL&lt;n&gt;"/>
+<param name="Local" value="1c0144a0d5cd4ba8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:NCELl:TDSCdma:CELL&lt;n&gt;"/>
+<param name="Local" value="c1dbcdc42afe4d3d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell Reselection"/>
+<param name="Local" value="59ac8c6519574ef4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RESelection:QUALity:RXLevmin:ACCess"/>
+<param name="Local" value="30a07c4bbc424b74.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RESelection:HYSTeresis"/>
+<param name="Local" value="5eadac78365d436f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RESelection:QUALity:RXLevmin:EUTRan"/>
+<param name="Local" value="dd56030ea7d64372.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RESelection:QUALity:RXLevmin:UTRan"/>
+<param name="Local" value="cd5244d8692443b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RESelection:TRESelection"/>
+<param name="Local" value="d35e29919.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Identity"/>
+<param name="Local" value="b878b85b7edb4423.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:IDENtity"/>
+<param name="Local" value="168ae77683114444.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:MCC"/>
+<param name="Local" value="46fc88061ba4432e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:MNC"/>
+<param name="Local" value="1ef44da458c34cc7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:MNC:DIGits"/>
+<param name="Local" value="b975125b75224af7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:LAC"/>
+<param name="Local" value="f051711685844f84.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:NCC"/>
+<param name="Local" value="52c8b09fc1e94cf9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:BCC"/>
+<param name="Local" value="deb139f1f22d4f82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RAC"/>
+<param name="Local" value="f875be88359a4fae.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Identity"/>
+<param name="Local" value="fc8355ccc3324635.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:IMSI"/>
+<param name="Local" value="8bb1c6e9bb2348e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:IMSI:FILTer"/>
+<param name="Local" value="91cd82df828f4ad6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Requested Mobile Data"/>
+<param name="Local" value="89c945e2326b4637.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:IMEirequest"/>
+<param name="Local" value="d35e30363.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:CREQuest"/>
+<param name="Local" value="fee9d3f67a3d42ff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:ECSending"/>
+<param name="Local" value="9d24c51b4bb34acd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell"/>
+<param name="Local" value="780d3695700445ce.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:BSAGblksres"/>
+<param name="Local" value="b7e1fe9f2c6e4a97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:BSPamfrms"/>
+<param name="Local" value="d35e30490.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:BINDicator"/>
+<param name="Local" value="d35e30529.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PMODe"/>
+<param name="Local" value="d51b5ba2d174427a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:NCC:PERMitted"/>
+<param name="Local" value="3d7f1789a41e410e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:MRETrans"/>
+<param name="Local" value="161706cd167943c9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:IPReduction"/>
+<param name="Local" value="52e94338a6774672.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:CBARring"/>
+<param name="Local" value="5129c113498c425a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PMIDentity"/>
+<param name="Local" value="e2defd481cd1417f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:CDEScription"/>
+<param name="Local" value="de626f73928349a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:LUPDate"/>
+<param name="Local" value="2546c04ec28047e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:DTX"/>
+<param name="Local" value="038e885d073e4626.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSWitched:PCMChannel"/>
+<param name="Local" value="d35e30895.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSWitched:PDPContext"/>
+<param name="Local" value="d35e30926.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSWitched:TAVGtw"/>
+<param name="Local" value="d35e30961.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSWitched:BPERiod"/>
+<param name="Local" value="d35e31002.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RREPort:CSWitched:EMReport:ENABle"/>
+<param name="Local" value="5e5d06e16d3f4e13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:CSWitched:CREQuest"/>
+<param name="Local" value="5ea1715701fb4acb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:CELL:CERRor?"/>
+<param name="Local" value="6dbbcc6448bf4cef.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Timer and Constants"/>
+<param name="Local" value="268fd0822da94aee.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RTMS"/>
+<param name="Local" value="7293450266274050.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RTBS"/>
+<param name="Local" value="d35e31276.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:ATIMeout[:MTC]"/>
+<param name="Local" value="69d61aee005c42bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:ATIMeout:MOC"/>
+<param name="Local" value="32081d98c9c04313.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PLUPdate"/>
+<param name="Local" value="d4c062e55f1746a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PRAupdate"/>
+<param name="Local" value="25d113d934424329.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:CSWitched:IARTimer"/>
+<param name="Local" value="12d87d294b26488b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:PSWitched:TRTimer"/>
+<param name="Local" value="ee289d9668bb4363.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reject Causes"/>
+<param name="Local" value="2253f47f1bd940ed.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RCAuse:ATTach"/>
+<param name="Local" value="0c62e22c3df34cec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RCAuse:CSRequest"/>
+<param name="Local" value="d8c4f580183348e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RCAuse:CSTYpe"/>
+<param name="Local" value="71d55df4f1ff4b36.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RCAuse:LOCation"/>
+<param name="Local" value="37becf5795304617.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:RCAuse:RAUPdate"/>
+<param name="Local" value="6a29c00f500047f1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Security Settings"/>
+<param name="Local" value="c754a25467984d9a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:SECurity:AUTHenticat"/>
+<param name="Local" value="d35e32409.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:SECurity:SKEY"/>
+<param name="Local" value="cd27cd550ef34543.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:SECurity:SIMCard"/>
+<param name="Local" value="f2321843b1ff49d7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Time Settings"/>
+<param name="Local" value="2d3a26d1908d4616.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:TSOurce"/>
+<param name="Local" value="f4c7d720a15f4ae7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:DATE"/>
+<param name="Local" value="7de39806c6c0495e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:TIME"/>
+<param name="Local" value="25be65b050a2451c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:DSTime"/>
+<param name="Local" value="f99c5b953b2145b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:LTZoffset"/>
+<param name="Local" value="ac9668ef98bf49eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:SNOW"/>
+<param name="Local" value="d35e32818.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:TIME:SATTach"/>
+<param name="Local" value="08483bdbc3264984.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Synchronization Settings"/>
+<param name="Local" value="87361afd29a745e8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:SYNC:OFFSet"/>
+<param name="Local" value="02408455c3174939.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:SYNC:ZONE"/>
+<param name="Local" value="7ad93c60a4e040ad.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Settings"/>
+<param name="Local" value="eeb6495a0e994bf2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common Connection Settings"/>
+<param name="Local" value="d099de19691d4999.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:FOFFset:DL"/>
+<param name="Local" value="ec14279bca544e5b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:RFOFfset"/>
+<param name="Local" value="8de4370edfaa4587.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:TADVance"/>
+<param name="Local" value="e4dfcf382bd348d9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CS Connections (General Parameters)"/>
+<param name="Local" value="0f38d88ddb9f42f5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:TSLot"/>
+<param name="Local" value="d35e33102.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:TMODe"/>
+<param name="Local" value="3770d4e65a384122.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:HRSubchannel"/>
+<param name="Local" value="d35e33211.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:DSOurce"/>
+<param name="Local" value="2eab8a157a674a4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:DTX:DL"/>
+<param name="Local" value="15802b05beb845c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:CRELease"/>
+<param name="Local" value="a5bea4276e1d4055.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:EDELay"/>
+<param name="Local" value="130399741e764b25.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:LOOP"/>
+<param name="Local" value="97589a37b53f4984.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:LREClose"/>
+<param name="Local" value="c06db25917784092.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:CID"/>
+<param name="Local" value="d35e33572.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:TCHassign"/>
+<param name="Local" value="64e394045c5e4f26.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:RFACch"/>
+<param name="Local" value="91b4a2ede77f4c8b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:CONNection:ATTempt"/>
+<param name="Local" value="768105043fb640c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:CONNection:ATTempt?"/>
+<param name="Local" value="acc523c5a8204549.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AMR Configuration"/>
+<param name="Local" value="29b36af1c8c54963.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:SIGNaling:MODE"/>
+<param name="Local" value="6335f859fc3647d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:NB:FRATe:GMSK"/>
+<param name="Local" value="4282886e5bbb4b47.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:NB:HRATe:GMSK"/>
+<param name="Local" value="a55a1a7d51734d47.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:NB:HRATe:EPSK"/>
+<param name="Local" value="27e166427f3740d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:WB:FRATe:GMSK"/>
+<param name="Local" value="9f3e5801e6584656.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:WB:FRATe:EPSK"/>
+<param name="Local" value="77b4df6242db49d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:RSET:WB:HRATe:EPSK"/>
+<param name="Local" value="9b98a0997799444f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:THReshold:NB:FRATe:GMSK"/>
+<param name="Local" value="010028cac26b4a0d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:NB:FRATe:GMSK:DL"/>
+<param name="Local" value="fcb824fd5dd14787.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:NB:HRATe:GMSK:DL"/>
+<param name="Local" value="1938b53d71194579.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:NB:HRATe:EPSK:DL"/>
+<param name="Local" value="4ef9b4bec6ef4f7f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:WB:FRATe:GMSK:DL"/>
+<param name="Local" value="5eab1f61b4604ca8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:WB:FRATe:EPSK:DL"/>
+<param name="Local" value="f5ea70f9065d4902.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:AMR:CMODe:WB:HRATe:EPSK:DL"/>
+<param name="Local" value="4b5c1af46d1d4122.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:MSSinfo:AMR:CMODe:NB:HRATe:EPSK:DL?"/>
+<param name="Local" value="a62459c1a7384563.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="VAMOS Configuration"/>
+<param name="Local" value="10a50b5a66c044f1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:VAMos:ENABle"/>
+<param name="Local" value="a22576c61ff147df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:VAMos:MSLevel"/>
+<param name="Local" value="56ef25b7592e4f2e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:CSWitched:VAMos"/>
+<param name="Local" value="5ed32e957d544e34.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PS Connections"/>
+<param name="Local" value="73f6931f961848eb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SERVice"/>
+<param name="Local" value="fb33bcad7ad949c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:TLEVel"/>
+<param name="Local" value="720bfd64512245c3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:CSCHeme:UL"/>
+<param name="Local" value="0a2cb19957964733.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:IREDundancy"/>
+<param name="Local" value="d35e35276.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DSOurce"/>
+<param name="Local" value="d35e35307.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DLDCarrier:ENABle"/>
+<param name="Local" value="d35e35363.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:EDALlocation"/>
+<param name="Local" value="d35e35410.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:NOPDus"/>
+<param name="Local" value="2a1f8b5d480d43a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:SOFFset"/>
+<param name="Local" value="83cf0b1a27cb4f1d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:CATYpe"/>
+<param name="Local" value="d35e35519.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:BPERiod&lt;no&gt;"/>
+<param name="Local" value="a6eee5fcb0c54858.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:BDCRate"/>
+<param name="Local" value="d35e35602.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DPControl:ENABle"/>
+<param name="Local" value="2cb71d8f64034735.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DPControl:P"/>
+<param name="Local" value="485c9ad46aab48d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DPControl:PMODe"/>
+<param name="Local" value="af78fb4fb6b140a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:DPControl:PFIeld"/>
+<param name="Local" value="70ee2ea552f34b54.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:PSWitched:ASRDblocks"/>
+<param name="Local" value="1f572436ea764e1b.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signal Settings"/>
+<param name="Local" value="cf49df57a1534392.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:TRIGger:FTMode"/>
+<param name="Local" value="d35e35832.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (SMS)"/>
+<param name="Local" value="f011340e8be34f01.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:SDOMain"/>
+<param name="Local" value="d35e35890.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:CGRoup"/>
+<param name="Local" value="c601d84e90fd4741.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:MCLass"/>
+<param name="Local" value="9ad54c241764422c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:OSADdress"/>
+<param name="Local" value="d35e36022.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:OADDress"/>
+<param name="Local" value="d35e36053.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:TSOurce"/>
+<param name="Local" value="8ce004b040e94679.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:DATE"/>
+<param name="Local" value="c8ed5537ba27449b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:TIME"/>
+<param name="Local" value="3e5e5cea876e48a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:DCODing"/>
+<param name="Local" value="28ffa71f494d4a5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:INTernal"/>
+<param name="Local" value="d7eeabed3864401c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:BINary"/>
+<param name="Local" value="d35e36352.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:INFO:SEGMent?"/>
+<param name="Local" value="e4d9840f3fae4ae5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:INFO:LMSent?"/>
+<param name="Local" value="ce910a8c9c564030.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:PIDentifier"/>
+<param name="Local" value="85066d9504224960.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:SMS:OUTGoing:UDHeader"/>
+<param name="Local" value="d2a887fff8834ff9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:INComing:INFO:DCODing?"/>
+<param name="Local" value="8c8dedcbcc6a47a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:INComing:INFO:MTEXt?"/>
+<param name="Local" value="d35e36560.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:INComing:INFO:MLENgth?"/>
+<param name="Local" value="4a226b777a3f4b96.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:INComing:INFO:SEGMent?"/>
+<param name="Local" value="7c456679bfad407e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:GSM:SIGN&lt;i&gt;:SMS:INComing:INFO:MTEXt"/>
+<param name="Local" value="d35e36679.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:SMS:INFO:LRMessage:RFLag?"/>
+<param name="Local" value="d35e36698.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (CBS)"/>
+<param name="Local" value="41951de8c75f414b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:CBCH:ENABle"/>
+<param name="Local" value="8c5d3bee917e4d28.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:DRX:ENABle"/>
+<param name="Local" value="cce4ab18c9064892.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:DRX:LENGth"/>
+<param name="Local" value="36c169e3721d4f19.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:DRX:OFFSet"/>
+<param name="Local" value="a1ff422a1953452a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:ENABle"/>
+<param name="Local" value="d9b6b860a0704063.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:ID"/>
+<param name="Local" value="8235cd1c54eb4dcd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:IDTYpe"/>
+<param name="Local" value="8864959f2056462e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:SERial"/>
+<param name="Local" value="d1180591dae64ddb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:DCSCheme"/>
+<param name="Local" value="c58b7e4b63c14ca2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CBS:MESSage:DATA"/>
+<param name="Local" value="6d9de73440474a6a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Slot Settings"/>
+<param name="Local" value="1909f46f62c942a1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MSLot:UL"/>
+<param name="Local" value="be2cca3841014d22.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MS Measurement Report Settings"/>
+<param name="Local" value="2718d0dd6fff45fd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MSReport:LMQuantity"/>
+<param name="Local" value="7c821c8761cd4a67.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MSReport:WMQuantity"/>
+<param name="Local" value="bfa84e4c8a624aa1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Message Monitoring Settings"/>
+<param name="Local" value="1c853ab0e4da4cfd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MMONitor:ENABle"/>
+<param name="Local" value="841f9babcf3442b6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MMONitor:IPADdress"/>
+<param name="Local" value="4e5b23faf5c0451e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER PS Measurement"/>
+<param name="Local" value="1874c33f27b447d1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="b50bce6c414c4b73.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:SIGN&lt;i&gt;:BER:PSWitched"/>
+<param name="Local" value="e841b7a4704b4b1b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:PSWitched:STATe?"/>
+<param name="Local" value="7f9ecca91c8342a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:PSWitched:STATe:ALL?"/>
+<param name="Local" value="dcbfbec68f3b49d6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General BER PS Settings"/>
+<param name="Local" value="ee750bb43f254e74.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:TOUT"/>
+<param name="Local" value="41169498f8aa4a8e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:SCOunt"/>
+<param name="Local" value="0fc6338954af489a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:MMODe"/>
+<param name="Local" value="2eaabc9c617a4f48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:SCONdition"/>
+<param name="Local" value="db64fc10a8e74eef.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="d288d5fe173e4552.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:LIMit:CIIBits"/>
+<param name="Local" value="d35e37812.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:LIMit:DBLer"/>
+<param name="Local" value="d35e37847.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:PSWitched:LIMit:USFBler"/>
+<param name="Local" value="d35e37882.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="44f96220119e4873.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:PSWitched:CARRier&lt;c&gt;?"/>
+<param name="Local" value="3c666a9767f64347.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:PSWitched?"/>
+<param name="Local" value="bde596dffc644d14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:GSM:SIGN&lt;i&gt;:BER:PSWitched:MBEP?"/>
+<param name="Local" value="82cb432842bc431f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:GSM:SIGN&lt;i&gt;:BER:PSWitched:MBEP:ENHanced?"/>
+<param name="Local" value="708dd7aa65fc4c94.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Measurement"/>
+<param name="Local" value="37a90b2b0a6f45a4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="25991d82aacd42c7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:SIGN&lt;i&gt;:BLER"/>
+<param name="Local" value="7ba0addd18484cfa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BLER:STATe?"/>
+<param name="Local" value="79fb5d73bf1c41b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BLER:STATe:ALL?"/>
+<param name="Local" value="1410e22b878d442a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="59e3fcae473446e9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BLER:TOUT"/>
+<param name="Local" value="3730e16c57cc4cf4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BLER:SCOunt"/>
+<param name="Local" value="d35e39305.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="7dd9c274b6db4553.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BLER:CARRier&lt;c&gt;?"/>
+<param name="Local" value="102fca346ccc4b90.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BLER:OALL?"/>
+<param name="Local" value="baf482b1efcc4079.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER CS Measurement"/>
+<param name="Local" value="2f9813836a75420b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="a40480770bd14c0a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:SIGN&lt;i&gt;:BER:CSWitched"/>
+<param name="Local" value="580a4be7173743c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:CSWitched:STATe?"/>
+<param name="Local" value="7ca6a89399f74f72.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:CSWitched:STATe:ALL?"/>
+<param name="Local" value="5431e77ee7354889.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General BER CS Settings"/>
+<param name="Local" value="7e80b85e014c4f87.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:TOUT"/>
+<param name="Local" value="a725edf81be94008.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:SCOunt"/>
+<param name="Local" value="cfddc6f9d3664f17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:MMODe"/>
+<param name="Local" value="2997bb005f5d4ead.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:SCONdition"/>
+<param name="Local" value="923da5c5531b4d01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:RTDelay"/>
+<param name="Local" value="49f247c23d8043ff.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="4b99c2199945404f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:LIMit:BER"/>
+<param name="Local" value="d35e40283.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:LIMit:CIIBits"/>
+<param name="Local" value="74c1b331035d4664.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:LIMit:CIBBits"/>
+<param name="Local" value="4942b18de7f54c97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:LIMit:FER"/>
+<param name="Local" value="4ffd75f5e17e4148.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BER:CSWitched:LIMit:FFACch"/>
+<param name="Local" value="923620bcf40746af.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="d8637ed087c847d1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:BER:CSWitched?"/>
+<param name="Local" value="ff25170d54434c00.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:GSM:SIGN&lt;i&gt;:BER:CSWitched:MBEP?"/>
+<param name="Local" value="6830d654f0e1421a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:BER:CSWitched:RTDelay?"/>
+<param name="Local" value="454a0c186bae4043.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement"/>
+<param name="Local" value="86214c6ceb7741a6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="b17ab09e68f444e5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:SIGN&lt;i&gt;:THRoughput"/>
+<param name="Local" value="404a9004cf9d4d48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:THRoughput:STATe?"/>
+<param name="Local" value="b016520a3fb94e0b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:THRoughput:STATe:ALL?"/>
+<param name="Local" value="1b80abc51d854275.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="2b635d7294494376.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:THRoughput:TOUT"/>
+<param name="Local" value="ce0a226cda3d47c7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:THRoughput:REPetition"/>
+<param name="Local" value="d35e41361.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:THRoughput:WINDow"/>
+<param name="Local" value="d35e41412.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="78cd8bbc04ac4f16.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:THRoughput?"/>
+<param name="Local" value="23788697347a4643.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:THRoughput:TRACe:DL:PDU:AVERage?"/>
+<param name="Local" value="d53c40f4b645463b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:THRoughput:TRACe:UL:PDU:AVERage?"/>
+<param name="Local" value="91bdfbdf1e0943c8.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMR Performance Measurement"/>
+<param name="Local" value="a85563b8e8814122.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="b1afbf71227046e5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:SIGN&lt;i&gt;:CPERformance"/>
+<param name="Local" value="eab0d3e569804e03.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:CPERformance:STATe?"/>
+<param name="Local" value="4cd0319228524eef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:CPERformance:STATe:ALL?"/>
+<param name="Local" value="dde00073c48a487b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="db619c60f8d84e24.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CPERformance:TLEVel"/>
+<param name="Local" value="9877454141f44f17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CPERformance:TOUT"/>
+<param name="Local" value="1e24ec1e89e14992.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="0e0eaee9a1614a7f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:SIGN&lt;i&gt;:CPERformance?"/>
+<param name="Local" value="f889df0603064549.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="5116eb31d16e49fb.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Generating a Dual-Tone Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="65af87a9b447421a.htm">GPRF Generator</a> &gt; <a class="chm-breadcrumb" href="9a1f981fabb040ac.htm">Programming</a> &gt; <span class="chm-breadcrumb">Generating a Dual-Tone Signal</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Generating a Dual-Tone Signal</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST;*OPC?
+
+// *****************************************************************************
+// Activate dual-tone mode, set frequencies and levels
+// *****************************************************************************
+SOURce:GPRF:GEN:BBMode DTON
+SOURce:GPRF:GEN:RFSettings:FREQuency 1.000000E+009
+SOURce:GPRF:GEN:RFSettings:DGAin -1.12
+SOURce:GPRF:GEN:DTONe:OFRequency1 1000
+SOURce:GPRF:GEN:DTONe:OFRequency2 2000
+SOURce:GPRF:GEN:DTONe:Ratio 10
+
+// *****************************************************************************
+// Query levels of source 1 and source 2
+// *****************************************************************************
+SOURce:GPRF:GEN:DTONe:LEVel1?
+SOURce:GPRF:GEN:DTONe:LEVel2?
+
+// *****************************************************************************
+// Switch on generator
+// *****************************************************************************
+SOURce:GPRF:GEN:STATe ON; *OPC?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

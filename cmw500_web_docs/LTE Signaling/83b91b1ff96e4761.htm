@@ -1,0 +1,49 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Operating Bands and Channels</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Operating Bands and Channels</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Operating Bands and Channels</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Specify PCC operating band plus DL channel number and query the 
+// automatically calculated UL channel number and the UL frequency in Hz.
+// Configure PCC frequency offsets for DL and UL.
+// Configure the SCC1.
+// *****************************************************************************
+CONFigure:LTE:SIGN:PCC:BAND OB7
+CONFigure:LTE:SIGN:RFSettings:PCC:CHANnel:DL 3000 ;UL?
+CONFigure:LTE:SIGN:RFSettings:PCC:CHANnel:UL? Hz
+CONFigure:LTE:SIGN:RFSettings:PCC:FOFFset:DL 100
+CONFigure:LTE:SIGN:RFSettings:PCC:FOFFset:UL -200
+CONFigure:LTE:SIGN:SCC:BAND OB7
+CONFigure:LTE:SIGN:RFSettings:SCC:CHANnel:DL 3100 ;UL?
+CONFigure:LTE:SIGN:RFSettings:SCC:CHANnel:UL? Hz
+CONFigure:LTE:SIGN:RFSettings:PCC:FOFFset:DL:UCSPecific ON
+CONFigure:LTE:SIGN:RFSettings:SCC:FOFFset:DL 200
+CONFigure:LTE:SIGN:RFSettings:PCC:FOFFset:UL:UCSPecific ON
+CONFigure:LTE:SIGN:RFSettings:SCC:FOFFset:UL -100
+
+// *****************************************************************************
+// Configure the PCC user-defined band: UL/DL separation, band indicator,
+// minimum DL frequency and channel numbers. Query resulting calculated settings.
+// Configure the SCC1 user-defined band.
+// *****************************************************************************
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:UDSeparation 200E+6
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:BINDicator 3
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:FREQuency:DL:MINimum 1E+9
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:CHANnel:DL:MINimum 100
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:CHANnel:DL:MAXimum 999
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:CHANnel:UL:MINimum 18000
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:CHANnel:UL:MAXimum?
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:FREQuency:DL:MAXimum?
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:FREQuency:UL:MINimum?
+CONFigure:LTE:SIGN:RFSettings:PCC:UDEFined:FREQuency:UL:MAXimum?
+
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:UDSeparation 200E+6
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:BINDicator 4
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:FREQuency:DL:MINimum 3E+9
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:CHANnel:DL:MINimum 100
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:CHANnel:DL:MAXimum 999
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:CHANnel:UL:MINimum 18000
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:CHANnel:UL:MAXimum?
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:FREQuency:DL:MAXimum?
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:FREQuency:UL:MINimum?
+CONFigure:LTE:SIGN:RFSettings:SCC:UDEFined:FREQuency:UL:MAXimum?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

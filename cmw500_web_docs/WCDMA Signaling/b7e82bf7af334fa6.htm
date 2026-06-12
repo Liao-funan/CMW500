@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sending a Cell Broadcast Message</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Sending a Cell Broadcast Message</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Sending a Cell Broadcast Message</div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Enable CBS, configure period, and frame offset of CTCH allocation.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CBS:CTCH:ENABle ON
+CONFigure:WCDMa:SIGN:CBS:CTCH:PERiod 8
+CONFigure:WCDMa:SIGN:CBS:CTCH:FOFFset 7
+
+// ***************************************************************************** 
+// Enable DRX for CBS, configure period, length, and offset
+// for the CB message broadcast. Let fill empty blocks with
+// scheduling message.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CBS:DRX:ENABle ON
+CONFigure:WCDMa:SIGN:CBS:DRX:PERiod 256
+CONFigure:WCDMa:SIGN:CBS:DRX:LENGth 64
+CONFigure:WCDMa:SIGN:CBS:DRX:OFFSet 32
+CONFigure:WCDMa:SIGN:CBS:DRX:FEMPty ON
+
+// ***************************************************************************** 
+// Configure CB message: enable it, set ID type, and query ID. Set serial no,
+// English coding, and category. Edit a CB content. Set the message 
+// repetition period to 500 ms and language. Query the CB coding group.
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CBS:MESSage:ENABle ON
+CONFigure:WCDMa:SIGN:CBS:MESSage:IDTYpe TSUN
+CONFigure:WCDMa:SIGN:CBS:MESSage:ID?
+CONFigure:WCDMa:SIGN:CBS:MESSage:SERial 4370
+CONFigure:WCDMa:SIGN:CBS:MESSage:CATegory BACK
+CONFigure:WCDMa:SIGN:CBS:MESSage:SOURce INT
+CONFigure:WCDMa:SIGN:CBS:MESSage:DATA 'EAST COAST TSUNAMI WARNING!'
+CONFigure:WCDMa:SIGN:CBS:MESSage:PERiod 500
+CONFigure:WCDMa:SIGN:CBS:MESSage:LANGuage 1
+CONFigure:WCDMa:SIGN:CBS:MESSage:CGRoup?
+
+// ***************************************************************************** 
+// Enable ETWS alert and the warning popup on display. 
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CBS:MESSage:ETWS:ALERt ON
+CONFigure:WCDMa:SIGN:CBS:MESSage:ETWS:POPup ON
+
+// ***************************************************************************** 
+// Configure CB message from a file: set data source to file, specify
+// file, check the CB content.
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CBS:MESSage:SOURce FILE
+CONFigure:WCDMa:SIGN:CBS:MESSage:FILE 'rx_001.cbs'
+CONFigure:WCDMa:SIGN:CBS:MESSage:FILE:INFO?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

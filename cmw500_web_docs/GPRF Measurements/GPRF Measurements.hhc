@@ -1,0 +1,2037 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GPRF Measurements"/>
+<param name="Local" value="441d0fcfcc9a4933.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="480ecdac22a9480d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.7.10)"/>
+<param name="Local" value="21d4695be60b4947.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.91)"/>
+<param name="Local" value="2bec46723dcd448f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.91 (Compared to V3.5.90)"/>
+<param name="Local" value="36fdaa41427f4ef3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.90 (Compared to V3.5.10)"/>
+<param name="Local" value="4e4b8f85866340b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.10 (Compared to V3.2.20)"/>
+<param name="Local" value="f41a7a42d23b4398.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.20 (Compared to V3.2.10)"/>
+<param name="Local" value="17b6cfb2960b4bd6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.10 (Compared to V3.0.12)"/>
+<param name="Local" value="b3cd3cafa6a24d7a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.12 (Compared to V3.0.11)"/>
+<param name="Local" value="a5d6a2ee8223449b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.11 (Compared to V3.0.10)"/>
+<param name="Local" value="6a81d812230f4c76.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.1.25)"/>
+<param name="Local" value="1b0efa19b8ba4554.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.25 (Compared to V2.0.10)"/>
+<param name="Local" value="521783925bee4552.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.10 (Compared to V1.0.15.20/21/22)"/>
+<param name="Local" value="5a2201a3a9534042.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.20/21/22 (Compared to V1.0.15.0)"/>
+<param name="Local" value="32a2c9128dfb48c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.0 (Compared to V1.0.10.1)"/>
+<param name="Local" value="34ea3a5c2b5a468c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.10.1 (Compared to V1.0.5.3)"/>
+<param name="Local" value="5ab0f2447ef745b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.5.3 (Compared to V1.0.4.11)"/>
+<param name="Local" value="2ecc1115b2be416e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.4.11 (Compared to V1.0.3.6)"/>
+<param name="Local" value="4499419119f14294.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="d00574b5da374c3d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Measurement"/>
+<param name="Local" value="1bc7d5ad5e1e46f5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="20d2a1fdd30f4df8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings and Predefined Parameter Sets"/>
+<param name="Local" value="3c38d4dc1bd44197.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single Step vs. List Mode"/>
+<param name="Local" value="58ce3b834b684bb5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="ce7d5d6350ef47c7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signals"/>
+<param name="Local" value="5a8d64353e8d48ff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode with Variable Parameter Sets"/>
+<param name="Local" value="1cdbc24922c54bbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Data Measurement"/>
+<param name="Local" value="be1ab10cdd614a9a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="59a36398ca854df2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single Step: Power Evaluation Mode"/>
+<param name="Local" value="e66948c94c644fa0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single Step: Statistic Evaluation Mode"/>
+<param name="Local" value="b507d7db31d34fe2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode: Diagram View"/>
+<param name="Local" value="0d5cb6744b9442a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode: Table View"/>
+<param name="Local" value="4ccc0dd63efa431d.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Analyzer"/>
+<param name="Local" value="f2c8bd7e6efd4443.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="72cf94c88e804263.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Measurement"/>
+<param name="Local" value="c3fdf8ae28554c49.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FFT Spectrum Analyzer"/>
+<param name="Local" value="587ecd99555042c6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="bc7b5d0e4c184b7b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Measurement"/>
+<param name="Local" value="80621858994b4af8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Procedure"/>
+<param name="Local" value="86158e4a0875427b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Settings and Resolution Bandwidth"/>
+<param name="Local" value="9e8fd0ef26a242ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="ff5531587a824738.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Dialog"/>
+<param name="Local" value="12ed4a6992d64f02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Time Domain and IQ Diagrams"/>
+<param name="Local" value="b651ddef364846ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modifying the Diagrams"/>
+<param name="Local" value="773e9b3c464a412f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="995d704fcfea4c2d.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Recorder Measurement"/>
+<param name="Local" value="704cef093e014ef6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="d9be18e3d8f14118.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Filter Settings and Samples"/>
+<param name="Local" value="c8679ecf399e44ae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ASCII and Binary Data Formats"/>
+<param name="Local" value="82da027c354d4628.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Result Diagrams"/>
+<param name="Local" value="5cb62adb938f4166.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode"/>
+<param name="Local" value="dc7496e821804bf3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q vs. Slot Measurement"/>
+<param name="Local" value="1f502396ba294ca6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="683ef4a4647f4c46.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Steps and Subsweeps"/>
+<param name="Local" value="c9318b6de76e4540.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="97263ae5f4d54c00.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="1918b07103b6449a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Diagram"/>
+<param name="Local" value="cd96e45c93c6461f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Procedure"/>
+<param name="Local" value="653af2efb6f14bf1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Power Sensor Measurement"/>
+<param name="Local" value="b97d2ce34af54b7a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sensor Connection and Test Setup"/>
+<param name="Local" value="0893c841b9794add.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Zeroing"/>
+<param name="Local" value="58fb686eeee84ff8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="120dc4a3a8be4bba.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Pathloss Measurement"/>
+<param name="Local" value="4552366076d64e24.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="12932425c5ea49da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Measurement"/>
+<param name="Local" value="16c338e5eba44c4b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="5227dbbc425d41f0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Result Diagram"/>
+<param name="Local" value="50c97bd7a066433b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Important Settings and States"/>
+<param name="Local" value="1cc6ac63e8bb4329.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Result Table"/>
+<param name="Local" value="99fa9573850e4176.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Capture Buffer Analyzer"/>
+<param name="Local" value="ef20ba08eae34e3f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Capture Buffer Analyzer"/>
+<param name="Local" value="fc4452f16f1a4e08.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="39b20df4a4864d48.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="9cc2cff5e8f74474.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="83baae9dbc024aa2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Measurement"/>
+<param name="Local" value="5f3f18f47f44443e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="7c4968eb5588419f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings Tab"/>
+<param name="Local" value="62578f0b9d4344a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Tab"/>
+<param name="Local" value="860aeb50d7504653.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Tab"/>
+<param name="Local" value="924fd4a4b017405b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration Tab"/>
+<param name="Local" value="c86f645bb11c481d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Display and Marker Tab"/>
+<param name="Local" value="589ed12fada642f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="d27325e8be7e4abb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Analyzer"/>
+<param name="Local" value="7cb178ba73cb4195.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="e7af44be3eb6440e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings Tab"/>
+<param name="Local" value="ca062f34b00b4dc3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Tab"/>
+<param name="Local" value="4a29675989d74c16.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Tab"/>
+<param name="Local" value="6500bf4fc0564bef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer Settings Tab"/>
+<param name="Local" value="abb75099ff84459f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Hotkeys"/>
+<param name="Local" value="a464cbc5f38c4fe2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="3168238d14f7408c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FFT Spectrum Analyzer"/>
+<param name="Local" value="1b7c397b3ae94422.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="f9e0459dd82941b4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings Tab"/>
+<param name="Local" value="6d7f7f1268254201.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Tab"/>
+<param name="Local" value="21e527a2eed140b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Tab"/>
+<param name="Local" value="71a37c76e6574de7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Hotkeys"/>
+<param name="Local" value="794d657aec944234.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="f195c5ededa34fe3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Recorder Measurement"/>
+<param name="Local" value="1b154ffab5d249d0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="228aa5f7de3b4465.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings"/>
+<param name="Local" value="4c5cc7bffb2f4b5c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="d3c023c1f76946b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="05ea60c60c2a46f0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q vs. Slot Measurement"/>
+<param name="Local" value="8a91b19257d44427.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="329dcd5506d644d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings Tab"/>
+<param name="Local" value="f757522f6da04a87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Tab"/>
+<param name="Local" value="5cc476b01fed4df4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Tab"/>
+<param name="Local" value="60128888698b4ee6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration Tab"/>
+<param name="Local" value="94c8865364b44210.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Display and Marker Tab"/>
+<param name="Local" value="66223c680eb04bcc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="b64f925e486345af.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Power Sensor Measurement"/>
+<param name="Local" value="190f1f1275f0413c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="36515e3177244e09.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Power Sensor Configuration"/>
+<param name="Local" value="2a712a68dcf64dd7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="f49a0a359a994a0b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Pathloss Measurement"/>
+<param name="Local" value="b37f340d86684b59.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="71be398ffdc94ad1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Main Configuration Dialog Box"/>
+<param name="Local" value="38d0f275b02d4fc9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="7cb31da8b1dc4cf0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Capture Buffer Analyzer"/>
+<param name="Local" value="019de46212104348.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="254d3b96757e422c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="5b3cb576c9034154.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Measurement"/>
+<param name="Local" value="d3078eab594241eb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="cf6e6a1e5fa14a30.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="01335cad2eb0459f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="29d89f6794fe445c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Single-Shot Measurement"/>
+<param name="Local" value="26708592a5e44070.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the List Mode"/>
+<param name="Local" value="04812dc7fe2340e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Power Measurements"/>
+<param name="Local" value="45fcdf0a5ae34af7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an I/Q Data Measurement"/>
+<param name="Local" value="733a8712c34a43a4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q vs. Slot Measurement"/>
+<param name="Local" value="e5bf6f08e2824366.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="f561b394b9dd4343.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="34add323e1834b50.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="05fa2060509a45d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Single-Shot Measurement"/>
+<param name="Local" value="2f7c6453e8c147f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the List Mode"/>
+<param name="Local" value="98221d922a3f46cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="7571cc91e0b14eec.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Recorder Measurement"/>
+<param name="Local" value="6e44ac34405e41c1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="1a194a5f490c4ad6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="9898892150a54f50.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="06e82ac7b92b4543.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Single-Shot Measurement"/>
+<param name="Local" value="072cf8c9c2644a74.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Post-Processing with MATLAB®"/>
+<param name="Local" value="f1fcba3044684260.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Power Sensor Measurement"/>
+<param name="Local" value="0939c37aee594695.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="059f569a7b3a4a48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Single-Shot Measurement"/>
+<param name="Local" value="58179e3f7c254f4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Zeroing the External Sensor"/>
+<param name="Local" value="7c924e9777264f86.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Continuous Sensor Measurement"/>
+<param name="Local" value="1f90b4b9f5ac4115.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FFT Spectrum Analyzer"/>
+<param name="Local" value="8b952bc9389540da.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="8f85550438d2497e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="1b8fb027d33c433e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="2735d5fd551a4877.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="1d5fa85158824eb7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Pathloss Measurement"/>
+<param name="Local" value="01e9123ed1fc4b6c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="4013c4c13c044a9f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="7e3b3b0d782d4453.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d35e13430.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="d35e13447.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d35e13487.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for RF Path Selection"/>
+<param name="Local" value="3ce7d86a057e4866.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="2cdec799d8974a43.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="2024b3634ed5446d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="39b92ca323964990.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:MEAS&lt;i&gt;:SCENario:SALone"/>
+<param name="Local" value="a61b2a9951244797.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:MEAS&lt;i&gt;:SCENario:CATalog:CSPath?"/>
+<param name="Local" value="1bc7fac1a1f24768.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:MEAS&lt;i&gt;:SCENario:CSPath"/>
+<param name="Local" value="01d332edcee54245.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:MEAS&lt;i&gt;:SCENario?"/>
+<param name="Local" value="0531607be7154d48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:MEAS&lt;i&gt;?"/>
+<param name="Local" value="0b8f6627915e4b9a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:EATTenuation"/>
+<param name="Local" value="5a1a003a80034e5a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer Settings"/>
+<param name="Local" value="322a6d9b0e104f2b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:FREQuency"/>
+<param name="Local" value="ce07e87e11b24ee7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="099ea42fb04448f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="c0bb5d52d898474a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="07ad0d2d38e3438a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:RFSettings:FOFFset"/>
+<param name="Local" value="7c372d1594d7452d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Display Settings"/>
+<param name="Local" value="efdb6b337ec34e8f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:DISPlay"/>
+<param name="Local" value="a2b494b284ca4df8.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Measurement Commands"/>
+<param name="Local" value="622f542801a845bc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="f7491c232218464d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:MODE"/>
+<param name="Local" value="da5feac6eab743e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:POWer"/>
+<param name="Local" value="35a87523c0064974.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:STATe?"/>
+<param name="Local" value="48af45d39c794ccc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:STATe:ALL?"/>
+<param name="Local" value="19e76a8d26124295.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:ESTatistics?"/>
+<param name="Local" value="e83c78e4dcfa44ca.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="d5b5ad28b9414df2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:CATalog:PDEFset?"/>
+<param name="Local" value="c1b4ee470d694c5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:PDEFset"/>
+<param name="Local" value="96b5566f6ab249d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:TOUT"/>
+<param name="Local" value="444afa32527a4aa9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:REPetition"/>
+<param name="Local" value="260b0356d9d84c7a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:SCOunt"/>
+<param name="Local" value="d35e15240.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:CATalog:PDEFset?"/>
+<param name="Local" value="8fb1e9643608447d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PDEFset"/>
+<param name="Local" value="79db44ab73524c2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:MLENgth"/>
+<param name="Local" value="8d52a19b0b1743a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:SLENgth"/>
+<param name="Local" value="d35e15414.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:FILTer:TYPE"/>
+<param name="Local" value="29129738190b48a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:FILTer:GAUSs:BWIDth"/>
+<param name="Local" value="7d123196a3f64c55.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:FILTer:BANDpass:BWIDth"/>
+<param name="Local" value="2e76d7e0695243a9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameter Set List Settings"/>
+<param name="Local" value="3cb145023e9e4ef4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:TYPE"/>
+<param name="Local" value="3bcff08f6254450f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:TYPE:ALL"/>
+<param name="Local" value="5f2d47d8cc4c49eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:GAUSs:BWIDth"/>
+<param name="Local" value="06c13107e3584170.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:GAUSs:BWIDth:ALL"/>
+<param name="Local" value="9ff5cbfbe1e643c5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:BANDpass:BWIDth"/>
+<param name="Local" value="3c3478feadb44e4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:FILTer:BANDpass:BWIDth:ALL"/>
+<param name="Local" value="045aa268145a46f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:SLENgth"/>
+<param name="Local" value="4095af4b33ae43af.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:SLENgth:ALL"/>
+<param name="Local" value="2f1b49b48786405e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:MLENgth"/>
+<param name="Local" value="83ba6d236b644909.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET:MLENgth:ALL"/>
+<param name="Local" value="cc52ddf51e6c4196.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:PSET:OFFSet"/>
+<param name="Local" value="da6c514a52944673.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:PSET:OFFSet:ALL"/>
+<param name="Local" value="9089d1d13c174fcd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="764bd7e7d70b4906.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:CATalog:SOURce?"/>
+<param name="Local" value="12f6b0ce6d874cd0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:SOURce"/>
+<param name="Local" value="b03421d8876b4bd2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:SLOPe"/>
+<param name="Local" value="ee464a6d92fd4eff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:THReshold"/>
+<param name="Local" value="d35e16338.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:OFFSet"/>
+<param name="Local" value="d35e16379.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:TOUT"/>
+<param name="Local" value="9bc05798c04c4f49.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:MGAP"/>
+<param name="Local" value="d35e16465.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:POWer:MODE"/>
+<param name="Local" value="769644e6c0754501.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration"/>
+<param name="Local" value="1a1de0bca3f84518.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST"/>
+<param name="Local" value="4e0f00ccc1d34a70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:IQData:CAPTure"/>
+<param name="Local" value="d35e16601.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:MUNit"/>
+<param name="Local" value="d8404e6b8f834cc4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:TXITiming"/>
+<param name="Local" value="ae424faff9e441dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:PSET"/>
+<param name="Local" value="6a1eacff50bb4a71.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:CMWS:CMODe"/>
+<param name="Local" value="2196bd54b1334dd7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:STARt"/>
+<param name="Local" value="298123ea83394521.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:STOP"/>
+<param name="Local" value="3f130d732ed545e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:SSTop"/>
+<param name="Local" value="42787e55cb0b4e9e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:COUNt?"/>
+<param name="Local" value="d35e16933.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:IREPetition"/>
+<param name="Local" value="9d6172d64e314e33.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:IREPetition:ALL"/>
+<param name="Local" value="d60c2d949e5248da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:FREQuency"/>
+<param name="Local" value="137d0b7421ea43a0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:FREQuency:ALL"/>
+<param name="Local" value="8e3c944a025f45fd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:ENPower"/>
+<param name="Local" value="8e04eb94dff4420e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:ENPower:ALL"/>
+<param name="Local" value="baf16951c9ea4b89.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:RETRigger"/>
+<param name="Local" value="fa102cdcdd5540df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:RETRigger:ALL"/>
+<param name="Local" value="29f731f4457a4dca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:IQData"/>
+<param name="Local" value="0ffb021e9e094c0d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:IQData:ALL"/>
+<param name="Local" value="5f82ffc89e4c4219.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:PSET"/>
+<param name="Local" value="9822b9f9e5ba4d11.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:PSET:ALL"/>
+<param name="Local" value="4fd5cd7b9602496f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:CMWS:CONNector"/>
+<param name="Local" value="15a44be1bdc942ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:POWer:LIST:CMWS:CONNector:ALL"/>
+<param name="Local" value="605de21d6fbe4a9d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results for Single-Step Power Evaluation"/>
+<param name="Local" value="7b44d2d997974029.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:CURRent?"/>
+<param name="Local" value="7f944d93d3cc4295.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:SDEViation?"/>
+<param name="Local" value="075b30d7e0d6405b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results for Single-Step Statistic Evaluation"/>
+<param name="Local" value="fd28d6297d944148.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:CCDF?"/>
+<param name="Local" value="da38281c868c46f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:CCDF:SAMPle?"/>
+<param name="Local" value="ee7e2644dbe246f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:CCDF:POWer?"/>
+<param name="Local" value="26d93781f56f4fb6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:CCDF:PROBability?"/>
+<param name="Local" value="a370e19d311949fe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:APD?"/>
+<param name="Local" value="3530ca09be294247.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results for List Mode"/>
+<param name="Local" value="5cb66cb3f6aa46a5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:LIST:CURRent?"/>
+<param name="Local" value="27f1e7b0ddfc41d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:IQINfo?"/>
+<param name="Local" value="434f24f367fa447b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:IQData?"/>
+<param name="Local" value="13139740647a41bc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:POWer:IQData:BIN?"/>
+<param name="Local" value="de0a13f7be0d4d9e.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Analyzer Commands"/>
+<param name="Local" value="332344b56f664740.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="524d8284f02f4bda.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:SPECtrum"/>
+<param name="Local" value="5b438bab4d304470.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:STATe?"/>
+<param name="Local" value="f90e139f1244457e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:STATe:ALL?"/>
+<param name="Local" value="7236bf432a3a419e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Statistical Settings"/>
+<param name="Local" value="b5ddb61741664c55.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:TOUT"/>
+<param name="Local" value="e3133f2a7c694736.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:REPetition"/>
+<param name="Local" value="7d701047382549dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:SCOunt"/>
+<param name="Local" value="d35e20231.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="d4f30cd464b64eec.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:CATalog:SOURce?"/>
+<param name="Local" value="f82db5ef1d564f81.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:SOURce"/>
+<param name="Local" value="592c9be37f584baa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:SLOPe"/>
+<param name="Local" value="55b1ef635d0b4cc7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:THReshold"/>
+<param name="Local" value="d35e20429.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:OFFSet"/>
+<param name="Local" value="d35e20472.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:TOUT"/>
+<param name="Local" value="b2693409e8684043.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:SPECtrum:MGAP"/>
+<param name="Local" value="d35e20568.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Settings"/>
+<param name="Local" value="ad543c2f0fe14fc6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:CENTer"/>
+<param name="Local" value="2a3de0c1660444d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:SPAN"/>
+<param name="Local" value="4cc41aac6a8d42ae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:STARt"/>
+<param name="Local" value="1b69bfdc502c4640.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:STOP"/>
+<param name="Local" value="448b2211fa6e4bc9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Span Settings"/>
+<param name="Local" value="973fbc4f3fe240a1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:SPAN:MODE"/>
+<param name="Local" value="d58a1294eb574694.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FREQuency:LASPan"/>
+<param name="Local" value="39ca115964f64121.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Sweep Mode Settings"/>
+<param name="Local" value="f2818dec4394491f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:RBW"/>
+<param name="Local" value="d35e20878.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:RBW:AUTO"/>
+<param name="Local" value="d35e20921.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:VBW"/>
+<param name="Local" value="3596f45641994b85.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:VBW:AUTO"/>
+<param name="Local" value="b6949297fa104d2c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:SWT"/>
+<param name="Local" value="d35e21017.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:FSWeep:SWT:AUTO"/>
+<param name="Local" value="a45e372966c64b5a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Zero Span Settings"/>
+<param name="Local" value="acab5d613a6147a6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:RBW:TYPE"/>
+<param name="Local" value="d35e21090.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:RBW:GAUSs"/>
+<param name="Local" value="807e885e9d994e7d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:RBW:BANDpass"/>
+<param name="Local" value="d35e21154.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:VBW"/>
+<param name="Local" value="8ae718e42ec945ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:VBW:AUTO"/>
+<param name="Local" value="d35e21231.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:ZSPan:SWT"/>
+<param name="Local" value="d35e21260.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Averaging Mode"/>
+<param name="Local" value="2f5e1c8377974006.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:SPECtrum:AMODe"/>
+<param name="Local" value="8979ccafa2a544d6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="06901c20a7c34934.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:AVERage:AVERage?"/>
+<param name="Local" value="e0b9266825ea474c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:RMS:AVERage?"/>
+<param name="Local" value="e3cd65da6a3d45b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:SAMPle:AVERage?"/>
+<param name="Local" value="3a94420871c64b09.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:MINimum:AVERage?"/>
+<param name="Local" value="c16d1140ffdb4bb1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:MAXimum:AVERage?"/>
+<param name="Local" value="e59434d47e114e0a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Marker"/>
+<param name="Local" value="98a243ad3c0444f4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:REFMarker:SPEak?"/>
+<param name="Local" value="f01c81fdc0194cac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:REFMarker:NPEak?"/>
+<param name="Local" value="9c15eaf5725948ad.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:SPECtrum:MARKer&lt;MarkerNo&gt;:NPEak?"/>
+<param name="Local" value="2607ccbca13144d1.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FFT Spectrum Analyzer Commands"/>
+<param name="Local" value="c30ab818139845e2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="a385c6f8797947d7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:FFTSanalyzer"/>
+<param name="Local" value="43fd7d37f7524a6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:STATe?"/>
+<param name="Local" value="48214b5bad5c4237.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:STATe:ALL?"/>
+<param name="Local" value="a9662a499c6e44ca.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Statistical Settings"/>
+<param name="Local" value="f27e4e8b3a8e4571.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:TOUT"/>
+<param name="Local" value="55b086d8fd0d4681.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:REPetition"/>
+<param name="Local" value="a4d18e0fa9754e17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:SCOunt"/>
+<param name="Local" value="5b598c0043d44719.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:MOEXception"/>
+<param name="Local" value="7ed2d694b9da4fea.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="2ddf28948fda48a9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:FSPan"/>
+<param name="Local" value="ea9cebff582246e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:FFTLength"/>
+<param name="Local" value="39c413f12364478e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:DETector"/>
+<param name="Local" value="a74d3c42b49e4676.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:AMODe"/>
+<param name="Local" value="8d1ce22bbf944dd4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="d107a98fc4874465.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:CATalog:SOURce?"/>
+<param name="Local" value="783fd6bd3e644194.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:SOURce"/>
+<param name="Local" value="ef3219c912884b41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:SLOPe"/>
+<param name="Local" value="c56b9348057c4c4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:THReshold"/>
+<param name="Local" value="dc4c6d1ad8d94a42.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:OMODe"/>
+<param name="Local" value="6f811d773e18428a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:OFFSet"/>
+<param name="Local" value="4faf8b1d4fad4187.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:OSSTop"/>
+<param name="Local" value="0469b9acd3ca47ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:TOUT"/>
+<param name="Local" value="6fc214989f1f40a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:MGAP"/>
+<param name="Local" value="b65e9b93931747bd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Search Functions"/>
+<param name="Local" value="b37d17c9636f4373.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:PSEarch:NOAMarkers"/>
+<param name="Local" value="62fe899b5b664f0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:PSEarch"/>
+<param name="Local" value="a7ae96a5f324487e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="f5fbed4ef74941db.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:POWer:CURRent?"/>
+<param name="Local" value="8f33c176b6334e87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:PEAKs:CURRent?"/>
+<param name="Local" value="6cdac2d1026f49b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:FFTSanalyzer:I?"/>
+<param name="Local" value="0cc13e096cca405c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Recorder Commands"/>
+<param name="Local" value="de260cc7a23945bf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="b2178f50de404ed0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:IQRecorder"/>
+<param name="Local" value="c64acbcd23a641e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder:STATe?"/>
+<param name="Local" value="d9040b0855a64903.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder:STATe:ALL?"/>
+<param name="Local" value="d6a525e004324474.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="7c483b760433459d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:TOUT"/>
+<param name="Local" value="8ce96ea190ff4732.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:CAPTure"/>
+<param name="Local" value="3d4faf82e1b74f5a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:IQFile"/>
+<param name="Local" value="e1ed1222b0fd4e1b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:WTFile"/>
+<param name="Local" value="3d0d0b644b5f48be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:FORMat"/>
+<param name="Local" value="582a521c81aa4620.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:MUNit"/>
+<param name="Local" value="533bddbd3a204ea3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Filter Settings"/>
+<param name="Local" value="ce57cbf336944191.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:FILTer:TYPE"/>
+<param name="Local" value="57f6137bac4a4341.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:FILTer:GAUSs:BWIDth"/>
+<param name="Local" value="d087cfb41c464264.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:FILTer:BANDpass:BWIDth"/>
+<param name="Local" value="b29615f4a36d47e3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:RATio"/>
+<param name="Local" value="034467d665174b92.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="d32082ca073141b0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:CATalog:SOURce?"/>
+<param name="Local" value="a86a40dbcd7a4cb2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:SOURce"/>
+<param name="Local" value="a1c0d63129104c7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:SLOPe"/>
+<param name="Local" value="89d2b36c0f184933.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:THReshold"/>
+<param name="Local" value="d35e25250.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:OFFSet"/>
+<param name="Local" value="d35e25289.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:TOUT"/>
+<param name="Local" value="0a7ad2bd52394a84.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQRecorder:MGAP"/>
+<param name="Local" value="6012f76caef94260.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration"/>
+<param name="Local" value="ffcc0f075f134a1d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST"/>
+<param name="Local" value="784ef5b92c324196.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:SLENgth"/>
+<param name="Local" value="d35e25457.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:COUNt?"/>
+<param name="Local" value="d8da2ead7d674005.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:STARt"/>
+<param name="Local" value="d35e25531.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:STOP"/>
+<param name="Local" value="1d20f29052f347b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:SSTop"/>
+<param name="Local" value="d35e25619.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:FREQuency"/>
+<param name="Local" value="666f870a87da4be2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:FREQuency:ALL"/>
+<param name="Local" value="a5c3e1bdaf7a4923.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:ENPower"/>
+<param name="Local" value="4e8d9c2b95964840.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQRecorder:LIST:ENPower:ALL"/>
+<param name="Local" value="963eb7caeae949bb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="26505a3544e9449b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder?"/>
+<param name="Local" value="fb25030976f64156.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder:BIN?"/>
+<param name="Local" value="2ddaa4599a0a4bee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder:SRATe?"/>
+<param name="Local" value="ffbae7c961ce4220.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQRecorder:RELiability?"/>
+<param name="Local" value="ad36f01729a24b32.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q vs. Slot Measurement Commands"/>
+<param name="Local" value="9e9fa26de889476f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="8cbf893806f845d1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:IQVSlot"/>
+<param name="Local" value="5eb2347a3ccd4185.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:STATe?"/>
+<param name="Local" value="54b21fdde75140c4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:STATe:ALL?"/>
+<param name="Local" value="8aa2306faa864a7b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="9bf9b4ef2b3d41f0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:TOUT"/>
+<param name="Local" value="2b74715ae3094d22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:SLENgth"/>
+<param name="Local" value="d35e26505.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:MLENgth"/>
+<param name="Local" value="f9f5bf5a979b4e97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:FELimit"/>
+<param name="Local" value="00ea287ac7744d16.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Statistical Settings"/>
+<param name="Local" value="6db3bc3dd4004624.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:REPetition"/>
+<param name="Local" value="fbe4bc05c0e245dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:SCOunt"/>
+<param name="Local" value="122c2af10eea41a8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Filter Settings"/>
+<param name="Local" value="a8d9d19ecdae4923.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:FTYPe"/>
+<param name="Local" value="17e2428c80a34b7e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="4cb4080b580d42e8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:CATalog:SOURce?"/>
+<param name="Local" value="cdb119bb51f74a01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:SOURce"/>
+<param name="Local" value="e22cccf49ed541f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:SLOPe"/>
+<param name="Local" value="a66340491df449e4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:THReshold"/>
+<param name="Local" value="d35e26918.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:OFFSet"/>
+<param name="Local" value="d35e26959.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:TOUT"/>
+<param name="Local" value="c8226d3f8d2b41e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:MGAP"/>
+<param name="Local" value="d35e27047.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:MEAS&lt;i&gt;:IQVSlot:MODE"/>
+<param name="Local" value="b68166ec1d8b4658.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration"/>
+<param name="Local" value="c0faa759278e4777.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST"/>
+<param name="Local" value="b092fda3f7d14feb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:COUNt?"/>
+<param name="Local" value="254f1f2d1b3e4075.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:STARt"/>
+<param name="Local" value="d35e27221.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:STOP"/>
+<param name="Local" value="d35e27260.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:SSTop"/>
+<param name="Local" value="d35e27299.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:FREQuency"/>
+<param name="Local" value="d4810fddc8074dbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:FREQuency:ALL"/>
+<param name="Local" value="fc5a647225ea49ff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:ENPower"/>
+<param name="Local" value="94ec868eb91e4e11.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:ENPower:ALL"/>
+<param name="Local" value="c769b52f1dd1401a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:RETRigger"/>
+<param name="Local" value="71d0339ca0374e66.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:IQVSlot:LIST:RETRigger:ALL"/>
+<param name="Local" value="251404ecd2aa457f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="fa18caa6c6c14a07.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:I?"/>
+<param name="Local" value="2b15b2ff78474cfa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:LEVel?"/>
+<param name="Local" value="07ef8cb35e2b488d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:PHASe?"/>
+<param name="Local" value="390f411262bc4f52.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:FERRor?"/>
+<param name="Local" value="ebc3c9e983054b3f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:IQVSlot:OFERror?"/>
+<param name="Local" value="c6155b0746fa446c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Power Sensor Measurement Commands"/>
+<param name="Local" value="54afa0ddfcbf4ecd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="6e5e228a204b4bc5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:EPSensor"/>
+<param name="Local" value="6cb2d16188a848a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:EPSensor:STATe?"/>
+<param name="Local" value="58a3c573964e4711.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:EPSensor:STATe:ALL?"/>
+<param name="Local" value="72c2c13a981b456a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:EPSensor:IDN?"/>
+<param name="Local" value="793442935874458d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Zeroing"/>
+<param name="Local" value="abc78792bfc947e9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALibration:GPRF:MEAS&lt;i&gt;:EPSensor:ZERO"/>
+<param name="Local" value="c0b5fec8d438406a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Statistical Settings"/>
+<param name="Local" value="5df3f1bfbaff4cf5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:TOUT"/>
+<param name="Local" value="87363dcddc5a480a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:REPetition"/>
+<param name="Local" value="f2e635bb62e14252.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:SCOunt"/>
+<param name="Local" value="631ce65ddef44bd1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:RESolution"/>
+<param name="Local" value="d35e28689.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sensor Configuration"/>
+<param name="Local" value="584a9406183749c9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:FREQuency"/>
+<param name="Local" value="d35e28742.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:ATTenuation:STATe"/>
+<param name="Local" value="b488de19ae014465.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:EPSensor:ATTenuation"/>
+<param name="Local" value="d35e28814.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="5e606f6762a949df.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:EPSensor?"/>
+<param name="Local" value="d6e8d6e9e30c40bb.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Pathloss Measurement Commands"/>
+<param name="Local" value="85d58a7e8fd24ce5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="6ef2202c7016404e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:PLOSs:OPEN"/>
+<param name="Local" value="96655b79f02c4e65.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="STOP:GPRF:MEAS&lt;i&gt;:PLOSs"/>
+<param name="Local" value="a58bdd8af6e14071.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:STATe?"/>
+<param name="Local" value="da27dd077c5e4b96.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:STATe:ALL?"/>
+<param name="Local" value="9e28a0cda60b49e7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Settings"/>
+<param name="Local" value="f013fcb967404020.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:PLOSs:LIST:FREQuency"/>
+<param name="Local" value="41a7c9e0be2d4e5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:MEAS&lt;i&gt;:PLOSs:VIEW:AFTaps"/>
+<param name="Local" value="116855fe080245b9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="121d75f57d574500.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GPRF:MEAS&lt;i&gt;:PLOSs:CLEar"/>
+<param name="Local" value="b6a8dd26314a43d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:OPEN?"/>
+<param name="Local" value="1519ad85c8e04c82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:SHORt?"/>
+<param name="Local" value="773f87d907d1496e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:EVAL:STATe?"/>
+<param name="Local" value="5298b29fded14d3d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:EVAL:GAIN?"/>
+<param name="Local" value="c9d357738e3e4b9a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:EVAL:FREQuency?"/>
+<param name="Local" value="17fc465848734495.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:EVAL:TRACe:GAIN?"/>
+<param name="Local" value="20dd3f3b92814cbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GPRF:MEAS&lt;i&gt;:PLOSs:EVAL:TRACe:FREQuency?"/>
+<param name="Local" value="69578e22ec1445db.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="eeb1b8e64c6e4707.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="f894db6003444d63.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

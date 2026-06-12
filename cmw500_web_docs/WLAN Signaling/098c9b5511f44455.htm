@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying General Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <span class="chm-breadcrumb">Specifying General Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying General Settings</div><p>Each scenario is activated via a different <span class="command">ROUTe</span> command. Use the "standalone scenario" section or the "MIMO scenario" section.</p><div class="block"><div class="subtitle"><a name="ID_a7bbc9808a2a11e6a2119f25554b8009-8dc999527d365a020a00206a0194823b-en-US"></a>Standalone scenario</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select the standalone scenario, the signaling unit and the RF path.
+// Specify the external attenuation. Select the operation mode.
+// *****************************************************************************
+ROUTe:WLAN:SIGN:SCENario:SCELl:FLEXible SUU1,RF1C,RX1,RF1C,TX1
+CONFigure:WLAN:SIGN:RFSettings:EATTenuation:OUTPut 2
+CONFigure:WLAN:SIGN:RFSettings:EATTenuation:INPut 2
+CONFigure:WLAN:SIGN:CONNection:OMODe AP
+
+// *****************************************************************************
+// Configure the burst power for the generated signal.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:BOPower -30</pre><div class="block"><div class="subtitle"><a name="ID_a7ba42de8a2a11e6a2119f25554b8009-8dc999527d365a020a00206a0194823b-en-US"></a>MIMO scenario</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select the MIMO scenario, the signaling unit and the RF paths.
+// Specify the external attenuation.
+// *****************************************************************************
+ROUTe:WLAN:SIGN:SCENario:MIMO:FLEXible SUU1, RF1C, RX1, RF1C, TX1, RF1C, TX3
+CONFigure:WLAN:SIGN:RFSettings:CARRier1:EATTenuation:OUTPut 2
+CONFigure:WLAN:SIGN:RFSettings:CARRier2:EATTenuation:OUTPut 2
+CONFigure:WLAN:SIGN:RFSettings:EATTenuation:INPut 2
+
+// *****************************************************************************
+// Select the MIMO mode and configure the cyclic shift diversity.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:MIMO:TMMode SMULtiplexin
+CONFigure:WLAN:SIGN:MIMO:TCSD 0, 0
+
+// *****************************************************************************
+// Configure the total burst power of both generated signals and the ratio
+// of the two signal powers.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:BOPower -30
+CONFigure:WLAN:SIGN:RFSettings:TSRatio 0</pre><div class="block"><div class="subtitle"><a name="ID_a7ba42dc8a2a11e6a2119f25554b8009-8dc999527d365a020a00206a0194823b-en-US"></a>Both scenarios</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select the standard.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:CONNection:STANdard NGFStd
+
+// *****************************************************************************
+// Configure the expected PEP of the measured signal and the mixer level offset.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:EPEPower -20
+CONFigure:WLAN:SIGN:RFSettings:MLOFfset 1
+
+// *****************************************************************************
+// Configure the advanced RF settings.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:ADVanced:TX:IQSWap OFF
+CONFigure:WLAN:SIGN:RFSettings:ADVanced:RX:IQSWap OFF
+CONFigure:WLAN:SIGN:RFSettings:ADVanced:TX:SET OFF
+CONFigure:WLAN:SIGN:RFSettings:ADVanced:RX:SET OFF</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

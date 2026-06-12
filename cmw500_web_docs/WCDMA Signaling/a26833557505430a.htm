@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Test Setup for Dual Carrier Scenarios</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="c11def44c8df496c.htm">Test Setups</a> &gt; <span class="chm-breadcrumb">Test Setup for Dual Carrier Scenarios</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Test Setup for Dual Carrier Scenarios</div><p>A test setup for a connection with dual carrier involves one or two uplink and two downlink signals.</p><div class="block"><div class="subtitle"><a name="ID_ea2c9fc2c6688d930a001ae760760a4d-e7dae453057db7110a00206a007fe261-en-US"></a>Setup with one RF TX/RX module</div></div><p>For the tests within a single band, the two downlink/uplink carriers can be routed via only one TX/RX module. For the limitations, refer to <a class="xref" href="bd751cc98c6f4441.htm#ID_ebdab355c818931a0a00206a003733db-b1a95472898cb4f00a0020190036f1e2-en-US">"Output Power (Ior)"</a>. The test setup is identical with the <a class="xref" href="85feb86e502947bb.htm#ID_69f1996235ed71460a00206a00081e58-e7dae453057db7110a00206a007fe261-en-US">"Test Setup for Standard Cell Scenario"</a>.</p><div class="block"><div class="subtitle"><a name="ID_bab1aacbc6688d930a001ae7659e76b4-e7dae453057db7110a00206a007fe261-en-US"></a>Setup with two TX/RX modules</div></div><p>It is also possible to route the two downlink/uplink signals via different TX/RX modules. This test setup is mandatory for multi-band operation, scenarios with fading and Rx diversity.</p><p>Depending on the instrument hardware and the UE connectors, you can use one or two connectors at the UE. Many UEs provide several connectors, but only one of them can be used for WCDMA.</p><div class="block"><div class="listintro">Typical setups using two Tx/Rx paths:</div><ul class="list"><li>The UE uses only one connector for WCDMA<br>Use a bidirectional RF connector for the first downlink and uplink signal and a separate RF connector for the second downlink and if used also for the second uplink signal. Connect both RF connectors to an external combiner and connect the combiner to the UE.</li><li>The UE uses two connectors for WCDMA<br>Use a bidirectional connector for the first downlink and uplink signal. Connect it to the first antenna of the UE. Use an additional connector for the second downlink and if used also for the second uplink signal. Connect it to the second antenna of the UE.<br>The following figure illustrates this example.</li></ul></div><div class="block" id="ID_510117f510cc92e20a00206a01b5b31f-e7dae453057db7110a00206a007fe261-en-US"><div class="graphic"><img border="0" src="images/img33c78c7fc65e0d410a001ae74176a799_1_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Test setup using two connectors at instrument side and UE side</div><div class="legend"><div class="legentry">1 = downlink of the carrier one (DL1) and all uplink signals to the first antenna of the UE</div><div class="legentry">2 = DL2 and alternatively if necessary also UL2 to the second antenna of the UE</div></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

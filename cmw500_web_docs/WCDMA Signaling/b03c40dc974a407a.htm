@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sending Date and Time Information to the UE</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Sending Date and Time Information to the UE</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Sending Date and Time Information to the UE</div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Select a time source and configure date, time, DST and offset +1h.
+// Enable sending of the information during registration.
+// Send the information to the UE now.
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CELL:TIME:TSOurce DATE
+CONFigure:WCDMa:SIGN:CELL:TIME:DATE 24,10,2012
+CONFigure:WCDMa:SIGN:CELL:TIME:TIME 12,40,30
+CONFigure:WCDMa:SIGN:CELL:TIME:DSTime P1H
+CONFigure:WCDMa:SIGN:CELL:TIME:LTZoffset 1
+CONFigure:WCDMa:SIGN:CELL:TIME:SREGister ON
+CONFigure:WCDMa:SIGN:CELL:TIME:SNOW</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

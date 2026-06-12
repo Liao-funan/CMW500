@@ -1,0 +1,60 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Sending / Receiving a Short Message</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Sending / Receiving a Short Message</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Sending / Receiving a Short Message</div><div class="verbatim"><pre class="verbatim_text">// ***************************************************************************** 
+// Configure support of concatenated SMS.
+// ***************************************************************************** 
+CONFigure:LTE:SIGN:SMS:OUTGoing:LHANdling MSMS
+
+// ***************************************************************************** 
+// Configure outgoing messages directly:
+// ASCII message text, binary message contents, TP-PID, data coding,
+// user data header, coding group, message class, 
+// SC address, originating address, service center time stamp.
+// Send the message and query whether the transmission was successful.
+// *****************************************************************************
+CONFigure:LTE:SIGN:SMS:OUTGoing:MESHandling INTernal
+CONFigure:LTE:SIGN:SMS:OUTGoing:INTernal "Testing SMS 012!.#\*%+-/()&lt;&gt;?=;@$,"
+CONFigure:LTE:SIGN:SMS:OUTGoing:BINary #H0125498fa3bc8d348
+CONFigure:LTE:SIGN:SMS:OUTGoing:PIDentifier #H0
+CONFigure:LTE:SIGN:SMS:OUTGoing:DCODing BIT7
+CONFigure:LTE:SIGN:SMS:OUTGoing:UDHeader #H050415820000 
+CONFigure:LTE:SIGN:SMS:OUTGoing:CGRoup GDCoding
+CONFigure:LTE:SIGN:SMS:OUTGoing:MCLass CL2
+CONFigure:LTE:SIGN:SMS:OUTGoing:OSADdress '543221'
+CONFigure:LTE:SIGN:SMS:OUTGoing:OADDress '3526735'
+CONFigure:LTE:SIGN:SMS:OUTGoing:SCTStamp:TSOurce DATE
+CONFigure:LTE:SIGN:SMS:OUTGoing:SCTStamp:DATE 15,5,2014
+CONFigure:LTE:SIGN:SMS:OUTGoing:SCTStamp:TIME 14,40,50
+CALL:LTE:SIGN:PSWitched:ACTion SMS; *OPC?
+SENSe:LTE:SIGN:SMS:OUTGoing:INFO:LMSent?
+
+// ***************************************************************************** 
+// Reset parameters related to an already received short message.
+// Wait until a message from the UE has been received.
+// Query information about the received message: encoding, message content,
+// message length, message segments.
+// *****************************************************************************
+CLEan:LTE:SIGN:SMS:INComing:INFO:MTEXt
+WAITKEY &gt;Send short message from UE&lt;
+WHILE SENSe:LTE:SIGN:SMS:INFO:LRMessage:RFLag? &lt;&gt; "OFF"
+SENSe:LTE:SIGN:SMS:INComing:INFO:DCODing?
+SENSe:LTE:SIGN:INComing:INFO:MTEXt?
+SENSe:LTE:SIGN:SMS:INComing:INFO:MLENgth?
+SENSe:LTE:SIGN:SMS:INComing:INFO:SEGMent?
+
+// ***************************************************************************** 
+// Configure outgoing messages via a file:
+// Select message file and query file information.
+// *****************************************************************************
+CONFigure:LTE:SIGN:SMS:OUTGoing:MESHandling FILE
+CONFigure:LTE:SIGN:SMS:OUTGoing:FILE "@USERDATA\sms\LTE\Send\myfile.sms"
+CONFigure:LTE:SIGN:SMS:OUTGoing:FILE:INFO?
+
+// ***************************************************************************** 
+// Get information about an old received short message:
+// Select a message file and query information about it.
+// *****************************************************************************
+CONFigure:LTE:SIGN:SMS:INComing:FILE "@USERDATA\sms\LTE\Received\rx_001.sms"
+CONFigure:LTE:SIGN:SMS:INComing:FILE:INFO?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an RLC Throughput Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f889b13eaa77465d.htm">RLC Throughput Tests</a> &gt; <span class="chm-breadcrumb">Performing an RLC Throughput Measurement</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing an RLC Throughput Measurement</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Start the measurement and return the contents of the result table.
+// Query the measurement state (should be "RDY").                                             
+// *****************************************************************************
+INIT:GSM:SIGN:THRoughput
+FETCh:GSM:SIGN:THRoughput?
+FETCh:GSM:SIGN:THRoughput:STATe?
+
+// *****************************************************************************
+// Query the result traces obtained in the last measurement.
+// *****************************************************************************
+FETCh:GSM:SIGN:THRoughput:TRACe:DL:PDU:CURRent?
+FETCh:GSM:SIGN:THRoughput:TRACe:DL:PDU:AVERage?
+FETCh:GSM:SIGN:THRoughput:TRACe:DL:SDU:CURRent?
+FETCh:GSM:SIGN:THRoughput:TRACe:DL:SDU:AVERage?
+
+FETCh:GSM:SIGN:THRoughput:TRACe:UL:PDU:CURRent?
+FETCh:GSM:SIGN:THRoughput:TRACe:UL:PDU:AVERage?
+FETCh:GSM:SIGN:THRoughput:TRACe:UL:SDU:CURRent?
+FETCh:GSM:SIGN:THRoughput:TRACe:UL:SDU:AVERage?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

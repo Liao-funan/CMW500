@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Synchronization</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="a48b68c16c094d59.htm">NB-IoT Signaling</a> &gt; <a class="chm-breadcrumb" href="5b231bbaa0104b7d.htm">GUI Reference</a> &gt; <a class="chm-breadcrumb" href="373bde0786224965.htm">Network Settings</a> &gt; <span class="chm-breadcrumb">Synchronization</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Synchronization</div><p>The parameters in this section configure the synchronization to other signaling applications.</p><div class="block" id="ID_b3d6839774c842ea0a001ae70868e020-2fae72a58bcecbbd0a001ae762c3f301-en-US"><div class="graphic"><img border="0" src="images/img9129920b74c539250a001ae71ee6f038_1_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">Synchronization settings</div></div><div class="function_heading"><a name="ID_29fe4c35abd431ab0a001ae73958e542-2fae72a58bcecbbd0a001ae762c3f301-en-US"></a><span style="font-weight: bold">Synchronization Zone</span></div><p>Select the same synchronization zone in all signaling applications that you want to synchronize. "None" means that the application is not synchronized to other signaling applications.</p><p>Synchronizing signaling applications means synchronizing the used system time. This feature is useful, for example, for evaluation of message logs, because the time stamps in the logs are synchronized.</p><p>Synchronizing two NB-IoT signaling applications means also synchronizing the used system frame numbers.</p>Remote command:&nbsp;<div class="rcclist_right"><p><a class="xref" href="614e1113161b4908.htm#ID_7129db667472b1470a001ae762d27d9c-6b682a8b7472b02d0a001ae72c300138-en-US" style="font-family: &#34;Courier New&#34;, Courier, monospace;"><nobr>CONFigure:</nobr>​<nobr>NIOT:</nobr>​<nobr>SIGN&lt;i&gt;:</nobr>​<nobr>CELL:</nobr>​<nobr>SYNC:</nobr>​<nobr>ZONE</nobr></a></p></div><div style="clear:left;">&nbsp;</div><div class="function_heading"><a name="ID_a9850f76abd431ab0a001ae73b28b3e7-2fae72a58bcecbbd0a001ae762c3f301-en-US"></a><span style="font-weight: bold">Synchronization Offset</span></div><p>Configures the timing offset at cell start, relative to the time zone.</p><p>Without offset, the cell signal starts with system frame number 0 and a system time according to the time zone. With an offset, the cell starts with system frame number 0 plus the offset and a system time according to the time zone plus the offset.</p>Remote command:&nbsp;<div class="rcclist_right"><p><a class="xref" href="ac7bc50bbad84881.htm#ID_916368ca7472b34a0a001ae72c04e331-0edc9fa57472b2500a001ae72c300138-en-US" style="font-family: &#34;Courier New&#34;, Courier, monospace;"><nobr>CONFigure:</nobr>​<nobr>NIOT:</nobr>​<nobr>SIGN&lt;i&gt;:</nobr>​<nobr>CELL:</nobr>​<nobr>SYNC:</nobr>​<nobr>OFFSet</nobr></a></p></div><div style="clear:left;">&nbsp;</div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

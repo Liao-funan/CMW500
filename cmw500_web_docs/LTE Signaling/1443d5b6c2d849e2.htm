@@ -1,0 +1,40 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring RMCs</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring RMCs</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring RMCs</div><p>The following commands configure the PCC. To configure the SCC number &lt;n&gt;, substitute <span class="command">:PCC:</span> by <span class="command">:SCC&lt;n&gt;:</span>.</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Define 3GPP-compliant RMCs with contiguous allocation:
+// Select scheduling type, configure DL RMC with 50 RBs and 16-QAM modulation,
+// UL RMC with 12 RBs and QPSK modulation. The transport block size index
+// is selected automatically.
+// Configure the upper end of the cell bandwidth as RB position (not really
+// relevant for DL - the 50 RBs use the entire bandwidth).
+// Select version 1 of ambiguous RMCs.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PCC:STYPe RMC
+CONFigure:LTE:SIGN:CONNection:PCC:MCLuster:UL OFF
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:DL N50,Q16,KEEP
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:RBPosition:DL HIGH
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:UL N12,QPSK,KEEP
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:RBPosition:UL HIGH
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:VERSion:DL 1
+
+// *****************************************************************************
+// Define the same RMC for the second MIMO downlink stream.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:DL2 N50,Q16,KEEP
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:RBPosition:DL2 HIGH
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:VERSion:DL2 1
+
+// *****************************************************************************
+// Instead of configuring the same settings for stream 1 and stream 2, you can
+// apply the stream 1 settings to all streams and skip the "DL2" commands.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PCC:DLEQual ON
+
+// *****************************************************************************
+// Configure an UL RMC with multi-cluster allocation instead of
+// contiguous allocation.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PCC:MCLuster:UL ON
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:MCLuster:UL N3,P0,N42,P6,Q16,T11</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

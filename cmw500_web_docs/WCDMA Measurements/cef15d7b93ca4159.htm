@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trigger Modes</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="42c7d2401ed54713.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="d772d0dd9e8b4557.htm">WCDMA TX Tests</a> &gt; <span class="chm-breadcrumb">Trigger Modes</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trigger Modes</div><div class="block"><div class="listintro">The WCDMA multi-evaluation measurement can be performed in the following trigger modes (trigger source settings):</div><ul class="list"><li>"Free Run (Standard)": The measurement starts immediately after it is initiated. The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW decodes the signal to derive its slot timing so that the measurement length can start at a slot boundary of the UL WCDMA signal. This procedure is repeated after each measurement cycle.</li><li>"Free Run (Fast Sync)": Similar to "Free Run (Standard)", however, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW assumes that the frame period of the detected signal is close to the nominal 10 ms WCDMA frame length. The timing is only corrected after each measurement cycle using a faster algorithm, which results in faster continuous measurements.<br>If you experience problems with this trigger mode, use "Free Run (Standard)" instead.</li><li>"IF Power": With an internal IF power trigger, the measurement is triggered by the power ramp of the received bursts. This trigger can be used if no continuous WCDMA signal is available and a short signal burst has to be measured.</li><li>"IF Power (Sync)":<br>Similar to "IF Power", however, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW tries to synchronize to the signal during a full slot after the trigger event. This setting can be used to measure short signal bursts where the beginning of the burst does not exactly coincide with a slot boundary. The start of the measurement takes longer than with "IF Power".</li><li>"External Trigger A/B": External trigger signal fed in via the rear panel of the instrument.</li><li>Additional trigger modes: Other firmware applications, e.g. the WCDMA signaling application (option R&amp;S CMW-KS400) can provide additional trigger modes. Refer to the documentation of the corresponding firmware application for a description of these trigger modes.</li></ul></div><p>For configuration, see <a class="xref" href="bb8721d76bc340c9.htm#ID_66893e21fb0a9b700a00206a00e86228-81d6c7d48576348a0a00206a01a6182f-en-US">"Trigger Settings"</a>.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

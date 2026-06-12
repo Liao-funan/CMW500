@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Retrieving Information Provided by the UE (Signaling)</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Retrieving Information Provided by the UE (Signaling)</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Retrieving Information Provided by the UE (Signaling)</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Wait until all requested measurement reports have been received.
+// Query UE measurement reports for the current cell, carrier 2, and
+// two neighbor cells of each technology.
+// *****************************************************************************
+WHILE FETCh:WCDMa:SIGN:UEReport:STATe &lt;&gt; "RDY"
+SENSe:WCDMa:SIGN:UEReport:CCELl?
+SENSe:WCDMa:SIGN:UEReport:NCELl2?
+SENSe:WCDMa:SIGN:UEReport:NCELl:WCDMa:CELL1?
+SENSe:WCDMa:SIGN:UEReport:NCELl:WCDMa:CELL2?
+SENSe:WCDMa:SIGN:UEReport:NCELl:GSM:CELL1?
+SENSe:WCDMa:SIGN:UEReport:NCELl:GSM:CELL2?
+SENSe:WCDMa:SIGN:UEReport:NCELl:LTE:CELL1?
+SENSe:WCDMa:SIGN:UEReport:NCELl:LTE:CELL2?
+
+// *****************************************************************************
+// Query all UE information results.
+// *****************************************************************************
+SENSe:WCDMa:SIGN:UESinfo:CONNection:CIRCuit?
+SENSe:WCDMa:SIGN:UESinfo:EMERgency?
+SENSe:WCDMa:SIGN:UESinfo:ESCategory?
+SENSe:WCDMa:SIGN:UESinfo:CONNection:PACKet?
+SENSe:WCDMa:SIGN:UESinfo:DINFo?
+SENSe:WCDMa:SIGN:UESinfo:RITYpe?
+SENSe:WCDMa:SIGN:UESinfo:RIDentity?
+SENSe:WCDMa:SIGN:UESinfo:IMEI?
+SENSe:WCDMa:SIGN:UESinfo:CNUMber?
+SENSe:WCDMa:SIGN:UESinfo:DNUMber?
+SENSe:WCDMa:SIGN:UESinfo:TTY?
+SENSe:WCDMa:SIGN:UESinfo:DULalignment?
+SENSe:WCDMa:SIGN:UESinfo:UEADdress:IPV4?
+SENSe:WCDMa:SIGN:UESinfo:UEADdress:IPV6?
+SENSe:WCDMa:SIGN:UESinfo:APN?
+SENSe:WCDMa:SIGN:UESinfo:RRC?
+
+// *****************************************************************************
+// Query all UE capability results.
+// *****************************************************************************
+SENSe:WCDMa:SIGN:UECapability:GENeral?
+SENSe:WCDMa:SIGN:UECapability:HSDPa?
+SENSe:WCDMa:SIGN:UECapability:HSUPa?
+SENSe:WCDMa:SIGN:UECapability:PDCP?
+SENSe:WCDMa:SIGN:UECapability:RLC?
+SENSe:WCDMa:SIGN:UECapability:PDOWnlink?
+SENSe:WCDMa:SIGN:UECapability:PUPLink?
+SENSe:WCDMa:SIGN:UECapability:RFParameter?
+SENSe:WCDMa:SIGN:UECapability:RFParameter:BAND?
+SENSe:WCDMa:SIGN:UECapability:RFParameter:BAND:NC2?
+SENSe:WCDMa:SIGN:UECapability:RFParameter:BC?
+SENSe:WCDMa:SIGN:UECapability:RFParameter:BCList?
+SENSe:WCDMa:SIGN:UECapability:MMODe?
+SENSe:WCDMa:SIGN:UECapability:MRAT?
+SENSe:WCDMa:SIGN:UECapability:UEPosition?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs:GAL?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs:GLON?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs:MGPS?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs:QZSS?
+SENSe:WCDMa:SIGN:UECapability:UEPosition:GANSs:SBAS?
+SENSe:WCDMa:SIGN:UECapability:MEASurement?
+SENSe:WCDMa:SIGN:UECapability:MEASurement:CMODe:GSM?
+SENSe:WCDMa:SIGN:UECapability:MEASurement:CMODe:LTE?
+SENSe:WCDMa:SIGN:UECapability:MEASurement:CMODe:WCDMa?
+SENSe:WCDMa:SIGN:UECapability:MEASurement:CMODe:WCDMa:MCARrier?
+SENSe:WCDMa:SIGN:UECapability:CODec:GSM?
+SENSe:WCDMa:SIGN:UECapability:CODec:UMTS?
+SENSe:WCDMa:SIGN:UECapability:IMSVoice?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

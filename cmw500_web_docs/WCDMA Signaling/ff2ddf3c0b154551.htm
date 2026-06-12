@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Rules for the Transfer of TPC Patterns</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="f3c34c8634e0432e.htm">Transmit Power Control (TPC)</a> &gt; <span class="chm-breadcrumb">Rules for the Transfer of TPC Patterns</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Rules for the Transfer of TPC Patterns</div><p>Administrable TPC patterns are transmitted via the downlink DPCH.</p><div class="block"><div class="listintro">A pattern starts always at the beginning of a frame:</div><ul class="list"><li>A new pattern following an all 0 or all 1 pattern starts at the beginning of the first frame after the current frame.</li><li>A new pattern following an alternating pattern always starts at the next frame boundary. There, the last bit of the alternating pattern is different from the first bit of the new pattern. It can be the first or second frame after the current frame.</li><li>A running continuous pattern is immediately interrupted by a new pattern. The new pattern starts at the beginning of the first frame after the current frame.</li></ul></div><p><b>Example:</b></p><p>Single pattern + alternating can be used to first change the (average) UE power by a definite number of steps and then maintain the new (average) UE power. Due to the rules quoted above, the first and the last bit in &lt;Pattern&gt; cancel the effect of the preceding and the following bits. The rules tend to stabilize the net UE power and minimize the effect of &lt;Pattern&gt;.</p><p>It is easy to show this mechanism for power control algorithm 1 where the UE power changes after each slot by a definite step size. If the first and the last bits in &lt;Pattern&gt; are different, the net UE power change caused by these bits is zero. Example:</p><div class="block" id="ID_c35046c4e627d2bc0a710a6a01c07801-8a65c7a4e672c7e40a00206a0189034d-en-US"><div class="graphic"><img border="0" src="images/imgad3f9a2be622d7e00a00206a0108e412_2_--_--_PNG96.png" alt="" title=""></div></div><p>If both the first and the last bit in &lt;Pattern&gt; are 1 (0), then the net UE power change equals the step size multiplied with 1 (–1). The effect of 1 bit is canceled. Example:</p><div class="block" id="ID_19269486e627d1e10a710a6a01e366c7-8a65c7a4e672c7e40a00206a0189034d-en-US"><div class="graphic"><img border="0" src="images/img3144bfa7e624f03d0a00206a01db3548_2_--_--_PNG96.png" alt="" title=""></div></div><p>For each of the central bits, 0 and 1 in &lt;Pattern&gt; causes a UE power change of the step size multiplied with –1 and 1, respectively. The central bits are all bits except the first and the last bit.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

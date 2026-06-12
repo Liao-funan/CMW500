@@ -1,0 +1,11 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Requested Mobile Data</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Requested Mobile Data</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Requested Mobile Data</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Tell the MS to send its IMEI during location / routing area updates.
+// Enable early classmark sending and disable classmark3 request.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CELL:IMEirequest ON
+CONFigure:GSM:SIGN:CELL:ECSending ON
+CONFigure:GSM:SIGN:CELL:CREQuest OFF</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a2941f310e9453b.htm">GSM Measurements</a> &gt; <a class="chm-breadcrumb" href="bbf415c4c4ee4329.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="54cdba69b68a4708.htm">GSM List Mode</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single-Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Start single-shot measurement, return current power results
+// (the average power in the last slot in segment 2).
+// Return average modulation results and spectrum results (without repeating
+// the measurement. Query the measurement state (should be "RDY").
+// *************************************************************************
+INIT:GSM:MEAS:MEValuation
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:PVTime:CURRent?
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:PVTime:CURRent:SVECtor? 
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:MODulation:CURRent?
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:MODulation:PERCentile?
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:SMODulation?
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:SSWitching?
+FETCh:GSM:MEAS:MEValuation:LIST:SEGMent2:BER?
+FETCh:GSM:MEAS:MEValuation:STATe?
+
+// *************************************************************************
+// Return list mode results in all segments
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:CURRent?
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:CURRent:SVECtor?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:CURRent?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:SDEViation?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:PERCentile?
+FETCh:GSM:MEAS:MEValuation:LIST:BER?
+
+// *************************************************************************
+// Return an overview of list mode results in all segments
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:OVERview?
+
+// *************************************************************************
+// Select segment no. 2 as the offline segment. Restart the measurement
+// to calculate all results in segment 2 and go to local to view results.
+// *************************************************************************
+CONFigure:GSM:MEAS:MEValuation:LIST:OSINdex 2
+INIT:GSM:MEAS:MEValuation
+&amp;GTL</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

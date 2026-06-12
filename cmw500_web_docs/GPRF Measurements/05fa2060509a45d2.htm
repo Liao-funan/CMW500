@@ -1,0 +1,36 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="e5bf6f08e2824366.htm">I/Q vs. Slot Measurement</a> &gt; <span class="chm-breadcrumb">Specifying Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying Measurement-Specific Settings</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Set a measurement-specific timeout value of 1 s.
+// Define step length (GSM timeslot) and measurement length.
+// Exclude steps smaller than -80 dB from the calculation of the
+// average frequency error.
+// *************************************************************************
+CONFigure:GPRF:MEAS:IQVSlot:TOUT 1
+CONFigure:GPRF:MEAS:IQVSlot:SLENgth 577.9230769E-6
+CONFigure:GPRF:MEAS:IQVSlot:MLENgth 400E-6
+CONFigure:GPRF:MEAS:IQVSlot:FELimit -8.000000E+001
+
+// *************************************************************************
+// Define measurement statistics (8 GSM timeslots).
+// *************************************************************************
+CONFigure:GPRF:MEAS:IQVSlot:SCOunt 8
+
+// *************************************************************************
+// Select a 100 kHz Gaussian measurement filter.
+// *************************************************************************
+CONFigure:GPRF:MEAS:IQVSlot:FTYPe GAUSs
+
+// *************************************************************************
+// Select an IF power trigger with appropriate characteristics.
+// *************************************************************************
+TRIGger:GPRF:MEAS:IQVSlot:CATalog:SOURce?
+TRIGger:GPRF:MEAS:IQVSlot:SOURce "IF Power"
+TRIGger:GPRF:MEAS:IQVSlot:SLOPe REDGe
+TRIGger:GPRF:MEAS:IQVSlot:THReshold -25
+TRIGger:GPRF:MEAS:IQVSlot:OFFSet 50E-6
+TRIGger:GPRF:MEAS:IQVSlot:TOUT 2
+TRIGger:GPRF:MEAS:IQVSlot:MGAP 550E-6
+TRIGger:GPRF:MEAS:IQVSlot:MODE ONCE</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

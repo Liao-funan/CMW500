@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a Connection to the UE</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="e3f4784596584c6b.htm">Measurements with Combined Signal  Path Scenario</a> &gt; <span class="chm-breadcrumb">Setting Up a Connection to the UE</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up a Connection to the UE</div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Connect the UE (switched off). Switch on the DL signal. Query the cell 
+// state until it equals ON,ADJ (DL signal available at RF connector).
+// ***************************************************************************** 
+SOURce:WCDMa:SIGN:CELL:STATe ON
+WHILE SOURce:WCDMa:SIGN:CELL:STATe:ALL? &lt;&gt; "ON,ADJ"
+
+// ***************************************************************************** 
+// Switch on the UE and wait until it is registered and attached.
+// ***************************************************************************** 
+WHILE FETCh:WCDMa:SIGN:CSWitched:STATe? &lt;&gt; "REG"
+WHILE FETCh:WCDMa:SIGN:PSWitched:STATe? &lt;&gt; "ATT"
+
+// ***************************************************************************** 
+// Set up the test mode connection. For subtest 1 the wizard configures
+// an RMC connection and an HSPA connection.
+// Query the connection state until the connections have been established.
+// ***************************************************************************** 
+CALL:WCDMa:SIGN:CSWitched:ACTion CONNect
+WHILE FETCh:WCDMa:SIGN:CSWitched:STATe? &lt;&gt; "CEST"
+WHILE FETCh:WCDMa:SIGN:PSWitched:STATe? &lt;&gt; "CEST"</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

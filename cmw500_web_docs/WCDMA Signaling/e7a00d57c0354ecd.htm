@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Network Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Configuring Network Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring Network Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify index i for primary scrambling code and activate PS domain.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CARRier1:SCODe #H1A
+CONFigure:WCDMa:SIGN:CELL:CARRier2:SCODe #H1B
+CONFigure:WCDMa:SIGN:CELL:PSDomain ON
+
+// *****************************************************************************
+// Specify network identities: MCC, MNC, network operation mode, 
+// LAC, RAC, URA, RNC ID, cell ID, NodeB ID, no band indicator.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:MCC 262
+CONFigure:WCDMa:SIGN:CELL:MNC:DIGits D2
+CONFigure:WCDMa:SIGN:CELL:MNC 30
+CONFigure:WCDMa:SIGN:CELL:NTOPeration M1
+CONFigure:WCDMa:SIGN:CELL:LAC 1435
+CONFigure:WCDMa:SIGN:CELL:RAC #B1011
+CONFigure:WCDMa:SIGN:CELL:URA #B11
+CONFigure:WCDMa:SIGN:CELL:RNC #B101
+CONFigure:WCDMa:SIGN:CELL:IDENtity #B1001010
+CONFigure:WCDMa:SIGN:CELL:IDNode #B11110
+CONFigure:WCDMa:SIGN:CELL:BINDicator OFF
+
+// *****************************************************************************
+// Configure security settings: enable authentication and security mode,
+// with SNOW 3G ciphering, define secret key, OPc and SIM card type.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:SECurity:AUTHenticat ON
+CONFigure:WCDMa:SIGN:CELL:SECurity:ENABle ON
+CONFigure:WCDMa:SIGN:CELL:SECurity:CIPHering UEA2
+CONFigure:WCDMa:SIGN:CELL:SECurity:SKEY #H000102030405060708090A0B0C0D0E0F
+CONFigure:WCDMa:SIGN:CELL:SECurity:OPC #H1F1A0
+CONFigure:WCDMa:SIGN:CELL:SECurity:SIMCard MILenage
+
+// *****************************************************************************
+// Configure UE identity settings: use and set the default IMSI. Disable 
+// IMSI filter.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:UEIDentity:USE ON
+CONFigure:WCDMa:SIGN:CELL:UEIDentity:IMSI '001010123456063'
+CONFigure:WCDMa:SIGN:CELL:UEIDentity:FILTer OFF
+
+// *****************************************************************************
+// Enable CS registration and PS attach. Enable IMEI request.
+// Enable radio capability update request.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:REQuest:ADETach ON
+CONFigure:WCDMa:SIGN:CELL:REQuest:IMEI ON
+CONFigure:WCDMa:SIGN:CELL:REQuest:RCUR ON
+
+// *****************************************************************************
+// Configure cell reselection parameters.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:RESelection:SEARch -30, -30, -30
+CONFigure:WCDMa:SIGN:CELL:RESelection:QUALity -15, -113, -70, 12, 12
+CONFigure:WCDMa:SIGN:CELL:RESelection:TIME 5
+
+// *****************************************************************************
+// Configure timers and counters.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:TOUT:T3212 10
+CONFigure:WCDMa:SIGN:CELL:TOUT:T3312 30
+CONFigure:WCDMa:SIGN:CELL:TOUT:OSYNch 8
+CONFigure:WCDMa:SIGN:CELL:TOUT:PREPetitions 5
+CONFigure:WCDMa:SIGN:CELL:TOUT:PPIF 36
+CONFigure:WCDMa:SIGN:CELL:TOUT:ATOFfset 5
+CONFigure:WCDMa:SIGN:CELL:TOUT:N313 N20
+CONFigure:WCDMa:SIGN:CELL:TOUT:T313 10
+CONFigure:WCDMa:SIGN:CELL:TOUT:MOC 10
+
+// *****************************************************************************
+// Configure reject causes. Specify CM service type for CM reject.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:RCAuse:RRCRequest CSUN
+CONFigure:WCDMa:SIGN:CELL:RCAuse:LOCation C12
+CONFigure:WCDMa:SIGN:CELL:RCAuse:ATTach C32
+CONFigure:WCDMa:SIGN:CELL:RCAuse:ROUTing C95
+CONFigure:WCDMa:SIGN:CELL:RCAuse:CSRequest C101
+CONFigure:WCDMa:SIGN:CELL:RCAuse:CSTYpe NCALl
+
+// *****************************************************************************
+// Specify 2 neighbor cell entries for LTE, GSM, and WCDMA, 
+// enable UE measurement for each neighbor cell.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:NCELl:LTE:CELL1 ON, OB1, 10, ON
+CONFigure:WCDMa:SIGN:NCELl:LTE:CELL2 ON, OB2, 700, ON
+CONFigure:WCDMa:SIGN:NCELl:GSM:CELL1 ON, G09, 0, 2, ON
+CONFigure:WCDMa:SIGN:NCELl:GSM:CELL2 ON, G09, 124, 3, ON
+CONFigure:WCDMa:SIGN:NCELl:WCDMa:CELL1 ON, OB1, 10562, #H10A, ON
+CONFigure:WCDMa:SIGN:NCELl:WCDMa:CELL2 ON, OB2, 412, #H10B, ON
+
+// *****************************************************************************
+// Specify neighbor cell reselection threshold.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:NCELl:LTE:THResholds:HIGH 5
+
+// *****************************************************************************
+// Synchronize the signaling application to zone 1.
+// Apply an offset of 30 chips.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:SYNC:ZONE 1
+CONFigure:WCDMa:SIGN:CELL:SYNC:OFFSet -30</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

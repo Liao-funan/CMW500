@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Spectrum Gated ACP Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="575426263fa74463.htm">Application Sheets</a> &gt; <a class="chm-breadcrumb" href="32d003e27c5d4bb1.htm"> Enhanced Data Rate Measurements</a> &gt; <span class="chm-breadcrumb">Spectrum Gated ACP Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Spectrum Gated ACP Measurement</div><p>To obtain the adjacent channel power (ACP), the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW automatically uses the basic test settings from the test specification for Bluetooth wireless technology: 100 kHz resolution bandwidth (fixed), "Statistic Count": 10 (default). The measurement is gated to cover only the DPSK portion of the packet. The required ACP results correspond to the "Maximum" values in the ACP diagrams.</p><p>To measure in line with test purpose TP/TRM/CA/BV-13-C, provide a signal with the following characteristics, and adjust the "Bluetooth Input Signal" settings accordingly.</p><div class="block"><a name="ID_fbdf45834559ed960a00206a00bbec3d-37ad88ea44e9116f0a00206a016ee6f9-en-US"></a><span class="table-caption">ACP measurement settings</span><table border="1"><colgroup><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>EUT configuration</p></th><th valign="top"><p>R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW setting</p></th><th valign="top"><p>Remarks</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>Maximum output power</p></td><td valign="top"><p>Expected nominal power</p></td><td valign="top"><p>Select according to the power class of the EUT</p></td></tr><tr class="evenrow"><td valign="top"><p>Hopping off, three consecutive measurements at lowest operating frequency + 3 MHz, mid frequency, and highest operating frequency <span style="font-family: Arial Unicode MS; font-size: 10.5pt">–</span> 3 MHz.</p></td><td valign="top"><p>Frequency</p></td><td valign="top"><p>Use 2405 MHz, 2441 MHz, 2477 MHz</p></td></tr><tr class="oddrow"><td valign="top"><p>EUT transmits the longest supported <span style="font-family: Arial Unicode MS; font-size: 10.5pt">π</span>/4 DQPSK packet type with maximum length payload</p></td><td valign="top"><p>"Bluetooth Input Signal &gt; Packet Type: 2-DH1/3/5"</p></td><td valign="top"><p>Depending on EUT capabilities, e.g. 2-DH5 with a 679 byte payload</p></td></tr><tr class="evenrow"><td valign="top"><p>EUT transmits a PRBS 9 sequence as payload</p></td><td valign="top"><p>n/a</p></td><td valign="top"><p>No specific setting required</p></td></tr></tbody></table></div><p>For the 79 channels gated ACP measurements in the combined signal path scenario, the ACP trigger of the "Bluetooth Signaling" application is automatically selected.</p><p>The measurement method of the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW is faster than the method suggested in the specification but provides equivalent results.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

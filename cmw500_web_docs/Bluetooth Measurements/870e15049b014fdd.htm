@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying General Measurement Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <span class="chm-breadcrumb">Specifying General Measurement Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying General Measurement Settings</div><pre class="verbatim" xml:space="preserve">
+// *************************************************************************
+// System-Reset
+// *************************************************************************
+*RST;*OPC?
+*CLS; *OPC?
+&nbsp;
+// *******************************************************************************
+// Define a measurement timeout of 1 s.
+// Define signal routing, configure RF and analyzer settings for a Bluetooth
+// signal with a nominal power of 0 dBm and low operating frequency.
+// Alternatively select combined signal path and let Bluetooth Signaling 
+// control RF and analyzer settings. Select channel 78 to be measured in CSP.
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:TOUT 1
+
+ROUTe:BLUetooth:MEAS:SCENario:SALone RF1C,RX1
+CONFigure:BLUetooth:MEAS:RFSettings:EATTenuation 2
+CONFigure:BLUetooth:MEAS:RFSettings:ENPower 0
+CONFigure:BLUetooth:MEAS:RFSettings:UMARgin 3
+CONFigure:BLUetooth:MEAS:RFSettings:FREQuency 2402E+6
+
+ROUTe:BLUetooth:MEAS:SCENario:CSPath 'Bluetooth Sig1'
+CONFigure:BLUetooth:MEAS:RFSettings:MMODe SING
+CONFigure:BLUetooth:MEAS:RFSettings:MCHannel 78
+
+WAITKEY &gt;Signal routing and analyzer settings completed, press "OK" to continue&lt;</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>LE: Packet Types</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="a06b666adbcb4fee.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="32a1dfd8c6704f3c.htm">Bluetooth  Signal Properties</a> &gt; <span class="chm-breadcrumb">LE: Packet Types</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">LE: Packet Types</div><div class="block"><div class="subtitle"><a name="ID_d368a4fcef6311e6bc46a9457fe42a68-7e1c5b23ac52788f0a001ae769efa7ac-en-US"></a>Test packet type</div></div><p>The test packet PDU is subdivided into a PDU header and the payload field. The PDU header indicates the payload content type (RF_PHY_TestRef) and the payload length expresses in octets.</p><div class="block" id="ID_430982e4bbbafa1c0a001ae757ea08fb-7e1c5b23ac52788f0a001ae769efa7ac-en-US"><div class="graphic"><img border="0" src="images/imgcd3956e0bb9ff9ed0a001ae754795172_1_--_--_PNG96.png" alt="" title=""></div></div><p>LE test packets are described in the "Air Interface Packets" section of core specification for Bluetooth wireless technology, volume 6, part B.</p><div class="block"><div class="subtitle"><a name="ID_225c60fdff4553fb0a001ae73690d24c-7e1c5b23ac52788f0a001ae769efa7ac-en-US"></a>Advertising channel packet type</div></div><p>The advertising channel PDU has a 16-bit header and a variable size payload.</p><div class="block" id="ID_084929b4bbbafa1c0a001ae706bdb72d-7e1c5b23ac52788f0a001ae769efa7ac-en-US"><div class="graphic"><img border="0" src="images/img018d8cd7bb9ff6ff0a001ae703705ab8_1_--_--_PNG96.png" alt="" title=""></div></div><p>The PDU header indicates the payload content type, the payload length expresses in octets, and information related to the PDU type.</p><p>The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW allows all advertising channel packet types defined in Bluetooth specification version 4.2 to be measured in payload-independent measurement mode. The supported PDU types, are listed in the following table.</p><div class="block"><a name="ID_d0f558eb78f511e79401d6533db3aeaa-7e1c5b23ac52788f0a001ae769efa7ac-en-US"></a><span class="table-caption">Supported advertising channel PDU types</span><table border="1"><colgroup><col><col></colgroup><tbody><tr class="oddrow"><td valign="top"><p>Advertising PDUs</p></td><td valign="top"><p>ADV_IND, ADV_DIRECT_IND, ADV_NONCONN_IND, ADV_SCAN_IND</p></td></tr><tr class="evenrow"><td valign="top"><p>Scanning PDUs</p></td><td valign="top"><p>SCAN_REQ, SCAN_RSP</p></td></tr><tr class="oddrow"><td valign="top"><p>Initiating PDUs</p></td><td valign="top"><p>CONNECT_REQ</p></td></tr></tbody></table></div><p>For advertising packets, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW supports only LE 1 Msymbol/s uncoded physical layer (LE 1M PHY) and only primary advertising channels.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

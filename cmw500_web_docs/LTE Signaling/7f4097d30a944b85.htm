@@ -1,0 +1,38 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Neighbor Cells and Reselection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Neighbor Cells and Reselection</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Neighbor Cells and Reselection</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Specify 2 neighbor cell entries for LTE, GSM, WCDMA, CDMA2000,
+// 1xEV-DO and TD-SCDMA.
+// *****************************************************************************
+CONFigure:LTE:SIGN:NCELl:LTE:CELL1 ON, OB1, 10, 1, ZERO, ON
+CONFigure:LTE:SIGN:NCELl:LTE:CELL2 ON, OB2, 700, 3, P1, OFF
+CONFigure:LTE:SIGN:NCELl:GSM:CELL1 ON, G09, 0, ON
+CONFigure:LTE:SIGN:NCELl:GSM:CELL2 ON, G09, 124, OFF
+CONFigure:LTE:SIGN:NCELl:WCDMa:CELL1 ON, OB1, 10562, #H10A, ON
+CONFigure:LTE:SIGN:NCELl:WCDMa:CELL2 ON, OB2, 412, #H10B, OFF
+CONFigure:LTE:SIGN:NCELl:CDMA:CELL1 ON, USC, 1, 5, ON
+CONFigure:LTE:SIGN:NCELl:CDMA:CELL2 ON, USC, 799, 6, OFF
+CONFigure:LTE:SIGN:NCELl:EVDO:CELL1 ON, USC, 1, 5, ON
+CONFigure:LTE:SIGN:NCELl:EVDO:CELL2 ON, USC, 799, 6, OFF
+CONFigure:LTE:SIGN:NCELl:TDSCdma:CELL1 ON, OB1, 9500, #H1, ON
+CONFigure:LTE:SIGN:NCELl:TDSCdma:CELL2 ON, OB2, 10100, #H2, ON
+
+// *****************************************************************************
+// Specify neighbor cell reselection thresholds per technology.
+// *****************************************************************************
+CONFigure:LTE:SIGN:NCELl:LTE:THResholds:LOW 5
+CONFigure:LTE:SIGN:NCELl:GSM:THResholds:LOW 5
+CONFigure:LTE:SIGN:NCELl:WCDMa:THResholds:LOW 5
+CONFigure:LTE:SIGN:NCELl:CDMA:THResholds:LOW 10
+CONFigure:LTE:SIGN:NCELl:EVDO:THResholds:LOW 10
+CONFigure:LTE:SIGN:NCELl:TDSCdma:THResholds:LOW 5
+
+// *****************************************************************************
+// Specify general reselection parameters for the cell.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:RESelection:SEARch:INTRasearch OFF
+CONFigure:LTE:SIGN:CELL:RESelection:SEARch:NINTrasearch OFF
+CONFigure:LTE:SIGN:CELL:RESelection:TSLow 14
+CONFigure:LTE:SIGN:CELL:RESelection:QUALity:RXLevmin -130</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

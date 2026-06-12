@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="ae3befeef9f1460e.htm">Using WLAN List Mode</a> &gt; <span class="chm-breadcrumb">Specifying Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Measurement-Specific Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define 2 segments with a length of 20 bursts each
+// and different modulation type.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:LIST:COUNt 2
+CONFigure:WLAN:MEAS:MEValuation:LIST:CAPTime 0.002
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent1:SETup 20, LOFDm, BPM6, LONG
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent2:SETup 20, LOFDm, QM12, LONG
+&nbsp;
+// *****************************************************************************
+// Enable modulation and transmit spectrum mask results for both segments.
+// Select an averaging length of 20 (all measured bursts in the segment).
+// Enable the list mode.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent1:MODulation 20,ON
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent2:MODulation 20,ON
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent1:TSMask 20,ON&nbsp;
+CONFigure:WLAN:MEAS:MEValuation:LIST:SEGMent2:TSMask 20,ON
+CONFigure:WLAN:MEAS:MEValuation:LIST ON
+&nbsp;
+// *****************************************************************************
+// Use a power trigger to start the measurement.
+// *****************************************************************************
+TRIGger:WLAN:MEAS:MEValuation:SOURce 'IF POWer'
+TRIGger:WLAN:MEAS:MEValuation:SLOPe REDGe
+TRIGger:WLAN:MEAS:MEValuation:THReshold -25
+TRIGger:WLAN:MEAS:MEValuation:TOUT 1</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,70 @@
+# CONFigureLTEMEASiMEValuationLIMitACLRUTRAnoCAGGregationOCOMbination
+
+Module: LTE Measurements
+Source: eb60bdafebd34f5e.htm
+
+## 原始指令文档说明
+LTE UE Measurements
+ > 
+LTE Multi-Evaluation Measurement
+ > 
+Command Reference
+ > 
+Multi-Evaluation Measurement Commands
+ > 
+Limits (Spectrum, with Carrier Aggregation)
+ > 
+CONFigure:LTE:MEAS<i>:MEValuation:LIMit:ACLR:UTRA<no>:CAGGregation:OCOMbination
+CONFigure:LTE:MEAS<i>:MEValuation:LIMit:ACLR:UTRA<no>:CAGGregation:OCOMbination 
+<RelativeLevel>, <AbsoluteLevel>
+Defines relative and absolute limits for the ACLR measured in the first or second adjacent UTRA channel, depending on <no>.
+The settings apply to all channel bandwidth combinations that are not supported by 
+CONFigure:
+​
+LTE:
+​
+MEAS<i>:
+​
+MEValuation:
+​
+LIMit:
+​
+ACLR:
+​
+UTRA<no>:
+​
+CAGGregation:
+​
+CBANdwidth<Band1>:
+​
+CBANdwidth<Band2>
+.
+Suffix: 
+<no>
+1..2
+Selects first or second adjacent UTRA channel
+Parameters:
+<RelativeLevel>
+Range: 
+-256 dB  to  256 dB
+*RST:
+32.2 dB (<no> = 1) / 35.2 dB (<no> = 2)
+Default unit: 
+dB
+Additional parameters: OFF | ON (disables the limit check | enables the limit check using the previous/default limit values)
+<AbsoluteLevel>
+Range: 
+-256 dBm  to  256 dBm
+*RST:
+-50 dBm
+Default unit: 
+dBm
+Additional parameters: OFF | ON (disables the limit check | enables the limit check using the previous/default limit values)
+Example: 
+See 
+"Specifying Limits"
+Firmware/Software: 
+V3.2.70
+Options: 
+R&S CMW-KM502/-KM552 for FDD/TDD
+Top

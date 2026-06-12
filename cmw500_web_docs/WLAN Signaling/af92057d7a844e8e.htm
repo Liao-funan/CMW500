@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring DAU Parameters</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <span class="chm-breadcrumb">Configuring DAU Parameters</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring DAU Parameters</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure the IP address to be assigned to the DUT. Use an internal DAU.
+// Set TID for end-to-end connections.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:ETOE:DUIP ON,100,100,100,10
+CONFigure:WLAN:SIGN:EDAU:ENABle OFF
+CONFigure:WLAN:SIGN:CONNection:QOS:ETOE TID1
+
+// *****************************************************************************
+// To use an external DAU: enable external DAU usage, define network segment
+// and subnet node ID of the instrument with DAU.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:EDAU:ENABle ON
+CONFigure:WLAN:SIGN:EDAU:NSEGment A
+CONFigure:WLAN:SIGN:EDAU:NID 5
+
+// *****************************************************************************
+// Configure routes for the station mode.
+// *****************************************************************************
+CONF:WLAN:SIGN:ETOE:IRList:IPR1 ON,192,168,20,0,24,"fc01:abab:cafe:efe0::",64
+CONF:WLAN:SIGN:ETOE:IRList:IPR1 ON,192,168,20,0,28,"fc01:abab:cafe:efe5::",64
+CONF:WLAN:SIGN:ETOE:IRList:IPR1 ON,192,168,20,0,32,"fc01:abab:cafe:efe8::",64</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

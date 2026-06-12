@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Test Setup for Stereo Speaker Test</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="4bbdc5b8a85e4d60.htm">Audio Measurements</a> &gt; <a class="chm-breadcrumb" href="f356d72fd1484488.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="20ee21ec7c804c0f.htm">Test Setups</a> &gt; <span class="chm-breadcrumb">Test Setup for Stereo Speaker Test</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<a name="ID_e8afde9fd80311e6a37fdfacd2576621-218892c28a23af290a0020190070b33b-en-US"></a><div class="chm-chaptertitle">Test Setup for Stereo Speaker Test</div><p>The scenario "Stereo Speaker Test" is designed for tests of stereo speakers, for example of bluetooth headphones.</p><p>Only audio measurements can be performed with this scenario. For speech quality tests, additional external equipment is required, see <a class="xref" href="8c0c8959093446f6.htm#ID_29c7f88b491811e2ae0af5b740c66aaa-218892c28a23af290a0020190070b33b-en-US">"Test Setup for External Speech Analysis (Mono/Stereo)"</a>.</p><p>The DUT is typically attached to an artificial head, providing artificial ears (microphones). Some DUTs support also a direct electrical coupling.</p><p>The DUT is connected to the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW via an RF connection. A signaling application is used to set up a speech connection to the DUT. A speech codec is also required (R&amp;S CMW-B405A).</p><p>Two digital audio generators provide two mono audio signals. They are combined to a stereo signal, encoded, modulated on the RF and routed to the DUT. The DUT demodulates and decodes the signal and sends the two audio signals to its loudspeakers. Each artificial ear listens to one loudspeaker of the DUT and provides the resulting audio signal to an AF IN connector. The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW analyzes the two mono audio signals with two analog audio measurements.</p><div class="block" id="ID_9f8b48ac8e482bc80a001ae74300b4cb-218892c28a23af290a0020190070b33b-en-US"><div class="graphic"><img border="0" src="images/imgbf175cb28e3287390a001ae7622df7c1_1_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Test setup for stereo speaker test</div></div><p>The scenario uses both audio software instances. You cannot use another scenario in parallel.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

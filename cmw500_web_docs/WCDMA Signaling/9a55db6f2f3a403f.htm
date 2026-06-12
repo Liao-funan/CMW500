@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an Inter-RAT Handover</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Performing an Inter-RAT Handover</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing an Inter-RAT Handover</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// An inter RAT handover is a handover to another signaling application.
+//
+// Select redirection as mobility mode.
+// Query a list of possible handover destinations (signaling applications).
+// Select a handover destination from the list.
+// Wait until the destination is ready to receive a handover.
+// Initiate the handover.
+//
+// Destination parameters like operating band or channel can be changed using
+// commands provided by the destination signaling application. Adjust these
+// parameters before executing the following commands.
+// *****************************************************************************
+PREPare:WCDMa:SIGN:HANDover:MMODe RED
+PREPare:WCDMa:SIGN:HANDover:CATalog:DESTination?
+PREPare:WCDMa:SIGN:HANDover:DESTination 'LTE Sig1'
+WHILE SOURce:LTE:SIGN:CELL:STATe:ALL? &lt;&gt; "RFH", "ADJ"
+CALL:WCDMa:SIGN:CSWitched:ACTion HANDover
+CALL:WCDMa:SIGN:PSWitched:ACTion HANDover
+
+// *****************************************************************************
+// Query and clear the event log.
+// *****************************************************************************
+SENSe:WCDMa:SIGN:ELOGging:ALL?
+CLEan:WCDMa:SIGN:ELOGging
+
+// *****************************************************************************
+// Set connection type to be established for incoming inter RAT traffic:
+// for handover and MT CS fallback.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:IHMobility:HANDover VOIC
+CONFigure:WCDMa:SIGN:IHMobility:MTCS VOIC</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

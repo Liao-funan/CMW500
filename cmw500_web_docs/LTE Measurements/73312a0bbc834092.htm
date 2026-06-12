@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="6c9a350df6c14415.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="14f43375d4d54efa.htm">Using LTE List Mode</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start single-shot measurement.
+// Return average and extreme modulation results. 
+// Return extreme inband emission and spectrum flatness results.
+// Return limit check results for the average results.
+// *****************************************************************************
+INIT:LTE:MEAS:MEValuation
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:AVERage?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:AVERage?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:IEMission:MARGin:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:IEMission:MARGin:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:IEMission:MARGin:EXTReme:RBINdex?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:IEMission:MARGin:EXTReme:RBINdex?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:IEMission:SCC:MARGin:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:IEMission:SCC:MARGin:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:IEMission:SCC:MARGin:EXTReme:RBINdex?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:IEMission:SCC:MARGin:EXTReme:RBINdex?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:ESFLatness:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:ESFLatness:EXTReme?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:AVERage?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:AVERage?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent1:ESFLatness:AVERage?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent2:ESFLatness:AVERage?
+
+// *****************************************************************************
+// Return average and extreme spectrum emission results.
+// Return spectrum emission margins: X- and Y-values of minimum margins and
+// Y-values of all margins.
+// Return limit check results for the average spectrum emission results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:AVERage?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:EXTReme?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:MINimum:POSitiv?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:MINimum:NEGativ?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:ALL?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent2:SEMask:AVERage?
+
+// *****************************************************************************
+// Return current and average ACLR results.
+// Return limit check results for the average ACLR results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:ACLR:CURRent?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:ACLR:AVERage?
+CALCulate:LTE:MEAS:MEValuation:LIST:SEGMent2:ACLR:AVERage?
+
+// *****************************************************************************
+// Return RMS power monitor results for segment 1 and 2.
+// Return current and average total TX power results for segment 2.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:PMONitor:RMS?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:PMONitor:RMS?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:POWer:CURRent?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:POWer:AVERage?
+
+// *****************************************************************************
+// Return detected allocation, modulation scheme and channel type of the
+// last slot within the statistical length of the modulation measurement.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:DALLocation?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:DMODulation?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent1:MODulation:DCHType?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:DALLocation?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:DMODulation?
+FETCh:LTE:MEAS:MEValuation:LIST:SEGMent2:MODulation:DCHType?
+
+// *****************************************************************************
+// Select segment no. 2 as offline segment (and implicitly enable the
+// offline mode). Restart the measurement to calculate all results in
+// segment 2. Go to local to view the results.
+// *****************************************************************************
+CONFigure:LTE:MEAS:MEValuation:LIST:OSINdex 2
+INIT:LTE:MEAS:MEValuation
+&amp;GTL</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

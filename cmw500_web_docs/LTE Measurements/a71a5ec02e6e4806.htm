@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ACLR Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="d0ebd0054d4c4164.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="651390479c484430.htm">Limit Settings and Conformance Requirements</a> &gt; <span class="chm-breadcrumb">ACLR Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">ACLR Limits</div><p>The adjacent channel leakage power ratio (ACLR) limits complement the spectrum emission mask. The limits can be set in the configuration dialog, depending on the channel bandwidth / the channel bandwidth combination.</p><div class="block" id="ID_764d610afada72250a00206a000c9508-00554f25fa5c0d8c0a00206a0126d817-en-US"><div class="graphic"><img border="0" src="images/img1ca0e274fa4835050a00206a006a7ff8_3_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">ACLR limit settings for 1.4 MHz channel bandwidth</div></div><p>The default values are identical for all bandwidths and for signals with and without carrier aggregation.</p><p>According to 3GPP, the relative limit must be evaluated only, if the measured adjacent channel power is greater than -50 dBm (absolute limit). In that case, the ACLR must be greater than the limits listed in the following table. The ACLR is defined as the mean power in the assigned E-UTRA channel divided by the mean power in an adjacent channel.</p><p>The ACLR must be evaluated for the first adjacent UTRA channel (UTRA1) and the first adjacent E-UTRA channel (E-UTRA). For channel bandwidths &gt; 3 MHz, also the ACLR for the second adjacent UTRA channel (UTRA2) must be evaluated.</p><p>For carrier aggregation, the term "E-UTRA channel" refers to the aggregated bandwidth. Adjacent E-UTRA channels have the same bandwidth as the assigned E-UTRA channel.</p><p>The default settings are suitable to check the 3GPP requirements. The relative limits are only evaluated, if the corresponding absolute limit is exceeded. If you disable an absolute limit, the corresponding enabled relative limit is always evaluated.</p><div class="block"><a name="ID_b0adaffcfad18d880a710a6a004ed19b-00554f25fa5c0d8c0a00206a0126d817-en-US"></a><table border="1"><colgroup><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>Characteristics</p></th><th valign="top"><p>Refer to 3GPP TS 36.521 V10.3.0, section...</p></th><th valign="top"><p>Relative limit</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>ACLR</p></td><td valign="top"><p>6.6.2.3 Adjacent Channel Leakage power Ratio</p><p>6.6.2.3A Adjacent Channel Leakage power Ratio for CA</p></td><td valign="top"><p>UTRA1: 32.2 dB</p><p>UTRA2: 35.2 dB</p><p>E-UTRA: 29.2 dB</p></td></tr></tbody></table></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

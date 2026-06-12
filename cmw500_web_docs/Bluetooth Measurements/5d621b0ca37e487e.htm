@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Parallel Signaling and Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="a06b666adbcb4fee.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="b0df884f5430417e.htm">Bluetooth Tx Tests</a> &gt; <span class="chm-breadcrumb">Parallel Signaling and Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Parallel Signaling and Measurement</div><p>The Bluetooth multi-evaluation measurement can be used in parallel to the "Bluetooth Signaling" application. A connection to the EUT can be set up by the signaling application and the resulting uplink signal can be measured using the multi-evaluation measurement.</p><div class="block"><div class="listintro">With combined signal path, the following combinations are supported:</div><ul class="list"><li>Signaling: one of the options R&amp;S CMW-KS600 /-KS602/-KS603 for BR/EDR<br>Measurement: R&amp;S CMW-KM610 (normal mode)</li><li>Signaling: Option R&amp;S CMW-KS610 for BR/EDR test mode.<br>Measurement: R&amp;S CMW-KM610 (as per Bluetooth test specification)</li><li>Signaling: Option R&amp;S CMW-KS611 for direct test using LE 1M PHY (uncoded)<br>Measurement: R&amp;S CMW-KM611 (as per Bluetooth test specification)</li><li>Signaling: Option R&amp;S CMW-KS721 for direct test using LE 2M PHY (uncoded) or LE coded PHY<br>Measurement: R&amp;S CMW-KM721 (as per Bluetooth test specification)</li></ul></div><p>To use both applications in parallel, the combined signal path scenario must be activated (see <a class="xref" href="5fedd7c8359a41f7.htm#ID_add171d2c36f75fc0a001ae7342024e6-f93c38c21e60d2fb0a00206a015566fa-en-US">"Scenario, Controlled by"</a>). Most signal routing and analyzer settings and some measurement control settings are then configured by the signaling application. The multi-evaluation measurement displays the corresponding signaling settings instead of its own settings. These signaling settings can be configured in both measurement and signaling application GUIs. Use the commands of signaling application to configure the settings via remote control. For a command mapping table, see <a class="xref" href="63c82799a0c94ddb.htm#ID_101aa2c1842976e50a00206a01ca9103-4cdc23aa6be248c40a001ae75667d7df-en-US">"Combined Signal Path Commands"</a>.</p><p>In the measurement GUI the most important signaling parameters can be configured via additional hotkeys, see <a class="xref" href="b19213eff4dc4093.htm#ID_f80ee640fb0af1210a00206a01da2ccf-07b8c99754f4315f0a00201900c32568-en-US">"Additional Softkeys and Hotkeys"</a>.</p><p>In the combined signal path scenario, the trigger signal from the signaling application has to be used as the measurement application trigger input. The selection of the trigger is done automatically:</p><div class="block"><ul class="list"><li>"Bluetooth Sig&lt;i&gt;: ACPTrigger" for the 79 channels mode of BR/EDR ACP measurements and for the all channels mode of LE ACP measurements.</li><li>"Bluetooth Sig&lt;i&gt;: SignallingTrigger" for all other measurements</li></ul></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

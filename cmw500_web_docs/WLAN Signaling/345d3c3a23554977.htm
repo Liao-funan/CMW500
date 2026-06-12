@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring the Packet Generator</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <span class="chm-breadcrumb">Configuring the Packet Generator</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring the Packet Generator</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable the generator one and configure it. Set interval, packet size,
+// bit pattern, TID, protocol, ports, IP version and scheduling. Enable 
+// block acknowledgments for all TIDs.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:PGEN1:CONFig ON, 110, 500, BP01, TID0
+CONFigure:WLAN:SIGN:PGEN1:PROTocol UDP
+CONFigure:WLAN:SIGN:PGEN1:UPORts 3001, 3005
+CONFigure:WLAN:SIGN:PGEN1:IPVersion IV4
+CONFigure:WLAN:SIGN:CONNection:QOS:PRIoritiz ROUR
+CONFigure:WLAN:SIGN:CONNection:QOS:BLACk ON,ON,ON,ON,ON,ON,ON,ON
+ </pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

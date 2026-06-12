@@ -1,0 +1,1040 @@
+/* $Id: html_preview.css,v 1.65 2010/11/23 11:56:52 philipp Exp $ */
+
+
+/* Link */
+/* javahelp doesn't support a:link {, a:visided,... only a { */
+a {
+    color: #008CDA;
+    font-family : Arial;
+    text-decoration : none;
+}
+a:visited {
+    color: #008CDA;
+    font-family : Arial;
+    text-decoration : none;
+}
+a:hover {
+    color: #008CDA;
+    font-family : Arial;
+    text-decoration : none;
+}
+a:active {
+    color: #008CDA;
+    font-family : Arial;
+    text-decoration : none;
+}
+
+.seealso {
+    text-align : right;
+}
+/* Body */
+body {
+	font-family : Arial;
+    font-size : 10pt;
+    margin-right: 50px;
+    margin-left: 30px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.content {
+              float:left;
+              width: 100%;
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ 	margin-bottom: 10pt;
+	border: none;
+}
+
+.block {
+	/*float: left;*/
+	width: 100%;
+               margin-bottom : 0pt;
+               margin-top: 0pt;
+	border: none;
+	border-color:#000000;
+}
+
+li .block {
+               width: auto;
+               float: none;
+}
+
+
+/*Cover*/
+
+.division, .manualtype {
+    font-weight:bold;
+    font-size: 18pt;
+}
+
+.cover_block {
+            margin-bottom: 10pt;
+            
+}
+
+.prodtype {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 24pt;
+            margin-top: 8px;
+            margin-bottom: 3pt;
+            font-weight: bold;
+}
+
+.prodname {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 24pt;
+            margin-bottom: 6pt;
+            font-weight: bold;
+}
+
+.firmware {
+            color: #000000;
+            font-family : Arial;
+            font-size : 14pt;
+            font-weight: bold;
+}
+
+.firmware_table {
+    border-style: none;
+    margin-bottom: 35pt;
+}
+
+.firmware_col {
+    margin: 0pt;
+    padding: 0px;
+    border-style: none;
+    vertical-align: top;
+}
+
+.legalnotice {
+            font-family : Arial;
+            font-size : 9pt;
+            margin-bottom: 7px;
+            line-height : 13pt;
+            font-weight: normal;
+}
+
+.legalnotice p {
+	margin-bottom: 0pt;		
+}
+
+.RS-Logo {
+	margin-bottom: 13px;		
+}
+
+/* y.comment */
+.ycomment {
+    border-bottom: 1pt solid #466F82;
+    border-top: 1pt solid #466F82;
+    background-color: #e2eaeF;
+    color: #466F82;
+    font-family : Arial Unicode MS, Arial, Helvetica, sans-serif;
+    font-size : 10pt;
+    line-height : 12pt;
+    margin-bottom: 3pt;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* CHM Header */
+.chm {
+    margin-right: -100px;
+}
+.nsr_left {
+    background-color: #f5ffff;
+    color: white;
+}
+.nsr_right {
+    text-align : right;
+    background-color: #f5ffff;
+}
+
+.uebersicht_link {
+    font-style : normal;
+    color: #00AEEF;
+    font-family : Arial;
+}
+.uebersicht_link a {
+    color : #00AEEF;
+    text-decoration : none;
+}
+.uebersicht_link a:visited {
+    color : #00AEEF;
+    text-decoration : none;
+}
+.uebersicht_link a:hover {
+    color : #00AEEF;
+    text-decoration : none;
+}
+.uebersicht_link a:active {
+    color : #00AEEF;
+    text-decoration : none;
+}
+/*Tables of content */
+
+a.chapter_title_toc {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+
+}
+a.chapter_title_toc:visited {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+
+}
+a.chapter_title_toc:hover {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+
+}
+a.chapter_title_toc:active {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+
+}
+
+a.title_toc {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : none;
+
+}
+a.title_toc:visited {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : none;
+
+}
+a.title_toc:hover {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : none;
+
+}
+a.title_toc:active {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : none;
+
+}
+
+
+.toc {
+              /*float:left;*/
+              width: 100%;
+ 	margin-left: 0px;
+ 	margin-right: 0px; 
+ 	margin-bottom: 20pt;
+	border: none;
+}
+.toc_title{
+    font-size : 22pt;
+    font-weight : bold;
+    margin-bottom: 10pt;
+}
+.toc1 {
+    font-size : 12pt;
+    font-weight : bold;
+    color: #466F82;
+    margin-bottom: 10pt;
+}
+.toc2 {
+    font-size : 10pt;
+    font-weight : bold;
+    color: #466F82;
+    margin-bottom: 10pt;
+}
+.toc3_4 {
+    font-size : 10pt;
+    font-weight : normal;
+    color: #466F82;
+    margin-bottom: 10pt;
+}
+.chapter_toc {
+  clear: left;
+ 	margin-left: 0px;
+ 	margin-right: 0px; 
+ 	margin-bottom: 10pt;
+ 	margin-top: 10pt;
+	border: none;
+}
+.chapter_toc_title, .rc_toc_title{
+    font-size : 10pt;
+    font-weight : bold;
+    margin-top: 0pt;
+    margin-bottom: 7pt;
+}
+.back-container {
+    margin-top: 24pt;
+    margin-bottom: 14pt;
+}
+.back {
+    width: 100%;
+    color: #00AEEF;
+    border-bottom: 0.5pt solid #00AEEF;
+}
+/* Title */
+.heading1 {
+    font-size : 22pt;
+    font-weight : bold;
+    margin-top: 17.7pt;
+    margin-bottom: 14.2pt;
+}
+.heading2 {
+    font-size : 18pt;
+    font-weight : bold;
+    margin-top: 17.7pt;
+    margin-bottom: 14.2pt;
+}
+.heading3 {
+    font-size : 14pt;
+    font-weight : bold;
+    margin-top: 17.7pt;
+    margin-bottom: 14.2pt;
+}
+.heading4 {
+    font-size : 12pt;
+    font-weight : bold;
+    margin-top: 17.7pt;
+    margin-bottom: 14.2pt;
+}
+.margin1 {
+    margin-bottom : 22pt;
+    margin-top: 24pt;
+}
+.margin2 {
+    margin-bottom : 11pt;
+    margin-top: 33pt;
+}
+.margin3 {
+    margin-bottom : 6pt;
+    margin-top: 33pt;
+}
+.margin4 {
+    margin-bottom: 6pt;
+    margin-top: 14pt;
+}
+.margin5 {
+    margin-bottom: 6pt;
+    margin-top: 6pt;
+}
+div.subtitle {
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 14pt;
+    margin-top: 7pt;
+    margin-bottom: 7pt;
+    background-color: #cbe8ff;
+}
+
+/* RC-Commands*/
+
+div.rcidx-rcsyntax {
+font-size : 9pt;
+line-height : 13pt;
+}
+
+div.rcidx-rcsyntax-variant {
+font-size : 9pt;
+}
+
+.rc_block, .rc_syntax_descr {
+	/*float: left;*/
+	width: 100%;
+	}
+.rc_block {
+               margin-bottom : 8pt;
+               margin-top: 0pt;
+               border-top-width: 2pt;
+               border-top-style: solid;
+               border-color:#CCCCCC;
+               padding-top: 5pt;
+}
+.rc_syntax_descr {
+            margin-bottom: 10pt;
+            border: none;
+            color: #008CDA;
+}
+
+.rcdescription {
+    color: #000000;
+    width: 100%;
+    margin-bottom: 6.4pt;
+}
+
+.inner_rc_table {
+    border-style: none;
+    width: 100%;
+    line-height : 16pt;
+    margin: 0pt 0pt 0pt 0pt;
+}
+
+.rc_table {
+	border-style: none;
+	width: 100%;
+	line-height : 16pt;
+}
+
+.rc_col_content_left, .rc_col_content_right, .rc_col_intro {
+	border-style: none;
+	font-size: 10pt;
+	padding : 0pt;
+	vertical-align: top;
+}
+
+.rc_col_intro_150 {
+	border-style: none;
+	font-size: 10pt;
+	padding : 0pt;
+	vertical-align: top;
+	width: 150px;
+}
+
+.rc_col_intro_sep {
+	border-style: none;
+	font-size: 10pt;
+	padding : 0pt;
+	vertical-align: top;
+	line-height: 10px;
+}
+
+.rc_col_content_left_100 {
+	border-style: none;
+	font-size: 10pt;
+	padding : 0pt;
+	vertical-align: top;
+	width: 100px;
+}
+
+/*RC-Commands for diffing */
+.rcinfo_dev_diffing, .resultprmlist_diffing, 
+.rccompat_diffing, .rcguiref_diffing, .rcaliases_diffing, 
+.suffixinfo_dev_diffing, .prminfo_dev_diffing {
+    color: #996633;
+    font-style: italic;    
+}
+
+.min_dev_diffing, .prmsyntax_dev_diffing, .max_dev_diffing, 
+.increm_dev_diffing, .reset_dev_diffing, .unit_dev_diffing{
+    background-color: #ffffb4;
+}
+
+/* new Inline */
+.key, .me, .dialogbox, .register, .view, .window, .perspective {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;  
+}
+.normal {
+    font-weight: normal;  
+}
+
+
+/* Inline */
+
+a.link, a.xref  {
+color : #008CDA;
+text-decoration : underline;
+font-family : Arial;
+}
+a.link:visited, a.xref:visited {
+color : #008CDA;
+text-decoration : underline;
+font-family : Arial;
+}
+a.link:hover, a.xref:hover {
+color : #008CDA;
+text-decoration : underline;
+font-family : Arial;
+}
+a.link:active, a.xref:active {
+color : #008CDA;
+text-decoration : underline;
+font-family : Arial;
+}
+
+a.xref img {
+    border: none;
+}
+
+.attribute, .code, .element, .status, .validity, .io {
+    font-family : "Courier New", Courier, monospace;
+    font-size : 100%;
+}
+.flip {
+    font : 12pt Wingdings;
+    text-decoration : none;
+}
+.flip\.text {
+    background-color : #FFF5CB;
+    border : solid 1px #FFF5CB;
+}
+.fn_summary th {
+    text-align : left;
+}
+.fn_summary_number {
+    width : 20pt;
+}
+.hint {
+    padding-bottom : 6pt;
+}
+.verbatim {
+	/*float: left;*/
+	width: 100%;
+    display : block;
+    font-family : "Courier New", Courier, monospace;
+    font-size: 8pt;
+    margin : 0px 0px 6pt 0px;
+    line-height:12.8pt;
+}
+
+.filename, .command {
+    font-family : "Courier New", Courier, monospace;
+}
+
+.input {
+	font-style: italic;
+}
+
+/* Table */
+
+table {
+    	margin: 0pt 0pt 7.1pt 0pt;
+        vertical-align : top;
+        border-collapse: collapse;
+        border-color: #000000;
+        width: 100%;
+}
+
+th, td {
+        border-width: 0.5pt;
+        border-style: solid;
+        padding : 2pt 4pt 2pt 4pt;
+        border-color: #000000;
+        font-size : 10pt;
+}
+
+
+
+th p, td p {
+    margin : 0px 0px 0px 0px;
+}
+
+th .verbatim, td .verbatim {
+    margin : 0px 0px 0px 0px;
+}
+
+thead tr th, tfoot tr th {
+    text-align : left;
+}
+
+.tfoot {
+    font-weight : normal;
+}
+
+table caption {
+    font-weight : bold;
+    padding-bottom : 6pt;
+    text-align : left;
+}
+
+/* Info Elemente */
+
+.note table, .tip table, .danger table, .warning table, .caution table, .attention table{
+    margin: 0pt 0pt 0pt 0pt;
+}
+
+table.list2 {
+    	margin: 3pt 0pt 0pt 0pt; /* RS-996 */
+        vertical-align : top;
+        border-collapse: collapse;
+        border-color: #000000;
+        width: 100%;
+}
+
+table.list2-in-compact-list {
+    	margin: 0pt 0pt 0pt 0pt; /* RS-996 */
+        vertical-align : top;
+        border-collapse: collapse;
+        border-color: #000000;
+        width: 100%;
+}
+
+.list2 tr td, .note table tr td, .tip table tr td,  .danger table tr td, .warning table tr td, .caution table tr td, .attention table tr td{
+        border-width: 0pt;
+        border-style: none;
+        padding : 0pt 0pt 0pt 0pt;
+        border-color: #000000;
+}
+
+.list2-in-compact-list tr td {
+        border-width: 0pt;
+        border-style: none;
+        padding : 0pt 0pt 0pt 0pt;
+        border-color: #000000;
+}
+
+
+.danger, .warning, .caution, .attention, .note, .tip {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margin-bottom : 11pt;
+    margin-top: 11pt;
+    padding-top: 5pt;
+    padding-bottom: 0pt;
+    width : 100%;
+}
+
+.note, .tip {
+    padding-bottom: 5pt;
+}
+
+.note_img, .tip_img {
+     margin-bottom: 5pt;
+}
+
+.procedure_title {
+	font-weight: bold;
+	font-size: 10pt;
+	line-height:14.2pt;
+}
+
+.danger_title, .warning_title, .caution_title, .attention_title, .note_title, .tip_title {
+	font-weight: bold;
+	padding-top: 5pt;
+}
+
+.danger {
+    border-color: #d6292f;
+}
+
+.warning {
+    border-color: #f09132;
+}
+
+.caution {
+    border-color: #fedc24;
+}
+
+.attention {
+    border-color: #2b80bf;
+}
+
+.note, .tip {
+    border-color: #52b586;
+}
+
+.embedded_message {
+    margin-bottom: 7pt;
+}
+
+
+/* Liste */
+dd {
+    display : block;
+    margin : 0px 0px 0px 40pt;
+    padding : 0px;
+}
+dl, dli, dt {
+    display : block;
+    margin : 0px;
+    padding : 0px;
+}
+li {
+    margin : 0px;
+    padding : 0px;
+}
+
+ul li {
+    margin : 0px 0px 5px 0px;
+    padding : 0px 0px 0px 0px;
+}
+
+/*RS-996 added*/
+li * * img {
+    vertical-align: top;
+}
+
+ul {
+    /*margin-left : 35pt;*/
+    margin-left : 12pt;   
+}
+
+ol {
+    /*margin-left : 35pt;*/
+    margin-left : 28pt;
+}
+ul, ol, dl {
+    margin-bottom : 6pt;
+    margin-top : 6pt;
+}
+
+
+.ul_title, .ol_title, .dl_title {
+    display : block;
+    font-weight : bold;
+    margin-bottom : 6pt;
+}
+ul {
+    list-style : disc;
+}
+ul ul {
+    list-style : disc;
+}
+.list_block {
+    width: 100%;
+    
+}
+
+.listintro {
+    margin-bottom : 4pt;
+}
+
+.listintro2 {
+    margin-top : 4pt;
+    margin-bottom : 4pt;
+}
+
+.listintro-in-compact-list, .listintro2-in-compact-list {
+    margin-top : 0pt;
+    margin-bottom : 0pt;
+}
+
+/* Block Elemente */
+p {
+    margin : 0px 0px 7pt 0px;
+    padding : 0px;
+    font-size:10pt;
+    /*line-height:14.2pt;*/
+}
+.mblock_title {
+    display : block;
+    font-size : 90%;
+    font-weight : bold;
+    margin-bottom : 6pt;
+    padding : 0px 5px 0px 0px;
+    text-align : left;
+    width: 100%;
+}
+.menu {
+    display : block;
+    margin-bottom : 6pt;
+}
+.menu-entry {
+    display : block;
+    margin-left : 40pt;
+}
+
+/* Procedure */
+pre {
+    font-size : 90%;
+}
+.action {
+    display : block;
+}
+.pre {
+    display : block;
+}
+.procedure {
+    display : block;
+    margin-left:0mm;
+    margin-top: 7pt;
+    margin-bottom: 7pt;
+    width : 100%;
+}
+.procedure_title {
+    display : block;
+    font-weight : bold;
+    font-size:10pt;
+    margin-left:0mm;
+    margin-top: 0pt;
+    margin-bottom:0pt;
+}
+.result {
+    display : block;
+}
+.step {
+    display : block;
+    margin-bottom: 0pt
+}
+.step_title {
+    display : block;
+    font-weight : bold;
+    margin-bottom : 3pt;
+}
+
+.procedure_table {
+        border-width: 0pt;
+        border-style: none;
+        padding : 0pt 0pt 0pt 0pt;
+        border-color: #000000;
+}
+/* Glossar */
+
+glossary_character {
+    margin-bottom: 7pt;
+}
+
+a.glossary  {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+            font-weight : bold;
+
+}
+a.glossary:visited {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+            font-weight : bold;
+
+}
+a.glossary:hover {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+            font-weight : bold;
+
+}
+a.glossary:active {
+            color: #008CDA;
+            font-family : Arial;
+            font-size : 10pt;
+            text-decoration : underline;
+            font-weight : bold;
+}
+.gt {
+    font-weight : bold;
+    color: #466F82;
+}
+/* Index */
+.index a {
+    text-decoration : none;
+}
+.index_alpha {
+    font-weight : bold;
+}
+.index_letter {
+    margin-bottom : 7pt;
+}
+.xe_inline {
+    color: #466F82;
+    margin-bottom: 6pt;
+}
+.index_primary {
+    margin-bottom: 6pt;
+}
+.index_secondary {
+    margin-left : 20pt;
+    margin-bottom: 6pt;
+}
+/* Problem */
+.problem_title {
+    display : block;
+    font-size : 120%;
+    font-weight : bold;
+    margin-bottom : 6pt;
+}
+.cause_title {
+    display : block;
+    font-size : 120%;
+    font-weight : bold;
+    margin-bottom : 6pt;
+}
+.solution_title {
+    display : block;
+    font-size : 120%;
+    font-weight : bold;
+    margin-bottom : 6pt;
+}
+.comment {
+    background-color : #FFFFC0;
+    display : block;
+    font-style : italic;
+    margin-bottom : 6pt;
+}
+
+/* comment for diffing */
+.comment_diffing {
+    color: #ff99cc;
+}
+
+.workaround_title {
+    display : block;
+    font-size : 120%;
+    font-weight : bold;
+    margin-bottom : 6pt;
+}
+/*
+  ############################################
+  #      Rohde und Schwarz specific          #
+  #      stylesheets                         #
+  ############################################
+ */
+ 
+ 
+/* question */
+.question {
+    color: #ff00ff;
+}
+
+
+
+/* Function */
+.function_heading {
+				background-color: #cbe8ff;
+                width: 100%;
+                margin-top: 14pt;
+                margin-bottom: 3pt; 
+                font-weight: bolder;
+                line-height: 16pt;
+                clear: both;
+                border: none;
+}
+
+
+.margin_table {
+	border-style: none;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.function_table {
+	border-style: none;
+	/*line-height : 14.2pt;*/
+	width: 100%;
+}
+
+.function_table p {
+    line-height : 14.2pt;
+}
+
+.function_col_left, .function_col_right {
+	border-style: none;
+	font-size: 10pt;
+}
+
+.function_col_left {
+	vertical-align: top;
+	padding : 2pt 4pt 2pt 0pt;
+}
+
+.function_block {
+                margin-left: 18pt; 
+                border: none;
+                line-height : 14.2pt;
+}
+
+.rcclist_left {
+}
+.rcclist_right {
+}
+
+.rcclist_right p {
+	margin-bottom: 0pt;		
+}
+
+.body_p {
+    margin-bottom:7pt;
+}
+.p_p {
+    margin-bottom:0pt;
+}
+/* Figure */
+
+.graphic, .icon {
+    display: block;
+    margin: 0pt 0pt 7.1pt 0pt;
+}
+.caption {
+    font-weight:bold;
+    /*RS-1001 should NOT be italic, as in caption.figure */
+    /*font-style:italic;*/ 
+    font-size:8pt;
+    margin: 0pt 0pt 7.1pt 0pt;
+}
+
+.caption_figure {
+    font-weight:bold;
+    font-size:8pt;
+    margin: 0pt 0pt 7.1pt 0pt;
+}
+
+.table-caption {
+    font-weight:bold;
+    font-size:8pt;
+    margin: 0pt 0pt 7.1pt 0pt;
+}
+
+.subtitle {
+    display : block;
+    margin-top: 2pt;
+    margin-bottom : 6pt;
+}
+
+/*Legend for figures*/
+
+.legend {
+    /*float: left;*/
+    margin: 0pt 0pt 7.1pt 0pt;
+}
+.legentry {
+	font-size: 8pt;
+}
+
+.commandline {
+    font-family : "Courier New", Courier, monospace;    
+}
+
+/* .................. RS-998 .................. */
+
+/*graphic alignment in step/margin*/
+.margin-in-step {
+    display: inline;    
+}
+img.margin-in-step {
+    vertical-align:top; 
+    margin-right:5px; 
+    margin-bottom:5px;    
+}
+
+/*procedure alignment*/
+ol.procedure{
+    margin-left: -20px;
+}
+
+/*list-alignment*/
+.list{
+    margin-top : 0pt;/*RS-327 Abstand <listintro> zu <li> ist zu groß, soll gleich dem Abstand zwischen <li>s sein*/
+    padding-left: 0px;
+    list-style-type:disc;
+}
+
+/*proc2 alignment*/
+.proc2{
+    margin-left: -20px;
+}
+/* .................. RS-998 end .................. */
+
+
+

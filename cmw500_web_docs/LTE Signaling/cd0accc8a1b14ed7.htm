@@ -1,0 +1,31 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring the Cell Broadcast Service</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring the Cell Broadcast Service</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring the Cell Broadcast Service</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Set the message type. Query the resulting message ID and configure the
+// serial number.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CBS:MESSage:IDTYpe AAMB
+CONFigure:LTE:SIGN:CBS:MESSage:ID?
+CONFigure:LTE:SIGN:CBS:MESSage:SERial PLMN, 1, OFF, 0
+
+// *****************************************************************************
+// Select the data source, enter the message text, query the coding group and
+// set the language.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CBS:MESSage:SOURce INTernal
+CONFigure:LTE:SIGN:CBS:MESSage:DATA "Warning! This is a test!"
+CONFigure:LTE:SIGN:CBS:MESSage:CGRoup?
+CONFigure:LTE:SIGN:CBS:MESSage:LANGuage 1,"English"
+
+// *****************************************************************************
+// Configure ETWS-specific settings.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CBS:MESSage:ETWS:ALERt ON
+CONFigure:LTE:SIGN:CBS:MESSage:ETWS:POPup ON
+
+// *****************************************************************************
+// Enable cell broadcast messages.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CBS:MESSage:ENABle ON</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

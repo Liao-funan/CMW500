@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="6c9a350df6c14415.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="96dbc09f52ae4bda.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable all measurements.
+// *****************************************************************************
+CONF:LTE:MEAS:MEValuation:RESult:ALL ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:LTE:MEAS:MEValuation:RESult:EVMagnitude:EVMSymbol ON, 3, LOW
+
+// *****************************************************************************
+// Start single-shot measurement, return average EVM bar graph values.
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+READ:LTE:MEAS:MEValuation:EVMagnitude:AVERage?
+FETCh:LTE:MEAS:MEValuation:STATe?
+
+// *****************************************************************************
+// Retrieve detected allocation, modulation scheme and channel type for the
+// measured slot of modulation measurements.
+// Query the View Filter Throughput.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:MODulation:DALLocation?
+FETCh:LTE:MEAS:MEValuation:MODulation:DMODulation?
+FETCh:LTE:MEAS:MEValuation:MODulation:DCHType?
+FETCh:LTE:MEAS:MEValuation:VFTHroughput?
+
+// *****************************************************************************
+// Query modulation traces, bar graph values and statistical values
+// obtained in the last measurement, without re-starting the measurement.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:EVMagnitude:MAXimum?
+FETCh:LTE:MEAS:MEValuation:EVMagnitude:PEAK:MAXimum?
+FETCh:LTE:MEAS:MEValuation:TRACe:EVMSymbol:MAXimum?
+FETCh:LTE:MEAS:MEValuation:TRACe:EVMC?
+FETCh:LTE:MEAS:MEValuation:MERRor:AVERage?
+FETCh:LTE:MEAS:MEValuation:MERRor:MAXimum?
+FETCh:LTE:MEAS:MEValuation:PERRor:AVERage?
+FETCh:LTE:MEAS:MEValuation:PERRor:MAXimum?
+FETCh:LTE:MEAS:MEValuation:TRACe:IQ:LOW?
+FETCh:LTE:MEAS:MEValuation:TRACe:IQ:HIGH?
+FETCh:LTE:MEAS:MEValuation:MODulation:CURRent?
+FETCh:LTE:MEAS:MEValuation:MODulation:EXTReme?
+FETCh:LTE:MEAS:MEValuation:EVMC:PEAK:MAXimum?
+
+// *****************************************************************************
+// Query inband emission results for CC1 and CC2.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:IEMissions:CC1?
+FETCh:LTE:MEAS:MEValuation:TRACe:IEMissions:CC2?
+FETCh:LTE:MEAS:MEValuation:IEMission:CC1:MARGin:AVERage?
+FETCh:LTE:MEAS:MEValuation:IEMission:CC2:MARGin:AVERage?
+FETCh:LTE:MEAS:MEValuation:IEMission:CC1:MARGin:EXTReme:RBINdex?
+FETCh:LTE:MEAS:MEValuation:IEMission:CC2:MARGin:EXTReme:RBINdex?
+
+// *****************************************************************************
+// Query equalizer spectrum flatness results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:ESFLatness?
+FETCh:LTE:MEAS:MEValuation:ESFLatness:AVERage?
+FETCh:LTE:MEAS:MEValuation:ESFLatness:CURRent:SCINdex?
+
+// *****************************************************************************
+// Query spectrum emission results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:SEMask:RBW30:CURRent?
+FETCh:LTE:MEAS:MEValuation:TRACe:SEMask:RBW100:AVERage?
+FETCh:LTE:MEAS:MEValuation:TRACe:SEMask:RBW1000:MAXimum?
+FETCh:LTE:MEAS:MEValuation:SEMask:CURRent?
+FETCh:LTE:MEAS:MEValuation:SEMask:EXTReme?
+FETCh:LTE:MEAS:MEValuation:SEMask:MARGin:ALL?
+FETCh:LTE:MEAS:MEValuation:SEMask:MARGin:MINimum:POSitiv?
+FETCh:LTE:MEAS:MEValuation:SEMask:MARGin:MINimum:NEGativ?
+
+// *****************************************************************************
+// Query ACLR results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:ACLR:CURRent?
+FETCh:LTE:MEAS:MEValuation:TRACe:ACLR:AVERage?
+FETCh:LTE:MEAS:MEValuation:ACLR:CURRent?
+FETCh:LTE:MEAS:MEValuation:ACLR:AVERage?
+
+// *****************************************************************************
+// Query RB allocation table and power monitor results for CC1 and CC2.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:RBATable:CC1?
+FETCh:LTE:MEAS:MEValuation:TRACe:RBATable:CC2?
+FETCh:LTE:MEAS:MEValuation:TRACe:PMONitor:CC1?
+FETCh:LTE:MEAS:MEValuation:TRACe:PMONitor:CC2?
+FETCh:LTE:MEAS:MEValuation:PMONitor:AVERage?
+FETCh:LTE:MEAS:MEValuation:PMONitor:CC1:AVERage?
+FETCh:LTE:MEAS:MEValuation:PMONitor:CC2:AVERage?
+
+// *****************************************************************************
+// Query power dynamics results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:TRACe:PDYNamics:AVERage?
+FETCh:LTE:MEAS:MEValuation:TRACe:PDYNamics:MAXimum?
+FETCh:LTE:MEAS:MEValuation:PDYNamics:AVERage?
+FETCh:LTE:MEAS:MEValuation:PDYNamics:MINimum?
+FETCh:LTE:MEAS:MEValuation:PDYNamics:MAXimum?
+
+// *****************************************************************************
+// Query BLER results.
+// *****************************************************************************
+FETCh:LTE:MEAS:MEValuation:BLER?
+
+// *****************************************************************************
+// Query limit check results.
+// *****************************************************************************
+CALCulate:LTE:MEAS:MEValuation:ACLR:CURRent?
+CALCulate:LTE:MEAS:MEValuation:SEMask:CURRent?
+CALCulate:LTE:MEAS:MEValuation:ESFLatness:CURRent?
+CALCulate:LTE:MEAS:MEValuation:MODulation:CURRent?
+CALCulate:LTE:MEAS:MEValuation:PDYNamics:AVERage?
+CALCulate:LTE:MEAS:MEValuation:PDYNamics:MINimum?
+CALCulate:LTE:MEAS:MEValuation:PDYNamics:MAXimum?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

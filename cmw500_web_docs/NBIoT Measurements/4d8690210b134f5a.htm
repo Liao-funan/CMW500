@@ -1,0 +1,58 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">NB-IoT Measurements</a> &gt; <a class="chm-breadcrumb" href="ca0324a3846a4c4b.htm">NB-IoT NPRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="67629dfe38b64ac1.htm">Programming</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single-Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Enable all measurements.
+// *****************************************************************************
+CONFigure:NIOT:MEAS:PRACh:RESult:ALL ON,ON,ON,ON,ON,ON,ON,ON
+
+// *****************************************************************************
+// Start single-shot measurement, return average EVM trace.
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+READ:NIOT:MEAS:PRACh:TRACe:EVM:AVERage?
+FETCh:NIOT:MEAS:PRACh:STATe?
+
+// *****************************************************************************
+// Retrieve SC numbers for single\-preamble measurements.
+// Retrieve SC numbers for preamble 3 and 4 of multi\-preamble measurements.
+// *****************************************************************************
+FETCh:NIOT:MEAS:PRACh:MODulation:SCSGroup?
+FETCh:NIOT:MEAS:PRACh:MODulation:SCSGroup:PREamble3?
+FETCh:NIOT:MEAS:PRACh:MODulation:SCSGroup:PREamble4?
+
+// *****************************************************************************
+// Read other traces obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:NIOT:MEAS:PRACh:TRACe:MERRor:AVERage?
+FETCh:NIOT:MEAS:PRACh:TRACe:MERRor:MAXimum?
+FETCh:NIOT:MEAS:PRACh:TRACe:PERRor:AVERage?
+FETCh:NIOT:MEAS:PRACh:TRACe:PERRor:MAXimum?
+FETCh:NIOT:MEAS:PRACh:TRACe:EVPReamble?
+FETCh:NIOT:MEAS:PRACh:TRACe:PVPReamble?
+FETCh:NIOT:MEAS:PRACh:TRACe:IQ?
+FETCh:NIOT:MEAS:PRACh:TRACe:PDYNamics:AVERage?
+FETCh:NIOT:MEAS:PRACh:TRACe:PDYNamics:MAXimum?
+
+// *****************************************************************************
+// Read single value results obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+FETCh:NIOT:MEAS:PRACh:MODulation:AVERage?
+FETCh:NIOT:MEAS:PRACh:MODulation:EXTReme?
+FETCh:NIOT:MEAS:PRACh:MODulation:PREamble4?
+FETCh:NIOT:MEAS:PRACh:PDYNamics:AVERage?
+FETCh:NIOT:MEAS:PRACh:PDYNamics:MINimum?
+FETCh:NIOT:MEAS:PRACh:PDYNamics:MAXimum?
+
+// *****************************************************************************
+// Read limit check results obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+CALCulate:NIOT:MEAS:PRACh:MODulation:AVERage?
+CALCulate:NIOT:MEAS:PRACh:MODulation:EXTReme?
+CALCulate:NIOT:MEAS:PRACh:PDYNamics:AVERage?
+CALCulate:NIOT:MEAS:PRACh:PDYNamics:MINimum?
+CALCulate:NIOT:MEAS:PRACh:PDYNamics:MAXimum?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

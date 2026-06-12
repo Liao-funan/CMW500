@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Test Overview</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="096b9213ceef40e1.htm">Application Sheets</a> &gt; <a class="chm-breadcrumb" href="4fd671401ef84155.htm">Inner Loop Power Control Tests</a> &gt; <span class="chm-breadcrumb">Test Overview</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Test Overview</div><p>In CDMA networks, control of the UE transmit power is essential to ensure stable transmission and an efficient radio resource management within the system.</p><p>For that reason, the NodeB controls the UE power via the transmission of transmit power control (TPC) commands on the DL DPCH. The UE is expected to adjust its transmit power according to the received TPC commands.</p><p>The inner loop power control test specified in 3GPP TS 34.121, section 5.4.2 verifies the correct reaction of the UE to TPC commands. The test is divided into the TPC test steps A to H inducing a power ramp of the following shape:</p><div class="block" id="ID_316f7f68bdfe1bb00a00206a01744619-ab3cf5c9b91a57e40a00206a01842699-en-US"><div class="graphic"><img border="0" src="images/imgb8d66d6ce61d59c80a00206a0088bf4d_2_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">TPC test steps A to H</div><div class="legend"><div class="legentry">1 = max power threshold for test</div><div class="legentry">2 = min power threshold for test</div><div class="legentry">3 = measured maximum output power</div></div></div><p>3GPP defines tolerances for the power steps and power step groups expected in these test steps. For step D, no conformance requirements are defined. It is only used for UE reconfiguration.</p><div class="block"><div class="listintro">The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW allows you to perform all test steps and to check the power step and power step group tolerances. The test is divided into three sections:</div><ul class="list"><li>Test step ABC (using algorithm 2, step size 1 dB)</li><li>Test step EF (using algorithm 1, step size 1 dB)</li><li>Test step GH (using algorithm 1, step size 2 dB)</li></ul></div><p>The reconfiguration to be performed in test step D is included in test step EF.</p><p>Thus the entire test step sequence A to H can be performed by starting the TPC measurement three times only.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

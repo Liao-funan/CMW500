@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configure Test Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f0e09183c8684c02.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Configure Test Mode</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configure Test Mode</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Set operating mode to RF test.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:OPMode RFT; *OPC?
+
+/// *****************************************************************************
+// Enable hopping, enable the user defined adaptive frequency hopping.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:RFSettings:HOPPing ON; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:AFHopping ON, USER; *OPC?</pre><div class="block"><div class="listintro">Start the test.</div><ul class="list"><li>For a loopback test, see <a class="xref" href="736bc91a3b2e4da5.htm#ID_2ae0a02bf6c2f92b0a00201901586928-b3f85744f278efb00a0020190034780c-en-US">"Loopback test mode"</a></li><li>Alternatively, for a connection test, see <a class="xref" href="bf4d59ae6a9f40ac.htm#ID_38d6e10e7b2c11e2a812f16771537a76-b3f85744f278efb00a0020190034780c-en-US">"Retrieve EUT Information and Capabilities"</a></li></ul></div><pre class="verbatim" xml:space="preserve">/// *****************************************************************************
+// Specify channel map and wait 1 s for new channel map to take effect.
+// Query the current channel map.
+// *****************************************************************************
+
+CONFigure:BLUetooth:SIGN:RFSettings:AFHopping:UCHannels 0,1,1,1,0,0,1,1,1,
+1,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,
+1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+SENSe:BLUetooth:SIGN:CMAP?
+
+// *****************************************************************************
+// Set packet type, packet length and pattern type for basic
+// rate packets. 
+// Alternatively configure EDR packets.
+// Alternatively configure LE packets.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PTYPe:BRATe DH3; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PATTern:BRATe PRBS9; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PLENgth:BRATe 21,183,339
+*OPC?
+
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PTYPe:EDRate E25P; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PATTern:EDRate PRBS9; *OPC?
+CONFigure:BLUetooth:SIGN:CONN:PACK:PLEN:EDR 21,367,679,83,552,1021; *OPC?
+
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PATTern:LENergy:LE1M P11; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PLENgth:LENergy:LE1M 255; *OPC?
+
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PATTern:LENergy:LE2M P11; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PLENgth:LENergy:LE2M 255; *OPC?
+
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PATTern:LENergy:LELR ALL1; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PACKets:PLENgth:LENergy:LELR 255; *OPC?
+// *****************************************************************************
+// Specify delay for test mode activation.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:DELay:TMODe 2</pre><div class="block"><div class="subtitle"><a name="ID_fef13d13f6c2f92b0a00201900562162-b3f85744f278efb00a0020190034780c-en-US"></a>Transmitter test mode</div></div><pre class="verbatim" xml:space="preserve">/// *****************************************************************************
+// Settings for TX test mode: channel, poll period, delay for poll timeout.
+// Enable test mode at the EUT via USB. Connect in TX test mode.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:TMODe TXTest; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:CHANnel:TXTest 13; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:FREQuency:TXTest?
+CONFigure:BLUetooth:SIGN:CONNection:PPERiod 1; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PPERiod:MINimum ON; *OPC?
+CONFigure:BLUetooth:SIGN:DELay:PTIMeout 2
+CONFigure:BLUetooth:SIGN:COMSettings:ETMode ON
+CALL:BLUetooth:SIGN:CONNection:ACTion TMConnect
+WHILE FETCh:BLUetooth:SIGN:CONNection:STATe? &lt;&gt; "TCON"
+
+// *****************************************************************************
+// Display used channels by adaptive hopping.
+// *****************************************************************************
+SENSe:BLUetooth:SIGN:CMAP?</pre><div class="block"><div class="subtitle"><a name="ID_2ae0a02bf6c2f92b0a00201901586928-b3f85744f278efb00a0020190034780c-en-US"></a>Loopback test mode</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Settings for loopback mode: dirty TX, channel on CMW and EUT, whitening.
+// Enable dirty transmitter. Enable test mode at the EUT via USB and connect
+// in loopback mode.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:TMODe LOOPback; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:DTX:MODE:BRATe SPEC; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:DTX:MODE:EDRate SPEC; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:CHANnel:LOOPback 13,13; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:FREQuency:LOOPback?
+CONFigure:BLUetooth:SIGN:CONNection:WHITening ON; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:DTX ON; *OPC?
+CONFigure:BLUetooth:SIGN:COMSettings:ETMode ON
+CALL:BLUetooth:SIGN:CONNection:ACTion TMConnect
+WHILE FETCh:BLUetooth:SIGN:CONNection:STATe? &lt;&gt; "TCON"
+
+// *****************************************************************************
+// Perform measurement with the Bluetooth Measurement firmware application.
+// Close the connection.
+// *****************************************************************************
+CALL:BLUetooth:SIGN:CONNection:ACTion DET
+WHILE FETCh:BLUetooth:SIGN:CONNection:STATe? &lt;&gt; "SBY"</pre><div class="block"><div class="subtitle"><a name="ID_bead0c9fd9a511e3b8e3cfd0a7e1e4c1-b3f85744f278efb00a0020190034780c-en-US"></a>Direct test mode</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Connect EUT, configure USB connection parameters.
+// Settings for direct test mode: specify LE burst type, physical layer,
+// dirty TX,channel and synch word. Enable dirty transmitter.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:BTYPe LE; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PHY:LENergy LE1M; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:DTX:MODE:LEN SPEC; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:CHANnel:DTMode 39; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:SYNWord:LENergy #H71764129; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:FREQuency:DTMode?
+CONFigure:BLUetooth:SIGN:RFSettings:DTX ON; *OPC?
+
+// *****************************************************************************
+// Alternativelly specify LE coded physical layer and
+// its coding.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:BTYPe LE; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PHY:LENergy LELR; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:FEC:LENergy:LRANge S8
+
+// *****************************************************************************
+// Reset EUT, verify the connection for direct test.
+// *****************************************************************************
+CALL:BLUetooth:SIGN:LENergy:RESet
+CALL:BLUetooth:SIGN:CONNection:CHECk:LENergy?
+
+// *****************************************************************************
+// Perform TX or RX tests.
+// TX test: perform TX measurements using Bluetooth Measurement 
+//          application in combined signal path
+// RX test: perform RX quality measurements as described below
+// *****************************************************************************</pre><p>See <a class="xref" href="a6afa847f6fe4ea9.htm#ID_e2080db4b94353800a710a6a00466f1d-b3f85744f278efb00a0020190034780c-en-US">"BER and PER Rx Tests"</a>.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

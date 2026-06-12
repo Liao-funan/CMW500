@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Monitoring DNS Requests</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Monitoring DNS Requests</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Monitoring DNS Requests</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify the maximum number of DNS requests in the result list.
+// *****************************************************************************
+CONFigure:DATA:MEAS:DNSRequests:MICount 900
+
+// *****************************************************************************
+// Start monitoring.
+// *****************************************************************************
+INIT:DATA:MEAS:DNSRequests
+
+// ***************************************************************************** 
+// Wait until at least 10 requests have been monitored.
+// ***************************************************************************** 
+WHILE SENSe:DATA:MEAS:DNSRequests:RCOunt? &lt; 10
+
+// ***************************************************************************** 
+// Query information about the already monitored DNS requests.
+// You can repeat this command any time to query updated results.
+// ***************************************************************************** 
+SENSe:DATA:MEAS:DNSRequests?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

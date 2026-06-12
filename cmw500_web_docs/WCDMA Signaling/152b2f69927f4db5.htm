@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing a Neighbor Cell Measurement with CM</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Performing a Neighbor Cell Measurement with CM</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing a Neighbor Cell Measurement with CM</div><div class="block"><div class="listintro">To perform the UE neighbor cell measurement with compressed mode, proceed as follows:</div><ul class="list"><li>Configure the neighbor cells, see <a class="xref" href="e7a00d57c0354ecd.htm#ID_e09ee90c3d7611df9e36b3e22f7ab2d5-ece2ab0cd86b87b10a00206a00ee34b1-en-US">"Configuring Network Settings"</a></li><li>Enable the UE measurement report for GSM, WCDMA, and LTE neighbor cell measurement, see <a class="xref" href="b68d766021564ae6.htm#ID_6b9a224d3d7711df9e36b3e22f7ab2d5-ece2ab0cd86b87b10a00206a00ee34b1-en-US">"Configuring UE Measurement Report Settings"</a></li><li>Configure the compressed mode as follows:</li></ul></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify single transmission gap pattern type C, enabled
+// for the duration of a UE report measurement.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CMODe:PATTern SINGle
+CONFigure:WCDMa:SIGN:CMODe:SINGle:TYPE C
+CONFigure:WCDMa:SIGN:CMODe:SINGle:ACTivation MEAS
+
+// *****************************************************************************
+// Alternatively specify UE report pattern for WCDMA and LTE neighbor
+// cells measurement, enabled for the duration of a UE report measurement.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CMODe:PATTern UER
+CONFigure:WCDMa:SIGN:CMODe:UEReport:ENABle ON, OFF, OFF, OFF, ON
+CONFigure:WCDMa:SIGN:CMODe:UEReport:ACTivation MEAS, RAB, RAB, RAB, MEAS
+
+// *****************************************************************************
+// Alternatively specify and activate pattern for UL compressed mode TX test,
+// type B.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CMODe:PATTern ULCM
+CONFigure:WCDMa:SIGN:CMODe:ULCM:TYPE B
+CONFigure:WCDMa:SIGN:CMODe:ULCM:ACTivation</pre><div class="block"><ul class="list"><li>Establish connection, see <a class="xref" href="6928d8a91e044bd8.htm#ID_4437cd803d8011df9e36b3e22f7ab2d5-ece2ab0cd86b87b10a00206a00ee34b1-en-US">"Setting Up a CS Connection (Signaling)"</a></li><li>Retrieve the neighbor cell report, see <a class="xref" href="dcd07012bf644c12.htm#ID_a6d9b71b42f911dfae25b316b7d85aac-ece2ab0cd86b87b10a00206a00ee34b1-en-US">"Retrieving Information Provided by the UE (Signaling)"</a></li></ul></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Basic Measurement Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="e3f4784596584c6b.htm">Measurements with Combined Signal  Path Scenario</a> &gt; <span class="chm-breadcrumb">Specifying Basic Measurement Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Basic Measurement Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Define the error handling.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:MOEXception ON
+CONFigure:WCDMa:MEAS:TPC:TOUT 1800
+
+// *****************************************************************************
+// Activate the combined signal path scenario and select instance 1 of the
+// signaling application as master.
+// *****************************************************************************
+ROUTe:WCDMa:MEAS:SCENario:CSPath 'WCDMA Sig1'
+
+// *****************************************************************************
+// Use the commands of the signaling application to define the signal routing
+// and to perform the RF and analyzer settings.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:UECHannels:BSFSelection MAN
+...
+
+// *****************************************************************************
+// Use the wizard provided by the signaling application to configure a signal
+// suitable for "Max. Power E-DCH" subtest 1.
+// This action selects also the TPC setup.
+// Query the measurement mode (must be MPED).
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:PSETtings:HUMP S1
+CONFigure:WCDMa:SIGN:PSETtings HUMP
+CONFigure:WCDMa:MEAS:TPC:MODE?
+
+// *****************************************************************************
+// Configure the "Max Power E-DCH" mode:
+// Set the measurement length and enable auto execution.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:MPEDch:MLENgth 30
+CONFigure:WCDMa:MEAS:TPC:MPEDch:AEXecution ON
+
+// *****************************************************************************
+// Set the measurement length for the "Change of TFC" mode.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:CTFC:MLENgth 4
+
+// *****************************************************************************
+// Specify the uplink channel configuration, so that the expected power step
+// size can be calculated for the "Change of TFC" mode.
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:DPCCh ON,4,256
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:DPDCh ON,14,64
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:HSDPcch:CONFig ACK
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:HSDPcch ON,50,256
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:EDPCch1 ON,20,256
+CONFigure:WCDMa:MEAS:UECHannels:CARRier1:EDPDch2 ON,160,4</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

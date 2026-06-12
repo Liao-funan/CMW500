@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="8f3a6f142e1c46fa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="2693eec26eec4bba.htm">Using WCDMA List Mode</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start single-shot measurement, return current CDP results 
+// (average CDP in the last slot in segment 1).
+// Return results of segment 2: average CDP and CDE results, 
+// maximum PCDE results, current and average modulation results,
+// average spectrum results, UE power results,
+// the phase discontinuity results. 
+// Query the measurement state (should be "RDY").     
+// *****************************************************************************
+INIT:WCDMa:MEAS:MEValuation
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent1:CDPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:CDPower:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:CDERror:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:PCDE:MAXimum?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:MODulation:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:MODulation:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:SPECtrum:AVERage? REL
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:UEPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SEGMent2:PHD:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:STATe? 
+&nbsp;
+// *****************************************************************************
+// Alternatively use segment-independent commands
+// to retrieve the results for all segments.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:MEValuation:LIST:CDPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:CDPower:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:CDERror:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:PCDE:MAXimum?
+FETCh:WCDMa:MEAS:MEValuation:LIST:MODulation:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:MODulation:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:LIST:SPECtrum:AVERage? ABS
+FETCh:WCDMa:MEAS:MEValuation:LIST:UEPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:LIST:PHD:CURRent?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

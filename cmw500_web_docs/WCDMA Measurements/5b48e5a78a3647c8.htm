@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="8f3a6f142e1c46fa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7eb3b41753474c90.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Specifying Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Limits</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define all modulation limits                                                  
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:MERRor 20, OFF
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:EVMagnitude 20, 40
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:PERRor 20, OFF
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:PHD ON, 70, 40
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:PHSDpcch ON, 5.5, 20, 40
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:IQOFfset -20
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:IQIMbalance ON
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:CFERror 150
+&nbsp;
+// *****************************************************************************
+// Define relative CDE limits and specify the uplink channel configuration
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:MEV:LIMit:RCDerror:ECDP -20,-30,-15,-36,-25,-30,-17,-43
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:DPCCh ON,4,256
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:DPDCh ON,14,64
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:HSDPcch:CONFig ACK
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:HSDPcch ON,50,256
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:EDPCch ON,20,256
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:RCDerror:EECDp:EDPDch2 ON,160,4
+&nbsp;
+// *****************************************************************************
+// Define all power control limits                  
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:PCONtrol:EPSTep 0.5, 0.5, 1, 1.5, 2.5
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:PCONtrol:HSDPcch ON, 6, -2, -5, T0DB
+&nbsp;
+// *****************************************************************************
+// Define all ACLR limits                                                  
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:ACLR:ABSolute ON
+CONFigure:WCDMa:MEAS:MEValuation:LIMit:ACLR:RELative -35, -47
+&nbsp;
+// *****************************************************************************
+// Define spectrum emission mask                                                  
+// *****************************************************************************&nbsp;
+CONF:WCDMa:MEAS:MEV:LIMit:EMASk:ABSolute -50, -13, -15, A
+CONF:WCDMa:MEAS:MEV:LIMit:EMASk:RELative -50.5,-47.5,-37.5,-33.5,-48.275,-33.725
+CONF:WCDMa:MEAS:MEV:LIMit:EMASk:DCARrier:ABSolute -20, -13, -15, -10</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

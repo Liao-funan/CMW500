@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing a BER/PER Search Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="9afa2975233b4c9c.htm">BER Search and PER Search Rx Tests</a> &gt; <span class="chm-breadcrumb">Performing a BER/PER Search Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing a BER/PER Search Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start a single-shot BER search measurement for BR/EDR.
+/// Return BR/EDR BER search measurement results.
+//
+// Alternatively start the search measurement on LE,
+// return results  for LE 1M PHY. 
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+INIT:BLUetooth:SIGN:RXQuality:SEARch:BER
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:BER?
+CALCulate:BLUetooth:SIGN:RXQuality:SEARch:BER?
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:BER:STATe?
+
+INIT:BLUetooth:SIGN:RXQuality:SEARch:PER
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:PER:LENergy:LE1M?
+CALCulate:BLUetooth:SIGN:RXQuality:SEARch:PER:LENergy:LE1M?
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:PER:STATe?
+// *****************************************************************************
+// Start measurement; wait for 5 ms and return BER results.
+// Query measurement state and substates (should be "RUN,ADJ,ACT").
+// *****************************************************************************
+INIT:BLUetooth:SIGN:RXQuality:SEARch:BER
+Pause 5000
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:BER?
+CALCulate:BLUetooth:SIGN:RXQuality:SEARch:BER?
+FETCh:BLUetooth:SIGN:RXQuality:SEARch:BER:STATe:ALL?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

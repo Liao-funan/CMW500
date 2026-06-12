@@ -1,0 +1,3251 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA UE Measurements"/>
+<param name="Local" value="helpmerge-hooknode.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA Multi-Evaluation Measurement"/>
+<param name="Local" value="328eb24f1e904be9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="ab5146066c314e8c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.30)"/>
+<param name="Local" value="ace7e977d06043d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.30 (Compared to V3.5.20)"/>
+<param name="Local" value="b6565c4783e742cc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.2.80)"/>
+<param name="Local" value="3f6f7088801e41be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.80 (Compared to V3.2.70)"/>
+<param name="Local" value="37f537d5180b41a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.60)"/>
+<param name="Local" value="c58ad60a7bd947ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.2.10)"/>
+<param name="Local" value="d22ec9b124b34700.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.10 (Compared to V3.0.30)"/>
+<param name="Local" value="e5c6c189e15c4343.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.30 (Compared to V3.0.20)"/>
+<param name="Local" value="c8ca6400104448d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.20 (Compared to V3.0.10)"/>
+<param name="Local" value="889da19c7dbf40e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.1.30)"/>
+<param name="Local" value="5f093dccc12d4991.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.30 (Compared to V2.1.20)"/>
+<param name="Local" value="16414a1932074702.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.20 (Compared to V2.1.10)"/>
+<param name="Local" value="46a083be9ad04845.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.10 (Compared to V2.0.11)"/>
+<param name="Local" value="2034ee8f37be4d5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.11 (Compared to V2.0.10)"/>
+<param name="Local" value="04a7bae312374ad3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.10 (Compared to V1.0.15.20)"/>
+<param name="Local" value="eac7bca07ca84e7a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.20 (Compared to V1.0.15.0)"/>
+<param name="Local" value="89bf47c177d44255.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.0 (Compared to V1.0.10.1)"/>
+<param name="Local" value="ef7943cb3a714a0b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.10.1 (Compared to V1.0.5.3)"/>
+<param name="Local" value="c4cedf9b81874fa8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.5.3 (Compared to V1.0.4.11)"/>
+<param name="Local" value="f7cd1e7f34914dd4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.4.11 (Compared to V1.0.3.6)"/>
+<param name="Local" value="04254c86dfe54cc7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="42c7d2401ed54713.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA TX Tests"/>
+<param name="Local" value="d772d0dd9e8b4557.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="e222c12bff2f4232.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring an Uplink WCDMA Signal"/>
+<param name="Local" value="5d49a8953fe8480f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="6fc486bb55224123.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="7e37bc54dd2e40b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="cef15d7b93ca4159.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA RX Tests"/>
+<param name="Local" value="bfd7463f59644478.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="68cdd334277f4d22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a WCDMA RX Test"/>
+<param name="Local" value="b1d72236ca7e46ca.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Evaluation List Mode"/>
+<param name="Local" value="e00e535e79f4457f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Configuration"/>
+<param name="Local" value="9515767559e44445.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA UL Signal Properties"/>
+<param name="Local" value="97444fc6c4de4ff6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Dedicated Physical Channels"/>
+<param name="Local" value="44c06eebd95e4775.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Channelization Codes"/>
+<param name="Local" value="019db62a78944dc1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Operating Bands"/>
+<param name="Local" value="102954bae1074279.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="fe649e1705f4481e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Transmit Modulation Limits"/>
+<param name="Local" value="4801235ec60445e4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Code Domain Limits"/>
+<param name="Local" value="e801ba89e3ab44b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Control Limits"/>
+<param name="Local" value="f8208910360b4bcf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ACLR Limits"/>
+<param name="Local" value="80394f8536704751.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Emission Mask"/>
+<param name="Local" value="94d9d33d02c24dc2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="914c7fa84d254a33.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview"/>
+<param name="Local" value="18c55b0b69e34d3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Modulation, CDP and CDE"/>
+<param name="Local" value="23b082c0756c4ef7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Relative CDE"/>
+<param name="Local" value="b7a5b47f55f6423b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: I/Q Constellation Diagram"/>
+<param name="Local" value="5eb91afaae2e4009.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: UE Power and Power Steps"/>
+<param name="Local" value="c2ea83a6e7e54609.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Phase Discontinuity"/>
+<param name="Local" value="38cc3594265b4c84.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: CD Monitor"/>
+<param name="Local" value="187d0f236e824bf9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: ACLR"/>
+<param name="Local" value="15e830f748ba4397.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Spectrum Emission Mask"/>
+<param name="Local" value="aef5fb7e7f47408d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TX Measurement and RX Measurement"/>
+<param name="Local" value="8e0a675102394e21.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Evaluation List Mode: Settings View"/>
+<param name="Local" value="9ef85b9e332346c9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="549dcccf8f45414a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="82d63b43cad2476c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common View Elements"/>
+<param name="Local" value="a2b67cc676bf48aa.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="bae9e5e3832648ba.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="42414d5687b64942.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="44655dc6a2ad4c50.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="b8d611b86fe54d82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info"/>
+<param name="Local" value="f1b3199f46b84a13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="7e851b7bd58245ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="bb8721d76bc340c9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="150586b379f64ff4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="f78dd8071033468a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="03e92d620bb047b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="d54249bd41024a51.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="b1b699e8b37a41a2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="8f3a6f142e1c46fa.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Examples"/>
+<param name="Local" value="7eb3b41753474c90.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="c419eaf0d6664b11.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Required Settings"/>
+<param name="Local" value="1dcff6fb4b784f29.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Measurement-Specific Settings"/>
+<param name="Local" value="29372e65a30c4965.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="21fd292389b348f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="5b48e5a78a3647c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="1133a786839140ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="dbb5e90cb40f400f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using WCDMA List Mode"/>
+<param name="Local" value="2693eec26eec4bba.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Global Measurement Settings"/>
+<param name="Local" value="6171721e8c974f17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying List Mode Settings"/>
+<param name="Local" value="3e0766fccba24313.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="4c36db60adf245da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieving Single Results for All Segments"/>
+<param name="Local" value="6403e6e01037428c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="d9926f08acbc48bd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="ddd8a06393374a14.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d5028154e7990.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CARRier&lt;c&gt;"/>
+<param name="Local" value="4d3017ff3c8f4267.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d5028154e8082.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for RF Path Selection"/>
+<param name="Local" value="3ce7d86a057e4866.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="f3d0e73b48f34058.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="da3e0b1376cd468d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="d2dc098d75e14ee5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:WCDMa:MEAS&lt;i&gt;:SCENario:SALone"/>
+<param name="Local" value="d376b281981342d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:WCDMa:MEAS&lt;i&gt;:SCENario:CSPath"/>
+<param name="Local" value="32bea01a54c34f4d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:WCDMa:MEAS&lt;i&gt;:SCENario:MAPRotocol"/>
+<param name="Local" value="8bfa32e118ec4395.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:WCDMa:MEAS&lt;i&gt;:SCENario?"/>
+<param name="Local" value="5ec72ae7980244f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:WCDMa:MEAS&lt;i&gt;?"/>
+<param name="Local" value="eaed1afd1a1e42e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:RFSettings:EATTenuation"/>
+<param name="Local" value="723c77b1b1b0483b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer Settings"/>
+<param name="Local" value="2baa599d072f438f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="0fad63b280474c91.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="6a1a3bdd1f1642f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:CARRier&lt;c&gt;:BAND"/>
+<param name="Local" value="e32138717a6a4511.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:RFSettings:CARRier&lt;c&gt;:FREQuency"/>
+<param name="Local" value="efc76e7d166840ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:RFSettings:DCARrier:SEParation"/>
+<param name="Local" value="a6294eef48764062.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info"/>
+<param name="Local" value="5ab6675a2e0c49a6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UESignal:CARRier&lt;c&gt;:SCODe"/>
+<param name="Local" value="48506a429e244619.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UESignal:SFORmat"/>
+<param name="Local" value="d5028154e9442.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UESignal:ULConfig"/>
+<param name="Local" value="ca55cb3396bf4b58.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UESignal:DPDCh"/>
+<param name="Local" value="b2de5d9d7f2648a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:DPCCh"/>
+<param name="Local" value="c4a04d19969640a0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:DPDCh"/>
+<param name="Local" value="2b84f94510b84e01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:HSDPcch"/>
+<param name="Local" value="d2468378fadf4a75.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:HSDPcch:CONFig"/>
+<param name="Local" value="b46b50659b524e5a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:EDPCch"/>
+<param name="Local" value="2a4b2fc2ac7c46f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:CARRier&lt;c&gt;:EDPDch&lt;no&gt;"/>
+<param name="Local" value="00d3979776e14a10.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UECHannels:BSFSelection"/>
+<param name="Local" value="104836cfba324fd7.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Evaluation Measurement Commands"/>
+<param name="Local" value="701fa8c048e14377.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="d1fc225983fe4b21.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:WCDMa:MEAS&lt;i&gt;:MEValuation"/>
+<param name="Local" value="6e4101dbc0c248ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:STATe?"/>
+<param name="Local" value="bd9295a0461646b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:STATe:ALL?"/>
+<param name="Local" value="dc67112c3f734a55.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enabling Results and Views"/>
+<param name="Local" value="dd9b0d406f644094.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult[:ALL]"/>
+<param name="Local" value="5174b2adf7fc4268.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:EVMagnitude"/>
+<param name="Local" value="ed05c26a768f4378.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:MERRor"/>
+<param name="Local" value="f9b20a3e3c5c4101.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:PERRor"/>
+<param name="Local" value="b759f8ce53514086.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:ACLR"/>
+<param name="Local" value="dd249b5a47c04364.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:EMASk"/>
+<param name="Local" value="48e47f12bfee4547.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CDPMonitor"/>
+<param name="Local" value="168a5c27efdd4dca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CDPower"/>
+<param name="Local" value="f54864d6425545a5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CDERror"/>
+<param name="Local" value="6faae8bd6e9044a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CHIP:EVM"/>
+<param name="Local" value="b8c76cb494f64256.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CHIP:MERRor"/>
+<param name="Local" value="9ffa839e6d5347f6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:CHIP:PERRor"/>
+<param name="Local" value="6a2f97814aff4fb2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:UEPower"/>
+<param name="Local" value="a19ef9c323284ce8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:FERRor"/>
+<param name="Local" value="df27874737d54b6b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:PHD"/>
+<param name="Local" value="35ff80fcf0b04be5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:PSTeps"/>
+<param name="Local" value="42dcf20fc9bb4376.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:BER"/>
+<param name="Local" value="343c9b1aaf3b4948.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:IQ"/>
+<param name="Local" value="52416cac76f641d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:RESult:RCDerror"/>
+<param name="Local" value="2bba7f27174c4f26.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Parameters"/>
+<param name="Local" value="779a6fb7f7f44448.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="3e56d4f4d82a4c02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:REPetition"/>
+<param name="Local" value="41d7110a0818426e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SCONdition"/>
+<param name="Local" value="d5028154e11398.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:MOEXception"/>
+<param name="Local" value="d5028154e11444.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:MSCount"/>
+<param name="Local" value="d5028154e11485.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:PSLot"/>
+<param name="Local" value="d5028154e11522.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SYNCh"/>
+<param name="Local" value="ece3d9bb40f343fa.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Settings"/>
+<param name="Local" value="0ee793ce3bfb4135.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST"/>
+<param name="Local" value="d5028154e11621.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:COUNt"/>
+<param name="Local" value="182c77e2576544e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:EOFFset"/>
+<param name="Local" value="70492cd89a12469a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CMWS:CMODe"/>
+<param name="Local" value="3f920628fc444985.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CMWS:CONNector"/>
+<param name="Local" value="4b782bea07ac4d62.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SETup"/>
+<param name="Local" value="dd9069720b7b4490.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation"/>
+<param name="Local" value="80fe2e6c0cc549e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SPECtrum"/>
+<param name="Local" value="8d67ab48002c482c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CDPower"/>
+<param name="Local" value="db54303093704e94.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:UEPower"/>
+<param name="Local" value="19c5572148a945cf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PHD"/>
+<param name="Local" value="926c04f183a24f5d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODE"/>
+<param name="Local" value="047ba9c01f2d4879.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Settings"/>
+<param name="Local" value="0128aaa6f0f74006.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:MPERiod:MODulation"/>
+<param name="Local" value="0f544ea9a4a1440e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SCOunt:MODulation"/>
+<param name="Local" value="d5028154e12542.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:DMODe:MODulation"/>
+<param name="Local" value="89063d81c4094ed6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:AMODe:MODulation"/>
+<param name="Local" value="d5028154e12626.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:CDTHreshold:MODulation"/>
+<param name="Local" value="5d979b0960d047cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SSCalar:MODulation"/>
+<param name="Local" value="47e0050326f44b24.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:DSFactor:MODulation"/>
+<param name="Local" value="d5028154e12747.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:ROTation:MODulation"/>
+<param name="Local" value="d5028154e12779.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Settings"/>
+<param name="Local" value="427fb6ff5f0849f0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SCOunt:SPECtrum"/>
+<param name="Local" value="d5028154e12831.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Settings"/>
+<param name="Local" value="c74006e4a6f94711.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:SCOunt:BER"/>
+<param name="Local" value="d5028154e12885.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="fda7057dff244422.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:CATalog:SOURce?"/>
+<param name="Local" value="201d9ca92bdf4d6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:SOURce"/>
+<param name="Local" value="d990b53e2a594a3e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:SLOPe"/>
+<param name="Local" value="d5028154e13035.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:THReshold"/>
+<param name="Local" value="3bb6f88e75384cdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="3a19b503303747d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:DELay"/>
+<param name="Local" value="1ec98338fa364191.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:MEValuation:MGAP"/>
+<param name="Local" value="e4df5ae9672b4812.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Modulation)"/>
+<param name="Local" value="13bbea5bc7b04aed.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:MERRor"/>
+<param name="Local" value="b066c53962184139.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:EVMagnitude"/>
+<param name="Local" value="efd7de98639b4794.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:PERRor"/>
+<param name="Local" value="3e151ea9526f4019.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:PHD"/>
+<param name="Local" value="709dffd5ed624a16.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:PHSDpcch"/>
+<param name="Local" value="8bc0db2324e1464e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:IQOFfset"/>
+<param name="Local" value="b8220e3adb2a443a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:IQIMbalance"/>
+<param name="Local" value="861da649dd6342e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:CFERror"/>
+<param name="Local" value="00e5e0be647e47e3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Code Domain)"/>
+<param name="Local" value="d7b1cbb775ab48e4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:DPCCh"/>
+<param name="Local" value="8dfe039e5d944fbb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:DPDCh"/>
+<param name="Local" value="ed1465516f1149dc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:HSDPcch"/>
+<param name="Local" value="2cf15557abd2486d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:HSDPcch:CONFig"/>
+<param name="Local" value="6f29facdb5eb4900.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:EDPCch"/>
+<param name="Local" value="24a4c1e9a5ac4336.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;:EDPDch&lt;no&gt;"/>
+<param name="Local" value="f00782ea007642ed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:EECDp:CARRier&lt;c&gt;"/>
+<param name="Local" value="3eda4a7768074061.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:RCDerror:ECDP"/>
+<param name="Local" value="3e5c9d8895ce45aa.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Power Control)"/>
+<param name="Local" value="e6c03af2192646df.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:PCONtrol:EPSTep"/>
+<param name="Local" value="c20956816dcb4c1e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:PCONtrol:HSDPcch"/>
+<param name="Local" value="844ac4ae8a0e48bc.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Spectrum)"/>
+<param name="Local" value="d8a9c43d33514a34.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:ACLR:ABSolute"/>
+<param name="Local" value="d723b02db78b47ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:ACLR:RELative"/>
+<param name="Local" value="f5bc2f84d7f942ae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:EMASk:ABSolute"/>
+<param name="Local" value="d11798f1911348fc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:EMASk:RELative"/>
+<param name="Local" value="9aed5285e73248df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:MEValuation:LIMit:EMASk:DCARrier:ABSolute"/>
+<param name="Local" value="a0ba63e1fbaf4def.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM Results (Traces)"/>
+<param name="Local" value="169e2611e9914cbd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:EVMagnitude[:RMS]:CURRent?"/>
+<param name="Local" value="4823a54fbb574c55.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:EVMagnitude:PEAK:CURRent?"/>
+<param name="Local" value="33152ab25deb421e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:EVMagnitude:CHIP:CURRent?"/>
+<param name="Local" value="9853eb2a92c146b6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Magnitude Error Results (Traces)"/>
+<param name="Local" value="1559a312224046e7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:MERRor[:RMS]:CURRent?"/>
+<param name="Local" value="3ac165f5b7154c97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:MERRor:PEAK:CURRent?"/>
+<param name="Local" value="11ed2578c6b34ee0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:MERRor:CHIP:CURRent?"/>
+<param name="Local" value="97b79f6928f54877.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Phase Error Results (Traces)"/>
+<param name="Local" value="7cb74658a21b4219.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:PERRor[:RMS]:CURRent?"/>
+<param name="Local" value="b098829e12864dc0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:PERRor:PEAK:CURRent?"/>
+<param name="Local" value="4044b26af9b34f48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:PERRor:CHIP:CURRent?"/>
+<param name="Local" value="43f86d3d7a4444dc.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Results (Traces)"/>
+<param name="Local" value="c552d691c1da45c7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:IQ:CURRent?"/>
+<param name="Local" value="11e60eef62f646a8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Phase Discontinuity Results (Traces)"/>
+<param name="Local" value="e6f787455f714770.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:PHD:CURRent?"/>
+<param name="Local" value="b99c0769396547a5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Error Results (Traces)"/>
+<param name="Local" value="50c1ed36c26b426d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:FERRor:CURRent?"/>
+<param name="Local" value="60c4f5aa48234f10.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Results (Traces)"/>
+<param name="Local" value="3a4d90b0c02a4c6f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:UEPower:CURRent?"/>
+<param name="Local" value="45b9535fa2844af0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:PSTeps:CURRent?"/>
+<param name="Local" value="ab5208d29f604113.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Emission Results (Traces)"/>
+<param name="Local" value="cf9fb45dc49c4aa6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:EMASk:MFLeft:CURRent?"/>
+<param name="Local" value="131237ce4e5d46a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:EMASk:HKFLeft:CURRent?"/>
+<param name="Local" value="0cc9a2e769bb4d8e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:EMASk:KFILter:CURRent?"/>
+<param name="Local" value="4ad6fa4846034e3f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CDP vs. Slot Results (Traces)"/>
+<param name="Local" value="284522fad9184cd0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDPower:DPCCh:CURRent?"/>
+<param name="Local" value="c24de9ffc12f47cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDPower:HSDPcch:CURRent?"/>
+<param name="Local" value="e50cef5f32b845f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDPower:EDPDch&lt;no&gt;:CURRent?"/>
+<param name="Local" value="088f268959c24f11.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CDE vs. Slot Results (Traces)"/>
+<param name="Local" value="574bc0c4179941e2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDERror:DPCCh:CURRent?"/>
+<param name="Local" value="fc9bb6b306964bf4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDERror:HSDPcch:CURRent?"/>
+<param name="Local" value="0a4cdcfd8a5c441d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:CDERror:EDPDch&lt;no&gt;:CURRent?"/>
+<param name="Local" value="6a279c0ff59a4976.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RCDE vs. Slot Results (Traces)"/>
+<param name="Local" value="a7b31169d6a04947.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:DPCCh:CURRent?"/>
+<param name="Local" value="d5522e6cef0b4480.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:HSDPcch:CURRent?"/>
+<param name="Local" value="f00f78d5ed544a89.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:EDPDch&lt;no&gt;:CURRent?"/>
+<param name="Local" value="06a1c450998046b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:SF:DPCCh?"/>
+<param name="Local" value="30ee8ac582104892.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:SF:EDPCch?"/>
+<param name="Local" value="20c002b1f7ef4f0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:TRACe:RCDerror:SF:EDPDch&lt;no&gt;?"/>
+<param name="Local" value="4003543529134746.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CD Monitor Results (Traces)"/>
+<param name="Local" value="515377dd088e4683.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:CDPMonitor:QSIGnal:CURRent?"/>
+<param name="Local" value="b9bb12af97964493.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:TRACe:CDEMonitor:QSIGnal:CURRent?"/>
+<param name="Local" value="b376fa40bd4541df.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Results"/>
+<param name="Local" value="3642b79c1e17458e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:SPECtrum:CURRent?"/>
+<param name="Local" value="b8e310d0c982464e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Results (Single Values)"/>
+<param name="Local" value="43c3196570e645fd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:MODulation:UEPHd?"/>
+<param name="Local" value="897040df235441ae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:MODulation:PHDHsdpcch?"/>
+<param name="Local" value="c15b53c9487b4c59.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:MODulation:CURRent?"/>
+<param name="Local" value="e570798d9da64803.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CDP vs. Slot Results (Single Values)"/>
+<param name="Local" value="0ea5d064cb3c4dfb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:CDPower:CURRent?"/>
+<param name="Local" value="8b467cb25a3e492a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CDE vs. Slot Results (Single Values)"/>
+<param name="Local" value="963467e5e51141d4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:CDERror:CURRent?"/>
+<param name="Local" value="1aecabecb5f5455f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RCDE vs. Slot Results (Single Values)"/>
+<param name="Local" value="fe03c7f75e6f4d36.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:RCDerror:CURRent?"/>
+<param name="Local" value="e0724b5de6114eae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:RCDerror:SF?"/>
+<param name="Local" value="20015ff1cbc74d49.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:CARRier&lt;c&gt;:RCDerror:OCINfo?"/>
+<param name="Local" value="b6c61e8875f74751.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CD Monitor Results (Single Values)"/>
+<param name="Local" value="0a467938b9994ef1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:PCDE:CURRent?"/>
+<param name="Local" value="d481a87ddc9f4860.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RX Results (Single Values)"/>
+<param name="Local" value="494c64785e8b4973.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:BER?"/>
+<param name="Local" value="b0ef106eed8d418a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (One Segment)"/>
+<param name="Local" value="3ad8d80b471e4824.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PCDE:CURRent?"/>
+<param name="Local" value="eb7f6268cbe3448e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CDPower:CURRent?"/>
+<param name="Local" value="3d039f568608424a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CDERror:CURRent?"/>
+<param name="Local" value="098e10ce49734657.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SPECtrum:CURRent?"/>
+<param name="Local" value="3a2f276591f04a0c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation:CURRent?"/>
+<param name="Local" value="f17bbbd398fa4e27.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:UEPower:CURRent?"/>
+<param name="Local" value="be0a4ac6d4414032.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PHD:CURRent?"/>
+<param name="Local" value="7c8cdf32797b4a89.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (All Segments, One Result)"/>
+<param name="Local" value="9629155f4b5b445d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SRELiability?"/>
+<param name="Local" value="c9d502abc13046ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:PCDE:ERRor:CURRent?"/>
+<param name="Local" value="b70bf99ef53845db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:PCDE:PHASe:CURRent?"/>
+<param name="Local" value="88deabcb82784bba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:PCDE:CODE:CURRent?"/>
+<param name="Local" value="06747725de284b23.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:DPCCh:CURRent?"/>
+<param name="Local" value="746871fd07234cde.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:DPDCh:CURRent?"/>
+<param name="Local" value="52687aeeacdc4e83.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:HSDPcch:CURRent?"/>
+<param name="Local" value="27bcc67eefca4207.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:EDPCch:CURRent?"/>
+<param name="Local" value="78b5cc8d2deb439f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:EDPDch&lt;no&gt;:CURRent?"/>
+<param name="Local" value="ad6169b659784484.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:CPOWer:CURRent?"/>
+<param name="Local" value="2d750c30af6e4426.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:UEPower:CURRent?"/>
+<param name="Local" value="48773537d4054248.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:ACLR:M&lt;no&gt;:CURRent?"/>
+<param name="Local" value="2cc028c69cc64e56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:OBW:CURRent?"/>
+<param name="Local" value="81d5d3051352468a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:EMASk:AB:CURRent?"/>
+<param name="Local" value="aeed20ceb5f24bbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:EMASk:FE:CURRent?"/>
+<param name="Local" value="ec973eaf76c045f5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:EMASk:HAD:CURRent?"/>
+<param name="Local" value="b078dbe67c2d4905.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:EVM:RMS:CURRent?"/>
+<param name="Local" value="fba0ae78fe7e4bc0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:EVM:PEAK:CURRent?"/>
+<param name="Local" value="518281d1ead447f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:MERRor:RMS:CURRent?"/>
+<param name="Local" value="7545e5f95e8a4777.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:MERRor:PEAK:CURRent?"/>
+<param name="Local" value="3e2628bc1ddc487f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERRor:RMS:CURRent?"/>
+<param name="Local" value="945c607c021144c5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERRor:PEAK:CURRent?"/>
+<param name="Local" value="03875156d9344901.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:IQOFfset:CURRent?"/>
+<param name="Local" value="2401dc5efc844e8b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:IQIMbalance:CURRent?"/>
+<param name="Local" value="cb842a9c56f44384.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:FERRor:CURRent?"/>
+<param name="Local" value="3cf7d91a33e7478f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:TTERror:CURRent?"/>
+<param name="Local" value="41efd38d22ae44a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:UEPower:CURRent?"/>
+<param name="Local" value="5f32ffea1da2487a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (All Segments, Result Groups)"/>
+<param name="Local" value="2d7ca6951ae7440f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:PCDE:CURRent?"/>
+<param name="Local" value="326be377d93c46a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDPower:CURRent?"/>
+<param name="Local" value="5a0ba82a7409400d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:CDERror:CURRent?"/>
+<param name="Local" value="70406b6567fb4aa1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:SPECtrum:CURRent?"/>
+<param name="Local" value="6e046e14760e4d6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:CURRent?"/>
+<param name="Local" value="473b050ebf554897.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:UEPower:CURRent?"/>
+<param name="Local" value="d5028154e44198.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:MEValuation:LIST:PHD:CURRent?"/>
+<param name="Local" value="403d299c95824630.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="44156523228e44b6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for General Measurement Settings"/>
+<param name="Local" value="cbc4f68d592949c1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:CARRier&lt;c&gt;:EATTenuation:INPut"/>
+<param name="Local" value="61a86939c1634d4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CARRier&lt;c&gt;:BAND"/>
+<param name="Local" value="4de5616fb9c84d62.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:DBDC"/>
+<param name="Local" value="436065e7bccc44cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:CARRier&lt;c&gt;:FREQuency:UL"/>
+<param name="Local" value="2861ca7f0f654b04.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:CARRier&lt;c&gt;:FOFFset:UL"/>
+<param name="Local" value="0162ffedddab4743.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:CARRier&lt;c&gt;:CHANnel:UL"/>
+<param name="Local" value="885578112f464111.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:DCARrier:SEParation"/>
+<param name="Local" value="1ca71cea282d4e89.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:ENPMode"/>
+<param name="Local" value="4b2d270b81a24b64.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="ad5bf391d5fa42d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:RFSettings:MARGin"/>
+<param name="Local" value="850414602988459d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPC:TPOWer:REFerence"/>
+<param name="Local" value="c348e78156284fc6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:CARRier&lt;c&gt;:TPC:TPOWer"/>
+<param name="Local" value="3861e147ef2d4a58.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:RMC&lt;no&gt;"/>
+<param name="Local" value="a4db07f15bf047cf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:VIDeo"/>
+<param name="Local" value="e3816a00a6c549a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:VOICe"/>
+<param name="Local" value="716536e6408d41f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:PDATa&lt;no&gt;"/>
+<param name="Local" value="3d7ce1fbb1fe453e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:HSDPa"/>
+<param name="Local" value="3328b4e319dd4eb8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:GFACtor:HSUPa:EDPCch"/>
+<param name="Local" value="175ab6945e484bb7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for Multi-Evaluation Measurement"/>
+<param name="Local" value="6ab1c088f0884d0e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:CARRier&lt;c&gt;:SCODe"/>
+<param name="Local" value="ee84930b5dd2445f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CELL:CPC:SFORmat"/>
+<param name="Local" value="e60b63aa06624b56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:DL:LEVel:DPCH"/>
+<param name="Local" value="7f2eb8e54ddb40fe.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="8f3a8a6ddc264480.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA TPC Measurement"/>
+<param name="Local" value="d7b32fb9733e4113.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="082dfe79bd41478a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.80 (Compared to V3.2.70)"/>
+<param name="Local" value="95fff45d5d4d402a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.60)"/>
+<param name="Local" value="db298514b20a4933.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.0.30)"/>
+<param name="Local" value="ad0b77d835984466.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.30 (Compared to V3.0.20)"/>
+<param name="Local" value="b3cf99ded5e04e39.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.20 (Compared to V3.0.10)"/>
+<param name="Local" value="23cd8675b6d141c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.1.30)"/>
+<param name="Local" value="86de5079d3804887.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.1.30 (Compared to V2.1.20)"/>
+<param name="Local" value="d34b0751a30644d9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="0e96f9f4bb254c31.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="9acd0c0ad6814090.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Perform a Measurement"/>
+<param name="Local" value="53c415f7dc0b44ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="590df9ab1aec4f47.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="dddb79e2bcf944ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TPC Setups"/>
+<param name="Local" value="8d020af998fd41dc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inner Loop Power Control TPC Setups"/>
+<param name="Local" value="42cb4cd1e0ed4a09.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Change of TFC TPC Setup"/>
+<param name="Local" value="f893cf5bef5d423b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Max Power E-DCH TPC Setup"/>
+<param name="Local" value="ab3d299e3023446c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Monitor Mode TPC Setups"/>
+<param name="Local" value="7d0d004011164c9f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TPC Test Step UL CM Setup"/>
+<param name="Local" value="511325d2c8de4895.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DC HSPA In-Band Emission TPC Setup"/>
+<param name="Local" value="e4da2f63c0c94b9b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="dae46c821fd049c2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Maximum Output Power Limits (Inner Loop Power)"/>
+<param name="Local" value="87365d18fac14c0e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Minimum Output Power Limits (Inner Loop Power)"/>
+<param name="Local" value="86d864f0972d4c76.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Step and Power Step Group Limits (Inner Loop Power)"/>
+<param name="Local" value="96e783f4e0e34568.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Max. Power E-DCH Limits"/>
+<param name="Local" value="c9daad341dd842cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Change of TFC Limits"/>
+<param name="Local" value="d74ca5c2b9a544a0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UL Compressed Mode Power Limits"/>
+<param name="Local" value="79e862925297478f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DC HSPA In-Band Emission Limit"/>
+<param name="Local" value="b63f0788febc41bc.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="8c68a00a10224830.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Monitor Mode"/>
+<param name="Local" value="fe6c2350203e4c03.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Change of TFC Mode"/>
+<param name="Local" value="2e0a4f9c5eca4311.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Max. Power E-DCH Mode"/>
+<param name="Local" value="8ebd2016064a4d90.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inner Loop - Test Steps A, B and C"/>
+<param name="Local" value="266017c85cbb47d7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inner Loop - Test Steps EFGH"/>
+<param name="Local" value="95c401bbac89476a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UL Compressed Mode"/>
+<param name="Local" value="8f79a7fead22496d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DC HSPA In-Band Emission Mode"/>
+<param name="Local" value="58edf97284894253.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="e3f9a96eb0784f77.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="657117c2b19f4f91.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="19920948973044a8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="c3c435201ec74850.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="6357684e577b481d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="7cf1f75f3d51403d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info Settings"/>
+<param name="Local" value="87c87441ded94101.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="7d49409fa245484b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="cb2a779d23c04601.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="80f73372077b4d58.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="22ef6e49456c46c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="171acd80a74c49c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="253feaf28b1047c7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="e18db72076d44b2f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="cee5d08bd2c3428a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurements with Standalone Scenario"/>
+<param name="Local" value="de5a796f41504f67.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="9a10bc1af51e4eb5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Measurement-Specific Settings"/>
+<param name="Local" value="ba404da4c8d84384.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="39928bc612074f33.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="2b2cac5be78043a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the GPRF Generator"/>
+<param name="Local" value="3aa4874ad89743e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Measurements"/>
+<param name="Local" value="dab3b23182b14ab9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurements with Combined Signal Path Scenario"/>
+<param name="Local" value="e3f4784596584c6b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Basic Measurement Settings"/>
+<param name="Local" value="af2c72608241400b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="5020e263808c4275.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="d9409c98a46c429d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Connection to the UE"/>
+<param name="Local" value="5fff4f7954504ae5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Measurements"/>
+<param name="Local" value="bddf4764fcbd4600.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="3e2826d611fe4ddc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="d82e7bf1359b4bc1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d5028154e50065.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CARRier&lt;c&gt;"/>
+<param name="Local" value="4d3017ff3c8f4267.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d5028154e50157.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="66227f9b07614dcf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="28035399edd44f4b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TPC Measurement Commands"/>
+<param name="Local" value="5ac5deb88d2d429f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="2c490d788079400d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:WCDMa:MEAS&lt;i&gt;:TPC"/>
+<param name="Local" value="a6ea8608feb94d7b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:STATe?"/>
+<param name="Local" value="8ccf6d4fc637463a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:STATe:ALL?"/>
+<param name="Local" value="d17c5a96d6044271.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info Settings"/>
+<param name="Local" value="6723d4cb36354645.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:CSELection"/>
+<param name="Local" value="c86f97696f4d466f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:SETup"/>
+<param name="Local" value="20dfaaf653004a8c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:UESignal:CMPattern"/>
+<param name="Local" value="ad09c1c98c4543d1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="52e8974af8c04baf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:TOUT"/>
+<param name="Local" value="82b758b2f24f48cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:MOEXception"/>
+<param name="Local" value="d5028154e51209.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:MODE?"/>
+<param name="Local" value="a0a9ee4f56e74c33.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:MONitor:MLENgth"/>
+<param name="Local" value="d5028154e51325.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ILPControl:MLENgth?"/>
+<param name="Local" value="d5028154e51365.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ILPControl:AEXecution"/>
+<param name="Local" value="d5028154e51410.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ILPControl:TSEF"/>
+<param name="Local" value="6b80a1937aa4477a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ILPControl:TSGH"/>
+<param name="Local" value="ce4dece844444b5c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ILPControl:TSSegment"/>
+<param name="Local" value="f844f77a43ff4de6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:MPEDch:MLENgth"/>
+<param name="Local" value="d5028154e51598.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:MPEDch:AEXecution"/>
+<param name="Local" value="d5028154e51638.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:CTFC:MLENgth"/>
+<param name="Local" value="f887497b84ce4e8a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ULCM:MLENgth"/>
+<param name="Local" value="c012ce78a188453e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:ULCM:AEXecution"/>
+<param name="Local" value="25e7a591d0bc44d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:DHIB:MLENgth"/>
+<param name="Local" value="da3e8f22fe7b4aac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:DHIB:PATTern"/>
+<param name="Local" value="8794c38b934e4f6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:DHIB:AEXecution"/>
+<param name="Local" value="a22d8e50a0d84e1f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="f531dfd78e4a4552.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:CATalog:SOURce?"/>
+<param name="Local" value="92f50a6a3ebb43b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:SOURce"/>
+<param name="Local" value="c2ff5500c6084f9f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:SLOPe"/>
+<param name="Local" value="d5028154e52028.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:THReshold"/>
+<param name="Local" value="cb24a3976bcd438f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:DELay"/>
+<param name="Local" value="5e95c5c9e45f45a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:TOUT"/>
+<param name="Local" value="2bdee409a0984c5c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:TPC:MGAP"/>
+<param name="Local" value="d10f358c874e4393.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits"/>
+<param name="Local" value="6ebadd108c2d4c87.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:MAXPower"/>
+<param name="Local" value="cfe16caac86644cc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:MAXPower:URPClass"/>
+<param name="Local" value="737ded64bd5d4580.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:MAXPower:ACTive?"/>
+<param name="Local" value="eb8fdcbd32e04757.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:MAXPower:UDEFined"/>
+<param name="Local" value="d5028154e52419.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:MINPower"/>
+<param name="Local" value="2513b5b9076848fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:PSTep"/>
+<param name="Local" value="9c071744823948d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:PSGRoup"/>
+<param name="Local" value="32abd351b60c4665.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ILPControl:EPSTep"/>
+<param name="Local" value="67f25955b641435f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:MPEDch"/>
+<param name="Local" value="2f1c11da002a4484.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:CTFC"/>
+<param name="Local" value="d5028154e52916.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ULCM:PA"/>
+<param name="Local" value="15fb6d316acb441e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:ULCM:PB"/>
+<param name="Local" value="21fc3432a75c438d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:TPC:LIMit:DHIB"/>
+<param name="Local" value="e44c661f60714bff.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results (Traces)"/>
+<param name="Local" value="70c88041b0524b08.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:TRACe:UEPower:CURRent?"/>
+<param name="Local" value="414da21d38074c80.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:TOTal:TRACe:UEPower:CURRent?"/>
+<param name="Local" value="b84fea74ee084eeb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:TRACe:PSTeps:CURRent?"/>
+<param name="Local" value="c9a717baf60c4c12.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results (Single Values)"/>
+<param name="Local" value="9b6334a4cce342d6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:UEPower:MAXimum?"/>
+<param name="Local" value="44f14e85ce67405f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:TOTal:UEPower:MAXimum?"/>
+<param name="Local" value="fdaaa1b4c6c54e0c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:TPC:DHIB:MAXimum?"/>
+<param name="Local" value="43e9fdfe36f54683.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:PSTeps:MAXimum?"/>
+<param name="Local" value="c696a95235df4a9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:UEPower:STATistics?"/>
+<param name="Local" value="9f96a154b2574a59.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:TOTal:UEPower:STATistics?"/>
+<param name="Local" value="b09f3845ca9940f8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:DHIB:STATistics?"/>
+<param name="Local" value="2b6853646afb4c3f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:TPC:CARRier&lt;c&gt;:PSTeps:STATistics?"/>
+<param name="Local" value="993c36a25ff448a4.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="deeebf5ed4f74701.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for TPC Measurement"/>
+<param name="Local" value="80c7576f973f441d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPC:SET"/>
+<param name="Local" value="92fa63fae0df47aa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CMODe:PATTern"/>
+<param name="Local" value="9935593b7ae548f8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CMODe:ULCM:TYPE"/>
+<param name="Local" value="0d04f638db2145f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CMODe:ULCM:ACTivation"/>
+<param name="Local" value="c239a5974f9a4489.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPC:MODE"/>
+<param name="Local" value="4bc57c57fb064dd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CONNection:TMODe:RMC:DRATe"/>
+<param name="Local" value="0d16205185434e68.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPCSet:PCONfig:TSEF"/>
+<param name="Local" value="28da27dfc925445d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPCSet:PCONfig:TSGH"/>
+<param name="Local" value="75063a007dd341ec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:TPCSet:PCONfig:TSSegment"/>
+<param name="Local" value="c58c29d425864e0c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="fba9991debf04327.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA PRACH Measurement"/>
+<param name="Local" value="ede15f24158e427d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="0f1a6d20bcb44ad5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.80 (Compared to V3.2.60)"/>
+<param name="Local" value="d2d77264729242a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.0.20)"/>
+<param name="Local" value="4cfbca552d824f6a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="214a5f4a47bb4523.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="06e25cd16a7949c3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Perform a Measurement"/>
+<param name="Local" value="101b8c7f7840497c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="aa776068547b4bab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="d13738bd3b3e4b06.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="4e18e96ef18e4fa1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="b566b76ed9814ed3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Transmit Modulation Limits"/>
+<param name="Local" value="f42edfc57b3b412a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Maximum Output Power Limits"/>
+<param name="Local" value="7a3be7607076491d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Open Loop Power Limits"/>
+<param name="Local" value="17807a5288c14fc2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Off Power Limit"/>
+<param name="Local" value="b2cf201fd5404379.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Step Limits"/>
+<param name="Local" value="eea0f16160d247b1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="7e1f660dd14542e2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview"/>
+<param name="Local" value="5fbb48278beb4b6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Modulation"/>
+<param name="Local" value="0ab2bf0ac6044295.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: I/Q Constellation Diagram"/>
+<param name="Local" value="51312556218c4cc9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: UE Power and Power Steps"/>
+<param name="Local" value="5443b4ed53714553.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: TX Measurement"/>
+<param name="Local" value="bbc74c5ae91e40d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="c283176689e34ad0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="1a189f4ed73f4abc.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="a3546bd535f04e5c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="dbf804ba8079429a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="ce7f687096e4406c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="daacfe04eb9945d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info"/>
+<param name="Local" value="b86041e3b2734022.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="eb9ad83232db41db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="eb8989f592b2451e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="320f6dde3cb840f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="22ef6e49456c46c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="171acd80a74c49c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="ec391a8f3e384124.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="21bb792c583644b7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="69cc5656935246a1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="b6fdf3c1e0db4b70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General and Common Measurement Settings"/>
+<param name="Local" value="7d2424a6cd014d9e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Required Signal Settings"/>
+<param name="Local" value="71fcb17c6e914ca8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring PRACH Measurement-Specific Settings"/>
+<param name="Local" value="6800002fc34c4758.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="feb2b21bfccb485e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="9941246e504c41ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Measurements"/>
+<param name="Local" value="556e1c8a1b864495.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="51298a4894d94b1c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="0183f80be3c540d9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d5028154e60287.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d5028154e60371.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="9ea31796d81d4d64.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="7cf1ca60f249469a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PRACH Measurement Commands"/>
+<param name="Local" value="02a63ecac58c4826.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="5085f4698c73416b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:WCDMa:MEAS&lt;i&gt;:PRACh"/>
+<param name="Local" value="4c90d6d35b264a3b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:STATe?"/>
+<param name="Local" value="3c4c19beb5434633.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:STATe:ALL?"/>
+<param name="Local" value="2c57c341a3004586.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enabling Results and Views"/>
+<param name="Local" value="676c26b2f47e44b9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult[:ALL]"/>
+<param name="Local" value="dd54b2a332604030.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:UEPower"/>
+<param name="Local" value="a2083aef6332484d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:PSTeps"/>
+<param name="Local" value="09e16e43db294200.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:FERRor"/>
+<param name="Local" value="3ef1d586d1c546f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:EVMagnitude"/>
+<param name="Local" value="805585e63b5c41eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:MERRor"/>
+<param name="Local" value="f6be87f5e4664b56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:PERRor"/>
+<param name="Local" value="b1509b7bd43046ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:CHIP:UEPower"/>
+<param name="Local" value="eada2730c14c458b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:CHIP:EVM"/>
+<param name="Local" value="98eed9a0ae4549ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:CHIP:MERRor"/>
+<param name="Local" value="3ff1178b264c4702.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:CHIP:PERRor"/>
+<param name="Local" value="fa9346bbaffe45e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:RESult:IQ"/>
+<param name="Local" value="d5028154e61565.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal and Measurement Control Parameters"/>
+<param name="Local" value="621cf82917524ba7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:CELL:CARRier&lt;c&gt;:SCODe"/>
+<param name="Local" value="d984eec169a94dbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:TOUT"/>
+<param name="Local" value="87c2a94e3a144f28.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:MOEXception"/>
+<param name="Local" value="d5028154e61715.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:MPReamble"/>
+<param name="Local" value="d5028154e61756.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:PPReamble"/>
+<param name="Local" value="e78efbaa47bd4212.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:OFFPower"/>
+<param name="Local" value="d5028154e61831.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="a92525a7f9f54f93.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:CATalog:SOURce?"/>
+<param name="Local" value="0c8e9e74feec4ffc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:SOURce"/>
+<param name="Local" value="3b6efdc993244836.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:SLOPe"/>
+<param name="Local" value="d5028154e61935.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:THReshold"/>
+<param name="Local" value="686298c9b1244399.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:DELay"/>
+<param name="Local" value="2968dd59eeff4a71.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:TOUT"/>
+<param name="Local" value="8d7116cbce5342ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:PRACh:MGAP"/>
+<param name="Local" value="d5e0ef33949b49f0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Modulation)"/>
+<param name="Local" value="0195360224264d34.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:MERRor"/>
+<param name="Local" value="88baf0f4ce464ae6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:EVMagnitude"/>
+<param name="Local" value="56a8baf27e314dcf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PERRor"/>
+<param name="Local" value="8bb25878d6614094.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:IQOFfset"/>
+<param name="Local" value="7ea16e85970d4260.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:IQIMbalance"/>
+<param name="Local" value="f38c838592af45d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:CFERror"/>
+<param name="Local" value="a1daec8dd6794e96.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Power Control)"/>
+<param name="Local" value="5e5bc0a7b9ed4b51.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:MAXPower"/>
+<param name="Local" value="7ffe6aa888124649.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:MAXPower:URPClass"/>
+<param name="Local" value="eb25bf67614348f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:MAXPower:ACTive?"/>
+<param name="Local" value="16be0a525366451a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:MAXPower:UDEFined"/>
+<param name="Local" value="d5028154e62622.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:OLPower"/>
+<param name="Local" value="d5028154e62696.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:OFFPower"/>
+<param name="Local" value="21a0020c927d4636.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:PRACh:LIMit:PCONtrol:PSTep"/>
+<param name="Local" value="d5028154e62801.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results (Traces)"/>
+<param name="Local" value="bec6ad7527cd491f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:UEPower:CURRent?"/>
+<param name="Local" value="dad12e150dc94c9d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:UEPower:CHIP:CURRent?"/>
+<param name="Local" value="52b6e548c78f447a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:PSTeps:CURRent?"/>
+<param name="Local" value="7fd156948a104cd6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:EVMagnitude[:RMS]:CURRent?"/>
+<param name="Local" value="f17a42fb2b0d4b2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:MERRor[:RMS]:CURRent?"/>
+<param name="Local" value="c46ef1b3e0164caf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:PERRor[:RMS]:CURRent?"/>
+<param name="Local" value="aaf7d768da754c58.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:EVMagnitude:CHIP:CURRent?"/>
+<param name="Local" value="4dd5750f80c141c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:MERRor:CHIP:CURRent?"/>
+<param name="Local" value="80f91f058ed54524.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:PERRor:CHIP:CURRent?"/>
+<param name="Local" value="f5064b36a2c049ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:FERRor:CURRent?"/>
+<param name="Local" value="8221507d424448a9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:PRACh:TRACe:IQ:CURRent?"/>
+<param name="Local" value="0f883494b15e4f36.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results (Single Values)"/>
+<param name="Local" value="e19939531db64822.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:PRACh:PREamble&lt;no&gt;:CURRent?"/>
+<param name="Local" value="06876c44abc34cab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:PRACh:OFFPower?"/>
+<param name="Local" value="401a43d193224c4c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="6ac5b24a77e44f74.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for PRACH Measurement"/>
+<param name="Local" value="3bf0d1c4270f4fae.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:CELL:CARRier&lt;c&gt;:SCODe"/>
+<param name="Local" value="752699428dca49d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:PRACh:PREamble:SIGNature"/>
+<param name="Local" value="2357c8dfd9104703.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:PRACh:PREamble:AICH"/>
+<param name="Local" value="75eedc7acb1246e9.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="e766719859b24f24.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA DPCCH Open Loop Power Measurement"/>
+<param name="Local" value="91227290a51948d6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="c34e019015d447e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="d6d2225d1cb14545.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="097ca3b7fe814688.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Perform a Measurement"/>
+<param name="Local" value="1c739a427f8b49d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="0e0a33566c4e4fef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="53c2ae8a05ba40f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="937dc85a0dba470d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit"/>
+<param name="Local" value="051beaade58f4fee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="6c6cd9e873734891.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="70af46ce72424144.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="48c104935a894c2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="23e8889dbc904959.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="7cf1f75f3d51403d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info Settings"/>
+<param name="Local" value="f5512b5a00e44300.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="5cf0be6ee38644db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Setting"/>
+<param name="Local" value="1c7c02b085e64cb0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="5f0d1a6619434445.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="22ef6e49456c46c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="171acd80a74c49c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="f6353054a14345a2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="8e4df288f21a47ac.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="c1f15a532c424fca.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="316033bcb31b4fa1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement Settings"/>
+<param name="Local" value="1593728f2b984b48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Measurement-Specific Settings"/>
+<param name="Local" value="19edadc78f474be2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="077f4ef91d4d4e8b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limit"/>
+<param name="Local" value="1e48e63e9fab4d76.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Connection to the UE"/>
+<param name="Local" value="e7bc05eb281846b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Measurements"/>
+<param name="Local" value="012347e153e94120.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="3639d07e1d7f4a8c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="bfaf283fc1254121.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d5028154e65755.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CARRier&lt;c&gt;"/>
+<param name="Local" value="4d3017ff3c8f4267.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="2843de2b34ad4407.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="96a0a81b1d524888.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DPCCH Open Loop Power Measurement Commands"/>
+<param name="Local" value="7831b60151cf4853.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="ec5f7bf266954524.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:WCDMa:MEAS&lt;i&gt;:OLPControl"/>
+<param name="Local" value="3e9d39eb2b2e460d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:OLPControl:STATe?"/>
+<param name="Local" value="e0ec48d798ee4b41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:OLPControl:STATe:ALL?"/>
+<param name="Local" value="965c603b262842c3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="1ce81543d5b54ec4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OLPControl:TOUT"/>
+<param name="Local" value="2f1221c5798d4c8c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OLPControl:MOEXception"/>
+<param name="Local" value="53138aee6ff240f5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="82931cfc70d5405c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:CATalog:SOURce?"/>
+<param name="Local" value="ac772d7dd67a4bc0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:SOURce"/>
+<param name="Local" value="1cbe87cadff74249.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:SLOPe"/>
+<param name="Local" value="1cbddcae9e324156.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:THReshold"/>
+<param name="Local" value="66b2376dacda4b39.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:DELay"/>
+<param name="Local" value="36eac9699a554164.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:TOUT"/>
+<param name="Local" value="7b1d1bfd6d264612.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OLPControl:MGAP"/>
+<param name="Local" value="c6edccdd9a994747.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit"/>
+<param name="Local" value="f61bcc2082ac4cfc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OLPControl:LIMit"/>
+<param name="Local" value="ea2d931bf0454418.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results"/>
+<param name="Local" value="0258259c7691408b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:OLPControl?"/>
+<param name="Local" value="7bd8552543744b5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:OLPControl:CARRier&lt;c&gt;:UEPPower:RUP&lt;rupcarrier&gt;?"/>
+<param name="Local" value="d1baa2050698479c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="48bc28f9e7dd4958.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for DPCCH Open Loop Power Measurement"/>
+<param name="Local" value="bb5d86669b20423a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:UL:CARRier&lt;c&gt;:POFFset"/>
+<param name="Local" value="acebb5f7ad074262.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:WCDMa:SIGN&lt;i&gt;:UL:EIPower?"/>
+<param name="Local" value="8bb92801ac614d37.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="5de8daa9d55a4748.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WCDMA Out-Of-Sync Handling Measurement"/>
+<param name="Local" value="1682e8b6bfdb408f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="e9f6fcb10f6e40ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="2631867c8f6e48df.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="771498cbed414c56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Perform a Measurement"/>
+<param name="Local" value="785783319b5e465a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="17bda9ae3a104b4e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="3c273bbd6157440b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="dca3eca4443c424e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit"/>
+<param name="Local" value="c69f942728ca48c3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="a66a623e38db4ad9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="c88ddd5727be4808.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="2a354b0477104410.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="27617734231c4a67.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="7cf1f75f3d51403d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Signal Info Settings"/>
+<param name="Local" value="8ca3716930c94747.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="2b70905c280d4ab1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Setting"/>
+<param name="Local" value="bf1dac6bfefb4a6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="bea0f1dde02943e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="22ef6e49456c46c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Suppress &#34;Cell Off&#34; Message"/>
+<param name="Local" value="171acd80a74c49c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="435122eb043f4400.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="b7024c8b57aa4580.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="f759cee0a180487c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="0e86cf24d36c49ec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement Settings"/>
+<param name="Local" value="bda924f377574100.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Measurement-Specific Settings"/>
+<param name="Local" value="ab7c480aa4f04eca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="f33adf15bde24996.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limit"/>
+<param name="Local" value="775f42ad1d9744a1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Connection to the UE"/>
+<param name="Local" value="0019257c65164d2e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Measurements"/>
+<param name="Local" value="baa1d6a554bb4bd3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="6236231655494136.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="e9a0b36fb8924f6d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d5028154e68541.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="bfa5400dad0b4d87.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="3685b468b22f4092.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Out-Of-Sync Handling Measurement Commands"/>
+<param name="Local" value="ac197eb54f8d4130.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="06d3145878fb44b8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:WCDMa:MEAS&lt;i&gt;:OOSYnc"/>
+<param name="Local" value="592671ddd30b4b53.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:OOSYnc:STATe?"/>
+<param name="Local" value="ae3c7a8e9e334944.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:WCDMa:MEAS&lt;i&gt;:OOSYnc:STATe:ALL?"/>
+<param name="Local" value="c3a9b0320f9d4565.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="9b17707f389f4896.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OOSYnc:TOUT"/>
+<param name="Local" value="35e83f7a36e74c0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OOSYnc:AADPchlevel"/>
+<param name="Local" value="1a0ca1240bd44b97.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="ba3936e65d3d402b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:CATalog:SOURce?"/>
+<param name="Local" value="ab6f269ded4442ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:DELay"/>
+<param name="Local" value="52aec3b5e1f749f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:MGAP"/>
+<param name="Local" value="939b58c412924f4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:SLOPe"/>
+<param name="Local" value="ddf73e60421e4e2f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:SOURce"/>
+<param name="Local" value="07a1db27e79240dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:THReshold"/>
+<param name="Local" value="7840655ecd364feb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:WCDMa:MEAS&lt;i&gt;:OOSYnc:TOUT"/>
+<param name="Local" value="21cb5c3f7bc84bed.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit"/>
+<param name="Local" value="052d961a194c4e3d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OOSYnc:LIMit:POFFupper"/>
+<param name="Local" value="cb02eb6b89934fdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OOSYnc:LIMit:PONupper"/>
+<param name="Local" value="f5972e149d874165.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:MEAS&lt;i&gt;:OOSYnc:LIMit:THReshold"/>
+<param name="Local" value="b6c877315d8f4a20.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Results"/>
+<param name="Local" value="3224ac8cdad847ad.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:WCDMa:MEAS&lt;i&gt;:OOSYnc?"/>
+<param name="Local" value="c356999b1e02430e.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="35b192b6ffb141c7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for Out-Of-Sync Handling Measurement"/>
+<param name="Local" value="2f54643dba454475.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:DL:ENHanced:DPCH:LSEQuence"/>
+<param name="Local" value="63870417d4e44d57.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:DL:ENHanced:DPCH:LSEQuence:EXECute"/>
+<param name="Local" value="ac4d4e3176534e67.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:DL:ENHanced:DPCH:LSEQuence:STATe?"/>
+<param name="Local" value="10fbf60f979244c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:WCDMa:SIGN&lt;i&gt;:DL:ENHanced:DPCH:RXLStrategy"/>
+<param name="Local" value="44f57b1bbf564b5f.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="7a6b0388d3ca4755.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+</BODY>
+</HTML>

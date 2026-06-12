@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Channelization Codes</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="42c7d2401ed54713.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="97444fc6c4de4ff6.htm">WCDMA UL Signal Properties</a> &gt; <span class="chm-breadcrumb">Channelization Codes</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Channelization Codes</div><p>Channelization codes are used to separate different physical channels of the same carrier frequency, cell and user. The channelization operation is applied to the data part of physical channels. It transforms each data symbol into several chips. The number of chips per data symbol is called spreading factor (SF). The symbol rate of the resulting channel equals the chip rate of the total signal divided by the spreading factor:</p><p><span class="input">Symbol rate (Channel) = 3.84 Mcps / SF (Channel)</span></p><p>The transformation operation involves channelization codes c<sub>SF,m</sub> defined in terms of the spreading factor SF and a code number m ranging from 0 to SF - 1. The codes c<sub>SF,m</sub> are called orthogonal variable spreading factor (OVSF) codes and are derived from a hierarchical tree:</p><div class="block" id="ID_f2e972358a6cb7690a00206a0074dc6e-f7f0b5f26b50e92b0a00206a008072d3-en-US"><div class="graphic"><img border="0" src="images/img5c506376e1c8c8c80a00206a00cbfa9e_3_--_--_PNG96.png" alt="" title=""></div></div><p>Observe the following rule for assignment of channelization codes to avoid code conflicts: Within each branch, only one code can be used at the same time.</p><div class="block"><div class="listintro">This rule means:</div><ul class="list"><li>Other codes on the path between the code and the root of the tree must not be used.</li><li>Codes in subbranches of the code (to the right of the code) must not be used.</li></ul></div><p>For an example, see the figure below. The red parts are blocked when c<sub>4,3</sub> is used.</p><div class="block" id="ID_a14fc4688a6cb7690a00206a0033d195-f7f0b5f26b50e92b0a00206a008072d3-en-US"><div class="graphic"><img border="0" src="images/img8f4a4c47e1d122aa0a00206a00df9694_2_--_--_PNG96.png" alt="" title=""></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

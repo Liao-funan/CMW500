@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Power Levels</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="8e2a7df7450445a9.htm">Physical DL Channels</a> &gt; <span class="chm-breadcrumb">Power Levels</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Power Levels</div><p>The individual channel power levels and the OCNS power level are expressed relative to the RMS output power of the generator. The total power of all active channels is called "accumulated power" (including OCNS channels and excluding AICH and S-CCPCH that are not active during the actual call). It is calculated under consideration of the transmission duration of each channel within a timeslot or frame.</p><div class="block"><div class="listintro">The transmission durations are as follows:</div><ul class="list"><li>SCH: first 256 chips of a slot (2560 chips)</li><li>P-CCPCH: last 2304 chips of a slot (2560 chips)</li><li>PICH: 288 bits of a frame (300 bits)</li><li>AICH: 4096 chips out of 5120 chips (not relevant for accumulated power)</li><li>All other channels: transmitted during entire timeslot / frame<br>For HS-SCCH, HS-DSCH, E-AGCH, E-RGCH and E-HICH it is assumed that these channels are transmitted continuously, e.g. unscheduled subframes/slots filled with dummy data.</li></ul></div><p>Example: For a configuration with active P-CPICH, DPCH, PICH, P-SCH and P-CCPCH the accumulated power is calculated according to the following formula:</p><div class="block" id="ID_ffd62590e20acc9e0a00206a001fc1e1-c1d0400de677c5cf0a00206a01f1104d-en-US"><div class="graphic"><img border="0" src="images/img6f4dc07ae2017ab10a00206a00648cb4_2_--_--_PNG96.png" alt="" title=""></div></div><p>If the resulting accumulated power would be smaller than the RMS output power of the generator, this gap is filled by OCNS channels, see <a class="xref" href="dc6b2a27891e44b9.htm#ID_d1ac589c0ab619a00a00206a013636a3-c1d0400de677c5cf0a00206a01f1104d-en-US">"Orthogonal Channel Noise Simulator (OCNS)"</a>.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

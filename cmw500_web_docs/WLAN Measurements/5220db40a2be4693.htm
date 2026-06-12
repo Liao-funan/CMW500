@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>How to Measure a WLAN Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="d2fe70e275834b4d.htm">General Description</a> &gt; <span class="chm-breadcrumb">How to Measure a WLAN Signal</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">How to Measure a WLAN Signal</div><div class="block"><div class="listintro">After connecting your WLAN unit to the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW, you have to adjust the following settings:</div><ul class="list"><li>The standard the signal complies to (IEEE 802.11n, 802.11ac, 802.11p, ...)</li><li>For IEEE 802.11n and 802.11ac signals, the receive mode (SISO, composite MIMO or switched MIMO)<br>For IEEE 802.11ax signals, the receive mode (SISO or switched MIMO)</li><li>For IEEE 802.11n, 802.11p, 802.11ac, or 802.11ax signals, the signal bandwidth</li><li>The measurements to be performed (enabling / disabling views)</li><li>For switched MIMO measurements on an R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW100, a MIMO scenario</li><li>The used RF connectors</li><li>For IEEE 802.11n signals, the transmitted burst type (mixed or greenfield)</li><li>For IEEE 802.11p signals, the power class</li><li>The channels to be measured - either by channel number or center frequency</li><li>The "Expected Nominal Power", "User Margin" and "External Attenuation". Recommended values: "Expected Nominal Power" = peak WLAN burst power; "User Margin" = 0 dB.</li></ul></div><p>For the first listed settings, there are dependencies, so that the order is important: Configure first the standard, then the receive mode, then the bandwidth, then the assigned views.</p><div class="block"><div class="note"><table cellpadding="0" cellspacing="0" border="0"><tr><td width="46" align="left" valign="top"><img src="info_small_10mm.gif" width="38" height="38" class="note_img"></td><td><p>The measurement of a DSSS signal with low data rate and large payload sizes can take up to 40 s. In remote control mode, set the measurement timeout to an adequate value, e.g. to 60 s.</p></td></tr></table></div></div><p>With the settings described above, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW is able to synchronize to the incoming bursts. For SISO signals and switched MIMO measurements, it decodes the signal.</p>
+						<div class="chapter_toc"><div class="chapter_toc_title">Contents</div><ul><li><a href="23f22c3e527d4b74.htm" class="chapter_title_toc">Composite MIMO Measurements</a></li><li><a href="b522843c1b474983.htm" class="chapter_title_toc">Switched MIMO Measurements</a></li></ul></div>
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

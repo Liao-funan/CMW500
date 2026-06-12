@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>How to Measure an Uplink SRS Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="df760600fac4413a.htm">LTE SRS Measurement</a> &gt; <a class="chm-breadcrumb" href="bce95baa4b5e4f4b.htm">General Description</a> &gt; <span class="chm-breadcrumb">How to Measure an Uplink SRS Signal</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">How to Measure an Uplink SRS Signal</div><p>The measurement expects a pure LTE SRS UL signal. Any other signals, e.g. an LTE SRS UL signal with additional PUSCH does not yield correct measurement results.</p><div class="block"><div class="listintro">After connecting your LTE UE to the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW, you have to adjust at least the following analyzer settings to the properties of the analyzed SRS signal:</div><ul class="list"><li>Duplex mode</li><li>Analyzer "Frequency"</li><li>"Expected Nominal Power"<br>Optionally "User Margin" and "External Attenuation (Input)"<div class="listintro2">Recommended values:</div><table border="0" cellpadding="0" cellspacing="0" class="list2"><tr><td valign="baseline" style=";           width: 13pt; border:0px solid #FFFFFF;"><span style="font-family: Arial Unicode MS; line-height: 8pt">–</span></td><td valign="top" style=";           border:0px solid #FFFFFF;">"Expected Nominal Power" = peak power of the UE signal during the measurement</td></tr><tr><td valign="baseline" style="padding-top:3px; ;           width: 13pt; border:0px solid #FFFFFF;"><span style="font-family: Arial Unicode MS; line-height: 8pt">–</span></td><td valign="top" style="padding-top:3px; ;           border:0px solid #FFFFFF;">"User Margin" = 0 dB</td></tr></table><br>The smallest possible value of the "Expected Nominal Power" plus the "User Margin" ensures the maximum dynamic range.</li></ul></div><p>The "Channel Bandwidth" must also be in accordance with the measured signal. For configuration, refer to the "Measurement Control" section of the configuration dialog.</p><p>The default trigger settings are often suitable, see <a class="xref" href="89e6297e62684ac4.htm#ID_228ca243fa5e26090a00206a0090053b-f14092816c3ec07b0a00206a015164eb-en-US">"Trigger Modes"</a>.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

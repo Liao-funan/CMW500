@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring IPv6 Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7b3c32a7cb51441f.htm">Data Application Control</a> &gt; <span class="chm-breadcrumb">Configuring IPv6 Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring IPv6 Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable static IPv6 address configuration and configure
+// the address of the DAU and the address of the default router.
+// *****************************************************************************
+CONFigure:DATA:CONTrol:IPVSix:ADDRess:TYPE STATic
+CONFigure:DATA:CONTrol:IPVSix:STATic:ADDRess 'fcb1:c014::1/64'
+CONFigure:DATA:CONTrol:IPVSix:STATic:DROuter 'fcb1:c014::1'
+
+// *****************************************************************************
+// Verify which addresses are really currently used.
+// *****************************************************************************
+SENSe:DATA:CONTrol:IPVSix:CURRent:IPADdress?
+SENSe:DATA:CONTrol:IPVSix:CURRent:DROuter?
+
+// *****************************************************************************
+// Enable static configuration of the DUT address pool.
+// Query the DUT address pool, delete the first entry and add a new entry.
+// *****************************************************************************
+CONFigure:DATA:CONTrol:IPVSix:MOBile:PREFix:TYPE STATic
+SENSe:DATA:CONTrol:IPVSix:STATic:PREFixes:CATalog?
+CONFigure:DATA:CONTrol:IPVSix:STATic:PREFixes:DELete 0
+CONFigure:DATA:CONTrol:IPVSix:STATic:PREFixes:ADD 'fcb1:abab:cdcd:efe3::/64'
+
+// *****************************************************************************
+// If you configure the DUT address pool via DHCP or use the automatic
+// standalone configuration, you can query the pool via the following commands.
+// *****************************************************************************
+SENSe:DATA:CONTrol:IPVSix:DHCP:PREFixes:CATalog?
+SENSe:DATA:CONTrol:IPVSix:AUTomatic:PREFixes:CATalog?
+
+// *****************************************************************************
+// Enable manual configuration of routes and query the existing routes.
+// Add two new routes, then delete the first one.
+// *****************************************************************************
+CONFigure:DATA:CONTrol:IPVSix:ROUTing:TYPE MAN
+SENSe:DATA:CONTrol:IPVSix:MANual:ROUTing:CATalog?
+CONFigure:DATA:CONTrol:IPVSix:MANual:ROUTing:ADD 'fcb1:014f::/64','fcb1:abcd::1'
+CONFigure:DATA:CONTrol:IPVSix:MANual:ROUTing:ADD 'fcb1:afce::/64','fcb1:abcd::1'
+CONFigure:DATA:CONTrol:IPVSix:MANual:ROUTing:DELete 'fcb1:014f::/64'</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

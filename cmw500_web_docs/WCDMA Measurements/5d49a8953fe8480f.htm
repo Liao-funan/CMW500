@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Measuring an Uplink WCDMA Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="42c7d2401ed54713.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="d772d0dd9e8b4557.htm">WCDMA TX Tests</a> &gt; <span class="chm-breadcrumb">Measuring an Uplink WCDMA Signal</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Measuring an Uplink WCDMA Signal</div><div class="block"><div class="listintro">After connecting your WCDMA UE to the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW, you have to adjust the following analyzer settings to the properties of the analyzed UL WCDMA signal:</div><ul class="list"><li>The analyzer frequency</li><li>The expected nominal power and (optional) a user margin and external attenuation. Recommended values: "Expected Nominal Power" = peak power of the UE signal over the entire measurement range; "User Margin" = 0 dB (the smallest possible value ensures maximum dynamic range).</li></ul></div><div class="block"><div class="listintro">For synchronization to the received signal and proper decoding, the "UE Signal Info" settings in the configuration dialog must be in accordance with the measured signal. In particular, ensure that the following parameters match up:</div><ul class="list"><li>The scrambling code and the UL DPCCH slot format</li><li>The UL configuration</li><li>The information whether a DPDCH is configured or not ("UL DPDCH Available").</li></ul></div><p>The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW can auto-detect the spreading factor of the DPDCH and of the E-DPDCHs (for HSUPA) and the corresponding symbol rates.</p><p>With matching UE signal info settings, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW is able to decode the WCDMA UL signal and determine its slot timing. No additional measurement trigger is required.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

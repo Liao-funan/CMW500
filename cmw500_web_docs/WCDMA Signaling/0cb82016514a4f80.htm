@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Preconditions and Pattern Execution</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="f3c34c8634e0432e.htm">Transmit Power Control (TPC)</a> &gt; <span class="chm-breadcrumb">Preconditions and Pattern Execution</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Preconditions and Pattern Execution</div><p>For some measurements, it is useful to command the UE to a specific precondition, e.g. the UE must transmit at maximum power.</p><div class="block"><div class="listintro">Possible preconditions are:</div><ul class="list"><li>"Min. Power": The UE is commanded to reach its minimum power.</li><li>"Max. Power": The UE is commanded to reach its maximum power.</li><li>"Target Power": The UE is commanded to the selected target power, followed by an alternating pattern when the target power is reached.</li><li>Alternating: An alternating bit sequence is transmitted. The UE power is kept constant (for algorithm 1 alternating increase/decrease by one power step).</li></ul></div><p>To reach the precondition of the active setup, you can press the "Precond." button. Using the "Precond." button is only required in exceptional situations. For maximum speed and convenience, the precondition is reached automatically whenever possible. For the "Precond." button, see <a class="xref" href="04ee071c204349e1.htm#ID_aa498a94c8b77b940a00206a01dbb9f2-543e74cce6843c280a00206a017f147f-en-US">"TX Power Control - General Settings"</a>.</p><p>The pattern execution can be started by pressing the "Execute" button. If the precondition of the active TPC setup has not been reached when the "Execute" button is pressed, the precondition is reached first, then pattern execution is started. For TPC setups without precondition, the pattern execution starts automatically whenever possible.</p><div class="block"><div class="listintro">Events:</div><ul class="list"><li>The signal is switched on:<br>If the active TPC&nbsp;setup has a precondition, the precondition is reached automatically.<br>If the active TPC setup has no precondition, pattern execution is started automatically.</li><li>The precondition of the active TPC setup is changed while the signal is on:<br>The new precondition is reached automatically (if it is set to none, pattern execution is started).</li><li>The active setup is changed while the signal is on:<br>If the new TPC&nbsp;setup has a precondition, the precondition is reached automatically.<br>If the new TPC setup has no precondition, pattern execution is started automatically.</li></ul></div><p>Changes of the TX power control settings (including pressing the "Precond." or "Execute" button) cannot be evaluated immediately while reaching a precondition or executing a pattern. Instead the changes are evaluated when pattern execution is finished or the minimum power, maximum power or target power has been reached. While an "Alternating" or "Continuous Pattern" TPC setup is executed, changes are evaluated at any time.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

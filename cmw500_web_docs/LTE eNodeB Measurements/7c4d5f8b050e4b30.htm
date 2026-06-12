@@ -1,0 +1,19 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Required Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5d2af243fad54069.htm">LTE eNodeB Measurements</a> &gt; <a class="chm-breadcrumb" href="4a94483cda7f4b3d.htm">Programming</a> &gt; <span class="chm-breadcrumb">Specifying Required Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying Required Settings</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Specify required eNodeB signal settings:
+// E-UTRA test model, UL-DL configuration, special subframe configuration,
+// channel bandwidth, physical cell ID, 
+// number of used antennas, antenna connections, SYNCH antenna.
+// *****************************************************************************
+CONFigure:LTE:MEAS:ENB:MEValuation:ETEStmodel ETM12
+CONFigure:LTE:MEAS:ENB:MEValuation:ULDL 3
+CONFigure:LTE:MEAS:ENB:MEValuation:SSUBframe 8
+CONFigure:LTE:MEAS:ENB:MEValuation:CBANdwidth B014
+CONFigure:LTE:MEAS:ENB:MEValuation:PLCid 2
+CONFigure:LTE:MEAS:ENB:MEValuation:MIMO TA2
+CONFigure:LTE:MEAS:ENB:MEValuation:TASelection:INPut1 A1
+CONFigure:LTE:MEAS:ENB:MEValuation:TASelection:INPut2 A2
+CONFigure:LTE:MEAS:ENB:MEValuation:TASYnch A1</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

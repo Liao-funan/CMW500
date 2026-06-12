@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="de5a796f41504f67.htm">Measurements with Standalone Scenario</a> &gt; <span class="chm-breadcrumb">Specifying Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Limits</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure limits for "Inner Loop Power Control" measurements:
+// Enable the check of the maximum output power limits, apply user-defined
+// limit values and define these values. Query the used limit values.
+// Define a minimum output power limit and enable the limit check.
+// Define power step, power step group, and exceptional limits and enable 
+// the limit check.
+// ***************************************************************************** 
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:MAXPower ON, USER
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:MAXPower:UDEFined 27, 1.5, -3.5
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:MAXPower:ACTive?
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:MINPower ON, -50
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:PSTep ON, 0.5, 0.5, 1.1
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:PSGRoup ON, 1, 4.2, 2.2, 4.2
+CONFigure:WCDMa:MEAS:TPC:LIMit:ILPControl:EPSTep ON, 2, 1.6, 1.6</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

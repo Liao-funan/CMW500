@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an Audio Delay Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing an Audio Delay Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing an Audio Delay Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify the size of the measurement record.
+// Query the measurement interval duration and the number of samples per interval.
+// *****************************************************************************
+CONFigure:DATA:MEAS:ADELay:MSAMples 1500
+CONFigure:DATA:MEAS:ADELay:SAMPles?
+CONFigure:DATA:MEAS:ADELay:SPINterval?
+
+// *****************************************************************************
+// Start the measurement.
+// *****************************************************************************
+INIT:DATA:MEAS:ADELay
+
+// *****************************************************************************
+// Wait 30 seconds, so that a complete trace can be measured. 
+// *****************************************************************************
+PAUSE 30
+
+// *****************************************************************************
+// Query the results relevant for the media endpoint type "Audioboard".
+// *****************************************************************************
+FETCh:DATA:MEAS:ADELay:TRACe:ULINk:CURRent?
+FETCh:DATA:MEAS:ADELay:TRACe:DLINk:CURRent?
+FETCh:DATA:MEAS:ADELay:TRACe:TAULink:CURRent?
+FETCh:DATA:MEAS:ADELay:ULINk?
+FETCh:DATA:MEAS:ADELay:DLINk?
+FETCh:DATA:MEAS:ADELay:TAULink?
+
+// *****************************************************************************
+// Query the results relevant for the media endpoint type "Loopback".
+// *****************************************************************************
+FETCh:DATA:MEAS:ADELay:TRACe:LOOPback:CURRent?
+FETCh:DATA:MEAS:ADELay:TRACe:TALoopback:CURRent?
+FETCh:DATA:MEAS:ADELay:LOOPback?
+FETCh:DATA:MEAS:ADELay:TALoopback?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

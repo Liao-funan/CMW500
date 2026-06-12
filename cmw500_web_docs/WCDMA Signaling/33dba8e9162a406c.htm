@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up an Audio CS Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Setting Up an Audio CS Connection</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up an Audio CS Connection</div><p>Connect the DUT with the audio connectors provided by the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW with an installed audio board. For the detailed information, refer to the user manual of the audio measurements application.</p><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Select the voice UE terminated connection, set date source to speech,
+// enable speech DTX indication. Set up a mobile terminated connection.
+// Query the connection state until it equals CEST (call established).
+// Query the speech connection delay.
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CONNection:UETerminate VOIC
+CONFigure:WCDMa:SIGN:CONNection:VOICe:SOURce SPE
+CONFigure:WCDMa:SIGN:CONNection:VOICe:DTX ON
+CALL:WCDMa:SIGN:CSWitched:ACTion CONNect
+WHILE FETCh:WCDMa:SIGN:CSWitched:STATe? &lt;&gt; "CEST"
+SENSe:WCDMa:SIGN:CVINfo?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

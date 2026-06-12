@@ -1,0 +1,12 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a Test Mode Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Setting Up a Test Mode Connection</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Setting Up a Test Mode Connection</div><p>This section is only relevant for test mode connections, not for data application tests.</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Set up a mobile-terminated test mode connection. 
+// Query the connection state until it equals CEST (connection established).
+// Query the IPv4 addresses assigned to the UE.
+// *****************************************************************************
+CALL:LTE:SIGN:PSWitched:ACTion CONNect
+WHILE FETCh:LTE:SIGN:PSWitched:STATe? &lt;&gt; "CEST"
+SENSe:LTE:SIGN:UESinfo:UEADdress:IPV4?</pre></div><div class="block"><div class="listintro">After the connection has been established, you can e.g.:</div><ul class="list"><li>Perform an LTE multi-evaluation measurement (option R&amp;S CMW-KM500/-KM550)</li><li>Perform a BLER measurement, see <a class="xref" href="5145480c85634266.htm#ID_e2080db4b94353800a710a6a00466f1d-361d6ef4b87253a30a00206a001cfed7-en-US">"BLER Tests"</a></li><li>Modify parameters, see <a class="xref" href="2928ab1f262548d0.htm#ID_1f0919119a3811dfbcf1f71bc2c9ed22-361d6ef4b87253a30a00206a001cfed7-en-US">"Modifying Parameters for an Established Connection"</a></li></ul></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

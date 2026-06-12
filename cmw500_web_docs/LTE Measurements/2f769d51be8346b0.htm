@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Power Dynamics Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="6f5b41b9033a497c.htm">LTE PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="3ce2a93c755348f3.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="2931df542db04325.htm">Limit Settings and Conformance Requirements</a> &gt; <span class="chm-breadcrumb">Power Dynamics Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Power Dynamics Limits</div><p>Transmission at excessive uplink power increases interference to other channels while a too low uplink power increases transmission errors. For PRACH transmission, 3GPP defines a time mask. The mask contains limits for the UL power during preamble transmission (transmit ON power), the UL power in the adjacent subframes (transmit OFF power) and the power ramping in-between.</p><p>The ON power is specified as the mean UE output power over the preamble (more exactly, over the PRACH measurement period, see <a class="xref" href="1621c7250a8a4c75.htm#ID_e858d19256ac730f0a00206a0199c5e2-51b8db073c3943dc0a00206a0105cd04-en-US">Table "Measurement period for ON power"</a>). For the OFF power, the mean power has to be measured both in the preceding subframe and in the subsequent subframe. A transient period of 20 µs next to the PRACH measurement period is excluded.</p><p>The following figure provides a summary of the time periods relevant for ON and OFF power limits.</p><div class="block" id="ID_901e3d7d56ac805d0a00206a01383114-948a94093c1e505e0a00206a01330477-en-US"><div class="graphic"><img border="0" src="images/imge3de8aff5665b5c60a00206a008b1840_1_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Measurement periods ON/OFF power</div></div><p>The OFF power must not exceed -48.5 dBm. The ON power must be in the range -8.5 dBm to 6.5 dBm. The limits for ON and OFF power can be set in the configuration dialog.</p><div class="block" id="ID_5aaef07b484d2eb70a00206a0104b189-948a94093c1e505e0a00206a01330477-en-US"><div class="graphic"><img border="0" src="images/imgae30711d484c14cb0a00206a0173025c_1_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">Power dynamics limit settings</div></div><div class="block"><a name="ID_8f8ed129a38a11df9084ba0fddc55d7a-948a94093c1e505e0a00206a01330477-en-US"></a><table border="1"><colgroup><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>Characteristics</p></th><th valign="top"><p>Refer to 3GPP TS 36.521 V9.3.0, section...</p></th><th valign="top"><p>Specified limit</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>ON power</p></td><td valign="top"><p>6.3.4.2 PRACH and SRS Time Mask</p></td><td valign="top"><p>≥ -8.5 dBm, ≤ 6.5 dBm</p></td></tr><tr class="evenrow"><td valign="top"><p>OFF power</p></td><td valign="top"><p>6.3.4.2 PRACH and SRS Time Mask</p></td><td valign="top"><p>≤ -48.5 dBm</p></td></tr></tbody></table></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an HSDPA CQI Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0537fe2ec35d41c7.htm">HSDPA CQI Tests</a> &gt; <span class="chm-breadcrumb">Performing an HSDPA CQI Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing an HSDPA CQI Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start the measurement and return the overall result and
+// the CQI trace results for all carriers. Query the measurement 
+// state (should be "RDY").                                                  
+// *****************************************************************************
+INIT:WCDMA:SIGN:HCQI
+FETCh:WCDMa:SIGN:HCQI:RSTate?
+FETCh:WCDMa:SIGN:HCQI:TRACe:CARRier1?
+FETCh:WCDMa:SIGN:HCQI:TRACe:CARRier2?
+FETCh:WCDMa:SIGN:HCQI:STATe?
+
+// *****************************************************************************
+// Read the other results obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:SIGN:HCQI:CARRier1?
+FETCh:WCDMa:SIGN:HCQI:CARRier2?
+FETCh:WCDMa:SIGN:HCQI:CARRier1:BLER?
+FETCh:WCDMa:SIGN:HCQI:CARRier2:BLER?
+FETCh:WCDMa:SIGN:HCQI:CARRier1:DTX?
+FETCh:WCDMa:SIGN:HCQI:CARRier2:DTX?
+FETCh:WCDMa:SIGN:HCQI:CARRier1:MSFRames?
+FETCh:WCDMa:SIGN:HCQI:CARRier2:MSFRames?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

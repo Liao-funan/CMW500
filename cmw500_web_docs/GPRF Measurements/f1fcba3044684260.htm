@@ -1,0 +1,133 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Post-Processing with MATLAB®</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="6e44ac34405e41c1.htm">I/Q Recorder Measurement</a> &gt; <span class="chm-breadcrumb">Post-Processing with MATLAB<sup><span style="font-family: Arial Unicode MS">®</span></sup></span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Post-Processing with MATLAB<sup><span style="font-family: Arial Unicode MS">®</span></sup></div><p>The following MATLAB<sup><span style="font-family: Arial Unicode MS; font-size: 10.5pt">®</span></sup> routines post-process the result of an I/Q recorder measurement.</p><div class="verbatim"><pre class="verbatim_text">% *************************************************************************
+%   [IQ, Message] = ReadIqw(FileName)
+%
+%   SPECIFICATION:
+%   Converts the selected *.iqw file into a matlab IQ vector.  
+%
+%   INPUT:
+%   FileName: String containing the name of the file to be converted.
+%
+%   OUTPUT:        
+%   IQ: Resulting complex matlab vector
+%   Message: Returns a system dependent error message if the open is not
+%   successful
+%
+%   EXAMPLE:
+%   [IQ, Message] = ReadIqw('MultiCarrier.iqw')
+% *************************************************************************
+%
+%
+function [IQ, Message]=ReadIqw(FileName)
+[fid, Message] =fopen(FileName);
+if fid == -1
+    IQ = nan;
+else
+    x = fread(fid,'single');
+    IQ = x(1:2:end)+1i*x(2:2:end);
+    fclose(fid);
+end</pre></div><div class="verbatim"><pre class="verbatim_text">% *************************************************************************
+%   [Info] = ReadInfo(FileName)
+%
+%   SPECIFICATION:
+%   Converts the selected *.info file into a matlab structure.  
+%
+%   INPUT:
+%   FileName: String containing the name of the file to be converted.
+%
+%   OUTPUT:        
+%   Info: Resulting Matlab structure
+%
+%   EXAMPLE:
+%   [Info] = ReadInfo('MultiCarrier.info')
+% *************************************************************************
+%
+%
+function [Info] = ReadInfo(FileName)
+[fid] = fopen(FileName);
+if fid == -1
+    Info = '';
+else
+    tline = fgetl(fid);
+    i = 1;
+    while ischar(tline)
+        VarName{i} = tline(1:findstr('=',tline)-1);
+        VarValue{i} = tline(findstr('=',tline)+1:end);
+        tline = fgetl(fid);
+        i = i+1;
+    end
+    Info = cell2struct(VarValue, VarName, 2);
+    fclose(fid);
+end</pre></div><div class="verbatim"><pre class="verbatim_text">% *************************************************************************
+%   [IQ, Info] = ReadIqRecord(FileName, PlotData)
+%
+%   SPECIFICATION:
+%   Reads *.iqw and *.info and plots the IQ data.
+%   Need the functions ReadIqw and ReadInfo.
+%
+%   INPUT:
+%   FileName: String containing the filename without extension.
+%   PlotData: If 1, then IQ data is plotted
+%
+%   OUTPUT:
+%   IQ: Resulting complex matlab vector
+%   Info: Resulting Matlab structure
+%
+%   EXAMPLE:
+%   [IQ, Info] = ReadIqRecord('MultiCarrier', 1)
+% *************************************************************************
+%
+%
+function [IQ, Info] = ReadIqRecord(FileName, PlotData)
+if nargin &lt; 2
+    PlotData = 0;
+end
+[pathstr, name, ext, versn] = fileparts(FileName);
+[IQ, Message] = ReadIqw([name, '.iqw']);
+if isnan(IQ)
+    error(Message)
+end
+Info = ReadInfo([name, '.info']);
+
+if isempty(Info)
+    t = 0:length(IQ)-1;
+    TimeLabel = 'samples';
+    f = -0.5:1/length(IQ):0.5-1/length(IQ);
+    FreqLabel = 'f/f_s_a_m_p_l_e';    
+else
+    t = (0:length(IQ)-1)/str2double(Info.SampleRate);
+    TimeLabel = 't [s]';
+    f = (-0.5:1/length(IQ):0.5-1/length(IQ))*str2double(Info.SampleRate);
+    FreqLabel = 'f [Hz]';
+end
+
+if PlotData
+    Impedance = 50;
+    
+    subplot(2,2,1); plot(IQ); axis square; grid on;
+    Scale = 1.1 * max(max(abs(real(IQ))), max(abs(imag(IQ))));
+    set(gca, 'XLim', 1.1*[-Scale, Scale], 'YLim', 1.1*[-Scale, Scale]);
+    xlabel('I [volt]'); ylabel('Q [volt]');
+    title([name, '.iqw'], 'FontWeight', 'Bold');  
+    
+    subplot(2,2,2); plot(t, real(IQ),'b'); hold on; plot(t, imag(IQ),'r');
+    set(gca, 'XLim', [min(t) max(t)]); grid on;
+    xlabel(TimeLabel); ylabel('I/Q [volt]');
+    legend('I', 'Q'); hold off;
+    
+    subplot(2,2,3); plot(t,30+10*log10(abs(IQ).^2/Impedance));
+    set(gca, 'XLim', [min(t) max(t)]); grid on;
+    xlabel(TimeLabel); ylabel('P [dBm]');
+    
+    w = gausswin(length(IQ), 3.8);
+    Gain = 20*log10(abs(sum(w)/length(w)));
+    subplot(2,2,4);
+    plot(f,-Gain+30+10*log10(abs(fftshift...
+        (fft(IQ.*w/length(IQ))).^2/Impedance)));
+    set(gca, 'XLim', [min(f) max(f)]); grid on;
+    xlabel(FreqLabel); ylabel('P [dBm]');
+end
+end</pre></div><p><b>Resulting plot:</b></p><div class="block" id="ID_35470927f1d067630a00206a0098a2ec-329be6c150c3fef70a00206a01b79165-en-US"><div class="graphic"><img border="0" src="images/img58b14990f1d0123e0a00206a007993f7_1_--_--_PNG96Small.png" alt="" title=""></div></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

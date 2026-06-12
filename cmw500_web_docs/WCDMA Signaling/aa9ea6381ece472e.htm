@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing a BER Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f4fc2bfb68804c77.htm">BER Tests</a> &gt; <span class="chm-breadcrumb">Performing a BER Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing a BER Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start single-shot measurement.
+// Return BER measurement results.
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+INIT:WCDMa:SIGN:BER
+FETCh:WCDMa:SIGN:BER?
+CALCulate:WCDMa:SIGN:BER?
+FETCh:WCDMa:SIGN:BER:STATe?
+
+// *****************************************************************************
+// Start continuous measurement; wait for 5 ms and return BER results.
+// Query measurement state and substates (should be "RUN,ADJ,ACT").
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:BER:REPetition CONTinuous
+INIT:WCDMa:SIGN:BER
+Pause 5000
+FETCh:WCDMa:SIGN:BER?
+CALCulate:WCDMa:SIGN:BER?
+FETCh:WCDMa:SIGN:BER:STATe:ALL?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

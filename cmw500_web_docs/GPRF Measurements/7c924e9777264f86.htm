@@ -1,0 +1,19 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Zeroing the External Sensor</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0939c37aee594695.htm">External Power Sensor Measurement</a> &gt; <span class="chm-breadcrumb">Zeroing the External Sensor</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Zeroing the External Sensor</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// ***** The measured RF signal must be switched off for this step. *****
+// Initiate zeroing of the power sensor
+// *************************************************************************
+CALibration:GPRF:MEAS:EPSensor:ZERO
+
+// *************************************************************************
+// This may take 3 to 10 seconds ...
+// Read sensor state.
+// *************************************************************************
+CALibration:GPRF:MEAS:EPSensor:ZERO?
+
+// *************************************************************************
+// After completion, switch on RF signal again to continue the measurement.
+// *************************************************************************</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

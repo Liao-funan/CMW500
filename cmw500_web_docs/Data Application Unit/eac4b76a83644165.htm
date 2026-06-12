@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an Iperf Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing an Iperf Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing an Iperf Measurement</div><p>The following SCPI commands are related to the iperf tool at the DAU side of the connection. In parallel, you must configure the iperf tool installed
+at the DUT side and start the measurement also there.
+The DUT side also provides measurement results.</p><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify the test duration, the iperf version and the packet size.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPERf:TDURation 60
+CONFigure:DATA:MEAS:IPERf:TYPE IPERf
+CONFigure:DATA:MEAS:IPERf:PSIZe 1500
+
+// *****************************************************************************
+// Enable server instance 1 and select protocol type, port number and
+// window size for this server instance.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPERf:SERVer1:ENABle ON
+CONFigure:DATA:MEAS:IPERf:SERVer1:PROTocol TCP
+CONFigure:DATA:MEAS:IPERf:SERVer1:PORT 5001
+CONFigure:DATA:MEAS:IPERf:SERVer1:WSIZe 64
+
+// *****************************************************************************
+// Enable client instance 1 and configure the client instance:
+// Select protocol type, port number, DUT IP address, window size,
+// parallel connections and maximum UDP bit rate. 
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPERf:CLIent1:ENABle ON
+CONFigure:DATA:MEAS:IPERf:CLIent1:PROTocol TCP
+CONFigure:DATA:MEAS:IPERf:CLIent1:PORT 5003
+CONFigure:DATA:MEAS:IPERf:CLIent1:IPADdress '172.22.1.110'
+CONFigure:DATA:MEAS:IPERf:CLIent1:WSIZe 64
+CONFigure:DATA:MEAS:IPERf:CLIent1:PCONnection 2
+CONFigure:DATA:MEAS:IPERf:CLIent1:BITRate 2E+6
+
+// *****************************************************************************
+// Start the measurement at the DAU side (also start the DUT side now).
+// *****************************************************************************
+INIT:DATA:MEAS:IPERf
+
+// *****************************************************************************
+// Implement a loop and insert one of the following commands into the loop
+// to query/monitor the results. Iperf delivers new results once per second.
+// The first two commands query only a subset of results. The third command
+// queries all results.
+// *****************************************************************************
+FETCh:DATA:MEAS:IPERf:SERVer?
+FETCh:DATA:MEAS:IPERf:CLIent?
+FETCh:DATA:MEAS:IPERf:ALL?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>How to Measure an Uplink LTE Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="d0ebd0054d4c4164.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="8c669f17331a4183.htm">LTE TX Tests</a> &gt; <span class="chm-breadcrumb">How to Measure an Uplink LTE Signal</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">How to Measure an Uplink LTE Signal</div><div class="block"><div class="listintro">After connecting your LTE UE to the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW, you have to adjust at least the following analyzer settings to the properties of the analyzed UL LTE signal:</div><ul class="list"><li>"Duplex Mode"</li><li>Analyzer "Frequency"</li><li>"Expected Nominal Power", "External Attenuation (Input)" and "User Margin"<br>Recommended values: "Expected Nominal Power" = peak power of the UE signal during the measurement; "User Margin" = 0 dB. The smallest possible value of the "Expected Nominal Power" plus the "User Margin" ensures maximum dynamic range.</li></ul></div><div class="block"><div class="listintro">For synchronization to the received signal and proper decoding, some settings must be in accordance with the measured signal. In particular, ensure that the following parameters match up:</div><ul class="list"><li>For TDD signals: "Uplink Downlink", "Special Subframe" and "Measure Subframe"<br>Ensure that you select an UL subframe as "Measure Subframe". When a frame trigger signal is used, subframe 0 selected by default is a DL subframe.</li><li>For eMTC signals: "eMTC" and "LO Location"</li><li>Length of the "Cyclic Prefix"</li><li>"Channel Bandwidth"</li><li>For signals with PUCCH: "PUCCH Format"</li><li>"Physical Cell ID" and "Delta Seq. Shift PUSCH"</li><li>"Group Hopping"</li></ul></div><p>The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW can auto-detect the "Modulation Scheme" of the received signal.</p><p>With matching "Measurement Control" settings, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW is able to decode the signal and determine its frame timing. No additional measurement trigger is required (see <a class="xref" href="81a860c5f97e4dc8.htm#ID_228ca243fa5e26090a00206a0090053b-7d191c6bfa5e26090a00206a01477844-en-US">"Trigger Modes"</a>).</p><p>Non-matching "Measurement Control" settings generally result in large EVM results.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

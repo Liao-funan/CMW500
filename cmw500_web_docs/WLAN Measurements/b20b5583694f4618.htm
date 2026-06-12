@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements (OFDM, SMIMO, 80+80 MHz)</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0be03d498c8f43b9.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements (OFDM, SMIMO, 80+80 MHz)</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements (OFDM, SMIMO, 80+80 MHz)</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// After configuring the measurement for 802.11ac, switched MIMO2x2, 80+80 MHz:
+// Start single-shot measurement and return first results.
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+READ:WLAN:MEAS:MEValuation:TRACe:TSMask:FREQuency?
+FETCh:WLAN:MEAS:MEValuation:STATe?
+
+// *****************************************************************************
+// Query spectrum traces for both antennas/streams and segments.
+// *****************************************************************************
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MIMO1:SEGMent1:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MIMO1:SEGMent2:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MIMO2:SEGMent1:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MIMO2:SEGMent2:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:FREQuency?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MASK:MIMO1:SEGMent1?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MASK:MIMO1:SEGMent2?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MASK:MIMO2:SEGMent1?
+FETCh:WLAN:MEAS:MEValuation:TRACe:TSMask:MASK:MIMO2:SEGMent2?
+
+// *****************************************************************************
+// Query statistical results for both antennas/streams and segments.
+// *****************************************************************************
+FETCh:WLAN:MEAS:MEValuation:MODulation:MIMO1:SEGMents:AVERage?
+FETCh:WLAN:MEAS:MEValuation:MODulation:MIMO2:SEGMents:AVERage?
+FETCh:WLAN:MEAS:MEValuation:MODulation:MIMO1:AVERage?
+FETCh:WLAN:MEAS:MEValuation:MODulation:MIMO2:AVERage?
+FETCh:WLAN:MEAS:MEValuation:MODulation:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TSMask:MIMO1:SEGMents:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TSMask:MIMO2:SEGMents:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TSMask:MIMO1:SEGMents:FREQuency:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TSMask:MIMO2:SEGMents:FREQuency:AVERage?
+FETCh:WLAN:MEAS:MEValuation:TSMask:OBW:MIMO1:SEGMents?
+FETCh:WLAN:MEAS:MEValuation:TSMask:OBW:MIMO2:SEGMents?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

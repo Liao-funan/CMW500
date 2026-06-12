@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring  Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="de5a796f41504f67.htm">Measurements with Standalone Scenario</a> &gt; <span class="chm-breadcrumb">Configuring  Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring Measurement-Specific Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define the error handling.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:MOEXception ON
+CONFigure:WCDMa:MEAS:TPC:TOUT 1800
+ 
+// *****************************************************************************
+// Select the TPC setup  test step EF and query the measurement mode.
+// Set the measurement length for the monitor mode, 
+// and query it for the inner loop power control mode.
+// *****************************************************************************
+
+CONFigure:WCDMa:MEAS:TPC:SETup TSEF
+CONFigure:WCDMa:MEAS:TPC:MODE?
+CONFigure:WCDMa:MEAS:TPC:MONitor:MLENgth 300
+CONFigure:WCDMa:MEAS:TPC:ILPControl:MLENgth?
+
+// *****************************************************************************
+// Configure the inner loop power control mode:
+// Switch off automatic TPC setup execution, configure the test steps E to H, 
+// enable segmentation.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:ILPControl:AEXecution OFF
+CONFigure:WCDMa:MEAS:TPC:ILPControl:TSEF 130, 20
+CONFigure:WCDMa:MEAS:TPC:ILPControl:TSGH 90, 20
+CONFigure:WCDMa:MEAS:TPC:ILPControl:TSSegment ON
+
+// *****************************************************************************
+// Alternatively configure TPC setup UL CM and select its pattern.
+// Query measurement length and switch on automatic TPC setup execution.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:SETup ULCM
+CONFigure:WCDMa:MEAS:TPC:MODE?
+CONFigure:WCDMa:MEAS:UESignal:CMPattern AR
+CONFigure:WCDMa:MEAS:TPC:ULCM:MLENgth?
+CONFigure:WCDMa:MEAS:TPC:ULCM:AEXecution ON
+
+// *****************************************************************************
+// Alternatively configure TPC setup DC HSPA in-band emission and query 
+// the measurement mode. Set the measurement length, pattern and switch on 
+// automatic TPC setup execution.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:TPC:SETup DHIB
+CONFigure:WCDMa:MEAS:TPC:MODE?
+CONFigure:WCDMa:MEAS:TPC:DHIB:PATTern UD
+CONFigure:WCDMa:MEAS:TPC:DHIB:MLENgth 20
+CONFigure:WCDMa:MEAS:TPC:DHIB:AEXecution ON</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying General Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Specifying General Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying General Settings</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Select duplex mode FDD for all carriers and automatic SCC activation mode.
+// Activate the uplink for SCC1.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DMODe:UCSPecific OFF
+CONFigure:LTE:SIGN:DMODe FDD
+CONFigure:LTE:SIGN:SCC:AMODe AUTO
+CONFigure:LTE:SIGN:SCC:UUL ON
+
+// *****************************************************************************
+// Define the time delay to be compensated in output and input paths.
+// *****************************************************************************
+CONFigure:LTE:SIGN:RFSettings:EDC:OUTPut 5E-9
+CONFigure:LTE:SIGN:RFSettings:EDC:INPut 5E-9
+
+// *****************************************************************************
+// Select manual expected nominal power mode and specify the expected power,
+// the user margin and the mixer level offset for the PCC.
+// Configure the SCC1.
+// *****************************************************************************
+CONFigure:LTE:SIGN:RFSettings:PCC:ENPMode MANual
+CONFigure:LTE:SIGN:RFSettings:PCC:ENPower -25
+CONFigure:LTE:SIGN:RFSettings:PCC:UMARgin 3
+CONFigure:LTE:SIGN:RFSettings:PCC:MLOFfset 1
+
+CONFigure:LTE:SIGN:RFSettings:SCC:ENPMode MANual
+CONFigure:LTE:SIGN:RFSettings:SCC:ENPower -25
+CONFigure:LTE:SIGN:RFSettings:SCC:UMARgin 3
+CONFigure:LTE:SIGN:RFSettings:SCC:MLOFfset 1</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

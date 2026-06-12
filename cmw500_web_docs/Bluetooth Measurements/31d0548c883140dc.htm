@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Basic Input Signal Properties: EDR Packets</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <span class="chm-breadcrumb">Basic Input Signal Properties: EDR Packets</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Basic Input Signal Properties: EDR Packets</div><pre class="verbatim" xml:space="preserve">
+// *************************************************************************
+// Assume the EUT transmits the longest supported π/4-DQPSK packet
+// type (2-DH5) with a PRBS9 payload bit pattern. Query the (maximum) 
+// payload length. Disable auto synchronization. Specify and query
+// the transmitted BD Address (the response is #H565634121212). 
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:DMODe MANual
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe EDR
+CONFigure:BLUetooth:MEAS:ISIGnal:PTYPe:EDRate E25P
+CONFigure:BLUetooth:MEAS:ISIGnal:PATTern PRBS9
+CONFigure:BLUetooth:MEAS:ISIGnal:ASYNchronize OFF
+CONFigure:BLUetooth:MEAS:ISIGnal:PLENgth:EDRate?
+CONFigure:BLUetooth:MEAS:ISIGnal:LAP #H121212
+CONFigure:BLUetooth:MEAS:ISIGnal:UAP #H34
+CONFigure:BLUetooth:MEAS:ISIGnal:NAP #H5656
+CONFigure:BLUetooth:MEAS:ISIGnal:BDADdress?&nbsp;
+
+// *************************************************************************
+// Set the trigger source, reduce the trigger threshold and timeout
+// *************************************************************************
+TRIGger:BLUetooth:MEAS:MEValuation:CATalog:SOURce?
+TRIGger:BLUetooth:MEAS:MEValuation:SOURce "POWer"
+TRIGger:BLUetooth:MEAS:MEValuation:THREShold -25
+TRIGger:BLUetooth:MEAS:MEValuation:TOUT 1
+&nbsp;
+WAITKEY &gt;Trigger settings completed, press "OK" to define limits&lt;</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

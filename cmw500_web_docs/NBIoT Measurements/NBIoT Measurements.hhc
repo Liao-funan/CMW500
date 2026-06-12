@@ -1,0 +1,1447 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NB-IoT Measurements"/>
+<param name="Local" value="helpmerge-hooknode.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NB-IoT Multi-Evaluation Measurement"/>
+<param name="Local" value="8f06d4d11d794030.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="151ecfae10ce4c2c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.10"/>
+<param name="Local" value="95effc50023d4473.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="159482f391824b9d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="585970a237164ac4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Measure an Uplink NB-IoT Signal"/>
+<param name="Local" value="4d34132da996415d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scope of the Measurement"/>
+<param name="Local" value="1674af3e7b6d4aab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="cbe9e358dc1041e3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="c0430338b6734b0b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode"/>
+<param name="Local" value="b7c7564b6bc64e0a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Configuration"/>
+<param name="Local" value="6117ff3ed23041f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Offline Mode and Offline Segment"/>
+<param name="Local" value="729042461ba34093.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NB-IoT UL Signal Properties"/>
+<param name="Local" value="4fdb8adb11fb4e85.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resources in Time and Frequency Domain"/>
+<param name="Local" value="90a43344b4c048ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resource Unit Allocation"/>
+<param name="Local" value="47a9609ea538424e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Bands"/>
+<param name="Local" value="2ae9429dcbef43a2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="5c75efb4cb584e92.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Error Vector Magnitude"/>
+<param name="Local" value="92784d77f9f148ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Frequency Error Limits"/>
+<param name="Local" value="243d2ca0a7a24338.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Origin Offset Limits"/>
+<param name="Local" value="5438dbd5ed2b483a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inband Emissions Limits"/>
+<param name="Local" value="5e583957e4c24e49.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Occupied Bandwidth Limits"/>
+<param name="Local" value="a28a0135ffe74f30.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Emission Mask"/>
+<param name="Local" value="197bfd49b3934495.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ACLR Limits"/>
+<param name="Local" value="0902bdbdfc2849c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Dynamics Limits"/>
+<param name="Local" value="700fa1d7dbd3454c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="84a350a41d554f54.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview"/>
+<param name="Local" value="b117e98df7b345b6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Error Vector Magnitude"/>
+<param name="Local" value="969cd29a067c4b5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Views Magnitude Error, Phase Error"/>
+<param name="Local" value="42351fda1fce4638.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Inband Emissions"/>
+<param name="Local" value="20de44415e5c424e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Spectrum Emission Mask"/>
+<param name="Local" value="4b105f4c79a74654.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Spectrum ACLR"/>
+<param name="Local" value="23cf90e98d5d4788.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View I/Q Constellation"/>
+<param name="Local" value="0ee9a2a2c3e84d7a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Power Monitor"/>
+<param name="Local" value="186eab986f8e41a9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Power Dynamics"/>
+<param name="Local" value="097980a5316c4c18.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View TX Measurement"/>
+<param name="Local" value="99f0e35d0bd24c98.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="d4d1e551d9ec4794.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="06379657db9c418e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common View Elements"/>
+<param name="Local" value="67234961cafd4ad0.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="721e1cf8f129408d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="a9627b74f0eb415b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Accessing Parameters and Settings"/>
+<param name="Local" value="8819129edf2e45be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="a4551b77b7c84c0c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="4a61efb83c4c4bb0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Control Settings, Part 1"/>
+<param name="Local" value="45a65e609ec142c0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Control Settings, Part 2"/>
+<param name="Local" value="6dd449e542aa400b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="44f8f4044cc142b4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="5e17ae09681b4285.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Shortcut Configuration"/>
+<param name="Local" value="55521c33a42c458e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="d7092150748e4c2c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="5bc0011de8e9417a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="935b964c005f4ae6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Examples"/>
+<param name="Local" value="2bfecc2d22d4407b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General and Common Measurement Settings"/>
+<param name="Local" value="f4a9af054f5643db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Required Settings"/>
+<param name="Local" value="1a352f329607471c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="5a9bd0c9d15d4c1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="2dba23d622394564.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="8e67111c9c2142b2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="c380e84f66a14bce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="ae8250988ba24752.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the List Mode"/>
+<param name="Local" value="312db3f45d774e10.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Global Measurement Settings"/>
+<param name="Local" value="ac94355991bd4964.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying List Mode Settings"/>
+<param name="Local" value="b5e6b1485dd240bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="c19913cf581f4abb.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="23b31a6f4d574186.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="791154cce6df464f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d35e5511.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d35e5599.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for RF Path Selection"/>
+<param name="Local" value="3ce7d86a057e4866.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="512e5c38da234fc1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="2d8b49523f164e6c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="b103b0280a6340d6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:MEAS&lt;i&gt;:SCENario:SALone"/>
+<param name="Local" value="8a9644f458574f23.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:MEAS&lt;i&gt;:SCENario:CSPath"/>
+<param name="Local" value="4a892e7919d14e23.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:MEAS&lt;i&gt;:SCENario:MAPRotocol"/>
+<param name="Local" value="830a345c9b6b41b6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:MEAS&lt;i&gt;:SCENario?"/>
+<param name="Local" value="78e201a426964d01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:MEAS&lt;i&gt;?"/>
+<param name="Local" value="934c44715df74262.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:EATTenuation"/>
+<param name="Local" value="8b1e9c97862146a2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer Settings"/>
+<param name="Local" value="01308ddb51674e31.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:BAND"/>
+<param name="Local" value="bc0bcb4af78446a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:FREQuency"/>
+<param name="Local" value="fe4ad719fb4a436c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:FOFFset"/>
+<param name="Local" value="e2ea1eed21814059.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="d6da6846491d47f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="47894c49882744b4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="a4edf79618a34d79.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Evaluation Measurement Commands"/>
+<param name="Local" value="dc731dce93b947a8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="ba74f83a1e264d96.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:NIOT:MEAS&lt;i&gt;:MEValuation"/>
+<param name="Local" value="c89a390cedba462d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:STATe?"/>
+<param name="Local" value="95d3c1ec43a34e39.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:STATe:ALL?"/>
+<param name="Local" value="de05c7f962154082.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enabling Results and Views"/>
+<param name="Local" value="73db91c981cc4e0e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:RESult[:ALL]"/>
+<param name="Local" value="5636f88581bd4bcb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:RESult:EVMagnitude"/>
+<param name="Local" value="bcfefaddea6f46be.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Parameters"/>
+<param name="Local" value="a50de532bb894240.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="98aa5879c3094d5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:REPetition"/>
+<param name="Local" value="7d59068428724caa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCONdition"/>
+<param name="Local" value="972ce4ad7a734ca9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:MMODe"/>
+<param name="Local" value="e23d09d619c94f85.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:MOEXception"/>
+<param name="Local" value="4c3a5acbf2544e86.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:NSLots"/>
+<param name="Local" value="9007b4cb184147ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCSPacing"/>
+<param name="Local" value="6ce8bf9bbcda4bed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:NPFormat"/>
+<param name="Local" value="33b943f3d33f45f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SUBCarrier"/>
+<param name="Local" value="cedf627282c04b93.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:NRUNits"/>
+<param name="Local" value="50d5e5728c2d4e8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:NREPetitions"/>
+<param name="Local" value="9a48466e6c8c4214.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:PLCid"/>
+<param name="Local" value="914e28505f004259.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:DSS"/>
+<param name="Local" value="ef8ba74dbdf34248.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:MODulation:MSCHeme"/>
+<param name="Local" value="d0afc7543a5f4832.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCOunt:MODulation"/>
+<param name="Local" value="cd218b6fae644917.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCOunt:SPECtrum:SEMask"/>
+<param name="Local" value="430b1a21ebf342bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCOunt:SPECtrum:ACLR"/>
+<param name="Local" value="2b42bad7fe0b46d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SPECtrum:ACLR:ENABle"/>
+<param name="Local" value="92fb461d8c72416f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:SCOunt:POWer"/>
+<param name="Local" value="28478a3bc72e4c33.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Settings"/>
+<param name="Local" value="c0d88ad709f0457d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST"/>
+<param name="Local" value="288c1e3f60f74ede.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:LRANge"/>
+<param name="Local" value="4b49841c23b44bb4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:OSINdex"/>
+<param name="Local" value="4df9319b6d2440d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:CMWS:CMODe"/>
+<param name="Local" value="b5d23c5799ea4e64.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CMWS:CONNector"/>
+<param name="Local" value="f729de0b7cb3436f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SETup"/>
+<param name="Local" value="b7cc1fbd00a642b4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation"/>
+<param name="Local" value="6a8549a9e5ca4805.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SEMask"/>
+<param name="Local" value="f5f8b535a3d14c93.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:ACLR"/>
+<param name="Local" value="1fb3f387ef0140bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:MODE"/>
+<param name="Local" value="bf5da1d508914387.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="1ea9c11b1e594bbe.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:CATalog:SOURce?"/>
+<param name="Local" value="d6d843b61f8f4d6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:SOURce"/>
+<param name="Local" value="bf12b264c33843ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:SLOPe"/>
+<param name="Local" value="8c8718c9290e48cf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:THReshold"/>
+<param name="Local" value="af7fdfc9f6d44a84.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:DELay"/>
+<param name="Local" value="0497173507384128.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="1786e31588eb4cef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:MEValuation:MGAP"/>
+<param name="Local" value="097c810bbefd4c04.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits Modulation"/>
+<param name="Local" value="01bee349073944a1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:EVMagnitude"/>
+<param name="Local" value="a5007d9da2514c06.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:MERRor"/>
+<param name="Local" value="c67d09fb11e0483c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:PERRor"/>
+<param name="Local" value="fd535ace65b44f3b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:FERRor"/>
+<param name="Local" value="f80fe6b012374742.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:IQOFfset"/>
+<param name="Local" value="c8bb643db3c7453d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:IBE"/>
+<param name="Local" value="e4b82b53eab04195.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:IBE:IQOFfset"/>
+<param name="Local" value="b6a872247ca7414a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits Spectrum"/>
+<param name="Local" value="f014430c9132423c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:ACLR:GSM"/>
+<param name="Local" value="55f68d5ff8bf4178.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:ACLR:UTRA"/>
+<param name="Local" value="f82ed725fb8f4d17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:SEMask:OBWLimit"/>
+<param name="Local" value="d31412a6509a461c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:SEMask:LIMit&lt;no&gt;"/>
+<param name="Local" value="bf3ff855094540ea.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits Power"/>
+<param name="Local" value="d123570df7544c9a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:MEValuation:LIMit:PDYNamics"/>
+<param name="Local" value="6a444dfcfc3c4af4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM Results (Traces)"/>
+<param name="Local" value="fee3094e14634a8d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:EVMagnitude:CURRent?"/>
+<param name="Local" value="ef4b72510fc84112.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:EVMagnitude:PEAK:CURRent?"/>
+<param name="Local" value="58bb11fef57b40c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:EVMSymbol:CURRent?"/>
+<param name="Local" value="12d3665583ad4472.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Magnitude Error Results (Traces)"/>
+<param name="Local" value="369af51b448a43b4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:MERRor:CURRent?"/>
+<param name="Local" value="6bc66473cf84495e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Phase Error Results (Traces)"/>
+<param name="Local" value="8dd40bb742bd4852.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:PERRor:CURRent?"/>
+<param name="Local" value="c19617c694a74f90.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inband Emission Results"/>
+<param name="Local" value="e1b4fc59f4fc4726.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:IEMissions?"/>
+<param name="Local" value="a2b864a937854066.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:IEMission:MARGin:CURRent?"/>
+<param name="Local" value="0baed35180da46aa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:IEMission:MARGin:CURRent:SCINdex?"/>
+<param name="Local" value="7c54a107d60a4cb2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Emission Results"/>
+<param name="Local" value="3772d9246ac949f1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:SEMask:CURRent?"/>
+<param name="Local" value="144ce81d49514191.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:SEMask:CURRent?"/>
+<param name="Local" value="f29b23ff1c2f4462.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:SEMask:EXTReme?"/>
+<param name="Local" value="aca4c741b8be4094.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:SEMask:MARGin:ALL?"/>
+<param name="Local" value="41262d8d603c4280.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:SEMask:MARGin:CURRent:NEGativ?"/>
+<param name="Local" value="87c1a6f3cf4b4785.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ACLR Spectrum Results"/>
+<param name="Local" value="c045c24aeda149a8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:ACLR:CURRent?"/>
+<param name="Local" value="30c1151347fe450e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:ACLR:CURRent?"/>
+<param name="Local" value="e2996e86987543cf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Results"/>
+<param name="Local" value="a75d784654ed4e8d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:IQ?"/>
+<param name="Local" value="bb563506e42845ed.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Monitor Results"/>
+<param name="Local" value="ea3878c869084f8b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:PMONitor?"/>
+<param name="Local" value="7327bc30334f4c00.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Dynamics Results"/>
+<param name="Local" value="b4be6200b34040b1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:PDYNamics:CURRent?"/>
+<param name="Local" value="e7d66320f3084dac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:TRACe:PDYNamics:POST:CURRent?"/>
+<param name="Local" value="3d31d33b8ddf4a60.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:PDYNamics:CURRent?"/>
+<param name="Local" value="b989f57c2aad45f3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Results (Single Values)"/>
+<param name="Local" value="72f1b1d63ed344de.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:MODulation:CURRent?"/>
+<param name="Local" value="3d7902978f20421e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:MEValuation:MODulation:EXTReme?"/>
+<param name="Local" value="04e7b3f705f14d04.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results"/>
+<param name="Local" value="f7b4152964c64c54.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SRELiability?"/>
+<param name="Local" value="486f855f4d6b4fc5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:ACLR:CURRent?"/>
+<param name="Local" value="5944f4702942413e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:IEMission:MARGin:CURRent?"/>
+<param name="Local" value="77441535e1374f97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:IEMission:MARGin:CURRent:SCINdex?"/>
+<param name="Local" value="b38d901c65f34e65.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation:CURRent?"/>
+<param name="Local" value="ec73e1bd025f4dd9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation:EXTReme?"/>
+<param name="Local" value="8d6954c4c97d4676.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SEMask:CURRent?"/>
+<param name="Local" value="4e29ab136fbb491c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SEMask:EXTReme?"/>
+<param name="Local" value="7ed74779afb441b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SEMask:MARGin:ALL?"/>
+<param name="Local" value="c2da2c845f7c4610.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SEMask:MARGin:CURRent:NEGativ?"/>
+<param name="Local" value="1379b38d40a54764.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="084162a4f4c54e40.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for General Measurement Settings"/>
+<param name="Local" value="b631f1784b284bb4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:NIOT:SIGN&lt;i&gt;:SCENario:SCELl"/>
+<param name="Local" value="fbb8214574194afe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:EATTenuation:INPut"/>
+<param name="Local" value="16b1f11d39034222.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:BAND"/>
+<param name="Local" value="2a4bed69b2af41c7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:CHANnel:UL"/>
+<param name="Local" value="3788dd6bffff446d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:FOFFset:UL"/>
+<param name="Local" value="43a9477b227d45da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:ENPMode"/>
+<param name="Local" value="b34af73a0a4b4643.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="4f379f31341e4130.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="2d945507590d4306.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="f2835870408f4706.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for Multi-Evaluation Measurement"/>
+<param name="Local" value="d653f350e0e24399.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CELL:SCSPacing"/>
+<param name="Local" value="54e90ac4c21a4a7f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CONNection:RMC:UL"/>
+<param name="Local" value="7c904c40c7084abe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CONNection:UDEFined:UL[:SET&lt;setNr&gt;]"/>
+<param name="Local" value="b01529a376644267.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CONNection:RMC:FORMat?"/>
+<param name="Local" value="9d00640c123948f6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CONNection:UDEFined:FORMat?"/>
+<param name="Local" value="c3c374e2d0444abd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:SIGN&lt;i&gt;:CELL:PCID"/>
+<param name="Local" value="6e953f91e5b14675.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="f7bfe6cc5f00454c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NB-IoT NPRACH Measurement"/>
+<param name="Local" value="ca0324a3846a4c4b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="7115000df6dc4d3d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="a00a7924a0ea454e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="c5a952e64d4640fa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to Measure an Uplink NPRACH Signal"/>
+<param name="Local" value="5d97a5a05042428d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="b4659adc794145d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="47bdac602b6848bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Modes"/>
+<param name="Local" value="03ad152377bf4ecd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Calculation of Modulation Results"/>
+<param name="Local" value="a2738c4ac1a8479e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NB-IoT Preamble Structure"/>
+<param name="Local" value="fb7d794fd0384cae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="574e9d2687374d2b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Transmit Modulation Limits"/>
+<param name="Local" value="ba68d1f47493411e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Dynamics Limits"/>
+<param name="Local" value="774d3a7118c0470b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="cbbe1f52f4384f7b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview"/>
+<param name="Local" value="d6087b1bf26f4e2e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Views EVM, Magnitude Error, Phase Error"/>
+<param name="Local" value="e5cc360818444bbb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Views EVM vs Preamble, Power vs Preamble"/>
+<param name="Local" value="7433790d0e614aa1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View I/Q Constellation"/>
+<param name="Local" value="db49914ecb634a1e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View Power Dynamics"/>
+<param name="Local" value="0bcd73ca047d4ce2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="View TX Measurement"/>
+<param name="Local" value="0592c82051b4430d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="bbcc984d08954469.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="e819397e698d4173.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common View Elements"/>
+<param name="Local" value="83212e947a0e4ce6.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="d1624adff1ed4e93.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="7d21fdf134cb4871.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="055dc2c5d2fc43ef.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="b8ec44e8602f4b80.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="7c5cfe1a668f4f5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Settings"/>
+<param name="Local" value="abee6d0821e34405.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Settings"/>
+<param name="Local" value="79a781c5cf7241ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="b7650b47d0d64b13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings"/>
+<param name="Local" value="ddefcc84782e4fff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Shortcut Configuration"/>
+<param name="Local" value="55521c33a42c458e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="d5a4765e2b004150.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="92049f968ab741db.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="67629dfe38b64ac1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Key Features"/>
+<param name="Local" value="6f1bbe0af277472e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General and Common Measurement Settings"/>
+<param name="Local" value="301459c0785b4e5b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Required NPRACH Settings"/>
+<param name="Local" value="38a80ae38c6e4c42.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="d0431d51585148de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Trigger System"/>
+<param name="Local" value="cf9d17a421094730.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Limits"/>
+<param name="Local" value="a807db50cc8e414c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="4d8690210b134f5a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="d127cc6efb38422a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="9acfc6b677ee4b6c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="6842386071ba495e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d35e24069.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d35e24157.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="9f9207aa360b4ad7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="f0749a82a12043b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPRACH Measurement Commands"/>
+<param name="Local" value="d7affbefdfda44fb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="66558f8588b04e4a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:NIOT:MEAS&lt;i&gt;:PRACh"/>
+<param name="Local" value="51b2f382dbd844eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:STATe?"/>
+<param name="Local" value="d8e5ccc66c0342e4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:STATe:ALL?"/>
+<param name="Local" value="8b9a0d354d284fdf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enabling Results and Views"/>
+<param name="Local" value="e9e8185504b742de.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:RESult[:ALL]"/>
+<param name="Local" value="3abdf89b78064b83.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:RESult:EVMagnitude"/>
+<param name="Local" value="8d45e72d144e47c8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Parameters - General Part"/>
+<param name="Local" value="9f2586d612134a01.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:TOUT"/>
+<param name="Local" value="a89da7e0346e487d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:REPetition"/>
+<param name="Local" value="e97c7aafe79c4a3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:SCONdition"/>
+<param name="Local" value="93c5577d7c43468e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:MOEXception"/>
+<param name="Local" value="738f8c6ca23c40cf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:PFORmat"/>
+<param name="Local" value="31d9802329654960.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:NOPReambles"/>
+<param name="Local" value="71a6abe1a4d34954.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Measurement Settings"/>
+<param name="Local" value="f979846849ab4607.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:SCOunt:MODulation"/>
+<param name="Local" value="610382b0faaa420f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:EWLength"/>
+<param name="Local" value="95105f38db1c4023.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:EWPosition"/>
+<param name="Local" value="6365601574af4f64.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Measurement Settings"/>
+<param name="Local" value="9782fc1c29a44593.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:SCOunt:PDYNamics"/>
+<param name="Local" value="9c4f69c935624053.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="1abe08f4974945d2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:CATalog:SOURce?"/>
+<param name="Local" value="d87ca9b4b3ad4020.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:SOURce"/>
+<param name="Local" value="849116575f8b4f6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:SLOPe"/>
+<param name="Local" value="c674149ff617454f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:THReshold"/>
+<param name="Local" value="3244e858103e42fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:TOUT"/>
+<param name="Local" value="9a175121020c4fe9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:NIOT:MEAS&lt;i&gt;:PRACh:MGAP"/>
+<param name="Local" value="58125ee42f854e24.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Modulation)"/>
+<param name="Local" value="d8186dd2b16440a6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:LIMit:EVMagnitude"/>
+<param name="Local" value="43138ede03734e85.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:LIMit:MERRor"/>
+<param name="Local" value="2201aec9a5ee416e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:LIMit:PERRor"/>
+<param name="Local" value="96d7966b4e4a4bef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:LIMit:FERRor"/>
+<param name="Local" value="44aebe879590445b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Power)"/>
+<param name="Local" value="5779b8ca91a4497d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:NIOT:MEAS&lt;i&gt;:PRACh:LIMit:PDYNamics"/>
+<param name="Local" value="4b60d485cdf84339.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detected Subcarriers"/>
+<param name="Local" value="7e95b19ba2364fce.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:SCSGroup?"/>
+<param name="Local" value="14e729da43f74296.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:SCSGroup:PREamble&lt;Number&gt;?"/>
+<param name="Local" value="37a89cde06024a61.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM vs. Symbol Results (Traces)"/>
+<param name="Local" value="caee0c9487d041f1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:EVM:CURRent?"/>
+<param name="Local" value="1a70f3b1553749ba.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Magnitude Error Results (Traces)"/>
+<param name="Local" value="09e09da9a292415d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:MERRor:CURRent?"/>
+<param name="Local" value="f8b7db21f4aa4ad8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Phase Error Results (Traces)"/>
+<param name="Local" value="1d84fc54c1164cf2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:PERRor:CURRent?"/>
+<param name="Local" value="b4c758e77ac64573.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM vs. Preamble Results (Traces)"/>
+<param name="Local" value="0a7ed5b3a5134c47.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:EVPReamble?"/>
+<param name="Local" value="32f2073144b749c9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power vs. Preamble Results (Traces)"/>
+<param name="Local" value="43c62839db5c4df8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:PVPReamble?"/>
+<param name="Local" value="27968e058e3342f6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Results (Traces)"/>
+<param name="Local" value="9c264e60fd2446ff.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:IQ?"/>
+<param name="Local" value="78603111cfd14568.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Dynamics Results (Traces)"/>
+<param name="Local" value="19018fc0e18a484b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:TRACe:PDYNamics:CURRent?"/>
+<param name="Local" value="f8431eaa22f04803.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="&#34;TX Measurement&#34; Results (Single Values)"/>
+<param name="Local" value="c003e5a3dcf4442a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:CURRent?"/>
+<param name="Local" value="37fb06bb386f4033.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:EXTReme?"/>
+<param name="Local" value="2abf8f8d539f49f4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM / Power vs. Preamble Results (Single Values)"/>
+<param name="Local" value="21df288f1b174658.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:NIOT:MEAS&lt;i&gt;:PRACh:MODulation:PREamble&lt;Number&gt;?"/>
+<param name="Local" value="15bd38570fb34267.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Dynamics Results (Single Values)"/>
+<param name="Local" value="a925d1a480764f81.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:NIOT:MEAS&lt;i&gt;:PRACh:PDYNamics:CURRent?"/>
+<param name="Local" value="14fedcea434a4092.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="fe354cbdc5634eeb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="61eeb28a91514f89.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+</BODY>
+</HTML>

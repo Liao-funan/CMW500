@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trigger Signals</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="430e10572a694669.htm">General Description</a> &gt; <span class="chm-breadcrumb">Trigger Signals</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trigger Signals</div><p>The WLAN signaling application provides trigger signals that can be used by other R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW applications to synchronize to the WLAN signal. These signals are especially useful to trigger WLAN TX measurements (options R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW-KM65x). The signals can also be routed to the BNC connectors at the rear of the instrument.</p><p>The available trigger signals are described below.</p><div class="block"><div class="listintro">To address the trigger signals in remote commands, use the following strings, with &lt;i&gt; replaced by the instance number of the signaling application:</div><ul class="list"><li>"WLAN Sig&lt;i&gt;: FrameTrigger"</li><li>"WLAN Sig&lt;i&gt;: RXFrameTrigger"</li><li>"WLAN Sig&lt;i&gt;: HE_TB Trigger"</li></ul></div><div class="block"><div class="subtitle"><a name="ID_5033397a357b11e2b328e987e3c075bb-901e0c70d308ccd90a001ae772f94eaf-en-US"></a>Frame trigger</div></div><p>This  trigger signal  is aligned to the start of the downlink
+MAC frames. It generates a pulse for the full duration of the TX frame. The trigger parameters  are configurable, see <a class="xref" href="89a84b0759b24a89.htm#shiv_rs_cmw_ev_do_4926-106a3d16636f00070a00206a01eed861-en-US">"MAC Frame TX Trigger"</a>.</p><div class="block"><div class="subtitle"><a name="ID_922fd9c1422611e88126a9cb8e4e0d90-901e0c70d308ccd90a001ae772f94eaf-en-US"></a>RX frame trigger</div></div><p>This trigger signal  is aligned to the start of the uplink
+MAC frames. The trigger parameters  are configurable, see <a class="xref" href="89a84b0759b24a89.htm#ID_385b47b3ef7011e58b6b9f361f329fa9-106a3d16636f00070a00206a01eed861-en-US">"MAC Frame RX Trigger"</a>.</p><div class="block"><div class="subtitle"><a name="ID_39cdaeb615b611e5b17a9a2e72a8d4b7-901e0c70d308ccd90a001ae772f94eaf-en-US"></a>HE_TB trigger</div></div><p>Trigger event after the transmission of trigger frame for the calculation of a time difference between the expected and actual arrival of an RX frame with HE TB PPDU.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

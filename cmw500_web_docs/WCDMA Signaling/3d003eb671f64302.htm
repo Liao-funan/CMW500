@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>SRB Connection Settings</title><style>
+					@import url(html_help.css);
+				</style><meta name="topic-keyword" value="HDD__848A649B_C2DE_4D39_A3B9_FD6FA1544C44__Node_SRB_Single"><meta name="topic-id" value="579"><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="8cc1f312208b4d8f.htm">GUI Reference</a> &gt; <a class="chm-breadcrumb" href="081556f1c83c40ab.htm">Connection Configuration</a> &gt; <span class="chm-breadcrumb">SRB Connection Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">SRB Connection Settings</div><p>The "Single SRB" section configures "SRB only" connections.</p><p>For background information, see <a class="xref" href="1dd8c4719da64cca.htm#ID_4af284a0d0f811e1abe5b6e793a34ed7-a8f0e108e674f4b30a00206a00c3dcb1-en-US">"Signaling Radio Bearer (SRB)"</a>.</p><p>This section is not relevant for reduced signaling.</p><div class="block" id="ID_f274ecb8cd5abc7d0a00206a01eb12f1-d2d16b1ae685b7f80a00206a0052ed18-en-US"><div class="graphic"><img border="0" src="images/img16d9fd8cccf3cda30a00206a00728c27_1_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">SRB connection settings</div></div><a name="ID_5c4607419579c3b40a00206a0115a9be-d2d16b1ae685b7f80a00206a0052ed18-en-US"></a><div class="function_heading"><a name="ID_78fe49f0cd5abc7d0a00206a0028cbc6-d2d16b1ae685b7f80a00206a0052ed18-en-US"></a><span style="font-weight: bold">Type</span></div><p>Displays the radio resource control state to which the UE is commanded when an "SRB only" connection is set up (for RRC states see 3GPP TS 25.331). Option R&amp;S CMW-KS410 allows you to select a state.</p><div class="block"><ul class="list"><li style="margin-bottom:0; padding-bottom:0;"><b>CELL_DCH</b>: In CELL_DCH state, the UE is allocated a dedicated traffic channel. This state is suitable for TX measurements.</li><li style="margin-bottom:0; padding-bottom:0;"><b>CELL_FACH</b>: The type CELL_FACH requires call setup including alerting. It remains in the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW SW to keep the compatibility with the old test scripts. However some tests, for example, spurious emission tests as defined in 3GPP TS 34.121, require the CELL_FACH state where no dedicated traffic channel resource is allocated to the UE. For the CELL_FACH tests without established call, see <a class="xref" href="fc2307aef45a4e8f.htm#ID_306e90fd945651d10a00201900ec0618-d2d16b1ae685b7f80a00206a0052ed18-en-US">"Type"</a>.</li></ul></div>Remote command:&nbsp;<div class="rcclist_right"><p><a class="xref" href="ccd8bec077314e3f.htm#ID_b12feda70618e3c20a00206a0070397c-0658c4870618e3c20a00206a0080ca76-en-US" style="font-family: &#34;Courier New&#34;, Courier, monospace;"><nobr>CONFigure:</nobr>​<nobr>WCDMa:</nobr>​<nobr>SIGN&lt;i&gt;:</nobr>​<nobr>CONNection:</nobr>​<nobr>SRBSingle:</nobr>​<nobr>TYPE</nobr></a></p></div><div style="clear:left;">&nbsp;</div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Modulation Limits (OFDM)</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0be03d498c8f43b9.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Specifying Modulation Limits (OFDM)</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Modulation Limits (OFDM)</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define modulation limits for OFDM signals, standards 802.11a, g.
+// *****************************************************************************&nbsp;
+CONF:WLAN:MEAS:MEV:LIMit:MODulation:LOFDm:EVM -5,-8,-10,-13,OFF,OFF,-23,-27
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:LOFDm:EVMPilot -10
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:LOFDm:IQOFfset -16
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:LOFDm:CFERror 45000
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:LOFDm:SCERror 21
+
+// *****************************************************************************
+// Define modulation limits for standard 802.11n.
+// *****************************************************************************&nbsp;
+CONF:WLAN:MEAS:MEV:LIMit:MODulation:HTOFdm:EVM -5,-8,-10,-13,OFF,OFF,-23,-27
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HTOFdm:EVMPilot -10
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HTOFdm:IQOFfset:BW40 -16
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HTOFdm:CFERror 45000
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HTOFdm:SCERror 21
+
+// *****************************************************************************
+// Define modulation limits for standard 802.11p.
+// *****************************************************************************
+CONF:WLAN:MEAS:MEV:LIMit:MODulation:POFDm:EVM -6,-8,-10,-13,-16,-19,-22,-25
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:POFDm:EVMPilot -7
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:POFDm:IQOFfset -16
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:POFDm:CFERror 61000
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:POFDm:SCERror 24
+
+// *****************************************************************************
+// Define modulation limits for standard 802.11ac.
+// *****************************************************************************&nbsp;
+CONF:WLAN:MEAS:MEV:LIM:MOD:VHT:EVM -5,-8,-13,-16,-19,-22,-25,-27,-30,-32,-35,-35
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:VHTofdm:EVMPilot -10
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:VHTofdm:IQOFfset:BW40 -20
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:VHTofdm:IQOFfset:BW8080 -25,-20
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:VHTofdm:CFERror 45000
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:VHTofdm:SCERror 21
+
+// *****************************************************************************
+// Define modulation limits for standard 802.11ax.
+// *****************************************************************************&nbsp;
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:EVMall:TBCoderate CR12,
+ CR34,CR34,CR56,CR56,CR34
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:EVMall:TBHigh -13,-13,
+ -13,-13,-13,-13,-13,-16,-19,-22,-25,-27,-30,-32,-35,-35
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:EVMall:TBLow -27,-27,
+ -27,-27,-27,-27,-27,-27,-27,-27,-27,-27,-30,-32,-35,-35
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:EVMPilo:TBHight -13
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:EVMPilot:TBLow -27
+
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:IQOFfset:BW20 -17.48
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:IQOFfset:BW40 -20.57
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:IQOFfset:BW80 -23.84
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:IQOFfset:BW160 -32
+CONFigure:WLAN:MEAS:MEValuation:LIMit:MODulation:HEOFdm:IQOFfset:BW8080 -26.85,-20
+CONFigure:WLAN:MEAS:MEValuation:LIMit:UTEPower HIGH
+CONFigure:WLAN:MEAS:MEValuation:LIMit:UTERror ON</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

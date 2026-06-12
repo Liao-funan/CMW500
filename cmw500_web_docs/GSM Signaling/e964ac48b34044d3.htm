@@ -1,0 +1,53 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying General Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Specifying General Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying General Settings</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Define paths for a standard cell with or without external fading,
+// with or without RX diversity, including signal routing and external
+// attenuation. ROUTe commands also activate the scenario. 
+// Send only one of the scenario commands.
+// *****************************************************************************
+ROUTe:GSM:SIGN:SCENario:SCELl:FLEXible SUU1,RF2C,RX1,RF2C,TX1
+ROUTe:GSM:SIGN:SCENario:SCFading:FLEXible SUU1,RF2C,RX1,RF2C,TX1,IQ2O
+ROUTe:GSM:SIGN:SCEN:SCFD:FLEXible:INTernal SUU1,RF1C,RX1,RF1C,TX1,RF3C,TX2,FAD1
+ROUTe:GSM:SIGN:SCEN:SCFD:FLEXible SUU1,RF1C,RX1,RF1C,TX1,RF3C,TX2,IQ2O,IQ4O
+CONFigure:GSM:SIGN:RFSettings:EATTenuation:INPut 2
+CONFigure:GSM:SIGN:RFSettings:EATTenuation:OUTPut 2
+
+// *****************************************************************************
+// Define time delay to be compensated in output and input paths.
+// *****************************************************************************
+CONFigure:GSM:SIGN:RFSettings:EDC:INPut 5E-9
+CONFigure:GSM:SIGN:RFSettings:EDC:OUTPut 5E-9
+
+// *****************************************************************************
+// Define input and output paths for the "BCCH and TCH/PDCH" scenario.
+// *****************************************************************************
+ROUTe:GSM:SIGN:SCENario:BATCh:FLEXible SUU1,RF1C,RX1,RF1C,TX1,RF3C,TX2
+CONFigure:GSM:SIGN:RFSettings:EATTenuation:INPut 2
+CONFigure:GSM:SIGN:RFSettings:EATTenuation:OUTPut1 2
+CONFigure:GSM:SIGN:RFSettings:EATTenuation:BCCH:OUTPut 2
+
+// *****************************************************************************
+// Set frequency offset in DL and UL.
+// *****************************************************************************
+CONFigure:GSM:SIGN:RFSettings:FOFFset:DL 10000
+CONFigure:GSM:SIGN:RFSettings:FOFFset:UL -10000
+
+// *****************************************************************************
+// Statically configure the expected uplink power:
+// - choose manual expected nominal power mode
+// - set the expected nominal power to 23 dBm and apply a margin of 7 dB 
+// - set the mixer level offset to -7 dB
+// *****************************************************************************
+CONFigure:GSM:SIGN:RFSettings:ENPMode MANual
+CONFigure:GSM:SIGN:RFSettings:ENPower 23
+CONFigure:GSM:SIGN:RFSettings:UMARgin 7
+CONFigure:GSM:SIGN:RFSettings:MLOFfset -7</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

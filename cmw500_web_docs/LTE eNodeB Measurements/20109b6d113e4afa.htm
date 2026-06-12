@@ -1,0 +1,67 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5d2af243fad54069.htm">LTE eNodeB Measurements</a> &gt; <a class="chm-breadcrumb" href="4a94483cda7f4b3d.htm">Programming</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single-Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Enable all measurements.
+// *****************************************************************************
+CONF:LTE:MEAS:ENB:MEValuation:RESult:ALL ON,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:LTE:MEAS:ENB:MEValuation:RESult:OOPower ON
+
+// *****************************************************************************
+// Start single-shot measurement, return average EVM bar graph values.
+// Query the measurement state (should be "RDY") and the modulation scheme
+// configured via the E-UTRA test model.
+// *****************************************************************************
+READ:LTE:MEAS:ENB:MEValuation:EVMagnitude:AVERage?
+FETCh:LTE:MEAS:ENB:MEValuation:STATe?
+FETCh:LTE:MEAS:ENB:MEValuation:MODulation?
+
+// *****************************************************************************
+// Query modulation traces, bar graph values and statistical values.
+// *****************************************************************************
+FETCh:LTE:MEAS:ENB:MEValuation:EVMagnitude:MAXimum?
+FETCh:LTE:MEAS:ENB:MEValuation:MERRor:AVERage?
+FETCh:LTE:MEAS:ENB:MEValuation:MERRor:MAXimum?
+FETCh:LTE:MEAS:ENB:MEValuation:PERRor:AVERage?
+FETCh:LTE:MEAS:ENB:MEValuation:PERRor:MAXimum?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:OSPower?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:SFLatness?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:IQ?
+FETCh:LTE:MEAS:ENB:MEValuation:MODulation:AVERage:MINPut?
+FETCh:LTE:MEAS:ENB:MEValuation:MODulation:EXTReme:MINPut?
+FETCh:LTE:MEAS:ENB:MEValuation:MODulation:AVERage:AINPut?
+FETCh:LTE:MEAS:ENB:MEValuation:MODulation:EXTReme:AINPut?
+
+// *****************************************************************************
+// Query spectrum emission results.
+// *****************************************************************************
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:SEMask:RBW30:CURRent?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:SEMask:RBW100:AVERage?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:SEMask:RBW1000:MAXimum?
+FETCh:LTE:MEAS:ENB:MEValuation:SEMask:CURRent?
+FETCh:LTE:MEAS:ENB:MEValuation:SEMask:EXTReme?
+FETCh:LTE:MEAS:ENB:MEValuation:SEMask:MARGin?
+FETCh:LTE:MEAS:ENB:MEValuation:SEMask:MARGin:MINimum:POSitiv?
+FETCh:LTE:MEAS:ENB:MEValuation:SEMask:MARGin:MINimum:NEGativ?
+
+// *****************************************************************************
+// Query ACLR results.
+// *****************************************************************************
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:ACLR:CURRent?
+FETCh:LTE:MEAS:ENB:MEValuation:TRACe:ACLR:AVERage?
+FETCh:LTE:MEAS:ENB:MEValuation:ACLR:CURRent?
+FETCh:LTE:MEAS:ENB:MEValuation:ACLR:AVERage?
+
+// *****************************************************************************
+// Query ON/OFF power results.
+// *****************************************************************************
+READ:LTE:MEAS:ENB:MEValuation:TRACe:OOPower:MAXimum?
+READ:LTE:MEAS:ENB:MEValuation:OOPower:MAXimum?
+
+// *****************************************************************************
+// Query limit check results.
+// *****************************************************************************
+CALCulate:LTE:MEAS:ENB:MEValuation:ACLR:CURRent?
+CALCulate:LTE:MEAS:ENB:MEValuation:SEMask:CURRent?
+CALCulate:LTE:MEAS:ENB:MEValuation:MODulation:CURRent:MINPut?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

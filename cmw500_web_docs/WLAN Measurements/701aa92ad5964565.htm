@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Combined Signaling and Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="d2fe70e275834b4d.htm">General Description</a> &gt; <span class="chm-breadcrumb">Combined Signaling and Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Combined Signaling and Measurement</div><p>For SISO signals except IEEE 802.11p, the multi-evaluation measurement can be used in combination with the WLAN signaling application (option R&amp;S CMW-KS65x). A connection to the DUT can be set up by the signaling application and the resulting DUT signal can be measured using the multi-evaluation measurement.</p><p>To use both applications in parallel, the "Combined Signal Path" scenario must be activated (see <a class="xref" href="b2291cb1370644a9.htm#ID_ca44bb17bdf411e5abb4a0d54e6180a9-427683fa4e11e6c40a00206a0176b9ef-en-US">"Scenario = Combined Signal Path"</a>). The signal routing and analyzer settings are then configured by the signaling application. The multi-evaluation measurement displays the corresponding signaling settings instead of its own settings. These signaling settings can be configured both in the measurement GUI and in the GUI of the signaling application.</p><p>To configure these settings via remote commands, the commands of the signaling application must be used. For a command mapping table, see <a class="xref" href="9cd28d8346204a5b.htm#ID_101aa2c1842976e50a00206a01ca9103-a435e0bb1ca9efd90a001ae72e0ab1ea-en-US">"Combined Signal Path Commands"</a>.</p><p>Whenever the combined signal path scenario is activated or the controlling application is changed, the RX frame trigger signal of the signaling application is selected automatically as trigger source. Its default settings are suitable for standards up to IEEE 802.11ac, channel bandwidth 20 MHz. For the other input signals, specify a suitable number of symbols that need to be received before the trigger event is generated ("Min Length"). This trigger source is mandatory for combined signal path measurements.</p><div class="block"><div class="note"><table cellpadding="0" cellspacing="0" border="0"><tr><td width="46" align="left" valign="top"><img src="info_small_10mm.gif" width="38" height="38" class="note_img"></td><td><p>Transmit spectrum mask measurements in combined signal path are supported only with an R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW with TRX160 and only up to 40 MHz.</p></td></tr></table></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

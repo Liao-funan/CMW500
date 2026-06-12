@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring the E-RGCH Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="c65f709b1b084939.htm">E-RGCH Tests</a> &gt; <span class="chm-breadcrumb">Configuring the E-RGCH Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring the E-RGCH Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Configure repetition mode, measured subframes, number of valid
+// expected E-TFCI values. Set initial E-TFCI to 3 (value 47).
+// Set E-TFCI values manually, specify limit.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:ERGCh:REPetition SINGleshot
+CONFigure:WCDMa:SIGN:ERGCh:MFRames 2000
+CONFigure:WCDMa:SIGN:ERGCh:ETFCi:EXPected 3
+CONFigure:WCDMa:SIGN:ERGCh:ETFCi:INITial 3
+CONFigure:WCDMa:SIGN:ERGCh:ETFCi:MODE MANual
+CONFigure:WCDMa:SIGN:ERGCh:ETFCi:MANual 28,31,47
+CONFigure:WCDMa:SIGN:ERGCh:LIMit 1,1,2
+
+</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

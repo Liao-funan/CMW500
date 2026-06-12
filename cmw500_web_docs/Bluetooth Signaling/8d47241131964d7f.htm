@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Inquire or Manually Specify EUT</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f0e09183c8684c02.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Inquire or Manually Specify EUT</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Inquire or Manually Specify EUT</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Either configure and perform an inquiry to find the EUT, 
+// or manually specify the EUT by its BD address
+// *****************************************************************************</pre><div class="block"><div class="subtitle"><a name="ID_f9c68981bb9711e29062ad7e2641af91-b3f85744f278efb00a0020190034780c-en-US"></a>Inquire BD address</div></div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Configure inquiry.
+// ***************************************************************************** 
+CONFigure:BLUetooth:SIGN:CONNection:INQuiry:ILENgth 20; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:INQuiry:NOResponses 10; *OPC?
+
+// ***************************************************************************** 
+// Run inquiry.
+// ***************************************************************************** 
+CALL:BLUetooth:SIGN:CONNection:ACTion INQuire
+WHILE FETCh:BLUetooth:SIGN:CONNection:STATe? &lt;&gt; "SBY"
+CONFigure:BLUetooth:SIGN:CONNection:INQuiry:PTARgets:CATalog?</pre><div class="block"><div class="subtitle"><a name="ID_dd9a0dd2bb9811e29062ad7e2641af91-b3f85744f278efb00a0020190034780c-en-US"></a>Manually specify BD address</div></div><pre class="verbatim" xml:space="preserve">CONFigure:BLUetooth:SIGN:CONNection:BDADdress:EUT #H123456789012; *OPC?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

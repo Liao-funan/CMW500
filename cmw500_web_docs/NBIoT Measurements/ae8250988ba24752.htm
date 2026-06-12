@@ -1,0 +1,26 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Single-Shot and Continuous Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">NB-IoT Measurements</a> &gt; <a class="chm-breadcrumb" href="8f06d4d11d794030.htm">NB-IoT Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="935b964c005f4ae6.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="2bfecc2d22d4407b.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Single-Shot and Continuous Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Single-Shot and Continuous Measurements</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Start single-shot measurement, return magnitude error bar graph values.
+// Return maximum magnitude error and phase bar graph values
+// (without repeating the measurement).
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+INIT:NIOT:MEAS:MEValuation
+FETCh:NIOT:MEAS:MEValuation:MERRor:CURRent?
+FETCh:NIOT:MEAS:MEValuation:MERRor:MAXimum?
+FETCh:NIOT:MEAS:MEValuation:PERRor:MAXimum?
+FETCh:NIOT:MEAS:MEValuation:STATe?
+
+// *****************************************************************************
+// Start continuous measurement and wait for 5 s.
+// Return average EVM bar graph results.
+// Query measurement state and substates (should be "RUN,ADJ,ACT").
+// *****************************************************************************
+CONFigure:NIOT:MEAS:MEValuation:REPetition CONTinuous
+INIT:NIOT:MEAS:MEValuation
+Pause 5000
+FETCh:NIOT:MEAS:MEValuation:EVMagnitude:AVERage?
+FETCh:NIOT:MEAS:MEValuation:STATe:ALL?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

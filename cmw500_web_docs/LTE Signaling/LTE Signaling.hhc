@@ -1,0 +1,4843 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LTE Signaling"/>
+<param name="Local" value="b71cce6eaa8040c0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="c0a7738bf331448b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.20 (Compared to V3.7.10)"/>
+<param name="Local" value="d7bb3e8b389f4599.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.50)"/>
+<param name="Local" value="ef805b41ec304e26.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.50 (Compared to V3.5.40)"/>
+<param name="Local" value="d20af53b82534927.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.40 (Compared to V3.5.30)"/>
+<param name="Local" value="bc2e5ab44ff84f5d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.30 (Compared to V3.5.20)"/>
+<param name="Local" value="80553425f7f248a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.5.10)"/>
+<param name="Local" value="12bf10811dec4696.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.10 (Compared to V3.2.82)"/>
+<param name="Local" value="d44491944cd04d7a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.82 (Compared to V3.2.81)"/>
+<param name="Local" value="df67c18bb1684954.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.81 (Compared to V3.2.80)"/>
+<param name="Local" value="9d55eae624bc42ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.80 (Compared to V3.2.70)"/>
+<param name="Local" value="429347a7b57d47ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.60)"/>
+<param name="Local" value="a729f9cdb4ea4051.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.2.50)"/>
+<param name="Local" value="bb4f3cb4ca584c0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.50 (Compared to V3.2.20)"/>
+<param name="Local" value="8d6c02f876124b41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.20 (Compared to V3.2.10)"/>
+<param name="Local" value="f706587b806d456d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.10 (Compared to V3.0.50)"/>
+<param name="Local" value="9bb936aee8e042e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.50 (Compared to V3.0.30)"/>
+<param name="Local" value="1920350ea19545da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.30 (Compared to V3.0.20)"/>
+<param name="Local" value="48b19cd6a0ab4785.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.20 (Compared to V3.0.10)"/>
+<param name="Local" value="48ee346aa6654afd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.1.30)"/>
+<param name="Local" value="b76c1d0ae8bd4603.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="baa31e28e85142a7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scenarios"/>
+<param name="Local" value="9785a4d281e84abd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview of Scenarios"/>
+<param name="Local" value="b1842406a2af4bd7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Prerequisites for Scenarios"/>
+<param name="Local" value="f728e964992f4726.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Throughput, SUA Usage and Coprocessing"/>
+<param name="Local" value="435ce3e7903d4ae5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setups"/>
+<param name="Local" value="10a04e5c0d9d4265.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario 1CC - 1x1"/>
+<param name="Local" value="96e01dfd1b5944cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario 1CC - nx2"/>
+<param name="Local" value="966f43f4988148d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for MIMO 4x2 with External RF Fading"/>
+<param name="Local" value="3e55b9f7b4444ea1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for CA Scenarios (Single CMW)"/>
+<param name="Local" value="f017e2c036aa4ca8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for CA Scenarios (Multi-CMW)"/>
+<param name="Local" value="d43148d130454f9b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Scenario 1CC - IQ Out, RF In - 1x1"/>
+<param name="Local" value="361546b1abf64831.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for External Fading Scenarios"/>
+<param name="Local" value="cc42b7c714b04d6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup for Internal Fading Scenarios"/>
+<param name="Local" value="61561693f0f043bc.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Initiating Signaling Tests"/>
+<param name="Local" value="8ec55230b989408e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Carrier Aggregation"/>
+<param name="Local" value="881f5dfc14444168.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Paths and Co-Location"/>
+<param name="Local" value="906d9875e2194f31.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Connection with Carrier Aggregation"/>
+<param name="Local" value="93b49613143744b2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="External Fading"/>
+<param name="Local" value="02d0d42d1a954060.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="1cf9f5962cf2412b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="e36b2cca33054929.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AWGN Generator"/>
+<param name="Local" value="7c4dabb3745a4a82.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Data Tests and Voice over LTE"/>
+<param name="Local" value="5eea4502ef69468f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Tests and Speech Quality Tests"/>
+<param name="Local" value="3aee70c23bf34eec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection States"/>
+<param name="Local" value="277887b60e4e48bf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Packet-Switched States"/>
+<param name="Local" value="31464c959e2e403a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SCC States"/>
+<param name="Local" value="c380b08b8e134566.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Handover"/>
+<param name="Local" value="b21b2c371f05493a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC"/>
+<param name="Local" value="70779ac4c2164136.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scheduling Type RMC for eMTC"/>
+<param name="Local" value="ceed5113b554467d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs"/>
+<param name="Local" value="087041b6a92c4d0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UL RMCs"/>
+<param name="Local" value="44dc9d3fbf2d4fb8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channels for eMTC"/>
+<param name="Local" value="ef1677bfdccd4556.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Compact Scheduling"/>
+<param name="Local" value="5e54341970ce48f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Auto Mode"/>
+<param name="Local" value="ca59ea898ca24879.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Licensed-Assisted Access (LAA)"/>
+<param name="Local" value="772dc83b2c7343d3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channels for LAA"/>
+<param name="Local" value="9446ac35775e4c78.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scheduling Type RMC for LAA"/>
+<param name="Local" value="67285801672648a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQI Channels for LAA"/>
+<param name="Local" value="2d8d4809d691448b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical DL Channels and Signals"/>
+<param name="Local" value="318945a25c8c434f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Resources in Time and Frequency Domain"/>
+<param name="Local" value="e402cc21356240b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Channel Overview"/>
+<param name="Local" value="0b75ce590b564c7b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Signal Overview"/>
+<param name="Local" value="e40d6732c8fc423c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO and Beamforming"/>
+<param name="Local" value="606cc9b9807c4d39.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Radio Channel Coefficients for MIMO"/>
+<param name="Local" value="b5990023dbd644c3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Beamforming Matrix"/>
+<param name="Local" value="701a9606606a49e9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scheduling Type RMC"/>
+<param name="Local" value="9efc48a35f1240e6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UL RMCs, Contiguous Allocation"/>
+<param name="Local" value="021e755772f244bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UL RMCs, Multi-Cluster"/>
+<param name="Local" value="b390e9b2356b4266.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs, One TX Antenna (TM 1)"/>
+<param name="Local" value="9e0036b90f3d436c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs, Multiple TX Antennas (TM 2 to 6)"/>
+<param name="Local" value="e10bd569f5294a9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs, Transmission Mode 7"/>
+<param name="Local" value="ce6829c7f91a42c9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs, Transmission Mode 8"/>
+<param name="Local" value="6d87ea9bb52f4c6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL RMCs, Transmission Mode 9"/>
+<param name="Local" value="e9b608edc68840a5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channels"/>
+<param name="Local" value="5de8e55236c44f24.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Number and Position of RBs (DL)"/>
+<param name="Local" value="dc3881f58b2e4b4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Number and Position of RBs (UL)"/>
+<param name="Local" value="b788dc5a5e634c8a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Supported Transport Block Size Indices"/>
+<param name="Local" value="170444df0deb4fff.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQI Channels"/>
+<param name="Local" value="a7606057b97447b7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fixed CQI Channels"/>
+<param name="Local" value="4d774e3956ce499b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB CQI Channels"/>
+<param name="Local" value="d2fcbc4d6a4a4806.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB PMI and PMI-RI Channels"/>
+<param name="Local" value="f0119d5eff0e4b9d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB CQI-RI and CQI-PMI-RI Channels"/>
+<param name="Local" value="39ef308760cc426d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Semi-Persistent Scheduling (SPS)"/>
+<param name="Local" value="a193cbe4a0d64de0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Operating Bands"/>
+<param name="Local" value="8743931c842e48da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signals"/>
+<param name="Local" value="15237961c96346d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Relative Power Control Tests"/>
+<param name="Local" value="1a237acef86b4363.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Extended BLER Measurement"/>
+<param name="Local" value="f8894720fdda4fde.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a BLER Measurement"/>
+<param name="Local" value="3f732beae6b34f94.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Result Overview"/>
+<param name="Local" value="9069e747aa234949.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed View: BLER"/>
+<param name="Local" value="fb9ecc7a5eb14d74.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed View: Throughput"/>
+<param name="Local" value="e26dca19cdf14839.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed View: CQI Reporting"/>
+<param name="Local" value="1507edabe7384955.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed View: PMI - RI"/>
+<param name="Local" value="b65a7d1e28044066.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed View: HARQ"/>
+<param name="Local" value="8613957d4e5c44cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common View Elements"/>
+<param name="Local" value="89b13d94a0f44479.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="b51dcdb9dffd4da1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="c20d8a038d334586.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement"/>
+<param name="Local" value="32f766ff85b34fdd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing RLC Throughput Measurements"/>
+<param name="Local" value="770be21ecbaf415a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="6913ff951ae344f1.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Application Sheets"/>
+<param name="Local" value="ce9e14eb657047dd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Measurements"/>
+<param name="Local" value="2ba34d558a55455e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Options and Equipment Required"/>
+<param name="Local" value="ce4947b3ccc14b63.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Connection"/>
+<param name="Local" value="11c5d9b9ec704537.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzing the UL Signal from the UE"/>
+<param name="Local" value="1d8b60d22cdc4c9a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="b82e0d7bf1824dd6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SRS and PRACH Measurements"/>
+<param name="Local" value="a5ef39bccd114812.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LTE IP-Based Data Tests"/>
+<param name="Local" value="362fda9929b84ed5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Options and Equipment Required"/>
+<param name="Local" value="12d21dd6c2404403.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Preparing the Tests"/>
+<param name="Local" value="24a98aa237654e9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring the Latency with Ping"/>
+<param name="Local" value="03b06a49db43432b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring the Throughput with Iperf"/>
+<param name="Local" value="644c3b4b481140b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="2bef4cd9f55a41a4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="VoLTE Call Setup and Audio Tests"/>
+<param name="Local" value="223c9c413e484c6b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Required Equipment"/>
+<param name="Local" value="1f7971ad93004857.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a VoLTE Call"/>
+<param name="Local" value="c337b76633fd42ed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Checking the Audio Transmission"/>
+<param name="Local" value="cca568aacbfa4479.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Basic Audio Tests"/>
+<param name="Local" value="d8e98f313a6f42a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Testing the Speech Quality with an R&amp;S UPV"/>
+<param name="Local" value="3b57d8f897794414.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="d92a091691e94cea.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="1f188d57ea654685.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Main View"/>
+<param name="Local" value="654fe8f40ac1400e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status"/>
+<param name="Local" value="782fb710b9ef4afc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Event Log"/>
+<param name="Local" value="1e5cbc87abc64a30.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Measurement Report"/>
+<param name="Local" value="32bdef199f274239.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Capabilities"/>
+<param name="Local" value="e2e226c8c14d43d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Info"/>
+<param name="Local" value="ccb92e8371e4473b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Settings"/>
+<param name="Local" value="c1b050f456e74ea0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Control"/>
+<param name="Local" value="7c4369fa8dc44828.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Shortcut Softkeys"/>
+<param name="Local" value="fe5bfbf7640442d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="48fc44d31e7346ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Settings"/>
+<param name="Local" value="e9bb569b5bb042c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings"/>
+<param name="Local" value="d9d108fcd2ae4d60.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Signal Routing"/>
+<param name="Local" value="f31360c83d054f02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Frequency"/>
+<param name="Local" value="8d65d1c8930a4300.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Expected Uplink Power"/>
+<param name="Local" value="91a5171694ba451e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="22e9c9a0d34a4f2e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="7ccb629b0c1446bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Settings"/>
+<param name="Local" value="096e4addb07447dc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Module AWGN"/>
+<param name="Local" value="0c62dc3f9ab24b9a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Downlink Power Levels"/>
+<param name="Local" value="244eb6d1c1994d14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Uplink Power Control"/>
+<param name="Local" value="3652edf67b7d4616.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Power Control Parameters"/>
+<param name="Local" value="01996cf87e4a4bcf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PRACH and Initial PUSCH Power"/>
+<param name="Local" value="a7be42dcb6d544ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TX Power Control (TPC)"/>
+<param name="Local" value="d8c8e7ab304d45d7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Cell Setup"/>
+<param name="Local" value="a686a57a5a8e4171.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Cell Setup Settings"/>
+<param name="Local" value="2464736af5624406.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SRS Settings"/>
+<param name="Local" value="eecb354986e84bea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TDD Settings"/>
+<param name="Local" value="147c7fb5229f460d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PRACH Settings"/>
+<param name="Local" value="fac0bded886d4e0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CSAT / SCell Muting Settings"/>
+<param name="Local" value="215206bd9a174e7f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Network Settings"/>
+<param name="Local" value="ad25d68f93764f8c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell Settings"/>
+<param name="Local" value="77a1247cdf0a4764.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell Reselection"/>
+<param name="Local" value="a5a692eae5a04824.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Identity Settings"/>
+<param name="Local" value="9d7bc7c5a520489e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Security Settings"/>
+<param name="Local" value="b716400c3a12425b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Identity"/>
+<param name="Local" value="be58361aabcc46bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Timer and Constants"/>
+<param name="Local" value="09bf9fd2775b46aa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Time"/>
+<param name="Local" value="1301fc37dc7f4107.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NAS Signaling Settings"/>
+<param name="Local" value="485d2b30a5744d3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Synchronization"/>
+<param name="Local" value="56bf7a1aa8714c88.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Settings"/>
+<param name="Local" value="58f2043943ee4d78.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="e011eeb1c2804dc6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Repetition Settings"/>
+<param name="Local" value="2b031999993c406d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CE Settings"/>
+<param name="Local" value="017ea58294764983.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Hopping Settings"/>
+<param name="Local" value="941c76e7629f4b77.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Configuration"/>
+<param name="Local" value="2f38046353b44d40.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Miscellaneous Connection Settings Part 1"/>
+<param name="Local" value="fcb792be29ff48b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General MIMO Settings"/>
+<param name="Local" value="e56e0496a33f4356.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO Channel Model TM 2 to TM 6"/>
+<param name="Local" value="8383ddbee92748fd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO Beamforming TM 7"/>
+<param name="Local" value="b0d6db48aca34929.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO Beamforming TM 8"/>
+<param name="Local" value="33466900d32a4528.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO TM 9"/>
+<param name="Local" value="04af1f3c106c4950.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Miscellaneous Connection Settings Part 2"/>
+<param name="Local" value="c7208ca7ac5844b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connected DRX Settings"/>
+<param name="Local" value="f58a938724b04159.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RMC Settings (No eMTC)"/>
+<param name="Local" value="70d03ae16e0b4e1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RMC Settings for eMTC"/>
+<param name="Local" value="9b7fca733b4b440c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channels (No LAA, no eMTC)"/>
+<param name="Local" value="f442f26ccecf40a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channels for eMTC"/>
+<param name="Local" value="9d3f62e5f2424539.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Ch. for LAA, Fixed Bursts"/>
+<param name="Local" value="7227f35e54ec4b0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Ch. for LAA, Random Bursts"/>
+<param name="Local" value="3f11075955ec46ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined TTI-Based Channels"/>
+<param name="Local" value="45cda74b36514132.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQI Channel Configuration"/>
+<param name="Local" value="a65453b1f9a643e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SPS Configuration"/>
+<param name="Local" value="6fb45522141d4d1d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Auto Mode Settings"/>
+<param name="Local" value="91243b243dfb4483.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Compact Scheduling Settings"/>
+<param name="Local" value="b3b5c4db33634ba8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TTI-Based Channel Configuration"/>
+<param name="Local" value="31045318da5e4e2c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Stream Tabs and UL Tab"/>
+<param name="Local" value="3996740e63064db3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Follow WB Tab - CQI Variant"/>
+<param name="Local" value="38005a5748674867.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Follow WB Tab - PMI Variant"/>
+<param name="Local" value="efd8dfb418c04e05.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQI Reporting"/>
+<param name="Local" value="c286c8d6050a4bc7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Measurement Report Settings"/>
+<param name="Local" value="5624d9e15cec4213.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (SMS) Parameters"/>
+<param name="Local" value="215e83cd0c344e8d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Outgoing SMS"/>
+<param name="Local" value="76e6b5dd74774669.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Incoming SMS"/>
+<param name="Local" value="ac4df27f28bd476d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (CBS) Parameters"/>
+<param name="Local" value="d4f48033097147c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Shortcut Configuration"/>
+<param name="Local" value="a0f3a1b0b81c43fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Message Monitoring Settings"/>
+<param name="Local" value="f4401086666843e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Debug Configuration"/>
+<param name="Local" value="8afffd2cfbbf4e70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Measurement Configuration"/>
+<param name="Local" value="4622d0eb034f4e8b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="15ddc748a16d4974.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Views"/>
+<param name="Local" value="67cb61832d714d1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Settings"/>
+<param name="Local" value="c56cc01413994e09.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement Configuration"/>
+<param name="Local" value="4201d3e6c66b42fa.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="965f3d7eaec94611.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Tab"/>
+<param name="Local" value="4f7dd70ff27d4923.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Settings"/>
+<param name="Local" value="ebe8a5ab03b14ea4.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Annex: UE Capabilities"/>
+<param name="Local" value="bc61a71c0ab64d49.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General UE Capability Information"/>
+<param name="Local" value="15f87eb220eb427c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PDCP UE Capabilities"/>
+<param name="Local" value="3e9f1a9741d84d0c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Layer UE Capabilities, Part 1"/>
+<param name="Local" value="2d26396aa17b49fc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Layer UE Capabilities, Part 2"/>
+<param name="Local" value="f007821b8b9b43f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF UE Capabilities"/>
+<param name="Local" value="3fabc9cda2f64b8d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement UE Capabilities"/>
+<param name="Local" value="e343da916d974fe3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inter-RAT UE Capabilities"/>
+<param name="Local" value="429c21e1e6d148bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Other UE Capabilities"/>
+<param name="Local" value="104f3970a76f40cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MBMS UE Capabilities"/>
+<param name="Local" value="c393027efd664c25.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CSG Proximity Indication UE Capabilities"/>
+<param name="Local" value="d8e9c08a460b4c6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell SI-Acquisition UE Capabilities"/>
+<param name="Local" value="cb182ff2ae9c41ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Based Network Performance Measurement UE Capabilities"/>
+<param name="Local" value="33249154b84643ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC UE Capabilities"/>
+<param name="Local" value="166f4cfa49c34f69.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WLAN IW UE Capabilities"/>
+<param name="Local" value="fc57213851ba447b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CE UE Capabilities"/>
+<param name="Local" value="5954f9260eb14370.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LAA UE Capabilities"/>
+<param name="Local" value="4400e1d4cb13473e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DC UE Capabilities"/>
+<param name="Local" value="c81bca6986504907.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MAC UE Capabilities"/>
+<param name="Local" value="7613ba40d8774977.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FDD/TDD Additional UE E-UTRA Capabilities"/>
+<param name="Local" value="494fb7ab7ae04049.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SL UE Capabilities"/>
+<param name="Local" value="ff088315f5fd46f5.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="190d5810d6d6419d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Configuration"/>
+<param name="Local" value="18791811a3ef485f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Initialization"/>
+<param name="Local" value="d4ee6a2e13384265.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting a Scenario"/>
+<param name="Local" value="830f56ac845c4aab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Settings"/>
+<param name="Local" value="1800476f220c43b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Operating Bands and Channels"/>
+<param name="Local" value="83b91b1ff96e4761.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Internal Fading"/>
+<param name="Local" value="991f033c6c4e4d18.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring DL Power Levels"/>
+<param name="Local" value="246d1cdcdecd4546.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring UL Power Control for Call Setup"/>
+<param name="Local" value="e510efaee02a45ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Physical Cell Setup"/>
+<param name="Local" value="9d5e6235cb2040c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Neighbor Cells and Reselection"/>
+<param name="Local" value="7f4097d30a944b85.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Other Network Settings"/>
+<param name="Local" value="d5dd2f63ec0542c4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring eMTC Settings"/>
+<param name="Local" value="f1cd36b01c6f4a6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring LAA Settings"/>
+<param name="Local" value="8163e3cee9724fe7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring General Connection Settings Part 1"/>
+<param name="Local" value="e9ea90ae3a91410e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring General Connection Settings Part 2"/>
+<param name="Local" value="a42d324e7ed04cf6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring HARQ"/>
+<param name="Local" value="02a72cfaf61a4b05.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring MIMO Settings"/>
+<param name="Local" value="ef7d5751bd594e2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Connected DRX"/>
+<param name="Local" value="3b13255f98524010.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Extended DRX"/>
+<param name="Local" value="360808e1e4a34211.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring RMCs"/>
+<param name="Local" value="1443d5b6c2d849e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring User-Defined Channels"/>
+<param name="Local" value="b70a8b625aa24318.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring TTI-Based User-Defined Channels"/>
+<param name="Local" value="6564819f2d604752.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring CQI DL Channels"/>
+<param name="Local" value="8b1b78645c6b4102.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring SPS"/>
+<param name="Local" value="976cd90f0516464f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring CQI Reporting"/>
+<param name="Local" value="8d13ab54718d4bf1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Measurement Reports"/>
+<param name="Local" value="641b40533ff440d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring Message Monitoring"/>
+<param name="Local" value="884230ffe5a64a8e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Cell Broadcast Service"/>
+<param name="Local" value="cd0accc8a1b14ed7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Attaching the UE and Activating SCCs"/>
+<param name="Local" value="91462de3610e4011.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the I/Q Settings"/>
+<param name="Local" value="c335a64ca0d749c3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Test Mode Connection"/>
+<param name="Local" value="641b493730654a37.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connecting/Releasing Dedicated Bearers"/>
+<param name="Local" value="88d640a7dfdd4b15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying UE Measurement Report Contents"/>
+<param name="Local" value="3df459d7c8d240a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying UE Information"/>
+<param name="Local" value="e9bb7f8778e94037.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Querying UE Capability Report Contents"/>
+<param name="Local" value="7e385b7bab194494.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Intra-RAT Handover"/>
+<param name="Local" value="daef249216bc45a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an Inter-RAT Handover"/>
+<param name="Local" value="323561ccda8842b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Handover to Another Instrument"/>
+<param name="Local" value="195cc982524c4d3b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sending / Receiving a Short Message"/>
+<param name="Local" value="c069886654084bb1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Sending Date and Time Information to the UE"/>
+<param name="Local" value="26c2211cd8e14b36.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modifying Parameters for an Established Connection"/>
+<param name="Local" value="2928ab1f262548d0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Tests"/>
+<param name="Local" value="5145480c85634266.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a BLER Measurement"/>
+<param name="Local" value="e1280d5c8e2848b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Confidence BLER Measurement"/>
+<param name="Local" value="052c8361869043db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Continuous BLER Measurement"/>
+<param name="Local" value="e6f30425481f4e02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a Single-Shot BLER Measurement"/>
+<param name="Local" value="1ad7b8e9c5a74655.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Tests"/>
+<param name="Local" value="85d2886b939242b9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring an RLC Throughput Measurement"/>
+<param name="Local" value="06daea93a0df43b2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up a Data Connection"/>
+<param name="Local" value="bb9f389d00694414.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing an RLC Throughput Measurement"/>
+<param name="Local" value="042f9a6ae530414f.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="4f8dbde7a5af47fa.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="898f84fdb2e14ca3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SIGN&lt;i&gt;"/>
+<param name="Local" value="13e7fbc736c94978.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="STReam&lt;s&gt; and DL&lt;s&gt;"/>
+<param name="Local" value="bb1b3497ade64302.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PCC and SCC Commands"/>
+<param name="Local" value="303fdf8a1b0b4919.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for Signal Path Selection"/>
+<param name="Local" value="dcddfb7625134e7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="c6c9f956f5e54122.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="3e3afb86025a4f29.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="ca710deddcb4440a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:DMODe"/>
+<param name="Local" value="4bc2227b16c544bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:DMODe:UCSPecific"/>
+<param name="Local" value="b20b9652b5ca4000.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:ENABle"/>
+<param name="Local" value="8316f44b6ab74664.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SCC&lt;c&gt;:FSTRucture"/>
+<param name="Local" value="b7772d1dc57b4099.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SCC:AMODe"/>
+<param name="Local" value="9eb1e49594804fe9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SCC&lt;c&gt;:UUL"/>
+<param name="Local" value="a3d046ea78144469.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CAGGregation:SET"/>
+<param name="Local" value="2d03afb71e194885.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:SEXecute"/>
+<param name="Local" value="90e1bd50467f43d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:CEXecute"/>
+<param name="Local" value="3d81f1fdb9464d20.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Control and States"/>
+<param name="Local" value="c7b03cb90d5e40cc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Commands"/>
+<param name="Local" value="a03b3abf147d4804.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:LTE:SIGN&lt;i&gt;:CELL:STATe"/>
+<param name="Local" value="4d9b4520ac1545bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:LTE:SIGN&lt;i&gt;:CELL:STATe:ALL?"/>
+<param name="Local" value="83979aa6cc814974.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:RRCState?"/>
+<param name="Local" value="d35e42063.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:LTE:SIGN&lt;i&gt;:PSWitched:ACTion"/>
+<param name="Local" value="6e89dc8645b44cfe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:LTE:SIGN&lt;i&gt;:SCC&lt;c&gt;:ACTion"/>
+<param name="Local" value="9354a22567a44c9e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:A:SCC&lt;c&gt;:ENABle"/>
+<param name="Local" value="d3c7e693ca894a14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:LTE:SIGN&lt;i&gt;:A:ACTion"/>
+<param name="Local" value="4fd35da3b45f4b5a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:PSWitched:STATe?"/>
+<param name="Local" value="faaa7ffd8d154f56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:SCC&lt;c&gt;:STATe?"/>
+<param name="Local" value="ba1b95187a7b4d6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:A:STATe?"/>
+<param name="Local" value="8cd516f14de84089.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connect/Disconnect Preparation"/>
+<param name="Local" value="c2ba130fb4aa4196.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CATalog:LTE:SIGN&lt;i&gt;:CONNection:DEFBearer?"/>
+<param name="Local" value="9b5ea3723b3a4a40.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CATalog:LTE:SIGN&lt;i&gt;:CONNection:DEDBearer?"/>
+<param name="Local" value="2eb651cc88de472a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:CONNection:DEDBearer"/>
+<param name="Local" value="435ae95ffc034a2c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:CONNection:DEDBearer:SEParate"/>
+<param name="Local" value="d0bd63182f764ca7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:DEDBearer"/>
+<param name="Local" value="0f3d86e14b0f4b8e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Handover Preparation"/>
+<param name="Local" value="92a8701bdb264de0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:DESTination"/>
+<param name="Local" value="8fb7163de36f4133.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:CATalog:DESTination?"/>
+<param name="Local" value="08f6fc933ffd4238.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:MMODe"/>
+<param name="Local" value="2e0a0b689dcf45be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:CTYPe"/>
+<param name="Local" value="f41e204fdc3d4b4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover"/>
+<param name="Local" value="00b3b2921fa84b7d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:ENHanced"/>
+<param name="Local" value="9339af4a78d44b60.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:DESTination"/>
+<param name="Local" value="d35e43216.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:CDMA"/>
+<param name="Local" value="b1401d764d8e4043.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:GSM"/>
+<param name="Local" value="9270c88f32604039.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:LTE"/>
+<param name="Local" value="3dc0f56af1034e1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:TDSCdma"/>
+<param name="Local" value="4fdb712521694870.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PREPare:LTE:SIGN&lt;i&gt;:HANDover:EXTernal:WCDMa"/>
+<param name="Local" value="789611e8845a42b0.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Event Log"/>
+<param name="Local" value="fb20acd6f6c041d4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:ELOG:LAST?"/>
+<param name="Local" value="e3e8fac4badc4ad2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:ELOG:ALL?"/>
+<param name="Local" value="c034a1de0c9a428a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:LTE:SIGN&lt;i&gt;:ELOG"/>
+<param name="Local" value="ec4a13213bd84cea.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Measurement Report Contents"/>
+<param name="Local" value="4af76da2a467427c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:RSRP?"/>
+<param name="Local" value="0413b7b4265f47de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:RSRP:RANGe?"/>
+<param name="Local" value="7552cc416d9b401e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:RSRQ?"/>
+<param name="Local" value="03c0fa17054e491d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:RSRQ:RANGe?"/>
+<param name="Local" value="189716a534524fdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:SCELl?"/>
+<param name="Local" value="6081b46778ab4db3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport[:PCC]:SCELl:RANGe?"/>
+<param name="Local" value="30475df1bca4487f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:LTE:CELL&lt;no&gt;?"/>
+<param name="Local" value="443199d5e84e47f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:LTE:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="3ec503e3ffea4f61.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:GSM:CELL&lt;no&gt;?"/>
+<param name="Local" value="014f74c5278d4838.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:GSM:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="ab80a057c79f4212.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:WCDMa:CELL&lt;no&gt;?"/>
+<param name="Local" value="9845a7084cfb4ce2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:WCDMa:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="3bcc640f9d8c4ee4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:CDMA:CELL&lt;no&gt;?"/>
+<param name="Local" value="76ab556469344761.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:EVDO:CELL&lt;no&gt;?"/>
+<param name="Local" value="1a8fdc067c284995.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:TDSCdma:CELL&lt;no&gt;?"/>
+<param name="Local" value="2fe14e550bd0453e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:NCELl:TDSCdma:CELL&lt;no&gt;:RANGe?"/>
+<param name="Local" value="5df9c0ddc1724fcb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RRESult?"/>
+<param name="Local" value="0e560a24e22e4cc2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:COCC?"/>
+<param name="Local" value="e10332310fe54035.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Capabilities"/>
+<param name="Local" value="f036d9060eb6413f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General UE Capability Information"/>
+<param name="Local" value="71b56fe051d54d54.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:ASRelease?"/>
+<param name="Local" value="3751d30702874cfe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:UECategory?"/>
+<param name="Local" value="12b340ab8c2b4a9e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:UECategory:DL?"/>
+<param name="Local" value="40f364c8f2024c50.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:UECategory:UL?"/>
+<param name="Local" value="41e6df56882e43d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:FGINdicators?"/>
+<param name="Local" value="4a557485f4be49d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:FGINdicators:RNADd?"/>
+<param name="Local" value="5e4924f750a34c59.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:FGINdicators:RTEN?"/>
+<param name="Local" value="7f36e706ee5445a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:DTYPe?"/>
+<param name="Local" value="e420ca0619494d64.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RREPort?"/>
+<param name="Local" value="581050d268c14b7f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PDCP UE Capabilities"/>
+<param name="Local" value="f36da71fb7534451.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PDCP:SRPRofiles?"/>
+<param name="Local" value="e5f3eaf453c84018.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PDCP:MRCSessions?"/>
+<param name="Local" value="ab93209877be4e0e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PDCP:SNEXtension?"/>
+<param name="Local" value="ae3cfa3453ae4d8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PDCP:SRCContinue?"/>
+<param name="Local" value="41bfb4143b8f442d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Layer UE Capabilities"/>
+<param name="Local" value="2b5c5a380e254885.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:UTASupported?"/>
+<param name="Local" value="ab2b194860b8496e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:USRSsupport?"/>
+<param name="Local" value="2c72d4afc6914a87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:EDLFsupport?"/>
+<param name="Local" value="223efa549e564f4a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:EDLTsupport?"/>
+<param name="Local" value="31784351b3764115.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TAPPsupport?"/>
+<param name="Local" value="eafe3f53a5564126.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TWEFsupport?"/>
+<param name="Local" value="256bc20e0dea43b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:PDSupport?"/>
+<param name="Local" value="e7c63ba1f4a74a65.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:CCSSupport?"/>
+<param name="Local" value="569c99aaa5834193.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:SPPSupport?"/>
+<param name="Local" value="906a356efb4d4fcc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:MCPCsupport?"/>
+<param name="Local" value="d2aa8332f25e42d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:NURClist?"/>
+<param name="Local" value="218f0bf8145e46d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:CIHandl?"/>
+<param name="Local" value="3de07cf64b5e4152.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:EPDCch?"/>
+<param name="Local" value="ebe13c0981c94a6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:MACReporting?"/>
+<param name="Local" value="594310ae8c2e4d4e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:SCIHandl?"/>
+<param name="Local" value="7a2d46f4896f47bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TSSubframe?"/>
+<param name="Local" value="7b861c4c2989468c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TDPChselect?"/>
+<param name="Local" value="07ed7be868f84f41.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:ULComp?"/>
+<param name="Local" value="d76b06a593534009.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:ITCWithdiff?"/>
+<param name="Local" value="ba2335058ec24fd5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:EHPFdd?"/>
+<param name="Local" value="bc3f6ed5178d4de6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:EFTCodebook?"/>
+<param name="Local" value="1ed7b1536ebd4073.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TFCPcelldplx?"/>
+<param name="Local" value="9e3b64526997440f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TRCTddpcell?"/>
+<param name="Local" value="c631ac0be9804574.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:TRCFddpcell?"/>
+<param name="Local" value="509525fa7f44466c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:PFMode?"/>
+<param name="Local" value="8df54e2772914e14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:PSPSfset?"/>
+<param name="Local" value="5d468bd22bda4968.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:CSFSet?"/>
+<param name="Local" value="c136558b36d9431a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:NRRT?"/>
+<param name="Local" value="13b7d815b79c45b2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PLAYer:DSDCell?"/>
+<param name="Local" value="b80c30c6171745a6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF UE Capabilities"/>
+<param name="Local" value="b850f77175af4603.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:SUPPorted?"/>
+<param name="Local" value="543f32dc772a434b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:HDUPlex?"/>
+<param name="Local" value="5a532d94666242a5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:DL&lt;qam&gt;?"/>
+<param name="Local" value="c60f734a28004064.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:UL&lt;qam&gt;?"/>
+<param name="Local" value="edaee925fffc47a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:BCOMbination:V&lt;Number&gt;:BCSet?"/>
+<param name="Local" value="c042920e89854ae6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:BCOMbination:V&lt;Number&gt;:EUTRa&lt;BandNr&gt;?"/>
+<param name="Local" value="1949f89846a74a05.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:BCOMbination:V&lt;Number&gt;:EUTRa&lt;BandNr&gt;:BCLass:UL?"/>
+<param name="Local" value="18375e6679c84981.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:BCOMbination:V&lt;Number&gt;:EUTRa&lt;BandNr&gt;:MCAPability:UL?"/>
+<param name="Local" value="3bb2f7729702402d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:BCOMbination:V&lt;Number&gt;:EUTRa&lt;BandNr&gt;:SCPRoc?"/>
+<param name="Local" value="3cb657a14c3b49e3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:MTADvance?"/>
+<param name="Local" value="ba629197d89c42eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:SRTX?"/>
+<param name="Local" value="6273a1ac2b5b4557.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:DCSupport:ASYNchronous?"/>
+<param name="Local" value="e3fcaced1b7e4ac3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:DCSupport:SCGRouping?"/>
+<param name="Local" value="a02f0fb858a142c7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:SNCap?"/>
+<param name="Local" value="09087abc632b418d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:FBRetrieval?"/>
+<param name="Local" value="ccd29447afc24cdf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:RBANds?"/>
+<param name="Local" value="cc39ee1585fa45be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:FBPadjust?"/>
+<param name="Local" value="c777ae856ed44560.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:RF:MMPRbehavior?"/>
+<param name="Local" value="c2025ddd3a944a48.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement UE Capabilities"/>
+<param name="Local" value="8d1f5154a37f4d2d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IFNGaps?"/>
+<param name="Local" value="e115016f429449e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:UFDD?"/>
+<param name="Local" value="8adfaaf834014ecd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:UTDD&lt;n&gt;?"/>
+<param name="Local" value="52566b1ef6694c83.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:GERan?"/>
+<param name="Local" value="a015c9e4bb5c4425.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:CHRPd?"/>
+<param name="Local" value="a5d7d50e86044048.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:CXRTt?"/>
+<param name="Local" value="a07788dc29ec4222.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IFNGaps:V&lt;number&gt;?"/>
+<param name="Local" value="9f1acea30f7c442b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:V&lt;number&gt;:UFDD?"/>
+<param name="Local" value="260c18d09c2c4896.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:V&lt;number&gt;:UTDD&lt;n&gt;?"/>
+<param name="Local" value="b0ce68b286154649.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:V&lt;number&gt;:GERan?"/>
+<param name="Local" value="5253979736ef42bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:V&lt;number&gt;:CHRPd?"/>
+<param name="Local" value="811c022ee8944e77.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:IRNGaps:V&lt;number&gt;:CXRTt?"/>
+<param name="Local" value="0ba1f86237c24509.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:RMWideband?"/>
+<param name="Local" value="89b9b5f03ece40d7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:BFINterrupt?"/>
+<param name="Local" value="43d7c2efe73f4026.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MEAS:RCOReporting?"/>
+<param name="Local" value="0b903cf6c7694e1c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inter-RAT UE Capabilities"/>
+<param name="Local" value="cb8b5be7df604f21.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:UFDD:SUPPorted?"/>
+<param name="Local" value="c455bb40949a43cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:UFDD:EREDirection:UTRA?"/>
+<param name="Local" value="d5cc69065ab744b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:UTDD128:SUPPorted?"/>
+<param name="Local" value="04b107e4767b4fa0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:UTDD128:EREDirection:UTDD?"/>
+<param name="Local" value="4af7416e5dab4ef6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:GERan:SUPPorted?"/>
+<param name="Local" value="39fb3ca3d40145f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:GERan:PHGeran?"/>
+<param name="Local" value="7355f5539c2040a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:GERan:DTM?"/>
+<param name="Local" value="c2d38571a94345f0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:GERan:EREDirection?"/>
+<param name="Local" value="69addd6094574c93.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CDMA2000:NWSHaring?"/>
+<param name="Local" value="965070bebc4a48ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CHRPd:SUPPorted?"/>
+<param name="Local" value="b1fcade97f66410e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CHRPd:TCONfig?"/>
+<param name="Local" value="000a00cf8ed945e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CHRPd:RCONfig?"/>
+<param name="Local" value="bbeafa3f32b64086.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:SUPPorted?"/>
+<param name="Local" value="cc3f260078714ee1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:TCONfig?"/>
+<param name="Local" value="9e566bf6bb7746f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:RCONfig?"/>
+<param name="Local" value="69a183e3711048a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:ECSFb?"/>
+<param name="Local" value="44b064c14baf4cdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:ECCMob?"/>
+<param name="Local" value="24fc8c6221da47c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IRAT:CXRTt:ECDual?"/>
+<param name="Local" value="4e0e47ed32c64bb3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Other UE Capabilities"/>
+<param name="Local" value="8786861f1f794c5f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:IDCindex?"/>
+<param name="Local" value="d2a8a9c3bd654732.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:PPINdex?"/>
+<param name="Local" value="893c8f70c6f94882.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:URTTimediff?"/>
+<param name="Local" value="86a26fea6cd944f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:DCIulca?"/>
+<param name="Local" value="8729567d62b04e73.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MBMS UE Capabilities"/>
+<param name="Local" value="a4fbd2e1195f461d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MBMS:SCELl?"/>
+<param name="Local" value="7d4ba8342dd44215.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MBMS:NSCell?"/>
+<param name="Local" value="e348196c802a40d8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CSG Proximity Indication Capabilities"/>
+<param name="Local" value="81725efac8614791.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:CPINdication:FREQuency:INTRa?"/>
+<param name="Local" value="cdba3f1f531244ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:CPINdication:FREQuency:INTer?"/>
+<param name="Local" value="80cecb6ce74443cc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:CPINdication:UTRan?"/>
+<param name="Local" value="1a4836d13c4f4ab5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell SI-Acquisition Capabilities"/>
+<param name="Local" value="975d1a3e04da42ac.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:NCSacq:FREQuency:INTRa?"/>
+<param name="Local" value="4b1a251a4ef44e93.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:NCSacq:FREQuency:INTer?"/>
+<param name="Local" value="2f89ec1b8b064fff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:NCSacq:UTRan?"/>
+<param name="Local" value="6e8a7335595b4c6c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE-Based Network Performance Measurement Capabilities"/>
+<param name="Local" value="15ba8b9252ec433b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:UBNPmeas:LMIDle?"/>
+<param name="Local" value="b4e854f61c17466d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:UBNPmeas:SGLocation?"/>
+<param name="Local" value="fd0977a162174245.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:LMMeas?"/>
+<param name="Local" value="4bcd4f38f35542af.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC UE Capabilities"/>
+<param name="Local" value="e4db223fdce84017.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:ERLField?"/>
+<param name="Local" value="e4fcf40245da4144.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WLAN Interworking UE Capabilities"/>
+<param name="Local" value="c1f3c1b4c74d4125.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:WIW:WIRRules?"/>
+<param name="Local" value="2d08524ad44041e3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:WIW:WIAPolicies?"/>
+<param name="Local" value="74cf15e73f484183.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CE UE Capabilities"/>
+<param name="Local" value="6e6b38c026b5444a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:CEParameters:MODE:A?"/>
+<param name="Local" value="581357b945834d2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:CEParameters:MODE:B?"/>
+<param name="Local" value="cc6ced8568c247a7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LAA UE Capabilities"/>
+<param name="Local" value="cbe3e92939a84227.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:LAA:DL?"/>
+<param name="Local" value="c6a12c5fdffb4d9d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:LAA:EDPTs?"/>
+<param name="Local" value="7c7a798f384d4a2f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:LAA:SSSPosition?"/>
+<param name="Local" value="6c1c609a2cca4ddd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:LAA:TM&lt;TMnr&gt;?"/>
+<param name="Local" value="e193058a37e342fc.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Dual Connectivity UE Capabilities"/>
+<param name="Local" value="8c303ac9366d4d1b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:DCParameters:DTSPlit?"/>
+<param name="Local" value="d56fbc3d11dc49c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:DCParameters:DTSCg?"/>
+<param name="Local" value="d72af5538bbe479d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MAC UE Capabilities"/>
+<param name="Local" value="2115ca1481c542dc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MAC:LCSPtimer?"/>
+<param name="Local" value="5bd2110b6de041bb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:MAC:LDRXcommand?"/>
+<param name="Local" value="db27063f7e904150.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SL UE Capabilities"/>
+<param name="Local" value="1b64c880d05d4540.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:SL:CSTX?"/>
+<param name="Local" value="2ed72458c0894363.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:SL:DSRalloc?"/>
+<param name="Local" value="633a55ab9d2e4dd4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:SL:DUSRalloc?"/>
+<param name="Local" value="1b50c11911154bb7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:SL:DSLSs?"/>
+<param name="Local" value="4220c0cd9ab74faa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UECapability:SL:DSPRoc?"/>
+<param name="Local" value="48cf6ad960dd45cd.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Info"/>
+<param name="Local" value="56da3b59b35645ac.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:IMEI?"/>
+<param name="Local" value="1ed2eae8674849fe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:IMSI?"/>
+<param name="Local" value="9292a51b8671469e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:VDPReference?"/>
+<param name="Local" value="d4f31175419d41bb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:UEUSage?"/>
+<param name="Local" value="ef8041bb900147e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:UEADdress:IPV&lt;n&gt;?"/>
+<param name="Local" value="47ab29e847c1453c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:UEADdress:DEDBearer?"/>
+<param name="Local" value="25d5be81d80e4599.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UESinfo:UEADdress:DEDBearer:SEParate?"/>
+<param name="Local" value="9cafcec4f539494c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Routing Settings"/>
+<param name="Local" value="e4bae1795f5d4096.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scenario Selection and Signal Routing"/>
+<param name="Local" value="639c652a9c0847d9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CATalog:LTE:SIGN&lt;i&gt;:SCENario?"/>
+<param name="Local" value="db0327eb00bc45d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario?"/>
+<param name="Local" value="55178bdbd704410f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;?"/>
+<param name="Local" value="c2c17ccf794b47b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:SCELl:FLEXible"/>
+<param name="Local" value="36fd695607fd491d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:TRO:FLEXible"/>
+<param name="Local" value="c0f46c437c124a75.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:AD[:FLEXible]"/>
+<param name="Local" value="86dae96406d04810.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:SCFading:FLEXible:INTernal"/>
+<param name="Local" value="948cd11dbd3946eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:SCFading:FLEXible[:EXTernal]"/>
+<param name="Local" value="00ac06afd353475f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:TROFading:FLEXible:INTernal"/>
+<param name="Local" value="3d3afd3c8c45485f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:TROFading:FLEXible[:EXTernal]"/>
+<param name="Local" value="85b11dfda6e04995.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:MTFading:FLEXible:INTernal"/>
+<param name="Local" value="1a09d4cca3b64b5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:MTFading:FLEXible[:EXTernal]"/>
+<param name="Local" value="76c4928a95924580.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:ADF[:FLEXible]:INTernal"/>
+<param name="Local" value="8c81a664521640d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:FRO:FLEXible"/>
+<param name="Local" value="7698decb888644c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:IORI:FLEXible"/>
+<param name="Local" value="40b182f28f81491c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CATRfout:FLEXible"/>
+<param name="Local" value="0807fa5a1fd642f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CAFRfout:FLEXible"/>
+<param name="Local" value="dde642ca175b45d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:BF[:FLEXible]"/>
+<param name="Local" value="505c3bdbe1724c1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:BFSM&lt;MIMO4x4&gt;[:FLEXible]"/>
+<param name="Local" value="5b6817a7ce0544cf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:BH[:FLEXible]"/>
+<param name="Local" value="3da6077ebbe749b7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CATF:FLEXible:INTernal"/>
+<param name="Local" value="ba1652c75d5d4419.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CATF:FLEXible[:EXTernal]"/>
+<param name="Local" value="3bbf9c613fb14e55.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CAFF:FLEXible:INTernal"/>
+<param name="Local" value="f21e397f52864792.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CAFF:FLEXible[:EXTernal]"/>
+<param name="Local" value="8260300a3a454ce0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:BFF[:FLEXible]:INTernal"/>
+<param name="Local" value="60b8c25f84854b38.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:BHF[:FLEXible]:INTernal"/>
+<param name="Local" value="6c28230a147c4345.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CC:FLEXible"/>
+<param name="Local" value="80122a838c7e4ab6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CCMP:FLEXible"/>
+<param name="Local" value="388fd5e9832f4a2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CCMS&lt;c&gt;:FLEXible"/>
+<param name="Local" value="e75cc841bd344473.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CF[:FLEXible]"/>
+<param name="Local" value="c1d0a5bc32f34172.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CH[:FLEXible]"/>
+<param name="Local" value="ada909cd331e446e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CHF[:FLEXible]:INTernal"/>
+<param name="Local" value="625ff5555a6348c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CHSM&lt;MIMO44&gt;[:FLEXible]"/>
+<param name="Local" value="2aae84ff5e4d4f1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CJ[:FLEXible]"/>
+<param name="Local" value="af84edb48bf049f4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CJFS&lt;MIMO44&gt;[:FLEXible]:INTernal"/>
+<param name="Local" value="e5b6ad9b894e4ed2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CJSM&lt;MIMO44&gt;[:FLEXible]"/>
+<param name="Local" value="f48d0468372149d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CL[:FLEXible]"/>
+<param name="Local" value="12ca73673e8948ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CFF[:FLEXible]:INTernal"/>
+<param name="Local" value="5ac2048b70bc4ccf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CFF[:FLEXible][:EXTernal]"/>
+<param name="Local" value="bd4c66c7660f4207.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:CJF[:FLEXible]:INTernal"/>
+<param name="Local" value="6923d0583b234fd2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DD:FLEXible"/>
+<param name="Local" value="e2637d3b355240b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DH[:FLEXible]"/>
+<param name="Local" value="9728e1e5658940a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DJ[:FLEXible]"/>
+<param name="Local" value="542f63f334c443cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DJSM&lt;MIMO4x4&gt;[:FLEXible]"/>
+<param name="Local" value="6802a15f16f544b1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DL[:FLEXible]"/>
+<param name="Local" value="119c3320e86e4820.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DLSM&lt;MIMO4x4&gt;[:FLEXible]"/>
+<param name="Local" value="2ac483c0890f4c0e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DN[:FLEXible]"/>
+<param name="Local" value="e35eb40de6ed4934.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DNSM&lt;MIMO4x4&gt;[:FLEXible]"/>
+<param name="Local" value="0aeccb8d6efa41d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DP[:FLEXible]"/>
+<param name="Local" value="a9baf7c328ed434e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DHF[:FLEXible]:INTernal"/>
+<param name="Local" value="b4e510c14a5f46df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:DHF[:FLEXible][:EXTernal]"/>
+<param name="Local" value="ff0eef9768aa478d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:EE[:FLEXible]"/>
+<param name="Local" value="ec41be1edb9b406e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:EJ[:FLEXible]"/>
+<param name="Local" value="d2c14edfdfa64096.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:EL[:FLEXible]"/>
+<param name="Local" value="8c93f57082674a25.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:ELSM&lt;MIMO4x4&gt;[:FLEXible]"/>
+<param name="Local" value="c803f435d94b4da6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:ET[:FLEXible]"/>
+<param name="Local" value="a1d5dbfece5a4768.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:LTE:SIGN&lt;i&gt;:SCENario:EJF[:FLEXible]:INTernal"/>
+<param name="Local" value="004a8f903dc044b0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Path Properties"/>
+<param name="Local" value="c1992d1f92134ca6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:EATTenuation:OUTPut&lt;n&gt;"/>
+<param name="Local" value="8f4bf37a5b3d4de7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:EATTenuation:INPut"/>
+<param name="Local" value="9ac15f6c17334c3e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings:EDC:OUTPut"/>
+<param name="Local" value="c72045a970c048e2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Settings"/>
+<param name="Local" value="8d2a1dcedb374821.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:IQOut[:PCC]:PATH&lt;n&gt;?"/>
+<param name="Local" value="0997ef5ba7eb42b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:IQIN[:PCC]:PATH&lt;n&gt;"/>
+<param name="Local" value="6e8123c82e0f4776.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings:ALL:BWCHannel"/>
+<param name="Local" value="bf4386e7890f4b4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:BAND"/>
+<param name="Local" value="e10efaa44f134eaf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDSeparation"/>
+<param name="Local" value="e944514aaf754f0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:CHANnel:DL"/>
+<param name="Local" value="9e4d3600163e4f17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:CHANnel:UL"/>
+<param name="Local" value="b836f146c3e64b1a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:FOFFset:DL"/>
+<param name="Local" value="306b9a5da4474337.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:FOFFset:DL:UCSPecific"/>
+<param name="Local" value="32301adce1a948de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:FOFFset:UL"/>
+<param name="Local" value="e7210374186d4034.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:ENPMode"/>
+<param name="Local" value="e152963be2a94869.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:ENPower"/>
+<param name="Local" value="d7351fe0b72b4f80.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UMARgin"/>
+<param name="Local" value="599b2ff6c8bd4449.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:MLOFfset"/>
+<param name="Local" value="561eddca42854513.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Band"/>
+<param name="Local" value="ba4d68013c6e4690.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:UDSeparation"/>
+<param name="Local" value="0e8c22dd8440477f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:BINDicator"/>
+<param name="Local" value="59cafde62de34a11.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:CHANnel:DL:MINimum"/>
+<param name="Local" value="bfd317d28c574377.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:FREQuency:DL:MINimum"/>
+<param name="Local" value="15d084b56792423d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:FREQuency:DL:MAXimum?"/>
+<param name="Local" value="1fb38bd872c94b1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:CHANnel:UL:MINimum"/>
+<param name="Local" value="f1e1281df00345ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:CHANnel:UL:MAXimum?"/>
+<param name="Local" value="d2153ccaeec54921.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:RFSettings[:PCC]:UDEFined:FREQuency:UL:MINimum?"/>
+<param name="Local" value="fd24d65ee5eb409a.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Internal Fading"/>
+<param name="Local" value="eaa77995f9ff4449.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Simulator"/>
+<param name="Local" value="a107bece6f6d4f8e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:STANdard:ENABle"/>
+<param name="Local" value="d2c876bbbfe2493c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:AWGN:FOFFset"/>
+<param name="Local" value="b4bcecf57e3249c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:STANdard:PROFile"/>
+<param name="Local" value="f690cbcf434e400e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:ENABle"/>
+<param name="Local" value="6fd9d3f5046b47aa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:PROFile"/>
+<param name="Local" value="5f3fdcb3ae8f4b6f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:RESTart:MODE"/>
+<param name="Local" value="c2df0602fa7647f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:RESTart"/>
+<param name="Local" value="32a4dd820524486e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:GLOBal:SEED"/>
+<param name="Local" value="72c9ae62d2814e62.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:ILOSs:MODE"/>
+<param name="Local" value="29604526750644ff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:ILOSs:LOSS"/>
+<param name="Local" value="28a668b7a85346d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:ILOSs:CSAMples&lt;n&gt;?"/>
+<param name="Local" value="374331e41fd14df6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:DSHift:MODE"/>
+<param name="Local" value="0682f1910c814382.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:FSIMulator:DSHift"/>
+<param name="Local" value="73b28b73948d457d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DL Settings"/>
+<param name="Local" value="0a1bbc16640a4142.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:POWer:NOISe?"/>
+<param name="Local" value="f2a84d578361492e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:POWer:NOISe:TOTal?"/>
+<param name="Local" value="c03a50a3e8ff47e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:POWer:SUM?"/>
+<param name="Local" value="52bbea66ee60432e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fading Module AWGN"/>
+<param name="Local" value="9996552192994efc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:AWGN:ENABle"/>
+<param name="Local" value="79471547d1ac4a77.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:AWGN:BWIDth:RATio"/>
+<param name="Local" value="9d04ce5e0e954b70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:AWGN:BWIDth:NOISe?"/>
+<param name="Local" value="f722290341a94c53.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:FADing[:PCC]:AWGN:SNRatio"/>
+<param name="Local" value="b118a232c75946d2.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Downlink Power Levels"/>
+<param name="Local" value="3c3162922150446e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:RSEPre:LEVel"/>
+<param name="Local" value="d66ac1bd31f34917.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:DL[:PCC]:FCPower?"/>
+<param name="Local" value="8df64edf48264ac2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PSS:POFFset"/>
+<param name="Local" value="4cb5a799513e499a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:SSS:POFFset"/>
+<param name="Local" value="9ca3388f2c3c46af.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PBCH:POFFset"/>
+<param name="Local" value="0b93de24ec274cc1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PCFich:POFFset"/>
+<param name="Local" value="3e20c0f771884eb9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PHICh:POFFset"/>
+<param name="Local" value="4e5ba59f0a1c4dfb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PDCCh:POFFset"/>
+<param name="Local" value="9026d46db1474017.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:OCNG"/>
+<param name="Local" value="3384bddede204812.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PDSCh:PA"/>
+<param name="Local" value="da3fca1e1e5b411d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:PDSCh:RINDex"/>
+<param name="Local" value="5a9f05bad20e4b2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:POWer:PORTs"/>
+<param name="Local" value="046000e17d924248.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:CSIRs:MODE"/>
+<param name="Local" value="f3ee70b633144728.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:CSIRs:POFFset"/>
+<param name="Local" value="466a03091bc244de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:DL[:PCC]:AWGN"/>
+<param name="Local" value="3e6c310cea3f4c09.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Uplink Power Control"/>
+<param name="Local" value="580f5fd29d87472e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Power Control Parameters"/>
+<param name="Local" value="215ae1b276ad4ec0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL[:PCC]:JUPower"/>
+<param name="Local" value="3a2dc4f5e855418a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SCC&lt;c&gt;:PMCC?"/>
+<param name="Local" value="31814878cb0b4d2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PMAX"/>
+<param name="Local" value="b52db2a0fbbf4573.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PRACH and Initial PUSCH Power"/>
+<param name="Local" value="d0db14fb8fb646d6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:EASettings"/>
+<param name="Local" value="4f454b446f7a4798.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:OLNPower"/>
+<param name="Local" value="24e48929728b4701.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:RSPower:BASic?"/>
+<param name="Local" value="a15ff9f678af4930.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PIRPower:BASic?"/>
+<param name="Local" value="8dfddc3ceaf64716.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PNPusch:BASic?"/>
+<param name="Local" value="c1b0ec85de994aff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PCALpha:BASic?"/>
+<param name="Local" value="96e9b79ce208458c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:TPRRcsetup:BASic?"/>
+<param name="Local" value="c1ccb118f44b4041.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:RSPower:ADVanced"/>
+<param name="Local" value="9ace9b9cdec540c7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PIRPower:ADVanced"/>
+<param name="Local" value="30a18f5a9ce94bdb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PNPusch:ADVanced"/>
+<param name="Local" value="0963f46968084374.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PCALpha:ADVanced"/>
+<param name="Local" value="c0058c0365c04ec3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:TPRRcsetup:ADVanced"/>
+<param name="Local" value="58924a5153544857.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:PATHloss?"/>
+<param name="Local" value="f242093cf37745ec.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:EPPPower?"/>
+<param name="Local" value="5e3d84e3ca9f4e7b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:UL:SETA:APPower:EOPower?"/>
+<param name="Local" value="cb8e3cf54f9a4a76.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TX Power Control (TPC)"/>
+<param name="Local" value="4f4ecd76a04449fc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:SET"/>
+<param name="Local" value="ab83696ff3624d48.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:PEXecute"/>
+<param name="Local" value="c2064c42ff1e4104.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:RPControl"/>
+<param name="Local" value="472bf2f863e94eef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:TPOWer"/>
+<param name="Local" value="7455333f684d492c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:CLTPower"/>
+<param name="Local" value="0db1754958414019.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:CLTPower:OFFSet"/>
+<param name="Local" value="05ce4eaff991449c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:SINGle"/>
+<param name="Local" value="71d0d92cc89a4947.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UL:SETA:PUSCh:TPC:UDPattern"/>
+<param name="Local" value="1433247db3604d60.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Physical Cell Setup"/>
+<param name="Local" value="c04296986ff843cf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="758d3f437dc348d6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:BANDwidth[:PCC]:DL"/>
+<param name="Local" value="1e30774c3cb54de2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:PCID"/>
+<param name="Local" value="cbcbe9f7ad164648.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:CPRefix"/>
+<param name="Local" value="4ea025057f894062.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:ULSupport:QAM&lt;ModOrder&gt;:ENABle"/>
+<param name="Local" value="d943bcbf6b6a4a37.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SRS Settings"/>
+<param name="Local" value="8ad298a800e443b5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:ENABle"/>
+<param name="Local" value="9bfc066bc5654528.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:MCENable"/>
+<param name="Local" value="660116f4e3da4f4a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:BWConfig"/>
+<param name="Local" value="5b436348d52a4294.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:SFConfig"/>
+<param name="Local" value="b07edf01fc2d40e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:DCONfig"/>
+<param name="Local" value="673eca7c00b4458c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:DBANdwidth"/>
+<param name="Local" value="49d8db3616284af1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:HBANdwidth"/>
+<param name="Local" value="d36be97f595f4d08.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:SCINdex:FDD"/>
+<param name="Local" value="c4c78168a66e4b31.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:SCINdex:TDD"/>
+<param name="Local" value="d7d5fa8c3eb84805.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SRS:POFFset"/>
+<param name="Local" value="d08172ba1dec43f5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TDD Settings"/>
+<param name="Local" value="f3b7a98b821f4acd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TDD:SPECific"/>
+<param name="Local" value="284d1963a5634718.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:ULDL"/>
+<param name="Local" value="14b8b32a913144dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SSUBframe"/>
+<param name="Local" value="ece52dba52294ba5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PRACH Settings"/>
+<param name="Local" value="1c33ca7ec5d14844.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:NRPReambles"/>
+<param name="Local" value="b4770fe2dbdb42f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:NIPRach"/>
+<param name="Local" value="d35e73238.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:PRSTep"/>
+<param name="Local" value="d35e73269.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:PCINdex:FDD"/>
+<param name="Local" value="714c20f82d8f4667.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:PCINdex:TDD"/>
+<param name="Local" value="2236e4896eb445ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:PFOFfset"/>
+<param name="Local" value="1ed75eddb73a4d80.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:LRSindex"/>
+<param name="Local" value="528ff0ca1cb44b4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:PRACh:ZCZConfig"/>
+<param name="Local" value="09a4689e2fbb40ae.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CSAT / SCell Muting Settings"/>
+<param name="Local" value="6a65b902089b4c5b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SCC&lt;c&gt;:CSAT:ENABle"/>
+<param name="Local" value="b209b401d2bf4dce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SCC&lt;c&gt;:CSAT:DMTCperiod"/>
+<param name="Local" value="11cc7736b326487a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SCC&lt;c&gt;:SCMuting:ONSDuration"/>
+<param name="Local" value="43af7ccede534259.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SCC&lt;c&gt;:SCMuting:OFFSduration"/>
+<param name="Local" value="4ae5cf189eae4ef8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SCC&lt;c&gt;:SCMuting:PMAC"/>
+<param name="Local" value="126898fe137c4faa.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Network Settings"/>
+<param name="Local" value="6ac68057167b4d79.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Neighbor Cell Settings"/>
+<param name="Local" value="bce6328d937b47dc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:LTE:THResholds:LOW"/>
+<param name="Local" value="4174d391ef5b4efc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:GSM:THResholds:LOW"/>
+<param name="Local" value="6c10d76c37d44b02.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:WCDMa:THResholds:LOW"/>
+<param name="Local" value="bc07cf838ca94402.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:CDMA:THResholds:LOW"/>
+<param name="Local" value="bfb3715a1b47457b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:EVDO:THResholds:LOW"/>
+<param name="Local" value="95a2631ebe4345c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:TDSCdma:THResholds:LOW"/>
+<param name="Local" value="513224542a1648fe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:ALL:THResholds:LOW"/>
+<param name="Local" value="d35e74114.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:LTE:CELL&lt;n&gt;"/>
+<param name="Local" value="7e410d83f22d4b74.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:GSM:CELL&lt;n&gt;"/>
+<param name="Local" value="f3057ba8836643f6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:WCDMa:CELL&lt;n&gt;"/>
+<param name="Local" value="ea6535c1b9804424.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:CDMA:CELL&lt;n&gt;"/>
+<param name="Local" value="44245415623d4690.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:NCELl:TDSCdma:CELL&lt;n&gt;"/>
+<param name="Local" value="e924d9e015a44b19.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Cell Reselection Settings"/>
+<param name="Local" value="21729d753df048cf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:RESelection:SEARch:INTRasearch"/>
+<param name="Local" value="27ea84d8230a4083.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:RESelection:SEARch:NINTrasearch"/>
+<param name="Local" value="65e1e4a745d4412e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:RESelection:TSLow"/>
+<param name="Local" value="f3b7286967364cb3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:RESelection:QUALity:RXLevmin"/>
+<param name="Local" value="8f06d9ed04a44eeb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Identity Settings"/>
+<param name="Local" value="43dd4088f9bf48e0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:MCC"/>
+<param name="Local" value="7f791c3e8a1848ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:MNC"/>
+<param name="Local" value="1ed7d999d8ab4c2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:MNC:DIGits"/>
+<param name="Local" value="1a8f9a0dc28c4d76.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TAC"/>
+<param name="Local" value="d35e75500.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:CID:EUTRan"/>
+<param name="Local" value="bb3d26ded68e41b6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Security Settings"/>
+<param name="Local" value="3fddbdfb9b3e45cc.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:AUTHenticat"/>
+<param name="Local" value="d35e75598.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:NAS"/>
+<param name="Local" value="d35e75627.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:AS"/>
+<param name="Local" value="d35e75656.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:IALGorithm"/>
+<param name="Local" value="13a779475a1a45ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:MILenage"/>
+<param name="Local" value="d35e75723.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:OPC"/>
+<param name="Local" value="d35e75752.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:SKEY"/>
+<param name="Local" value="7d7ea4d119244c0a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:SECurity:RVALue"/>
+<param name="Local" value="9706ab3f2a554a2a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Identity"/>
+<param name="Local" value="a0c15f923fbd41fd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:UEIDentity:IMSI"/>
+<param name="Local" value="b9882745967d4c3e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Timer and Constants"/>
+<param name="Local" value="a926aa73440543ca.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TOUT:OSYNch"/>
+<param name="Local" value="c30f7e99ad2a4ba7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TOUT:T&lt;no&gt;"/>
+<param name="Local" value="1dff2f3e0eff47a4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TOUT:TEXT&lt;no&gt;"/>
+<param name="Local" value="1e84e903f7c44686.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Time"/>
+<param name="Local" value="6ab20d8169384544.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:TSOurce"/>
+<param name="Local" value="c202fbeb1f1f477e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:DATE"/>
+<param name="Local" value="d35e76194.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:TIME"/>
+<param name="Local" value="d35e76256.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:DSTime"/>
+<param name="Local" value="834218d484724402.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:LTZoffset"/>
+<param name="Local" value="29db4dc6425e4dfc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:SNOW"/>
+<param name="Local" value="d35e76413.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:TIME:SATTach"/>
+<param name="Local" value="d35e76434.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NAS Signaling Settings"/>
+<param name="Local" value="059fa90b7f4a4af8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SDNSpco"/>
+<param name="Local" value="d35e76481.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:RCAuse:ATTach"/>
+<param name="Local" value="7c334b05aef444e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:ACAuse:ATTach"/>
+<param name="Local" value="952a547ebbab446b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:NAS:EPSNetwork"/>
+<param name="Local" value="ba91984c8ac849ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:NAS:IMSVops"/>
+<param name="Local" value="e4d20e65b2f94fcf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:NAS:EMCBs"/>
+<param name="Local" value="1d8e7a13d8a74ae1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:NAS:EPCLcs"/>
+<param name="Local" value="031b16a96aa14ed3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL:NAS:CSLCs"/>
+<param name="Local" value="89433ca8580d498d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Synchronization Settings"/>
+<param name="Local" value="d35a5bc63a64494c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SYNC:ZONE"/>
+<param name="Local" value="b6e463c51ead4301.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CELL[:PCC]:SYNC:OFFSet"/>
+<param name="Local" value="43bdc1f4e9b946a9.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Settings"/>
+<param name="Local" value="7d8ba3dc6c484aea.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="fa0bde519d2d4800.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:MPDCch:SSPace"/>
+<param name="Local" value="57ad9570d67048c6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Repetition Settings"/>
+<param name="Local" value="44fdc1a12637431c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:MPDCch:MRPaging"/>
+<param name="Local" value="3bef9297fddf463e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:MPDCch:MREPetitions"/>
+<param name="Local" value="fe187b7743064d1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:MPDCch:RLEVel"/>
+<param name="Local" value="e451b1cc79374f4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PDSCh:A:MRCE"/>
+<param name="Local" value="0a97364e21114781.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PDSCh:A:CERepetition"/>
+<param name="Local" value="22e78126161d41f4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PDSCh:B:MRCE"/>
+<param name="Local" value="8fada6ae9cfa4a15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PDSCh:B:CERepetition"/>
+<param name="Local" value="07ef3f002adf4f19.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PUCCh:A:CERepetition"/>
+<param name="Local" value="aa9e98da08e84002.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:PUCCh:B:CERepetition"/>
+<param name="Local" value="5ee3ec78963b4726.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CE Settings"/>
+<param name="Local" value="b71caec08311414b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:MODE"/>
+<param name="Local" value="c8d8a6e9cc0c4f05.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:ILEVel"/>
+<param name="Local" value="9f19a5945a634058.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:ENABle"/>
+<param name="Local" value="ae22e2b24bdc4944.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:QRXLevmin"/>
+<param name="Local" value="ff02e76293ba4fbd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:PRACh:CINDex"/>
+<param name="Local" value="7d0206aea6b04403.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:PRACh:FOFFset"/>
+<param name="Local" value="af81208750df4b76.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:PRACh:MPATtempts"/>
+<param name="Local" value="06a9039592194726.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:PRACh:RPATtempt"/>
+<param name="Local" value="590c33c0caf64885.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:CE:LEVel:PRACh:MMRRepetitio"/>
+<param name="Local" value="49c88591521d47f2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Hopping Settings"/>
+<param name="Local" value="72a1d32c1ca04bc2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:HOPPing:DL:ENABle"/>
+<param name="Local" value="41533ffe8f724578.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:HOPPing:DL:HOFFset"/>
+<param name="Local" value="bf3dd6d8ae924cd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:HOPPing:DL:A:INTerval"/>
+<param name="Local" value="fb34462015d04f52.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;[:PCC]:EMTC:HOPPing:DL:B:INTerval"/>
+<param name="Local" value="438c152fad5c4af3.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Configuration"/>
+<param name="Local" value="658f68e31a0a460f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Connection Settings"/>
+<param name="Local" value="303a1801f82b4a7c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:EASY:BFBW"/>
+<param name="Local" value="4f952f47d5e3450d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:GHOPping"/>
+<param name="Local" value="1ab997c885e647b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:UECategory:MANual"/>
+<param name="Local" value="f24fda5acad4463f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:UECategory:REPorted"/>
+<param name="Local" value="2c8d6a2fbffb4e08.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:UECategory:CZALlowed"/>
+<param name="Local" value="b7f86d24631d4a52.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:PSMallowed"/>
+<param name="Local" value="a8ef45405729492b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:IEMergency"/>
+<param name="Local" value="341e728496714022.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:DPCYcle"/>
+<param name="Local" value="cb864bb6e42e4cd2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:PCNB"/>
+<param name="Local" value="68b7e18510ba474d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:ASEMission"/>
+<param name="Local" value="2187e0f11dc545b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:ASEMission:CAGGregation"/>
+<param name="Local" value="e8e10b1d039b484b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:FCOefficient"/>
+<param name="Local" value="00369b74c61e4354.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CTYPe"/>
+<param name="Local" value="9e1e6758c49341ed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:EDAU:ENABle"/>
+<param name="Local" value="d011ac4152ce4ba7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:EDAU:NSEGment"/>
+<param name="Local" value="6b18a6c270684d56.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:EDAU:NID"/>
+<param name="Local" value="c905f36f3b8d4b3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:TMODe"/>
+<param name="Local" value="ae9a1d155b664432.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:RLCMode"/>
+<param name="Local" value="ef438d8780444420.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:IPVersion"/>
+<param name="Local" value="c5811047d75b40c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:APN"/>
+<param name="Local" value="c1fd96163e2a44de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:QCI"/>
+<param name="Local" value="04edeb91a2b041d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SIBReconfig"/>
+<param name="Local" value="5f4f3d217d7a405e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:KRRC"/>
+<param name="Local" value="c64c490790ca4b93.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:RITimer"/>
+<param name="Local" value="364d6a1d511740ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:DLPadding"/>
+<param name="Local" value="304aee6692234820.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:DLEinsertion"/>
+<param name="Local" value="fdf4784f80584b45.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:UETSelection"/>
+<param name="Local" value="7398493dc0064376.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:STYPe"/>
+<param name="Local" value="39e0f2f3fea4401b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:MCLuster:UL"/>
+<param name="Local" value="24b30374c1804484.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:MCLuster:DL"/>
+<param name="Local" value="914a5b30fcfa47a5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:NOLayers"/>
+<param name="Local" value="14fbddfae761455a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:QAM&lt;ModOrder&gt;:DL"/>
+<param name="Local" value="e195ffadb1bb40ea.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TTIBundling"/>
+<param name="Local" value="33b8c6de95374e50.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:ROHC:ENABle"/>
+<param name="Local" value="96294dc7b8c94d98.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:ROHC:EFOR"/>
+<param name="Local" value="42841a34cd2d475a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:ROHC:PROFiles"/>
+<param name="Local" value="ebc5876065274b09.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:OBCHange"/>
+<param name="Local" value="6fddb0140c124109.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:FCHange"/>
+<param name="Local" value="3ab378fe781b488d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CSFB:DESTination"/>
+<param name="Local" value="d9c062fb16274874.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CSFB:GSM"/>
+<param name="Local" value="8e8e0f82bd564912.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CSFB:WCDMa"/>
+<param name="Local" value="c6ee96459f154854.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CSFB:TDSCdma"/>
+<param name="Local" value="685810be97ec4ed3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:AMDBearer"/>
+<param name="Local" value="a7628c3a83874de4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UECapability:RFBands:ALL"/>
+<param name="Local" value="9b0c180396d547a6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:TAControl"/>
+<param name="Local" value="ca68a09bdd4c4a1d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General MIMO Settings"/>
+<param name="Local" value="7c3e4d0ddef642e9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TRANsmission"/>
+<param name="Local" value="84224f3a8a2349a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:DCIFormat"/>
+<param name="Local" value="4c829c17e8cd43f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:NENBantennas"/>
+<param name="Local" value="bddcbb4acd2b4d23.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TSCHeme?"/>
+<param name="Local" value="80375d91ee8d4163.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PMATrix"/>
+<param name="Local" value="1b0eb02dd00c4b61.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO Channel Model TM 2 to TM 6"/>
+<param name="Local" value="ff24f32270a147f5.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SCHModel:ENABle"/>
+<param name="Local" value="47e6d66dc2a04f29.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SCHModel:ENABle:MIMO&lt;Mimo&gt;"/>
+<param name="Local" value="bf000a831e1a488d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SCHModel:MSELection:MIMO&lt;Mimo&gt;"/>
+<param name="Local" value="0daf4bc262684c1e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SCHModel"/>
+<param name="Local" value="7e247882dfc949ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SCHModel:MIMO&lt;Mimo&gt;"/>
+<param name="Local" value="f07adf8be556450b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO Beamforming Settings TM 7/8"/>
+<param name="Local" value="e6b6fec27f384426.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PZERo:MAPPing"/>
+<param name="Local" value="ad9ab21933f947bc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:BEAMforming:MODE"/>
+<param name="Local" value="4abb2b79d49e466d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:BEAMforming:NOLayers"/>
+<param name="Local" value="d72bda56a6a14285.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:BEAMforming:MATRix"/>
+<param name="Local" value="14cda0bdd20d4495.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;8&gt;:CHMatrix"/>
+<param name="Local" value="efd79af827da43c3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MIMO TM 9 Settings"/>
+<param name="Local" value="02f973f794f14db3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:NTXantennas"/>
+<param name="Local" value="ac38ab9552ac4372.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CODewords"/>
+<param name="Local" value="79c1fc261db74c81.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:PMATrix"/>
+<param name="Local" value="1cf0469cc7964ab3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CSIRs:POWer"/>
+<param name="Local" value="a5586c032095450d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CSIRs:APORts"/>
+<param name="Local" value="0e4490d17c024fb2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CSIRs:RESource"/>
+<param name="Local" value="bf977887ccdd4c3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CSIRs:SUBFrame"/>
+<param name="Local" value="6e6f1eebda374980.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:ZP:BITS"/>
+<param name="Local" value="d1eed86cd0ff44d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:ZP:CSIRs:SUBFrame"/>
+<param name="Local" value="2babd94100c642d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CMATrix:TWO&lt;line&gt;"/>
+<param name="Local" value="527a329e09d84b70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CMATrix:FOUR&lt;line&gt;"/>
+<param name="Local" value="9f285bea23984dbb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CMATrix:EIGHt&lt;line&gt;"/>
+<param name="Local" value="d922bbb5230e4b66.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CMATrix:MIMO&lt;Mimo&gt;:MSELection"/>
+<param name="Local" value="2c46e8cf2b3843b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:TM&lt;no&gt;:CMATrix:MIMO&lt;Mimo&gt;:LINE&lt;line&gt;"/>
+<param name="Local" value="87c14f9137e94b95.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PDCCH Settings"/>
+<param name="Local" value="28cb4aada3354886.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PDCCh:SYMBol"/>
+<param name="Local" value="9b5a1ba06b0c4abc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PDCCh:PSYMbols?"/>
+<param name="Local" value="40ac0ea75aaf426a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PDCCh:ALEVel"/>
+<param name="Local" value="050b80654ab94731.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PDCCh:ALEVel?"/>
+<param name="Local" value="b30ea9cedc4b4195.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PDCCh:RPDCch"/>
+<param name="Local" value="961da14e32ac496b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PUCCH Settings"/>
+<param name="Local" value="7e4afae8863b4b07.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PUCCh:FFCA"/>
+<param name="Local" value="7850ac2b1d054090.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:PUCCh:FFCA?"/>
+<param name="Local" value="28793b7cd6b84a04.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="HARQ Connection Settings"/>
+<param name="Local" value="54a4d621cfff4f78.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:UL:ENABle"/>
+<param name="Local" value="226bfd2e30bb4b9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:UL:NHT"/>
+<param name="Local" value="8090a9c60f644088.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:UL:DPHich"/>
+<param name="Local" value="bfe7eac0b72a4ba7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:UL:MAXTx"/>
+<param name="Local" value="f0dc9345a9614f1b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:DL:ENABle"/>
+<param name="Local" value="8aeea69af6eb46e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:DL:NHT"/>
+<param name="Local" value="6d5349574e7c4938.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:DL:RVCSequence"/>
+<param name="Local" value="7377c16e898b4f91.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:DL:UDSequence:LENGth"/>
+<param name="Local" value="a3cac8d1934e400b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:HARQ:DL:UDSequence"/>
+<param name="Local" value="62a388ea7f444d86.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connected DRX Settings"/>
+<param name="Local" value="8562cf48617c4c9e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:ENABle"/>
+<param name="Local" value="6bb2c506c8234985.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:ODTimer"/>
+<param name="Local" value="45841a492a084a27.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:ITIMer"/>
+<param name="Local" value="192607f3d33d4336.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:RTIMer"/>
+<param name="Local" value="e4e9f13231ea4501.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:LDCYcle"/>
+<param name="Local" value="e0d06882bbd94be6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:SOFFset"/>
+<param name="Local" value="3e0ab8d3cc2b4d5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:SCENable"/>
+<param name="Local" value="95cb693f302c462f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:SDCYcle"/>
+<param name="Local" value="ef6edb4e647240c8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:SCTimer"/>
+<param name="Local" value="66810501773d45a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:UDSCheduling"/>
+<param name="Local" value="a0c2214587fa4d29.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:IUGNrb"/>
+<param name="Local" value="f4564c4b53fc47c0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:IUGMcsidx"/>
+<param name="Local" value="85fdb321dc844fbe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SRPRindex"/>
+<param name="Local" value="2c7d5b19469a4cc3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SRCindex"/>
+<param name="Local" value="d997eff7d9e14357.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eDRX Settings"/>
+<param name="Local" value="1807f134858743b4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:IMODe:ENABle"/>
+<param name="Local" value="e32ea8158a084491.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:IMODe:PTWindow"/>
+<param name="Local" value="f173bee3c83e4bb3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:CDRX:IMODe:CLENgth"/>
+<param name="Local" value="c6686e5e61ec4c6f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Scheduling Commands"/>
+<param name="Local" value="069619e51bc44cc9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:DLEQual"/>
+<param name="Local" value="ae423c7faaf34a6c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:HDUPlex"/>
+<param name="Local" value="9b8c061988c6427b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:ETHRoughput:DL[:PCC]:STReam&lt;s&gt;?"/>
+<param name="Local" value="5fbdc31bf1b74094.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:ETHRoughput:DL[:PCC]?"/>
+<param name="Local" value="f5087ae03a6d494d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:ETHRoughput:DL:ALL?"/>
+<param name="Local" value="db4ae5a867e94450.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:ETHRoughput:UL[:PCC]?"/>
+<param name="Local" value="0eb4f77129484087.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:TBURsts"/>
+<param name="Local" value="5177379aff5e4cd5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:FBURst:BLENgth"/>
+<param name="Local" value="d866e9dfbd7448f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:FBURst:PBTR"/>
+<param name="Local" value="214c5247ac5b47dc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:RBURst:BLENgth"/>
+<param name="Local" value="a07d72aa6f2b4f58.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RMC Settings"/>
+<param name="Local" value="87827ae734434588.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:RBURst:PSFConfig"/>
+<param name="Local" value="afd695017c5a4fe0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:EMTC:SFPattern"/>
+<param name="Local" value="91dfb3145a764f28.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:DL&lt;s&gt;"/>
+<param name="Local" value="0a2a2a5138644d37.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:UL"/>
+<param name="Local" value="f6c8d1cbca794a9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:RBPosition:DL&lt;s&gt;"/>
+<param name="Local" value="aae8fef29dc24466.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:RBPosition:UL"/>
+<param name="Local" value="1585f31796b74876.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:EMTC:NBPosition:DL"/>
+<param name="Local" value="c3219eb751614cf0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:EMTC:NBPosition:UL"/>
+<param name="Local" value="e5be103a6d9f4b4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:VERSion:DL&lt;s&gt;"/>
+<param name="Local" value="b87979809e674702.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:RMC:MCLuster:UL"/>
+<param name="Local" value="1b5ad87574f44c05.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channel Settings (No LAA)"/>
+<param name="Local" value="fd8ae92a2fb645cd.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:DL&lt;s&gt;"/>
+<param name="Local" value="84659d37bd494d99.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:UL"/>
+<param name="Local" value="0ac92b62c51f4ccf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:EMTC:A:DL"/>
+<param name="Local" value="4abbe0037f514157.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:EMTC:A:UL"/>
+<param name="Local" value="18d2a6510706497c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:EMTC:NBPosition:DL"/>
+<param name="Local" value="ba0e97b1339a4195.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="a0b0cea0effb4e68.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:MCLuster:UL"/>
+<param name="Local" value="ca9776e425a54008.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:DL&lt;s&gt;:CRATe:ALL?"/>
+<param name="Local" value="995b9aea208f42a8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDCHannels:UL:CRATe:ALL?"/>
+<param name="Local" value="d8dda73d5ffb4c70.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Channel Settings for LAA"/>
+<param name="Local" value="332ae2dfa36940f1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:FBURst:SPFSubframe"/>
+<param name="Local" value="11bdaaec265e4de2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:FBURst:OSLSubframe"/>
+<param name="Local" value="c2b43cdca57d4b52.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:RBURst:LSConfig"/>
+<param name="Local" value="3950a2deda4640d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:RBURst:IPSubframe"/>
+<param name="Local" value="d5dc5561516143c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:LAA:RBURst:TPRobability"/>
+<param name="Local" value="7affa95d57ab4031.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:FSUBframes:DL&lt;s&gt;"/>
+<param name="Local" value="c9d5747987e54f8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:PIPSubframes:DL&lt;s&gt;"/>
+<param name="Local" value="244b764a15aa48bd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:PEPSubframes:DL&lt;s&gt;"/>
+<param name="Local" value="bb6f6f5fe4574774.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:FSUBframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="bfa07c439ad44dae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:PIPSubframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="e1d4f84b423c4695.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:PEPSubframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="74bacdf50ac54a30.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:DL&lt;s&gt;:FSUBframes:CRATe?"/>
+<param name="Local" value="5bc4ac39545944df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:DL&lt;s&gt;:PIPSubframes:CRATe?"/>
+<param name="Local" value="cb032c26188440e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:FBURst:DL&lt;s&gt;:PEPSubframes:CRATe?"/>
+<param name="Local" value="bbab2f8ee889476b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:FSUBframes:DL&lt;s&gt;"/>
+<param name="Local" value="db185f9e4cd74f65.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:PIPSubframes:DL&lt;s&gt;"/>
+<param name="Local" value="843a292aaa6a4daf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:PEPSubframes:DL&lt;s&gt;"/>
+<param name="Local" value="a35020507b6e42ab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:FSUBframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="70346b0f09934cbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:PIPSubframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="4b6394d7a9634514.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:PEPSubframes:MCLuster:DL&lt;s&gt;"/>
+<param name="Local" value="bdd2c9f1a0b34610.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:DL&lt;s&gt;:FSUBframes:CRATe?"/>
+<param name="Local" value="069951909dc04485.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:DL&lt;s&gt;:PIPSubframes:CRATe?"/>
+<param name="Local" value="c86a93426deb49ed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection:SCC&lt;c&gt;:UDCHannels:LAA:RBURst:DL&lt;s&gt;:PEPSubframes:CRATe?"/>
+<param name="Local" value="bdc4cf1c7c3c436a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined TTI-Based Channel Settings"/>
+<param name="Local" value="01e6175df88548f2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:DL&lt;s&gt;"/>
+<param name="Local" value="253f035646f34aad.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:DL&lt;s&gt;:ALL"/>
+<param name="Local" value="be6d3e586e9c469c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:UL"/>
+<param name="Local" value="36355cd146d64266.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:UL:ALL"/>
+<param name="Local" value="b0d901b416764517.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:DL&lt;s&gt;:CRATe:ALL?"/>
+<param name="Local" value="2b07ca5263ed4863.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:UDTTibased:UL:CRATe:ALL?"/>
+<param name="Local" value="d241d68d2c274cf6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fixed CQI Settings"/>
+<param name="Local" value="c186e492207d4554.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCTTibased:DL&lt;s&gt;"/>
+<param name="Local" value="a617681a707740f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCTTibased:DL&lt;s&gt;:ALL"/>
+<param name="Local" value="839907eef7ca4710.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB CQI Settings"/>
+<param name="Local" value="ed85fc500be54dc6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:STTI"/>
+<param name="Local" value="b2728b584ed24c50.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL"/>
+<param name="Local" value="feb4571d09e34ca6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:MCLuster:DL"/>
+<param name="Local" value="8d5a033d004e45a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:UDEFined"/>
+<param name="Local" value="1824af6241e74e01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:CSIRs:UDEFined"/>
+<param name="Local" value="f5f44a660f2a407c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:SSUBframe:UDEFined"/>
+<param name="Local" value="6812362a6d624df8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:DETermined?"/>
+<param name="Local" value="7fd3c7272f2d411d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:CSIRs:DETermined?"/>
+<param name="Local" value="ee548799632042f8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FWBCqi:DL:MCSTable:SSUBframe:DETermined?"/>
+<param name="Local" value="44b58aac3123411c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB PMI Settings"/>
+<param name="Local" value="45ae0337a17b4c6f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPMI:DL:STTI"/>
+<param name="Local" value="8adbea9bd3a8404a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPMI:DL"/>
+<param name="Local" value="c45e50d3c67c4d1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPMI:MCLuster:DL"/>
+<param name="Local" value="5f09eee5c8d8415b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB PMI-RI Settings"/>
+<param name="Local" value="f33abc61e9094b59.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPRI:DL:STTI"/>
+<param name="Local" value="988115d624674dfe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPRI:DL"/>
+<param name="Local" value="88d38d93a9a14dd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FPRI:MCLuster:DL"/>
+<param name="Local" value="6ee54d1f53894577.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB CQI-RI Settings"/>
+<param name="Local" value="53f70975f0554737.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL:STTI"/>
+<param name="Local" value="ae326d95940b4de1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL"/>
+<param name="Local" value="a47ad9a12f4c4e37.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:MCLuster:DL"/>
+<param name="Local" value="2da6d228c7614813.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL:MCSTable:UDEFined"/>
+<param name="Local" value="caf1ddd786f247f5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL:MCSTable:SSUBframe:UDEFined"/>
+<param name="Local" value="eb01e56f114a424e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL:MCSTable:DETermined?"/>
+<param name="Local" value="0eff1b2ac512447b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCRI:DL:MCSTable:SSUBframe:DETermined?"/>
+<param name="Local" value="331a5c3bdc0f4fe2.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Follow WB CQI-PMI-RI Settings"/>
+<param name="Local" value="3156a45588e14187.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:STTI"/>
+<param name="Local" value="f1e82c763fcc42e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL"/>
+<param name="Local" value="c8bc6de5374f4681.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:MCLuster:DL"/>
+<param name="Local" value="f85c6ab76f264378.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:UDEFined"/>
+<param name="Local" value="040dde89381b425d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:CSIRs:UDEFined"/>
+<param name="Local" value="2862abe3c03c4ca5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:SSUBframe:UDEFined"/>
+<param name="Local" value="d2f2069adda344be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:DETermined?"/>
+<param name="Local" value="7cebe20d39e54dc7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:CSIRs:DETermined?"/>
+<param name="Local" value="cf3cb45b6f8c4d2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:FCPRi:DL:MCSTable:SSUBframe:DETermined?"/>
+<param name="Local" value="4836669686cc46d5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SPS Settings"/>
+<param name="Local" value="109a47456dab4e7b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:TIConfig"/>
+<param name="Local" value="5fdc3ed2c8d44919.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:SINTerval"/>
+<param name="Local" value="83794c909d204de5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:DL&lt;s&gt;"/>
+<param name="Local" value="623e39bb801642ee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:UL"/>
+<param name="Local" value="b1aea9833fe04187.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:DL&lt;s&gt;:CRATe:ALL?"/>
+<param name="Local" value="88adb6bab55a446b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:SPS:UL:CRATe:ALL?"/>
+<param name="Local" value="38acd813324d4e7a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Auto Mode Settings"/>
+<param name="Local" value="e20bf5da88a447ba.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:EMAMode:A:DL:ALL"/>
+<param name="Local" value="f2358e444926462e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:EMAMode:A:UL:ALL"/>
+<param name="Local" value="703166d95aee42f7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="eMTC Compact Scheduling Settings"/>
+<param name="Local" value="0eeb7cd30b9045e3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:CSCHeduling:A:DL:ALL"/>
+<param name="Local" value="4866bed3572245c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CONNection[:PCC]:CSCHeduling:A:UL:ALL"/>
+<param name="Local" value="61b79778ed14489c.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CQI Reporting Settings"/>
+<param name="Local" value="072ebd3691e14d26.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting:ENABle"/>
+<param name="Local" value="f1f257a641f34ab3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting:CSIRmode"/>
+<param name="Local" value="01c0ca8b4a0d4a64.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting:SANCqi"/>
+<param name="Local" value="b46e335540204a0b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting:PRIReporting:ENABle"/>
+<param name="Local" value="917a92c510d5468b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting[:PCC]:CINDex[:FDD]"/>
+<param name="Local" value="1578e731596c476d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting[:PCC]:CINDex:TDD"/>
+<param name="Local" value="33f4f8ed13b94a6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CQIReporting:SCC&lt;c&gt;:CINDex:LAA"/>
+<param name="Local" value="5cf42eee360f4c9b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CQIReporting[:PCC]:RPERiod?"/>
+<param name="Local" value="41276c25cd9c47a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:CQIReporting[:PCC]:ROFFset?"/>
+<param name="Local" value="5d4164fc04454a63.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UE Measurement Report Settings"/>
+<param name="Local" value="eeba2c304c7746ee.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:ENABle"/>
+<param name="Local" value="d35e95771.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:RINTerval"/>
+<param name="Local" value="7e434c3de2e74683.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:MGENable"/>
+<param name="Local" value="0e87f350589547c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:MGPeriod"/>
+<param name="Local" value="d35e95865.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:FCOefficient:RSRP"/>
+<param name="Local" value="c67334efacea459b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:FCOefficient:RSRQ"/>
+<param name="Local" value="abead81285b4497c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:WMQuantity"/>
+<param name="Local" value="02238cd25855433f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:MCSCell"/>
+<param name="Local" value="08b23cff6e124ad8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:DMTC:PERiod"/>
+<param name="Local" value="406083c074bc4315.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:DMTC:POFFset"/>
+<param name="Local" value="dad7632bbba047e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RSSI:ENABle"/>
+<param name="Local" value="7cebfcea403b42fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RSSI:RMTC:PERiod"/>
+<param name="Local" value="9418433caac7423b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RSSI:RMTC:SOFFset"/>
+<param name="Local" value="81fcc47c7b494ccc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RSSI:MDURation"/>
+<param name="Local" value="746106e1cc174dd0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:UEReport:SCC&lt;c&gt;:RSSI:COTHreshold"/>
+<param name="Local" value="60f8e14d113941a6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (SMS)"/>
+<param name="Local" value="3b2a8220430f49e0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:LHANdling"/>
+<param name="Local" value="f011efe98c9e4322.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:MESHandling"/>
+<param name="Local" value="4dbd6d7869c14c47.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:INTernal"/>
+<param name="Local" value="ef718f7682bc4ec7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:BINary"/>
+<param name="Local" value="0a03ac68e4d6454f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:PIDentifier"/>
+<param name="Local" value="2c7a678f37c04459.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:DCODing"/>
+<param name="Local" value="4cbe75b8a7594034.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:UDHeader"/>
+<param name="Local" value="b0c6f1f554a549f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:CGRoup"/>
+<param name="Local" value="94dafaaeb65a4c32.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:MCLass"/>
+<param name="Local" value="0dad8dc0364b483c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:OSADdress"/>
+<param name="Local" value="b40cd461a81f4906.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:OADDress"/>
+<param name="Local" value="8d6cd53ddece4d43.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:TSOurce"/>
+<param name="Local" value="57e30350684548f4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:DATE"/>
+<param name="Local" value="d8015a736cd04d4c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:SCTStamp:TIME"/>
+<param name="Local" value="0e792860d60540b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:FILE"/>
+<param name="Local" value="1cae4ca7a0df473f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:FILE:INFO?"/>
+<param name="Local" value="d27923fb619940d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:SMS:OUTGoing:INFO:LMSent?"/>
+<param name="Local" value="82b24992dc1a4f2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:INComing:FILE"/>
+<param name="Local" value="ae6f706fbf344999.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:SMS:INComing:FILE:INFO?"/>
+<param name="Local" value="95c9696ed8944ca3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:SMS:INComing:INFO:DCODing?"/>
+<param name="Local" value="7d63f17559294edd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:SMS:INComing:INFO:MTEXt?"/>
+<param name="Local" value="f7586883cb74459b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:SMS:INComing:INFO:MLENgth?"/>
+<param name="Local" value="a78b86af50cc47c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:LTE:SIGN&lt;i&gt;:SMS:INComing:INFO:MTEXt"/>
+<param name="Local" value="48b71ad3257c4c01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:LTE:SIGN&lt;i&gt;:SMS:INFO:LRMessage:RFLag?"/>
+<param name="Local" value="d35e97296.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Messaging (CBS)"/>
+<param name="Local" value="e69796f27606427b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:ENABle"/>
+<param name="Local" value="b5c7bac8227c453f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:ID"/>
+<param name="Local" value="b0d802ce357b489a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:IDTYpe"/>
+<param name="Local" value="b21e31469645405b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:SERial"/>
+<param name="Local" value="8dc2c189812b4c72.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:CGRoup?"/>
+<param name="Local" value="ebcf4f0cace44616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:LANGuage"/>
+<param name="Local" value="c8c4917be74e4c0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:SOURce"/>
+<param name="Local" value="389f5dc23165410f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:DATA"/>
+<param name="Local" value="cc3e7fd18a1442a0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:FILE"/>
+<param name="Local" value="cf6b699d117b4c49.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:FILE:INFO?"/>
+<param name="Local" value="b2b6f821226c40c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:ETWS:ALERt"/>
+<param name="Local" value="dde695f37f40468a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:CBS:MESSage:ETWS:POPup"/>
+<param name="Local" value="2cab14458a3346bf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Message Monitoring Settings"/>
+<param name="Local" value="3f1ad8ff10e24801.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:MMONitor:ENABle"/>
+<param name="Local" value="d35e98065.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:MMONitor:IPADdress"/>
+<param name="Local" value="4f52529d4dfe494e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BLER Measurement"/>
+<param name="Local" value="7f9897698cbf4be1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="6ea6bb74331a4284.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:LTE:SIGN&lt;i&gt;:EBLer"/>
+<param name="Local" value="3608f12ac7a44d96.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:STATe?"/>
+<param name="Local" value="c5d899ae2f704748.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:STATe:ALL?"/>
+<param name="Local" value="115e0c1ad54140b0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="026b599e7afe490d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:TOUT"/>
+<param name="Local" value="79065bd27788410b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:REPetition"/>
+<param name="Local" value="d35e98439.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:SCONdition"/>
+<param name="Local" value="4488251ff11b4f46.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:SFRames"/>
+<param name="Local" value="dab2c1bc42ce40d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:ERCalc"/>
+<param name="Local" value="d35e98552.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:CONFidence:OASCondition"/>
+<param name="Local" value="4a3e163fba6f4233.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:CONFidence:MTTime"/>
+<param name="Local" value="7ba308aea9bb4a07.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:EBLer:CONFidence:LERate"/>
+<param name="Local" value="6963af98d04643ed.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="967c016a78ad4509.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:CONFidence?"/>
+<param name="Local" value="df3b9b3cd0e04bd5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:ALL:CONFidence?"/>
+<param name="Local" value="565fedc1632b47cd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:ABSolute?"/>
+<param name="Local" value="8c8b41c9edc040ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer:ALL:ABSolute?"/>
+<param name="Local" value="510b2edbe502439c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:RELative?"/>
+<param name="Local" value="45c46e40b8f54848.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer:ALL:RELative?"/>
+<param name="Local" value="529e249fc2fb4cad.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:STReam&lt;s&gt;:ABSolute?"/>
+<param name="Local" value="28ed834aa308462e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:INTermediate:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:STReam&lt;s&gt;:RELative?"/>
+<param name="Local" value="ab3188df44fd4fd6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:CQIReporting:STReam&lt;s&gt;?"/>
+<param name="Local" value="b16cfefd25be4d6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:TRACe:THRoughput[:PCC]:STReam&lt;s&gt;?"/>
+<param name="Local" value="c06f73e463874f13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:TRACe:THRoughput[:PCC]?"/>
+<param name="Local" value="e20227c8945f4af6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:TRACe:THRoughput:ALL?"/>
+<param name="Local" value="992330cd04db40ff.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:TRACe:THRoughput[:PCC]:MCQI:STReam&lt;s&gt;?"/>
+<param name="Local" value="37ae002ef36f4116.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer:TRACe:CQIReporting[:PCC]:STReam&lt;s&gt;?"/>
+<param name="Local" value="1736abf84d5d4058.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:RI?"/>
+<param name="Local" value="3dd30a0e5a884e05.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:PMI:RI&lt;no&gt;?"/>
+<param name="Local" value="2d7abc0d1d5f4894.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:HARQ:STReam&lt;s&gt;:TRANsmission:ABSolute?"/>
+<param name="Local" value="9b544d55d9754fdb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:HARQ:STReam&lt;s&gt;:TRANsmission:RELative?"/>
+<param name="Local" value="4a2e140e15ec4e68.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:HARQ:STReam&lt;s&gt;:SUBFrame:ABSolute?"/>
+<param name="Local" value="0f5fa28530c94849.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:HARQ:STReam&lt;s&gt;:SUBFrame:RELative?"/>
+<param name="Local" value="06d4c255a5d34cbd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:EBLer[:PCC]:UPLink?"/>
+<param name="Local" value="84ee4e415e5c449b.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RLC Throughput Measurement"/>
+<param name="Local" value="01d196ca9e584270.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="cd5fe1faf25749a9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:LTE:SIGN&lt;i&gt;:THRoughput"/>
+<param name="Local" value="b650602617164eaa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:THRoughput:STATe?"/>
+<param name="Local" value="8e7cebb45fe147a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:THRoughput:STATe:ALL?"/>
+<param name="Local" value="c009b55d0ca74d0f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="98e4ee3eb7934b2e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:THRoughput:TOUT"/>
+<param name="Local" value="23cf79c124054c1d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:THRoughput:REPetition"/>
+<param name="Local" value="ea2633e2fbbf4163.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:THRoughput:UPDate"/>
+<param name="Local" value="13ace8704fc5455e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:LTE:SIGN&lt;i&gt;:THRoughput:WINDow"/>
+<param name="Local" value="e4c81bac0f354759.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="b9ed198a703243e7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:THRoughput?"/>
+<param name="Local" value="90f14587d902460c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:THRoughput:TRACe:UL:PDU:CURRent?"/>
+<param name="Local" value="3efb85d0f7174d3e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:LTE:SIGN&lt;i&gt;:THRoughput:TRACe:DL:PDU:CURRent?"/>
+<param name="Local" value="0d765b109fae4555.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="087346ea4e5146d4.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

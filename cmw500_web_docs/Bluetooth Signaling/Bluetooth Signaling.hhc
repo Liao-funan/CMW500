@@ -1,0 +1,1253 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bluetooth® Signaling"/>
+<param name="Local" value="04681c53bb73486b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="d3cfa008f9364c63.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.30 (Compared to V3.5.10)"/>
+<param name="Local" value="52de3f09c5f64740.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.71)"/>
+<param name="Local" value="e9ff93a4c0fc448e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.71 (Compared to V3.5.70)"/>
+<param name="Local" value="e79dc6d1c9484548.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.70 (Compared to V3.5.60)"/>
+<param name="Local" value="388cf855ef3b404a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.60 (Compared to V3.5.50)"/>
+<param name="Local" value="999e55e3a9294535.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.50 (Compared to V3.5.41)"/>
+<param name="Local" value="fa582f0d3c4f475e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.41 (Compared to V3.5.40)"/>
+<param name="Local" value="00706c3343a44a62.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.40 (Compared to V3.5.30)"/>
+<param name="Local" value="a4d90263bb84485f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.30 (Compared to V3.5.20)"/>
+<param name="Local" value="d09dffe1508d4de6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.5.10)"/>
+<param name="Local" value="85d76c0698214876.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.10 (Compared to V3.2.81)"/>
+<param name="Local" value="02b0af5f739d41fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.81 (Compared to V3.2.70)"/>
+<param name="Local" value="4e60af6f21874934.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.60)"/>
+<param name="Local" value="391b41a5b0e34d39.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.60 (Compared to V3.2.50)"/>
+<param name="Local" value="afb73f05cb344e21.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.50 (Compared to V3.2.30)"/>
+<param name="Local" value="9a78c72ddc89410a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.30 (Compared to V3.0.12)"/>
+<param name="Local" value="013fd3ab56b34e63.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.12"/>
+<param name="Local" value="34f90dcfc18a4c2c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="310f68fa8cb14a91.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setups"/>
+<param name="Local" value="a724a409ed8149c4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Tests without USB Interface"/>
+<param name="Local" value="a3a4d93948a74894.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Tests with USB Interface"/>
+<param name="Local" value="3097e6424fda43d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Tests"/>
+<param name="Local" value="ae63a6ab031e4ce3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Initiating Signaling Tests (BR/EDR)"/>
+<param name="Local" value="320b7069de4f42c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Test (BR/EDR)"/>
+<param name="Local" value="074bdd75ee964419.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Test"/>
+<param name="Local" value="cf70ac6699c74f04.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Profiles (BR/EDR)"/>
+<param name="Local" value="1f96b6b5ad234b8d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Bluetooth Signal Characteristics"/>
+<param name="Local" value="6bbf896fd9f14e6e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Operating Bands"/>
+<param name="Local" value="478186f0d5be4c63.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BR/EDR: ACL Packets"/>
+<param name="Local" value="034d219b4bcf4f70.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BR/EDR: SCO and eSCO Packets"/>
+<param name="Local" value="c7bfeb464c5744d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Packet Formats for LE"/>
+<param name="Local" value="08fb353d9a5449c1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling States"/>
+<param name="Local" value="c95325fb17dc40ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Signals"/>
+<param name="Local" value="f23ef3a553ca4b91.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RX Quality Measurement"/>
+<param name="Local" value="3ad772cfe25d405e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Measurements for BR and EDR"/>
+<param name="Local" value="b58306bd789040c1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PER Measurements for LE"/>
+<param name="Local" value="0978b041ff9f4565.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Search / PER Search Measurements"/>
+<param name="Local" value="ae1a4212fe7646bc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="ddb978d7f23b44ea.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="683aaf3ad1ae4ebf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling View"/>
+<param name="Local" value="1dd02e017fe14190.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status Tab - Connection Status"/>
+<param name="Local" value="5be68de33f384d5f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status Tab - EUT Info (BR/EDR)"/>
+<param name="Local" value="e0fd96f7a42449ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status Tab - EUT Capabilities (BR/EDR)"/>
+<param name="Local" value="3bae73e607c64543.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Status Tab - Test Packet Synch Word (LE)"/>
+<param name="Local" value="0b62a490afb64dc3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EUT Control Tab"/>
+<param name="Local" value="ea874ea9da3e4e5b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Link Info Tab"/>
+<param name="Local" value="1c1f8ea9159d4b4e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Event Log"/>
+<param name="Local" value="66ab7c6fdcc74adb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Setup"/>
+<param name="Local" value="cb378704f94c40cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Setup"/>
+<param name="Local" value="9a438bf987954001.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Characteristics"/>
+<param name="Local" value="7082871119804480.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Authentication"/>
+<param name="Local" value="fe23d286591d4831.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Link Setup"/>
+<param name="Local" value="079dbb58fb144087.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling and Connection Control"/>
+<param name="Local" value="849a1cde20c6400c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Shortcut Softkeys"/>
+<param name="Local" value="7be30e032399432b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Unit Selection"/>
+<param name="Local" value="daa931c894e64121.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CMW Role"/>
+<param name="Local" value="be06e00030294d71.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="7d5bac235c914c32.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EUT Control"/>
+<param name="Local" value="8032bfd3b8b442fa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings"/>
+<param name="Local" value="882603477eb94f9e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="ca0b2c3d25204ae3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Frequency"/>
+<param name="Local" value="b5196f279984400b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Power Settings"/>
+<param name="Local" value="74bf9ac9ea464683.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Dirty Transmitter Configuration"/>
+<param name="Local" value="d9507cbd2fdd4ecb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Configuration"/>
+<param name="Local" value="64cb06053ffd4013.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Paging Configuration"/>
+<param name="Local" value="446d41ebfb074dfe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Characteristics Configuration"/>
+<param name="Local" value="97d24ad0c7a94f22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Profiles Settings"/>
+<param name="Local" value="e728db5d9c6a4948.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enhanced Power Control Mode Configuration"/>
+<param name="Local" value="d13dee82f90e4b1a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Extended Logging"/>
+<param name="Local" value="faaf8f5bb1af459e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Shortcut Configuration"/>
+<param name="Local" value="2c80261600344efb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RX Quality Measurement Configuration"/>
+<param name="Local" value="5941caab16e64132.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="c4171dcdc9204944.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RX Quality Tabs"/>
+<param name="Local" value="81feda6ffc5848fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control Settings"/>
+<param name="Local" value="e3ec5072624e40a0.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="5fc10ead187c44fe.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Application"/>
+<param name="Local" value="f0e09183c8684c02.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Initialization and Basic Configuration"/>
+<param name="Local" value="f1c99177266f4016.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Switch On Bluetooth Signaling"/>
+<param name="Local" value="6347c38eea664997.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inquire or Manually Specify EUT"/>
+<param name="Local" value="8d47241131964d7f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configure Paging"/>
+<param name="Local" value="fd554144a7f54c9f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieve EUT Information and Capabilities"/>
+<param name="Local" value="bf4d59ae6a9f40ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configure USB Interface"/>
+<param name="Local" value="68cf34aecb094e1a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieve USB Information"/>
+<param name="Local" value="829d29a23cdf4bd2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configure Dirty Transmitter"/>
+<param name="Local" value="9adf09b7702e4e14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configure Test Mode"/>
+<param name="Local" value="736bc91a3b2e4da5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Echo Mode"/>
+<param name="Local" value="dbcc61d9b6ad42a3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configure Audio Profile"/>
+<param name="Local" value="d49ba7eeee214a94.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER and PER Rx Tests"/>
+<param name="Local" value="a6afa847f6fe4ea9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a BER/PER Measurement"/>
+<param name="Local" value="f8656120c6154e85.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up the Connection"/>
+<param name="Local" value="6386584944ee485a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a BER/PER Measurement"/>
+<param name="Local" value="83ec7dc688214098.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Search and PER Search Rx Tests"/>
+<param name="Local" value="9afa2975233b4c9c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a BER/PER Search Measurement"/>
+<param name="Local" value="bb4ef482677148bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Setting Up the Connection"/>
+<param name="Local" value="40e9ccdd419a4661.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a BER/PER Search Measurement"/>
+<param name="Local" value="21e1536fb3a246a4.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="34cd7c4c4a424b57.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="b3d3cfdb582f41e9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SIGN&lt;i&gt;"/>
+<param name="Local" value="13e7fbc736c94978.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for Signal Path Selection"/>
+<param name="Local" value="dcddfb7625134e7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="c409e31ee260496d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Settings"/>
+<param name="Local" value="3edb91f6f4224d72.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer and Generator Settings"/>
+<param name="Local" value="84a1a89ce6f7480d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:OPMode"/>
+<param name="Local" value="9cc728353bbe442c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:BTYPe"/>
+<param name="Local" value="00dd0d36fd834d88.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PHY:LENergy"/>
+<param name="Local" value="0da2da1cde2347d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:FEC:LENergy:LRANge"/>
+<param name="Local" value="89e6232bd642475f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:CMW:ROLE"/>
+<param name="Local" value="8a5ef020cf6d4fae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:AUDio:PRFRole"/>
+<param name="Local" value="99cc8757169b46aa.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scenario Management and Routing"/>
+<param name="Local" value="75f48fbe687d4628.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:BLUetooth:SIGN&lt;i&gt;:SCENario:OTRX"/>
+<param name="Local" value="b2bf83e3f7634c1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:BLUetooth:SIGN&lt;i&gt;:SCENario:OTRX:FLEXible"/>
+<param name="Local" value="2e5849cdc5de4d8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:EATTenuation:INPut"/>
+<param name="Local" value="5f0db7d60f094ae5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:EATTenuation:OUTPut"/>
+<param name="Local" value="2356f32eb60c40de.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Frequency Settings"/>
+<param name="Local" value="9334784717fe44d9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:TMODe"/>
+<param name="Local" value="1e83a29fb7f240e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:CHANnel:LOOPback"/>
+<param name="Local" value="205a9315662140e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:CHANnel:TXTest"/>
+<param name="Local" value="942fe155191f4798.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:CHANnel:DTMode"/>
+<param name="Local" value="d78993568b924be2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:FREQuency:LOOPback?"/>
+<param name="Local" value="c2093a72c89140cc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:FREQuency:TXTest?"/>
+<param name="Local" value="a6e6cd0d4ba44da1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:FREQuency:DTMode?"/>
+<param name="Local" value="9e5e9149170249e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:HOPPing"/>
+<param name="Local" value="f7e71c5197a249b5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Adaptive Frequency Hopping Control"/>
+<param name="Local" value="9fe8d699569f4d5d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:AFHopping"/>
+<param name="Local" value="55ed807e9ff64654.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:AFHopping:UCHannels"/>
+<param name="Local" value="a35f372493634b17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:CMAP?"/>
+<param name="Local" value="ee64074f87ab42f9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Power Settings"/>
+<param name="Local" value="d44a183f25644a0c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="66d7af9e4466431c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:LEVel"/>
+<param name="Local" value="c7de73d293c3416a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:ARANging"/>
+<param name="Local" value="d93af15978434ce7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="f54adce00b304029.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Dirty Transmitter Settings"/>
+<param name="Local" value="73027994a2b741d3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX"/>
+<param name="Local" value="313e9d4430df425b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:MODE:BRATe"/>
+<param name="Local" value="162a5709da944d87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:MODFrequency:LENergy:LRANge"/>
+<param name="Local" value="41fa93c60db04a94.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:FDRift:BRATe"/>
+<param name="Local" value="a6dbffd380d94b12.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:FOFFset:BRATe"/>
+<param name="Local" value="3957b6c8de2f45eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:MINDex:BRATe"/>
+<param name="Local" value="706477ca60ab4127.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:MINDex:STANdard:LENergy:LRANge"/>
+<param name="Local" value="0308c0bf87a240f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:MINDex:STABle:LENergy:LRANge"/>
+<param name="Local" value="9c65e170ff834178.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:STERror:BRATe"/>
+<param name="Local" value="a80c161a479842f2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:SING:STERror:LENergy:LRANge"/>
+<param name="Local" value="eae186a7d9d84249.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:STAB:FDRift:BRATe?"/>
+<param name="Local" value="1b9e00658f7e44e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:STAB:FOFFset:BRATe?"/>
+<param name="Local" value="2b84d6caf1d748f6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:STAB:MINDex:BRATe?"/>
+<param name="Local" value="f31049a8203c4f1f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:STAB:MINDex:STABle:LENergy:LRANge?"/>
+<param name="Local" value="989e2f1838334090.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RFSettings:DTX:STAB:STERror:BRATe?"/>
+<param name="Local" value="57180c2d786c41ad.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Stack Delay Control"/>
+<param name="Local" value="115d0536f7e94606.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:DELay:PTIMeout"/>
+<param name="Local" value="f07a96087a4d4699.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:DELay:TMODe"/>
+<param name="Local" value="2d2230c84cc64c23.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Connection Control and States"/>
+<param name="Local" value="2403e69e55d94dd7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:BLUetooth:SIGN&lt;i&gt;:STATe"/>
+<param name="Local" value="6eb02894cd174d97.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:CONNection:STATe?"/>
+<param name="Local" value="e860c3abead34dd8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:CONNection:STATe:ALL?"/>
+<param name="Local" value="e565877880e04d64.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:BLUetooth:SIGN&lt;i&gt;:CONNection:ACTion"/>
+<param name="Local" value="3bd8280619694597.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:BLUetooth:SIGN&lt;i&gt;:CONNection:CHECk:LENergy?"/>
+<param name="Local" value="80636291831e49be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:BLUetooth:SIGN&lt;i&gt;:LENergy:RESet"/>
+<param name="Local" value="d1fe00d381884d7e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PCONtrol:EPCMode"/>
+<param name="Local" value="64b72c1249124cb4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PCONtrol:STEP:ACTion"/>
+<param name="Local" value="dc96962cf8a1427e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:PCONtrol:STATe:LEGacy?"/>
+<param name="Local" value="cbb3d758df33486e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:PCONtrol:STATe?"/>
+<param name="Local" value="afc9baf3577d4cf1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:PCONtrol:STATe:DPSK?"/>
+<param name="Local" value="47e56fe5a8024893.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:LENergy:STATe?"/>
+<param name="Local" value="2a5f4e3ca9aa407c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:LINFo?"/>
+<param name="Local" value="6891764bb4a34bb0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CLEan:BLUetooth:SIGN&lt;i&gt;:ELOGging"/>
+<param name="Local" value="1d6cbeb750794f12.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:ELOGging:ALL?"/>
+<param name="Local" value="3272ae0db3d9423b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:ELOGging:LAST?"/>
+<param name="Local" value="0a23e33ad2f64a11.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EUT Information"/>
+<param name="Local" value="4b7dd420bafe4554.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:INFormation:NAME?"/>
+<param name="Local" value="e0fdda65810b4622.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:INFormation:VERSion?"/>
+<param name="Local" value="a752ba081dc440d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:INFormation:COMPany?"/>
+<param name="Local" value="a8ba296c14934a59.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:INFormation:BDADdress?"/>
+<param name="Local" value="d803246e15199.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:INFormation:CLASs?"/>
+<param name="Local" value="d803246e15231.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EUT Capabilities"/>
+<param name="Local" value="024c5afb88104f03.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:CONNection?"/>
+<param name="Local" value="aff392e7d1d74137.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:ENCRyption?"/>
+<param name="Local" value="d803246e15367.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:PSAVing?"/>
+<param name="Local" value="3c784e876f5546d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:PCONtrol?"/>
+<param name="Local" value="d803246e15428.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:EPControl?"/>
+<param name="Local" value="d803246e15449.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:ACL?"/>
+<param name="Local" value="3b1b3c0aa3504517.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:SCO?"/>
+<param name="Local" value="fffe7e54eaf54c8c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:ESCO?"/>
+<param name="Local" value="69cc7b444f7142af.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:EUT:CAPability:SCLass?"/>
+<param name="Local" value="d803246e15709.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Paging Settings"/>
+<param name="Local" value="e99cfbd9cf424db7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:BDADdress:CMW"/>
+<param name="Local" value="d803246e15746.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:BDADdress:EUT"/>
+<param name="Local" value="d803246e15786.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:SVTimeout"/>
+<param name="Local" value="52ad21f83067451d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:INQuiry:ILENgth"/>
+<param name="Local" value="5acf3a97a0fa421c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:INQuiry:NOResponses"/>
+<param name="Local" value="d803246e15902.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PAGing:TOUT"/>
+<param name="Local" value="9b7f8db9daba45a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PAGing:PSRMode"/>
+<param name="Local" value="5f9f66feea804266.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:INQuiry:PTARgets:CATalog?"/>
+<param name="Local" value="d803246e16015.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PAGing:PTARget"/>
+<param name="Local" value="138d7841e0b84634.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Characteristics"/>
+<param name="Local" value="741f4e8c80db472c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PATTern:BRATe"/>
+<param name="Local" value="64414d80debd4581.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PATTern:LENergy:LRANge"/>
+<param name="Local" value="e51ba7335e7f4423.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PLENgth:BRATe"/>
+<param name="Local" value="b2a73000de5c4853.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PLENgth:EDRate"/>
+<param name="Local" value="5347b9e0d7bc4180.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PLENgth:LENergy:LRANge"/>
+<param name="Local" value="f34302f681074b14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PTYPe:BRATe"/>
+<param name="Local" value="43e405989d124279.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PACKets:PTYPe:EDRate"/>
+<param name="Local" value="c3912ee428ff4948.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PPERiod"/>
+<param name="Local" value="8ada02f08af54cd1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:PPERiod:MINimum"/>
+<param name="Local" value="6feabaab366e4d5b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:WHITening"/>
+<param name="Local" value="c646a993f6014d32.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:SYNWord:LENergy"/>
+<param name="Local" value="ab06b1faeaa941af.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audio Parameters"/>
+<param name="Local" value="2585691d0a334a72.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:HFP:CASTartup"/>
+<param name="Local" value="113fbe4d38f04109.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:PINCode"/>
+<param name="Local" value="7a01e54eebde476e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:SECMode"/>
+<param name="Local" value="76abc550d62c4017.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:VOLControl:MICGain"/>
+<param name="Local" value="b6255224735f491b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:VOLControl:SPEaker"/>
+<param name="Local" value="b8f16b49b32044fa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:CODec"/>
+<param name="Local" value="003381f283324a25.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:ACCSlave"/>
+<param name="Local" value="2e293c241ff347d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:ALCMethod"/>
+<param name="Local" value="ae57b399456543d6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:BITRate?"/>
+<param name="Local" value="d97426d1c2524ec6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:BLKLength"/>
+<param name="Local" value="14d275b7133c4029.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:CHMode"/>
+<param name="Local" value="b661c5af49b6440b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:CODec"/>
+<param name="Local" value="f5e10e7984a740d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:MAXBitpool"/>
+<param name="Local" value="1e38027421c84d6b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:MINBitpool"/>
+<param name="Local" value="7bd83d37afdd484f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:SMPFrequency"/>
+<param name="Local" value="285644183625487e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CONNection:AUDio:A2DP:SUBBands"/>
+<param name="Local" value="3578acf1a3f747d5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EUT Controller Configuration"/>
+<param name="Local" value="daa2a29414844af2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:HWINterface&lt;no&gt;"/>
+<param name="Local" value="e5a311453f244550.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:ERESet"/>
+<param name="Local" value="41e3aa07d54047c6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings:ETMode"/>
+<param name="Local" value="7d5854101ed344b0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:LENergy:RESet:DELay"/>
+<param name="Local" value="490abb772d214981.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings:PORTs:CATalog?"/>
+<param name="Local" value="a922a307ee254c2c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:COMPort"/>
+<param name="Local" value="11c6a0183de74f43.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:BAUDrate"/>
+<param name="Local" value="ed0dbe295dab4009.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:PARity"/>
+<param name="Local" value="d5f548606fde4aeb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:PROTocol"/>
+<param name="Local" value="0304be0031f046eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:COMSettings&lt;no&gt;:STOPbits"/>
+<param name="Local" value="6205b65812b047b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:CPRotocol"/>
+<param name="Local" value="3333f243ca564c32.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:USBSettings:DEVices:CATalog?"/>
+<param name="Local" value="03648ab030454ec1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:USBSettings&lt;no&gt;:USBDevice"/>
+<param name="Local" value="1fe94cc386a24fa6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALL:BLUetooth:SIGN&lt;i&gt;:HCICustom:SEND"/>
+<param name="Local" value="4f7efab4ecab410f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="USB Information"/>
+<param name="Local" value="4fd7a11e41c84afb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:DCLass?"/>
+<param name="Local" value="532250cc9d0346ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:DPRotocol?"/>
+<param name="Local" value="2d924720409448d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:DSUBclass?"/>
+<param name="Local" value="f1646cdc037a4254.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:IDPRoduct?"/>
+<param name="Local" value="6d3caf00d9484f33.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:IDVendor?"/>
+<param name="Local" value="0c1ff335bf564f37.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:MANufacturer?"/>
+<param name="Local" value="cd4c242e64984052.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:PRODuct?"/>
+<param name="Local" value="cdf2391de2384cdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:BLUetooth:SIGN&lt;i&gt;:USBDevice:INFormation:SERial?"/>
+<param name="Local" value="56dd2c86de8b4356.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER / PER Measurement Commands"/>
+<param name="Local" value="3cd8005c39ef4afe.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="3a3d085db6bb42b6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:BLUetooth:SIGN&lt;i&gt;:RXQuality:BER[:BEDR]"/>
+<param name="Local" value="53fb18e522b64f96.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:BLUetooth:SIGN&lt;i&gt;:RXQuality:PER"/>
+<param name="Local" value="cec539a1b1a34cf6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:BER:STATe:ALL[:BEDR]?"/>
+<param name="Local" value="901a42b6cdd946da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:BER:STATe[:BEDR]?"/>
+<param name="Local" value="0c3180ee01ea4b35.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:PER:STATe?"/>
+<param name="Local" value="9ac2fc6017ce4b01.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="1789af3d098342c3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:TOUT"/>
+<param name="Local" value="e11a1468251f4d7b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:REPetition"/>
+<param name="Local" value="de71533f73924eda.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:PACKets[:BEDR]"/>
+<param name="Local" value="273d0bf8a6f5439b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:PACKets:LENergy:LRANge"/>
+<param name="Local" value="866e90a785c146da.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:LIMit:MBER:BRATe"/>
+<param name="Local" value="90e1775d3c0741a2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:LIMit:MBER:EDRate"/>
+<param name="Local" value="10815ea868bf4c81.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:LIMit:MPER:LENergy:LRANge"/>
+<param name="Local" value="cb8051ebcb55452c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:RINTegrity:LENergy:LRANge"/>
+<param name="Local" value="8e46fbdd0ccf4052.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SMINdex:LENergy"/>
+<param name="Local" value="c765f269a98344a6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="d2551cbae84940fa.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:BLUetooth:SIGN&lt;i&gt;:RXQuality:BER[:BEDR]?"/>
+<param name="Local" value="4e43ad8b72644bed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:BLUetooth:SIGN&lt;i&gt;:RXQuality:PER:LENergy:LRANge?"/>
+<param name="Local" value="3a360f5aa2cd44ee.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Search / PER Search Measurement Commands"/>
+<param name="Local" value="47c2589b76cf4f40.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="4f8e2c76eb234e7f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:BER[:BEDR]"/>
+<param name="Local" value="cebe493f733b4297.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:PER"/>
+<param name="Local" value="f893519fdbac4f75.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:BER:STATe:ALL[:BEDR]?"/>
+<param name="Local" value="025ace720f524631.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:BER:STATe[:BEDR]?"/>
+<param name="Local" value="9a132d4ee56440eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:PER:STATe?"/>
+<param name="Local" value="e0edfa95da624f0a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="d5296d96fd9647f8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:TOUT"/>
+<param name="Local" value="d89ae281f4d64c7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:PACKets[:BEDR]"/>
+<param name="Local" value="6ae3f004eb904c6d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:PACKets:LENergy:LRANge"/>
+<param name="Local" value="b7d1b4b750324be2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:LIMit:MBER:BRATe"/>
+<param name="Local" value="fbfcaebb1dbd4906.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:LIMit:MBER:EDRate"/>
+<param name="Local" value="fc347871eebb49df.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:LIMit:MPER:LENergy:LRANge"/>
+<param name="Local" value="0a22539a6a0a448a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:STEP:BREDr"/>
+<param name="Local" value="9293dc9b5dce4175.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:STEP:LENergy"/>
+<param name="Local" value="2ce50c67cb154ca4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:RINTegrity:LENergy:LRANge"/>
+<param name="Local" value="3975d8da8ead4041.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="e3b7d69713924c44.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:BER[:BEDR]?"/>
+<param name="Local" value="44e08d1dc5b84f0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:BLUetooth:SIGN&lt;i&gt;:RXQuality:SEARch:PER:LENergy:LRANge?"/>
+<param name="Local" value="38b581e588ce4f77.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="dd3c773f9cbd4580.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

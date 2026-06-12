@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Global Measurement Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="6c9a350df6c14415.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="14f43375d4d54efa.htm">Using LTE List Mode</a> &gt; <span class="chm-breadcrumb">Specifying Global Measurement Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Global Measurement Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Reset
+// *****************************************************************************
+SYSTem:RESet 'LTE Meas1'; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Define signal routing, external attenuation and carrier aggregation.
+// *****************************************************************************
+ROUTe:LTE:MEAS:SCENario:SALone RF1C, RX1
+CONFigure:LTE:MEAS:RFSettings:EATTenuation 2
+CONFigure:LTE:MEAS:CAGGregation:MODE INTRaband 
+
+// *****************************************************************************
+// Specify required UE signal settings not configurable per segment:
+// signal contains PUCCH with format 1a, physical layer cell ID 5,
+// delta sequence shift value 10
+// *****************************************************************************
+CONFigure:LTE:MEAS:MEValuation:PFORmat F1A
+CONFigure:LTE:MEAS:MEValuation:CC:PLCid 5
+CONFigure:LTE:MEAS:MEValuation:DSSPusch 10</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

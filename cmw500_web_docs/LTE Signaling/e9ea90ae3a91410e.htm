@@ -1,0 +1,55 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring General Connection Settings Part 1</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring General Connection Settings Part 1</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring General Connection Settings Part 1</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Enable the easy mode and group hopping. Configure the UE category manually.
+// Allow UE category 0. Signal IMS emergency call support.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:EASY:BFBW ON
+CONFigure:LTE:SIGN:CONNection:GHOPping ON
+CONFigure:LTE:SIGN:CONNection:UECategory:MANual 5
+CONFigure:LTE:SIGN:CONNection:UECategory:REPorted OFF
+CONFigure:LTE:SIGN:CONNection:UECategory:CZALlowed ON
+CONFigure:LTE:SIGN:CONNection:IEMergency ON
+
+// *****************************************************************************
+// Allow power saving mode. Configure nB. Select default paging cycle,
+// additional spectrum emission requirements and filter coefficient.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PSMallowed ON
+CONFigure:LTE:SIGN:CONNection:PCNB NBT
+CONFigure:LTE:SIGN:CONNection:DPCYcle P128
+CONFigure:LTE:SIGN:CONNection:ASEMission NS02
+CONFigure:LTE:SIGN:CONNection:SCC:ASEMission:CAGGregation NS03
+CONFigure:LTE:SIGN:CONNection:FCOefficient FC4
+
+// *****************************************************************************
+// Set connection type and request test mode.
+// Query default bearer RLC mode, allowed IP versions, APN and QCI.
+// Configure SIB reconfiguration. Disable keeping the RRC connection with a
+// timeout of 20 s.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:CTYPe TEST
+CONFigure:LTE:SIGN:CONNection:TMODe ON
+CONFigure:LTE:SIGN:CONNection:RLCMode?
+CONFigure:LTE:SIGN:CONNection:IPVersion?
+CONFigure:LTE:SIGN:CONNection:APN?
+CONFigure:LTE:SIGN:CONNection:QCI?
+CONFigure:LTE:SIGN:CONNection:SIBReconfig RRCReconfig
+CONFigure:LTE:SIGN:CONNection:KRRC OFF
+CONFigure:LTE:SIGN:CONNection:RITimer 20
+
+// *****************************************************************************
+// Enable usage of external DAU and specify network segment and network ID
+// of instrument with external DAU.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:EDAU:ENABle ON
+CONFigure:LTE:SIGN:CONNection:EDAU:NSEGment A
+CONFigure:LTE:SIGN:CONNection:EDAU:NID 5
+
+// *****************************************************************************
+// Activate DL padding and insert 10% transport block errors.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:DLPadding ON
+CONFigure:LTE:SIGN:CONNection:DLEinsertion 10</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

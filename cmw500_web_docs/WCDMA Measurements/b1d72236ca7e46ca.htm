@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing a WCDMA RX Test</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="42c7d2401ed54713.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="bfd7463f59644478.htm">WCDMA RX Tests</a> &gt; <span class="chm-breadcrumb">Performing a WCDMA RX Test</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing a WCDMA RX Test</div><p>In addition to the WCDMA measurements in non-signaling mode and the UE, you need an application able to send a WCDMA downlink signal to the UE. You can use a suitable waveform ARB file together with the GPRF generator, for example the option R&amp;S CMW-KW400 required to use WCDMA R99 waveform files generated via R&amp;S WinIQSIM2.</p><div class="block"><div class="listintro">An example below shows BER measurement of WCDMA measurement application containing a reference measurement channel (RMC) with an information bit rate of 12.2 kbps transporting an "All 1" pattern. Order the UE to loop back the received data, using a test mode and measure the resulting uplink signal using the multi-evaluation measurement.</div><ul class="list"><li>GPRF generator: process a suitable ARB file (for example with a 12.2 kbps RMC and the DTCH data set to all 1 pattern.</li><li>UE: Select an appropriate test mode, so that the UE loops back the received data via a 12.2 kbps RMC.</li><li>Measurement: Enable the BER measurement (i.e. the view, by default it is deactivated). Adjust the settings so that the uplink signal can be measured (see <a class="xref" href="5d49a8953fe8480f.htm#ID_6a359d366b54ae5c0a00206a0057d879-5bb769b96b4fbef50a00206a01d55365-en-US">"Measuring an Uplink WCDMA Signal"</a>). Only full-slot measurements are supported.</li></ul></div><p>The measurement compares the received data with the expected all 1 pattern and provides the resulting error rates. One data block of the RMC contains 244 bits. They are mapped to two radio frames (30 slots). For that reason, the measurement length used for RX measurements equals at least 30 slots. If a smaller value is set, 30 slots are measured nevertheless (see parameter <a class="xref" href="7e851b7bd58245ea.htm#ID_47e818d785bcf0ea0a710a6a01407cec-c864654185760a1f0a00206a00d1d4cc-en-US">"Measurement Length"</a>).</p><p>Enable the BER view only when needed. It slows down the multi-evaluation measurement considerably.</p><p>RX tests are not available in the combined signal path with WCDMA measurements and WCDMA signaling in parallel.</p><div class="block"><div class="note"><table cellpadding="0" cellspacing="0" border="0"><tr><td width="46" align="left" valign="top"><img src="info_small_10mm.gif" width="38" height="38" class="note_img"></td><td><p>RX measurements of WCDMA signaling is an alternative to the RX tests performed by WCDMA measurements. The generated signal and measurement of UE responses are done within single application (basic WCDMA signaling option R&amp;S CMW-KS400).</p></td></tr></table></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

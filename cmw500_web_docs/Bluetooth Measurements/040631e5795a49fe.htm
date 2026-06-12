@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trace Points for Basic Rate</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="a06b666adbcb4fee.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="b0df884f5430417e.htm">Bluetooth Tx Tests</a> &gt; <a class="chm-breadcrumb" href="6fd38a005ae643ce.htm">Defining the Scope of the Measurement</a> &gt; <span class="chm-breadcrumb">Trace Points for Basic Rate</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trace Points for Basic Rate</div><p>The number of time domain trace points for BR packets ("PvT", "Freq. Dev.") depends on the packet type and the payload length. The traces cover the whole burst plus 160 symbols before the symbol 0 and 100 symbols after the last symbol in the burst.</p><p>The number of time domain trace points for EDR packets in "PvT" traces is identical with BR traces.</p><p>The BR packets consist of the following fields:</p><div class="block" id="ID_4c5928a3cc5fc5760a001ae710e53cb6-54927164b706c7590a00206a01a26dee-en-US"><div class="graphic"><img border="0" src="images/imgf28063132c960af20a00206a002c0de1_2_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Content of BR packets</div></div><p>The number N of symbols in the burst can be read from the figure above: N = 150 + 8*n for DH1 packets, N = 158 + 8 * n for DH3 and DH5 packets. With a fixed oversampling factor of 4, the number m of trace points is equal to:</p><p><span class="input">m = 4*(100 + N + 100) = 800 + 4*N</span></p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

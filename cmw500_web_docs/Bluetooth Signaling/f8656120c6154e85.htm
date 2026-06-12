@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring a BER/PER Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a6afa847f6fe4ea9.htm">BER and PER Rx Tests</a> &gt; <span class="chm-breadcrumb">Configuring a BER/PER Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring a BER/PER Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Configure a BR/EDR BER measurement: number of transport 
+// blocks to be measured and limits
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:RXQuality:PACKets:BEDR 10000; *OPC?
+CONFigure:BLUetooth:SIGN:RXQuality:LIMit:MBER:BRATe 100; *OPC?
+CONFigure:BLUetooth:SIGN:RXQuality:LIMit:MBER:EDRate 100; *OPC?
+
+// *****************************************************************************
+// Configure an LE measurement for LE 1M PHY: number of test packets
+// to be measured, limit, and report integrity. Use stable modulation index.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:RXQuality:PACKets:LENergy:LE1M 1000; *OPC?
+CONFigure:BLUetooth:SIGN:RXQuality:LIMit:MPER:LENergy:LE1M 20; *OPC?
+CONFigure:BLUetooth:SIGN:RXQuality:RINTegrity:LENergy:LE1M ON; *OPC?
+CONFigure:BLUetooth:SIGN:RXQuality:SMINdex:LENergy ON; *OPC?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

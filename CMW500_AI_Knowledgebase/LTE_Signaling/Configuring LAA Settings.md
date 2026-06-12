@@ -1,0 +1,114 @@
+# Configuring LAA Settings
+
+Module: LTE Signaling
+Source: 8163e3cee9724fe7.htm
+
+## 原始指令文档说明
+LTE Signaling
+ > 
+Programming
+ > 
+General Configuration
+ > 
+Configuring LAA Settings
+Configuring LAA Settings
+// *****************************************************************************
+// To use LAA on SCC 2 together with FDD on the PCC:
+// Enable carrier-specific duplex mode configuration.
+// Configure the duplex modes and the LAA band.
+// Query the frame structure for SCC2 - must be T3.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DMODe:UCSPecific ON
+CONFigure:LTE:SIGN:PCC:DMODe FDD
+CONFigure:LTE:SIGN:SCC2:DMODe TDD
+CONFigure:LTE:SIGN:SCC2:BAND OB46
+CONFigure:LTE:SIGN:SCC2:FSTRucture?
+// *****************************************************************************
+// Configure user-defined channels with fixed bursts for SCC2.
+// Prepare contiguous allocation and multi-cluster allocation.
+// Use multi-cluster allocation and query resulting code rates.
+// *****************************************************************************
+CONF:LTE:SIGN:CONN:SCC2:STYPe UDCH
+CONF:LTE:SIGN:CONN:SCC2:LAA:TBURsts FBURst
+CONF:LTE:SIGN:CONN:SCC2:LAA:FBURst:BLENgth 5
+CONF:LTE:SIGN:CONN:SCC2:LAA:FBURst:PBTR 10
+CONF:LTE:SIGN:CONN:SCC2:LAA:FBURst:SPFSubframe OFDM7
+CONF:LTE:SIGN:CONN:SCC2:LAA:FBURst:OSLSubframe SYM9
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:FSUBframes:DL 48, 8, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:PIPSubframes:DL 48, 8, QPSK, 4
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:PEPSubframes:DL 48, 8, QPSK, 6
+CONF:LTE:SIGN:CONN:SCC2:MCLuster:DL ON
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:FSUBframes:MCLuster:DL
+    #B1010100000000000000011111, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:PIPSubframes:MCLuster:DL
+    #B1010100000000000000011111, QPSK, 4
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:FBURst:PEPSubframes:MCLuster:DL
+    #B1010100000000000000011111, QPSK, 6
+SENSe:LTE:SIGN:CONNection:SCC2:UDCH:LAA:FBURst:DL:FSUBframes:CRATe?
+SENSe:LTE:SIGN:CONNection:SCC2:UDCH:LAA:FBURst:DL:PIPSubframes:CRATe?
+SENSe:LTE:SIGN:CONNection:SCC2:UDCH:LAA:FBURst:DL:PEPSubframes:CRATe?
+// *****************************************************************************
+// Configure user-defined channels with random bursts for SCC2.
+// Prepare contiguous allocation and multi-cluster allocation.
+// Use multi-cluster allocation and query resulting code rates.
+// *****************************************************************************
+CONF:LTE:SIGN:CONN:SCC2:STYPe UDCH
+CONF:LTE:SIGN:CONN:SCC2:LAA:TBURsts RBURst
+CONF:LTE:SIGN:CONN:SCC2:LAA:RBURst:BLENgth ON,ON,ON,ON,ON,OFF,OFF,OFF,OFF,OFF
+CONF:LTE:SIGN:CONN:SCC2:LAA:RBURst:LSConfig ON,OFF,ON,OFF,ON,OFF
+CONF:LTE:SIGN:CONN:SCC2:LAA:RBURst:IPSubframe ON
+CONF:LTE:SIGN:CONN:SCC2:LAA:RBURst:TPRobability 60
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:FSUBframes:DL 48, 8, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PIPSubframes:DL 48, 8, QPSK, 4
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:DL S6, 48, 8, Q16, 10
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:DL S9, 48, 8, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:DL S10, 48, 8, Q16, 12
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:DL S11, 48, 8, Q16, 13
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:DL S12, 48, 8, Q16, 14
+CONF:LTE:SIGN:CONN:SCC2:MCLuster:DL ON
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:FSUBframes:MCLuster:DL
+    #B1010100000000000000011111, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PIPSubframes:MCLuster:DL
+    #B1010100000000000000011111, QPSK, 4
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:MCLuster:DL
+    S6, #B1010100000000000000011111, Q16, 10
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:MCLuster:DL
+    S9, #B1010100000000000000011111, Q16, 11
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:MCLuster:DL
+    S10, #B1010100000000000000011111, Q16, 12
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:MCLuster:DL
+    S11, #B1010100000000000000011111, Q16, 13
+CONF:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:PEPSubframes:MCLuster:DL
+    S12, #B1010100000000000000011111, Q16, 14
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:FSUBframes:CRATe?
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PIPSubframes:CRATe?
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PEPSubframes:CRATe? S6
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PEPSubframes:CRATe? S9
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PEPSubframes:CRATe? S10
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PEPSubframes:CRATe? S11
+SENSe:LTE:SIGN:CONN:SCC2:UDCH:LAA:RBURst:DL:PEPSubframes:CRATe? S12
+// *****************************************************************************
+// Configure RMC with random bursts for SCC2.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:SCC2:STYPe RMC
+CONFigure:LTE:SIGN:CONNection:SCC2:LAA:TBURsts RBURst
+CONFigure:LTE:SIGN:CONNection:SCC2:LAA:RBURst:PSFConfig BOTH
+CONFigure:LTE:SIGN:CONNection:SCC2:RMC:DL N100,Q64,KEEP
+CONFigure:LTE:SIGN:CONNection:SCC2:RMC:RBPosition:DL HIGH
+// *****************************************************************************
+// Configure follow WB scheduling for SCC2.
+// Use the same commands as without LAA, plus the following commands.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:SCC2:LAA:FBURst:BLENgth 5
+CONFigure:LTE:SIGN:CONNection:SCC2:LAA:FBURst:PBTR 10
+// *****************************************************************************
+// Configure measurement report settings for SCC2.
+// *****************************************************************************
+CONFigure:LTE:SIGN:UEReport:SCC2:DMTC:PERiod MS80
+CONFigure:LTE:SIGN:UEReport:SCC2:DMTC:POFFset 40
+CONFigure:LTE:SIGN:UEReport:SCC2:RSSI:ENABle ON
+CONFigure:LTE:SIGN:UEReport:SCC2:RSSI:RMTC:PERiod MS80
+CONFigure:LTE:SIGN:UEReport:SCC2:RSSI:RMTC:SOFFset 40
+CONFigure:LTE:SIGN:UEReport:SCC2:RSSI:MDURation S14
+CONFigure:LTE:SIGN:UEReport:SCC2:RSSI:COTHreshold 53
+Top

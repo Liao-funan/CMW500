@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a Dual Carrier HSPA Connection (Signaling)</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Setting Up a Dual Carrier HSPA Connection (Signaling)</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up a Dual Carrier HSPA Connection (Signaling)</div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Select the dual carrier HSPA scenario.
+// ***************************************************************************** 
+ROUTe:WCDMa:SIGN:SCEN:DCHSpa:FLEXible SUW1,RF1C,RX1,RF3C,RX2,RF1C,TX1,RF3C,TX2 
+
+// ***************************************************************************** 
+// Ensure that test mode HSUPA is configured as connection type.
+// Select the correct H-Set for release 9.
+// ***************************************************************************** 
+CONFigure:WCDMa:SIGN:CONNection:UETerminate TEST
+CONFigure:WCDMa:SIGN:CONNection:TMODe:TYPE HSPA
+CONFigure:WCDMa:SIGN:CONNection:TMODe:HSPA:DIRection HSPA
+CONFigure:WCDMa:SIGN:CELL:HSDPa:FIXed:HSET H8AI
+
+*****************************************************************************
+// Enable the second UL carrier in the dual carrier HSPA scenario.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CARRier2:HSUPa:ENABle ON
+
+// ***************************************************************************** 
+// Set up a dual carrier HSPA test mode connection in the PS domain.
+// Query the connection state until the connections have been established.
+// *****************************************************************************
+CALL:WCDMa:SIGN:CSWitched:ACTion CONNect
+WAITKEY &gt;Accept call at UE&lt;
+WHILE FETCh:WCDMa:SIGN:PSWitched:STATe? &lt;&gt; "CEST"
+SENSe:WCDMa:SIGN:CELL:CONFig?
+
+// *****************************************************************************
+// Activate the secondary UL and DL frequency in the dual 
+// carrier HSPA scenario.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CARRier2:HORDer:DL ON
+CONFigure:WCDMa:SIGN:CELL:CARRier2:HORDer:UL ON
+CONFigure:WCDMa:SIGN:CELL:HORDer:SEND
+CONFigure:WCDMa:SIGN:CELL:HORDer:SEND?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

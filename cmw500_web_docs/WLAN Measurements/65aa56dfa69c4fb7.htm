@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trace Sub-Arrays</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="7fde41cdea364ab4.htm">Command Reference</a> &gt; <a class="chm-breadcrumb" href="bbe5de748cd94eb4.htm">Conventions and General Information</a> &gt; <span class="chm-breadcrumb">Trace Sub-Arrays</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trace Sub-Arrays</div><div class="block"><a name="ID_28d735d2b3e013670a00201900d2778d-626539adb3b843510a00201900ad7f1f-en-US"></a><p>The optional query parameters <span class="command">&lt;Start&gt;</span>, <span class="command">&lt;Count&gt;</span> and <span class="command">&lt;Decimation&gt;</span> can be used to limit the value array that is returned by a "TRACe" command:</p><div><ol class="procedure"><li id="ID_638122dcb3e013670a002019018f8038-626539adb3b843510a00201900ad7f1f-en-US"><p>Limit the returned array to the segment beginning with position <span class="command">&lt;Start&gt;</span>.</p></li><li id="ID_3b9a49bdb3e013670a0020190050b5ee-626539adb3b843510a00201900ad7f1f-en-US"><p>If necessary, further limit the segment to <span class="command">&lt;Count&gt;</span> values.</p></li><li id="ID_0c48fd6ab3e013670a002019004c963f-626539adb3b843510a00201900ad7f1f-en-US"><p>If necessary, further decimate the segment <span class="command">&lt;Start&gt;</span> ... <span class="command">&lt;Start&gt;</span>+<span class="command">&lt;Count&gt;</span>-1 by returning only every nth value (<span class="command">&lt;Decimation&gt;</span> = n)</p></li></ol></div></div><div class="block"><span class="bold"><a name="ID_5d9b984fb3e013670a0020190086a72a-626539adb3b843510a00201900ad7f1f-en-US"></a>Example:&nbsp;</span><p><span class="command">FETCh:&lt;FWA&gt;:MEAS:MEV:TRACe:xx? 100, 10, 3</span> returns every 3rd value of the 10 values beginning with the 100th one.</p><div class="block" id="ID_3c4a4f82b3e013670a00201901215567-626539adb3b843510a00201900ad7f1f-en-US"><div class="graphic"><img border="0" src="images/img8201b7b2b3de34170a00201900a31f5e_1_--_--_PNG96.png" alt="" title=""></div></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a Data Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="91d601efed4a4ffb.htm">RLC Throughput Tests</a> &gt; <span class="chm-breadcrumb">Setting Up a Data Connection</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up a Data Connection</div><div class="block"><a name="ID_0e21a477a37443bd0a00201901e4c73a-ece2ab0cd86b87b10a00206a00ee34b1-en-US"></a><p>Proceed as follows:</p><div><ol class="procedure"><li id="ID_af68eeeea37443bd0a00201901816848-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Configure the other settings of the signaling application as desired.</p></li><li id="ID_4f90a9ab4b16270c0a001ae73d8858d2-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Configure the data application unit (see DAU documentation).</p></li><li id="ID_e39c5625a37443bd0a00201900e58b3d-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Switch on the cell signal. See for example <a class="xref" href="1614fc25b48c43f2.htm#ID_a0a5141ef64a11dfbdb4980576f7cad3-ece2ab0cd86b87b10a00206a00ee34b1-en-US">"Switching On the Cell Signal and the UE (Signaling)"</a>.</p></li><li id="ID_609a50b64b16270c0a001ae7391f3916-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Attach the UE.</p></li><li id="ID_a88daa9ba37443bd0a00201900185347-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Initiate a mobile originated call at the UE.</p></li><li id="ID_97f43cb6a37443bd0a00201900eb5339-ece2ab0cd86b87b10a00206a00ee34b1-en-US"><p>Generate IP traffic, e.g. using the "IPerf" measurement provided by the DAU.</p></li></ol></div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Query the IPv4 address and APN used by the UE. 
+// ***************************************************************************** 
+SENSe:WCDMa:SIGN:UESinfo:UEADdress:IPV4?
+SENSe:WCDMa:SIGN:UESinfo:APN?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

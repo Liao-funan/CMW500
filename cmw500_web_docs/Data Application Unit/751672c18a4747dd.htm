@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring DNS Server Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7b3c32a7cb51441f.htm">Data Application Control</a> &gt; <span class="chm-breadcrumb">Configuring DNS Server Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring DNS Server Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure server types: primary internal and foreign, secondary foreign
+// *****************************************************************************
+CONFigure:DATA:CONTrol:DNS:PRIMary:STYPe IAForeign
+CONFigure:DATA:CONTrol:DNS:SECondary:STYPe FOReign
+
+// *****************************************************************************
+// Query used primary and secondary DNS server addresses for IPv4 and IPv6.
+// *****************************************************************************
+SENSe:DATA:CONTrol:DNS:CURRent:IPVFour:PRIMary:ADDRess?
+SENSe:DATA:CONTrol:DNS:CURRent:IPVFour:SECondary:ADDRess?
+SENSe:DATA:CONTrol:DNS:CURRent:IPVSix:PRIMary:ADDRess?
+SENSe:DATA:CONTrol:DNS:CURRent:IPVSix:SECondary:ADDRess?
+
+// *****************************************************************************
+// Configure primary and secondary addresses for foreign DNS servers.
+// Specify whether an address received via DHCP overrides these addresses.
+// *****************************************************************************
+CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:PRIMary:ADDRess '192.168.168.181'
+CONFigure:DATA:CONTrol:DNS:FOReign:IPVFour:SECondary:ADDRess '192.168.168.182'
+CONFigure:DATA:CONTrol:DNS:FOReign:IPVSix:PRIMary:ADDRess 'fcb1:c014::2'
+CONFigure:DATA:CONTrol:DNS:FOReign:IPVSix:SECondary:ADDRess 'fcb1:c014::3'
+CONFigure:DATA:CONTrol:DNS:FOReign:UDHCp ON, OFF, ON, OFF
+
+// *****************************************************************************
+// Query the entries of the internal DNS server for type A/AAAA DNS queries.
+// Add three new entries and delete the last one.
+// Ensure that all queries are answered successfully. 
+// *****************************************************************************
+SENSe:DATA:CONTrol:DNS:LOCal:CATalog?
+CONFigure:DATA:CONTrol:DNS:LOCal:ADD 'www.DAU-Home.com', '192.168.168.180'
+CONFigure:DATA:CONTrol:DNS:LOCal:ADD 'www.DAU-Home.com', 'fcb1:c014::1'
+CONFigure:DATA:CONTrol:DNS:LOCal:ADD 'nonsense', '1.1.1.1'
+CONFigure:DATA:CONTrol:DNS:LOCal:DELete 'nonsense'
+CONFigure:DATA:CONTrol:DNS:RESallquery ON
+
+// *****************************************************************************
+// Query the entries of the internal DNS server for type SRV DNS queries.
+// Add two new entries and delete the last one.
+// *****************************************************************************
+SENSe:DATA:CONTrol:DNS:ASERvices:CATalog?
+CONFigure:DATA:CONTrol:DNS:ASERvices:ADD 'pcscf', 'www.DAU-Home.com', UDP, 5060
+CONFigure:DATA:CONTrol:DNS:ASERvices:ADD 'typo', 'www.x.y', UDP, 5070
+CONFigure:DATA:CONTrol:DNS:ASERvices:DELete 'typo'
+
+// *****************************************************************************
+// Perform a test of the primary foreign DNS server:
+// Specify the domain to be resolved, start the test and retrieve the results.
+// *****************************************************************************
+CONFigure:DATA:CONTrol:DNS:TEST:DOMain 'www.example.com'
+CONFigure:DATA:CONTrol:DNS:TEST:STARt
+SENSe:DATA:CONTrol:DNS:TEST:RESults?
+
+// *****************************************************************************
+// Start the internal DNS server.
+// *****************************************************************************
+SOURce:DATA:CONTrol:DNS:STATe ON</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

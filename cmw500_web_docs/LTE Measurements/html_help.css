@@ -1,0 +1,109 @@
+/* $Id: html_help.css,v 1.32 2010/05/04 10:49:47 philipp Exp $ */
+
+@import url(html_preview.css);
+
+@media screen {
+	html, body {
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-family : Arial;
+	font-size : 10pt;
+	}
+	
+	#nsr
+	{
+	width: 100%;
+	border-bottom: solid 1px #000000;
+	padding: 0px;
+	margin: 0px;
+	background-color: #cbe8ff;
+	font-size : 8pt;
+	padding-left: 12px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	font-family : Arial;
+	}
+	
+	#mainbody
+	{
+	padding: 0px;
+	margin: 0px;
+	overflow:auto;
+	height:100%;
+	padding-left: 12px;
+	padding-right: 12px;
+	}
+}
+
+a.chm-breadcrumb:link {
+color : #000000;
+text-decoration : underline;
+}
+a.chm-breadcrumb:visited {
+color : #000000;
+text-decoration : underline;
+}
+a.chm-breadcrumb:hover {
+color : #000000;
+text-decoration : underline;
+}
+a.chm-breadcrumb:active {
+color : #000000;
+text-decoration : underline;
+}
+
+div.chm-go-to-top {
+padding-right: 12px;
+padding-bottom: 7px;
+padding-top: 7px;
+}
+
+div.rcidx-rcsyntax {
+/*padding-top: 7px;*/
+}
+
+div.rcidx-rcsyntax-variant {
+padding-left: 12px;
+}
+
+/* Help Chaptertitles */
+div.chm-chaptertitle {
+    
+   
+/*font-size: 14pt;*/
+margin-top: 7pt;
+margin-bottom: 7pt;
+color: #008CDA;
+font-weight:bold;
+font-size : 14pt;
+clear: left;
+}
+
+.see_also {
+  float: right;
+  margin-left: 0pt;
+  margin-right: 0pt; 
+  margin-bottom: 0pt;
+  margin-top: 3pt;
+  border: none;
+}
+
+/* Table */
+
+table { border-color: #000000; }
+
+th, td { border-width: 1pt; border-color: #000000; }
+
+/* Überschreiben von html_preview.css */
+
+
+
+.rc_block_without_border {
+    margin-bottom : 8pt;
+    margin-top: 0pt;
+    padding-top: 5pt;              
+}

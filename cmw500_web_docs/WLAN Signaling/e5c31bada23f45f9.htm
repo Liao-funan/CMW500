@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a Network Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="d38ffe3214f64619.htm">Application Sheets</a> &gt; <a class="chm-breadcrumb" href="10aa990014714285.htm">WLAN Signaling Tests (Remote Control)</a> &gt; <span class="chm-breadcrumb">Setting Up a Network Connection</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up a Network Connection</div><div class="block"><div class="listintro">For PER tests, an active WLAN connection to the DUT is a prerequisite. The following assumptions apply to the examples in this application sheet:</div><ul class="list"><li>Connector: The DUT is connected to RF 1 COM for uplink and downlink</li><li>Standard: IEEE 802.11a</li><li>RF carrier frequency: 5180 MHz</li><li>Expected peak envelope power: 25 dBm</li></ul></div><div class="block"><a name="shiv_rs_cmw_ev_do_4543-7f5dc3207d31e4b50a00206a012678ec-en-US"></a><div><ol class="procedure"><li id="shiv_rs_cmw_ev_do_4544-7f5dc3207d31e4b50a00206a012678ec-en-US"><p>Perform an initial reset. Configure the signaling application according to these assumptions. We use a burst output power level of -40 dBm for the generated DL frames.</p><p><span class="command">*RST</span></p><p><span class="command">ROUTe:WLAN:SIGN:SCENario:SCELl:FLEXible SUU1,RF1C,RX1,RF1C,TX1</span></p><p><span class="command">CONFigure:WLAN:SIGN:CONNection:STANdard ASTD</span></p><p><span class="command">CONFigure:WLAN:SIGN:RFSettings:FREQuency 5.18E+9</span></p><p><span class="command">CONFigure:WLAN:SIGN:RFSettings:EPEPower 25</span></p><p><span class="command">CONFigure:WLAN:SIGN:RFSettings:BOPower -40</span></p></li><li id="shiv_rs_cmw_ev_do_4547-7f5dc3207d31e4b50a00206a012678ec-en-US"><p>Enable signaling. Wait some seconds until the DUT association is complete. If you enable signaling for the first time after starting the instrument, it can take a while to generate the RF output signal. Use the following command:</p><p><span class="command">SOURce:WLAN:SIGN:STATe ON</span></p></li></ol></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

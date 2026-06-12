@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Switching On the Cell Signal and the UE (Signaling)</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Switching On the Cell Signal and the UE (Signaling)</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Switching On the Cell Signal and the UE (Signaling)</div><pre class="verbatim" xml:space="preserve">// ***************************************************************************** 
+// Connect the UE (switched off). Switch on the DL signal. Query the cell 
+// state until it equals ON,ADJ (DL signal available at RF connector).
+// ***************************************************************************** 
+WAITKEY &gt;Ensure that the UE is connected to the instrument and switched off&lt;
+SOURce:WCDMa:SIGN:CELL:STATe ON
+WHILE SOURce:WCDMa:SIGN:CELL:STATe:ALL? &lt;&gt; "ON,ADJ"
+
+// ***************************************************************************** 
+// Ensure that the reduced signaling mode is disabled.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:RSIGnaling OFF
+
+// ***************************************************************************** 
+// Switch on the UE and wait until it is registered and attached.
+// ***************************************************************************** 
+WAITKEY &gt;Switch on the UE&lt;
+WHILE FETCh:WCDMa:SIGN:CSWitched:STATe? &lt;&gt; "REG"
+WHILE FETCh:WCDMa:SIGN:PSWitched:STATe? &lt;&gt; "ATT"</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

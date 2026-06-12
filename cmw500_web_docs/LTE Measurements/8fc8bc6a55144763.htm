@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Preambles in the Frequency Domain</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="6f5b41b9033a497c.htm">LTE PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="3ce2a93c755348f3.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="5885e66029704abe.htm">LTE PRACH UL Signal Properties</a> &gt; <span class="chm-breadcrumb">Preambles in the Frequency Domain</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Preambles in the Frequency Domain</div><p>There are five preamble formats defined by 3GPP, see table below. For preamble format 0 to 3, a preamble occupies 839 adjacent subcarriers with a spacing of 1.25 kHz, in total 1.04875 MHz. For preamble format 4, there are 139 subcarriers with a spacing of 7.5 kHz, in total 1.0425 MHz. In both cases, six resource blocks (RB) are reserved in the frequency domain for the preamble.</p><div class="block"><a name="ID_b67a115a384bc0870a00206a01876640-d2defbfc37402a170a00206a01b9fb8b-en-US"></a><span class="table-caption">Preambles in the frequency domain</span><table border="1"><colgroup><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>Preamble format</p></th><th valign="top"><p>Subcarriers (SC)</p></th><th valign="top"><p>SC spacing</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>0 to 3</p></td><td valign="top"><p>839</p></td><td valign="top"><p>1.25 kHz</p></td></tr><tr class="evenrow"><td valign="top"><p>4</p></td><td valign="top"><p>139</p></td><td valign="top"><p>7.5 kHz</p></td></tr></tbody></table></div><p>The location of the 6 RBs within the channel bandwidth, i.e. the number of the first RB to be used, is determined by higher layers. For FDD, it equals a parameter called PRACH frequency offset, for TDD it is calculated from this parameter and the parameter frequency resource index (determined by the PRACH configuration index). For details, see 3GPP TS 36.211 section 5.7.1 "Time and frequency structure". Both the PRACH frequency offset and the PRACH configuration index can be configured for the PRACH measurement.</p><p>The total number of resource blocks available per channel depends on the channel bandwidth as shown in the following table.</p><div class="block"><a name="ID_ce0b730dfac1adb10a00206a01d615a8-d2defbfc37402a170a00206a01b9fb8b-en-US"></a><table border="1"><colgroup><col><col><col><col><col><col><col></colgroup><tbody><tr class="oddrow"><td valign="top"><p>Channel bandwidth / MHz</p></td><td valign="top"><p>1.4</p></td><td valign="top"><p>3</p></td><td valign="top"><p>5</p></td><td valign="top"><p>10</p></td><td valign="top"><p>15</p></td><td valign="top"><p>20</p></td></tr><tr class="evenrow"><td valign="top"><p>Resource blocks (RB)</p></td><td valign="top"><p>6</p></td><td valign="top"><p>15</p></td><td valign="top"><p>25</p></td><td valign="top"><p>50</p></td><td valign="top"><p>75</p></td><td valign="top"><p>100</p></td></tr></tbody></table></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

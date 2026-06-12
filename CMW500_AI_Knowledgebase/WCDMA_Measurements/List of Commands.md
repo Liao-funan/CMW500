@@ -1,0 +1,116 @@
+# List of Commands
+
+Module: WCDMA Measurements
+Source: fba9991debf04327.htm
+
+## 原始指令文档说明
+WCDMA UE Measurements
+ > 
+WCDMA TPC Measurement
+ > 
+List of Commands
+List of Commands
+ABORt:WCDMa:MEAS<i>:TPC
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:AVERage?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MAXimum?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MINimum?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:PSTeps:CURRent?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:UEPower:CURRent?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:AVERage?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MAXimum?
+CALCulate:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MINimum?
+CALCulate:WCDMa:MEAS<i>:TPC:DHIB:AVERage?
+CALCulate:WCDMa:MEAS<i>:TPC:DHIB:MAXimum?
+CALCulate:WCDMa:MEAS<i>:TPC:DHIB:MINimumc?
+CONFigure:WCDMa:MEAS<i>:TPC:CSELection
+CONFigure:WCDMa:MEAS<i>:TPC:CTFC:MLENgth
+CONFigure:WCDMa:MEAS<i>:TPC:DHIB:AEXecution
+CONFigure:WCDMa:MEAS<i>:TPC:DHIB:MLENgth
+CONFigure:WCDMa:MEAS<i>:TPC:DHIB:PATTern
+CONFigure:WCDMa:MEAS<i>:TPC:ILPControl:AEXecution
+CONFigure:WCDMa:MEAS<i>:TPC:ILPControl:MLENgth?
+CONFigure:WCDMa:MEAS<i>:TPC:ILPControl:TSEF
+CONFigure:WCDMa:MEAS<i>:TPC:ILPControl:TSGH
+CONFigure:WCDMa:MEAS<i>:TPC:ILPControl:TSSegment
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:CTFC
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:DHIB
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:EPSTep
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:MAXPower
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:MAXPower:ACTive?
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:MAXPower:UDEFined
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:MAXPower:URPClass
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:MINPower
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:PSGRoup
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ILPControl:PSTep
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:MPEDch
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ULCM:PA
+CONFigure:WCDMa:MEAS<i>:TPC:LIMit:ULCM:PB
+CONFigure:WCDMa:MEAS<i>:TPC:MODE?
+CONFigure:WCDMa:MEAS<i>:TPC:MOEXception
+CONFigure:WCDMa:MEAS<i>:TPC:MONitor:MLENgth
+CONFigure:WCDMa:MEAS<i>:TPC:MPEDch:AEXecution
+CONFigure:WCDMa:MEAS<i>:TPC:MPEDch:MLENgth
+CONFigure:WCDMa:MEAS<i>:TPC:SETup
+CONFigure:WCDMa:MEAS<i>:TPC:TOUT
+CONFigure:WCDMa:MEAS<i>:TPC:ULCM:AEXecution
+CONFigure:WCDMa:MEAS<i>:TPC:ULCM:MLENgth
+CONFigure:WCDMa:MEAS<i>:UESignal:CMPattern
+CONFigure:WCDMa:SIGN<i>:CMODe:PATTern
+CONFigure:WCDMa:SIGN<i>:CMODe:ULCM:ACTivation
+CONFigure:WCDMa:SIGN<i>:CMODe:ULCM:TYPE
+CONFigure:WCDMa:SIGN<i>:CONNection:TMODe:RMC:DRATe
+CONFigure:WCDMa:SIGN<i>:UL:TPC:MODE
+CONFigure:WCDMa:SIGN<i>:UL:TPC:SET
+CONFigure:WCDMa:SIGN<i>:UL:TPCSet:PCONfig:TSEF
+CONFigure:WCDMa:SIGN<i>:UL:TPCSet:PCONfig:TSGH
+CONFigure:WCDMa:SIGN<i>:UL:TPCSet:PCONfig:TSSegment
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:AVERage?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MAXimum?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MINimum?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:STATistics?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:PSTeps:CURRent?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:UEPower:CURRent?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:AVERage?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MAXimum?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MINimum?
+FETCh:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:STATistics?
+FETCh:WCDMa:MEAS<i>:TPC:DHIB:AVERage?
+FETCh:WCDMa:MEAS<i>:TPC:DHIB:MAXimum?
+FETCh:WCDMa:MEAS<i>:TPC:DHIB:MINimum?
+FETCh:WCDMa:MEAS<i>:TPC:DHIB:STATistics?
+FETCh:WCDMa:MEAS<i>:TPC:STATe:ALL?
+FETCh:WCDMa:MEAS<i>:TPC:STATe?
+FETCh:WCDMa:MEAS<i>:TPC:TOTal:TRACe:UEPower:CURRent?
+FETCh:WCDMa:MEAS<i>:TPC:TOTal:UEPower:AVERage?
+FETCh:WCDMa:MEAS<i>:TPC:TOTal:UEPower:MAXimum?
+FETCh:WCDMa:MEAS<i>:TPC:TOTal:UEPower:MINimum?
+FETCh:WCDMa:MEAS<i>:TPC:TOTal:UEPower:STATistics?
+INITiate:WCDMa:MEAS<i>:TPC
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:AVERage?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MAXimum?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:MINimum?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:PSTeps:STATistics?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:PSTeps:CURRent?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:TRACe:UEPower:CURRent?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:AVERage?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MAXimum?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:MINimum?
+READ:WCDMa:MEAS<i>:TPC:CARRier<c>:UEPower:STATistics?
+READ:WCDMa:MEAS<i>:TPC:DHIB:AVERage?
+READ:WCDMa:MEAS<i>:TPC:DHIB:MAXimum?
+READ:WCDMa:MEAS<i>:TPC:DHIB:MINimum?
+READ:WCDMa:MEAS<i>:TPC:DHIB:STATistics?
+READ:WCDMa:MEAS<i>:TPC:TOTal:TRACe:UEPower:CURRent?
+READ:WCDMa:MEAS<i>:TPC:TOTal:UEPower:AVERage?
+READ:WCDMa:MEAS<i>:TPC:TOTal:UEPower:MAXimum?
+READ:WCDMa:MEAS<i>:TPC:TOTal:UEPower:MINimum?
+READ:WCDMa:MEAS<i>:TPC:TOTal:UEPower:STATistics?
+STOP:WCDMa:MEAS<i>:TPC
+TRIGger:WCDMa:MEAS<i>:TPC:CATalog:SOURce?
+TRIGger:WCDMa:MEAS<i>:TPC:DELay
+TRIGger:WCDMa:MEAS<i>:TPC:MGAP
+TRIGger:WCDMa:MEAS<i>:TPC:SLOPe
+TRIGger:WCDMa:MEAS<i>:TPC:SOURce
+TRIGger:WCDMa:MEAS<i>:TPC:THReshold
+TRIGger:WCDMa:MEAS<i>:TPC:TOUT
+Top

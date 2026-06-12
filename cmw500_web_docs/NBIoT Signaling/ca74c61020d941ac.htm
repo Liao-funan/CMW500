@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up  a Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="a48b68c16c094d59.htm">NB-IoT Signaling</a> &gt; <a class="chm-breadcrumb" href="f23fbefb761e46ac.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7965a4345c4f4b46.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Setting Up  a Connection</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Setting Up a Connection</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Connect the UE (switched off). Switch on the DL signal. Query the cell 
+// state until it equals ON,ADJ (DL signal available at RF connector).
+// *****************************************************************************
+WAITKEY &gt;Ensure that the UE is connected to the instrument and switched off&lt;
+SOURce:NIOT:SIGN:CELL:STATe ON
+WHILE SOURce:NIOT:SIGN:CELL:STATe:ALL? &lt;&gt; "ON,ADJ"
+
+// *****************************************************************************
+// Proceeding WITHOUT "Keep RRC Connection":
+// Switch on the UE and wait until it is attached (state = ATT).
+// Initiate an RRC connection and wait until it is established (state = CEST).
+// *****************************************************************************
+CONFigure:NIOT:SIGN:CONNection:RRC:KEEP OFF
+WAITKEY &gt;Switch on the UE&lt;
+WHILE FETCh:NIOT:SIGN:PSWitched:STATe? &lt;&gt; "ATT"
+CALL:NIOT:SIGN:PSWitched:ACTion CONNect
+WHILE FETCh:NIOT:SIGN:PSWitched:STATe? &lt;&gt; "CEST"
+
+// *****************************************************************************
+// Proceeding WITH "Keep RRC Connection":
+// Switch on the UE and wait until the connection is established (state = CEST).
+// *****************************************************************************
+CONFigure:NIOT:SIGN:CONNection:RRC:KEEP ON
+WAITKEY &gt;Switch on the UE&lt;
+WHILE FETCh:NIOT:SIGN:PSWitched:STATe? &lt;&gt; "CEST"
+
+// *****************************************************************************
+// Query the RRC connection state. It must be "CONN".
+// *****************************************************************************
+SENSe:NIOT:SIGN:RRCState?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

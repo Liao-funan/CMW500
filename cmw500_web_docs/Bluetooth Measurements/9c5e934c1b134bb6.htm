@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Phase Difference Trace Points</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="a06b666adbcb4fee.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="b0df884f5430417e.htm">Bluetooth Tx Tests</a> &gt; <a class="chm-breadcrumb" href="6fd38a005ae643ce.htm">Defining the Scope of the Measurement</a> &gt; <span class="chm-breadcrumb">Phase Difference Trace Points</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Phase Difference Trace Points</div><p>The phase difference of symbol k is given by:</p><p><span class="command">Phase Difference (k) = Phase (k) – Phase (k – 1)</span></p><p>The phase differences for the GFSK symbols are initialized to zero.</p><div class="block"><div class="listintro">Phase differences are calculated for the guard period symbols and the DPSK portion symbols. The phase difference corresponding to the first guard symbols is initialized to 0.</div><ul class="list"><li>Phase difference between the first two guard symbols is the first one to be calculated</li><li>The phase difference between symbols is calculated all the way up to the power down ramp center position</li><li>For 2-DHx packets, the number of phase difference values (including the initial zeros) is at least 127 + ceiling [(56 + 8*n)/2].</li><li>For 3-DHx packets, the number of phase difference values (including the initial zeros) is at least 127 + ceiling [(68 + 8*n)/3].</li></ul></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

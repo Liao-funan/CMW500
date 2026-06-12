@@ -1,0 +1,59 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Cell Parameters</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Cell Parameters</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Cell Parameters</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// General settings: Define number of AGCH data blocks reserved for AGCH access,
+// set interval between two paging requests, tell mobile to determine channel
+// numbers in the GSM 1800 band.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CELL:BSAGblksres 0
+CONFigure:GSM:SIGN:CELL:BSPamfrms 2
+CONFigure:GSM:SIGN:CELL:BINDicator G18
+
+// *****************************************************************************
+// CS settings: Tell mobile to perform a location update whenever it is
+// switched on, don't allow DTX.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CELL:LUPDate ALWays
+CONFigure:GSM:SIGN:CELL:DTX OFF
+
+// *****************************************************************************
+// Set paging mode, max retransmissions, MS identity for
+// paging, initial power reduction, cell baring, permitted network
+// color code and possible channel numbers within the GSM cell.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CELL:PMODe NPAG
+CONFigure:GSM:SIGN:CELL:MRETrans 7
+CONFigure:GSM:SIGN:CELL:IPReduction 1
+CONFigure:GSM:SIGN:CELL:IPReduction ON
+CONFigure:GSM:SIGN:CELL:CBARring OFF
+CONFigure:GSM:SIGN:CELL:PMIDentity TMSI
+CONFigure:GSM:SIGN:CELL:NCC:PERMitted 10
+CONFigure:GSM:SIGN:CELL:CDEScription 102,1011,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,
+    OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,
+    OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,
+    OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF,OFF
+
+// *****************************************************************************
+// Enable enhanced MS measurement reports for CS connections.
+// Accept the first mobile originating CS call request. Establish CS
+// call and query the connection error.
+// *****************************************************************************
+CONFigure:GSM:SIGN:RREPort:CSWitched:EMReport:ENABle ON
+CONFigure:GSM:SIGN:CELL:CSWitched:CREQuest ACC
+SENSe:GSM:SIGN:CELL:CERRor?
+
+// *****************************************************************************
+// PS settings: Select channel type used by mobile to determine received signal
+// strength and quality, accept PDP context activation attempts from the MS,
+// specify signal level filter period for power control and BEP period.
+// Ignore the first mobile originating PS call request, accept it after
+// the first burst. Establish PS call and query the connection error.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CELL:PSWitched:PCMChannel BCCH
+CONFigure:GSM:SIGN:CELL:PSWitched:PDPContext ACCept
+CONFigure:GSM:SIGN:CELL:PSWitched:TAVGtw 3
+CONFigure:GSM:SIGN:CELL:PSWitched:BPERiod 1
+CONFigure:GSM:SIGN:CELL:PSWitched:CREQuest IGN,AA1
+SENSe:GSM:SIGN:CELL:PSWitched:CERRor?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

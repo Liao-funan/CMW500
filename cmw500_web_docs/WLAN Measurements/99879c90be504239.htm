@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Power vs. Time Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="d2fe70e275834b4d.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="964895728e6742d6.htm">Limit Settings and Conformance Requirements</a> &gt; <span class="chm-breadcrumb">Power vs. Time Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Power vs. Time Limits</div><p>Standard IEEE 802.11ax defines requirements for OFDM PHY and HE PHY in sections 17.3.9.10 and 28.3.14.3 "Pre-correction accuracy requirements". After the AP triggers the uplink transmissions, the STA transmits the HE TB PPDU at a specified time. The accuracy of this time must be <span style="font-family: Arial Unicode MS; font-size: 10.5pt">±</span>0.4 μs relative to the frame sent by the AP to trigger the UL transmissions.</p><div class="block"><div class="note"><table cellpadding="0" cellspacing="0" border="0"><tr><td width="46" align="left" valign="top"><img src="info_small_10mm.gif" width="38" height="38" class="note_img"></td><td><p>The calculation of timing error requires suitable trigger to be specified as a trigger source. Internal IF power trigger cannot be used.</p></td></tr></table></div></div><p>The rise time and fall time represent a basic pulse shaping criterion for DSSS signals.</p><p>Standard IEEE 802.11-2012 defines related requirements in sections 16.4.7.8 and 17.4.7.7 "Transmit power-on and power-down ramp". The transmit power-on ramp (rise time) for 10% to 90% of maximum power must be no greater than 2 μs. The transmit power-down ramp (fall time) for 90% to 10% of maximum power must also be no greater than 2 μs.</p><p>All limits can be set in the configuration dialog.</p><div class="block" id="ID_1a393050bf6f78f70a710a9501ba204d-6a5eab7b4dbf7ec90a00206a0158c89a-en-US"><div class="graphic"><img border="0" src="images/imgffe53038bf62e3050a00206a0166b038_5_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">Power vs. time limit settings</div></div><p>As an alternative to the maximum power, it is also possible to select the average power as the reference level, see <a class="xref" href="c963f16379074b73.htm#ID_e764a72c557611e0b606bbaf402a46c6-6a5f9b174e10f81f0a00206a00b11168-en-US">"Reference Power"</a>.</p><p>The pulse shape of DSSS signals is complemented by their spectrum mask, see <a class="xref" href="264a47ea7fa3475f.htm#ID_870c25414ddc5b4a0a00206a00124270-6a5eab7b4dbf7ec90a00206a0158c89a-en-US">"Transmit Spectrum Mask DSSS"</a> for details.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

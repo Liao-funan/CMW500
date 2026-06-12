@@ -1,0 +1,29 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring a BLER Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="5145480c85634266.htm">BLER Tests</a> &gt; <span class="chm-breadcrumb">Configuring a BLER Measurement</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring a BLER Measurement</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Activate DL padding.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:DLPadding ON
+
+// *****************************************************************************
+// Configure a continuous BLER measurement without stop condition and
+// 1000 subframes per measurement cycle. NACK and DTX contribute to the BLER.
+// *****************************************************************************
+CONFigure:LTE:SIGN:EBLer:SCONdition NONE
+CONFigure:LTE:SIGN:EBLer:REPetition CONT
+CONFigure:LTE:SIGN:EBLer:SFRames 1000
+CONFigure:LTE:SIGN:EBLer:ERCalc ERC1
+
+// *****************************************************************************
+// Configure a confidence BLER measurement.
+// The stop condition "Confidence Level" sets also the repetition.
+// NACK and DTX contribute to the BLER, wait for all carriers,
+// no minimum test time, ER limit 5%.
+// *****************************************************************************
+CONFigure:LTE:SIGN:EBLer:SCONdition CLEV
+CONFigure:LTE:SIGN:EBLer:ERCalc ERC1
+CONFigure:LTE:SIGN:EBLer:CONFidence:OASCondition ACWait
+CONFigure:LTE:SIGN:EBLer:CONFidence:MTTime 0
+CONFigure:LTE:SIGN:EBLer:CONFidence:LERate P050</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

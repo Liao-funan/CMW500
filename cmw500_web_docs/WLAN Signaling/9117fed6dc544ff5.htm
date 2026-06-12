@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Channel Frequencies</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <span class="chm-breadcrumb">Configuring Channel Frequencies</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring Channel Frequencies</div><div class="block"><div class="subtitle"><a name="ID_a7ba42da8a2a11e6a2119f25554b8009-8dc999527d365a020a00206a0194823b-en-US"></a>20-MHz channel</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select the channel bandwidth.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:OCWidth BW20
+
+// *****************************************************************************
+// Select the channel and query the channel center frequency.
+// Configure the frequency offset.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:CHANnel 10
+CONFigure:WLAN:SIGN:RFSettings:FREQuency?
+CONFigure:WLAN:SIGN:RFSettings:FOFFset 0</pre><div class="block"><div class="subtitle"><a name="ID_a7ba42d88a2a11e6a2119f25554b8009-8dc999527d365a020a00206a0194823b-en-US"></a>40-MHz channel</div></div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select the channel bandwidth.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:OCWidth BW40
+
+// *****************************************************************************
+// Select the 40-MHz channel and query its center frequency.
+// Configure the frequency offset.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:CHANnel 10
+CONFigure:WLAN:SIGN:RFSettings:FREQuency?
+CONFigure:WLAN:SIGN:RFSettings:FOFFset 0
+
+// *****************************************************************************
+// Configure which of the two 20-MHz channels is the primary channel.
+// Query the center frequency and channel number of the primary 20-MHz channel.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:RFSettings:NPINdex 1
+CONFigure:WLAN:SIGN:RFSettings:NPFRequency?
+CONFigure:WLAN:SIGN:RFSettings:NPCHannel?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Using WCDMA List Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="8f3a6f142e1c46fa.htm">Programming</a> &gt; <span class="chm-breadcrumb">Using WCDMA List Mode</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Using WCDMA List Mode</div><div class="block"><div class="listintro">The WCDMA multi-evaluation list mode is programmed as follows:</div><ul class="list"><li>The measurement is controlled by SCPI commands with the following syntax: <span class="command">...WCDMa:MEAS:MEValuation:LIST...</span></li><li>Use general commands of the type <span class="command">...:WCDMa:MEAS...</span> (no <span class="command">:MEValuation</span> mnemonic) to define the signal routing and perform RF and analyzer settings.</li><li>After a <span class="command">*RST</span>, the measurement is switched off and list mode is disabled. Use <span class="command">CONFigure:WCDMa:MEAS:MEValuation:LIST ON</span> to enable the list mode and <span class="command">INIT:WCDMa:MEAS:MEValuation</span> to initiate a single-shot measurement.</li><li>Use <span class="command">FETCh:WCDMa:MEAS:MEValuation:LIST:...?</span> commands to retrieve the results.</li></ul></div><div class="block"><div class="subtitle"><a name="shiv_rs_cmw_ev_do_2947-9d2da823422007ed0a00206a01b88138-en-US"></a>Speed considerations</div></div><div class="block"><div class="listintro">The following measurement settings have an impact on the measurement speed:</div><ul class="list"><li>The number and size of the segments and the number of measured slots in each segment</li><li>The number and type of results that the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW needs to calculate</li></ul></div>
+						<div class="chapter_toc"><div class="chapter_toc_title">Contents</div><ul><li><a href="6171721e8c974f17.htm" class="chapter_title_toc">Specifying Global Measurement Settings</a></li><li><a href="3e0766fccba24313.htm" class="chapter_title_toc">Specifying List Mode Settings</a></li><li><a href="4c36db60adf245da.htm" class="chapter_title_toc">Performing Single-Shot Measurements</a></li><li><a href="6403e6e01037428c.htm" class="chapter_title_toc">Retrieving Single Results for All Segments</a></li></ul></div>
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>PCAP File Requirements and File Selection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="b3d2c606623345d9.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="a92417568691426f.htm">Using the IMS Server</a> &gt; <a class="chm-breadcrumb" href="f9aa2385468f43bd.htm">Using PCAP Streaming</a> &gt; <span class="chm-breadcrumb">PCAP File Requirements and File Selection</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">PCAP File Requirements and File Selection</div><p>The PCAP file must contain only RTP packets carrying the media information. The file must use the "raw IP" format, so that all packets start with the IP header. You can use the "IP Logging" application of the DAU to record such PCAP files from the U-plane IP interface.</p><p>The PCAP file used for a call must comply with the media formats negotiated between the UE and the DAU (SDP negotiation). So you need several PCAP files, one for each combination of audio/video codec and AMR alignment mode (octet-aligned, bandwidth-efficient).</p><p>The PCAP file selection is controlled by an XML meta file on the samba share of the DAU, subdirectory <span class="filename">ims/pcap</span>. The meta file contains a lookup table with &lt;MediaConfig&gt; elements. Each &lt;MediaConfig&gt; element has attributes, specifying conditions and a PCAP file to be used if the conditions are met.</p><div class="block"><a name="ID_bb785f95d5d898610a7100bf0019bf24-6ec4f390414e16cb0a00206a008ccbb3-en-US"></a><span class="table-caption">Attributes of element &lt;MediaConfig&gt;</span><table border="1"><colgroup><col><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>Attribute</p></th><th valign="top"><p>Type</p></th><th valign="top"><p>Values</p></th><th valign="top"><p>Description</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>AmrAligMode</p></td><td valign="top"><p>Optional</p></td><td valign="top"><p>AMR_OCTET_ALIGNED</p><p>AMR_BANDWIDTH_EFFICIENT</p></td><td valign="top"><p>AMR alignment mode of call must match. Only relevant for AMR, not for EVS.</p></td></tr><tr class="evenrow"><td valign="top"><p>Codec</p></td><td valign="top"><p>Optional</p></td><td valign="top"><p>AMR_NARROWBAND</p><p>AMR_WIDEBAND</p><p>EVS</p></td><td valign="top"><p>Audio codec of call must match.</p></td></tr><tr class="oddrow"><td valign="top"><p>PayloadTypeAudio</p></td><td valign="top"><p>Optional</p></td><td valign="top"><p>Integer<sup>1)</sup></p></td><td valign="top"><p>Audio payload type of call must match.</p></td></tr><tr class="evenrow"><td valign="top"><p>PayloadTypeVideo</p></td><td valign="top"><p>Optional</p></td><td valign="top"><p>Integer<sup>1)</sup></p></td><td valign="top"><p>Video payload type of call must match.</p></td></tr><tr class="oddrow"><td valign="top"><p>AudioPort</p></td><td valign="top"><p>Mandatory</p></td><td valign="top"><p>Integer</p></td><td valign="top"><p>Target UDP port of audio media in PCAP file must match.</p><p>For UL DAU IP logging, usually port 49200.</p></td></tr><tr class="evenrow"><td valign="top"><p>VideoPort</p></td><td valign="top"><p>Video calls mandatory</p></td><td valign="top"><p>Integer</p></td><td valign="top"><p>Target UDP port of video media in PCAP file must match.</p><p>For UL DAU IP logging, usually port 49250.</p><p>Media configurations without this attribute are not used for video calls.</p></td></tr><tr class="oddrow"><td valign="top"><p>FileName</p></td><td valign="top"><p>Mandatory</p></td><td valign="top"><p>Filename with file extension</p></td><td valign="top"><p>PCAP file to be used if the other attributes match.</p><p>Path relative to <span class="filename">ims/pcap</span> on the samba share.</p></td></tr><tr class="evenrow"><td colspan="4" valign="top"><p><sup>1)</sup> Setting the attributes PayloadTypeAudio/Video is an alternative to setting the attributes AmrAligMode and Codec. The payload type number contains information about the alignment mode and the codec.</p></td></tr></tbody></table></div><div class="block"><div class="subtitle"><a name="ID_188b1620d5d88a4d0a7100bf00089ec8-6ec4f390414e16cb0a00206a008ccbb3-en-US"></a>Example of an XML meta file</div></div><pre class="verbatim" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;PcapEndPointConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/etc/ims/pcap/pcapendpconfig_schema.xsd"&gt;
+  &lt;MediaConfig AmrAligMode="AMR_OCTET_ALIGNED" Codec="AMR_NARROWBAND"
+    AudioPort="49200" VideoPort="49250" FileName="amr-nb_oa+h264.pcap"/&gt;
+  &lt;MediaConfig AmrAligMode="AMR_OCTET_ALIGNED" Codec="AMR_WIDEBAND"
+    AudioPort="49200" VideoPort="49250" FileName="amr-wb_oe+h264.pcap"/&gt;
+  &lt;MediaConfig AmrAligMode="AMR_BANDWIDTH_EFFICIENT" Codec="AMR_NARROWBAND"
+    AudioPort="49200" VideoPort="49250" FileName="amr-nb_be+h264.pcap"/&gt;
+  &lt;MediaConfig AmrAligMode="AMR_BANDWIDTH_EFFICIENT" Codec="AMR_WIDEBAND"
+    AudioPort="49200" VideoPort="49250" FileName="amr-wb_be+h264.pcap"/&gt;
+&lt;/PcapEndPointConfig&gt;</pre><p>Sample PCAP files and a sample XML meta file are available upon request.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configure Paging</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f0e09183c8684c02.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Configure Paging</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configure Paging</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Specify the supervision timeout, page timeout, page scan repetition 
+// mode and page target device
+// Note: Use ...PAGing:PTARget 1 to connect to the first inquired EUT 
+// or ...PAGing:PTARget 0 to connect to the manually specified EUT
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:SVTimeout 16000; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PAGing:PSRMode R1; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PAGing:PTARget 1; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PAGing:TOUT 16384; *OPC?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

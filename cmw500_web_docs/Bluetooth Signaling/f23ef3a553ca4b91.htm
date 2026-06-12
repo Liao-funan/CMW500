@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trigger Signals</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="310f68fa8cb14a91.htm">General Description</a> &gt; <span class="chm-breadcrumb">Trigger Signals</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trigger Signals</div><p>The "Bluetooth Signaling" application provides trigger signals that can be used by can be used by other R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW applications to synchronize to the generated Bluetooth downlink signal.</p><div class="block"><div class="listintro">To address the trigger signals in remote commands, use the following strings, with &lt;I&gt; replaced by the instance number of the signaling application:</div><ul class="list"><li>"Bluetooth Sig&lt;i&gt;: ACPTrigger"</li><li>"Bluetooth Sig&lt;i&gt;: SignallingTrigger"</li></ul></div><div class="block"><div class="subtitle"><a name="ID_8cd4c3e6d5ce11e3af469cb9d3837288-9bb0b75613c5ba470a002019015004fa-en-US"></a>ACP Trigger</div></div><p>The ACP trigger event indicates the expected start of the first symbol of the Bluetooth burst at the EUT receiver. Between two successive ACP trigger events, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW waits from 100 s to 125 s before the next ACP trigger is generated.</p><div class="block"><div class="listintro">This trigger is suitable for the following measurements within Bluetooth multi-evaluation measurements:</div><ul class="list"><li>79 channels ACP BR/EDR measurements (option R&amp;S&nbsp;CMW-KM610)</li><li>All channels ACP LE measurements (option R&amp;S&nbsp;CMW-KM611)</li></ul></div><div class="block"><div class="subtitle"><a name="ID_94517ef9e627f6150a710a6a00cbfbed-9bb0b75613c5ba470a002019015004fa-en-US"></a>Signaling Trigger</div></div><p>Trigger event indicating the expected start of the first symbol at the beginning of each Bluetooth burst received by the EUT.</p><p>This trigger is suitable for all Bluetooth multi-evaluation measurements in combined signal path except 79 channels ACP BR/EDR measurements and all channels ACP LE measurements.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

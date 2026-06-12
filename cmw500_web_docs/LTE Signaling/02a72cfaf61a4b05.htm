@@ -1,0 +1,21 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring HARQ</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring HARQ</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring HARQ</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Configure HARQ for the uplink: enable HARQ, allow 4 transmissions,
+// use DCI 0 and PHICH.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:HARQ:UL:ENABle ON
+CONFigure:LTE:SIGN:CONNection:HARQ:UL:NHT 4
+CONFigure:LTE:SIGN:CONNection:HARQ:UL:DPHich D0PHich
+
+// *****************************************************************************
+// Configure HARQ for the downlink: enable HARQ, allow 4 transmissions and
+// specify user-defined redundancy version sequence.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:HARQ:DL:ENABle ON
+CONFigure:LTE:SIGN:CONNection:HARQ:DL:NHT 4
+CONFigure:LTE:SIGN:CONNection:HARQ:DL:RVCSequence UDEF
+CONFigure:LTE:SIGN:CONNection:HARQ:DL:UDSequence:LENGth 4
+CONFigure:LTE:SIGN:CONNection:HARQ:DL:UDSequence 0,0,2,3</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

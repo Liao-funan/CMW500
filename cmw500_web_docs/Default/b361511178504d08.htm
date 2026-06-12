@@ -1,0 +1,79 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Macro Programming Examples</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="4be496f6fa304ede.htm">Remote Control</a> &gt; <a class="chm-breadcrumb" href="be7e5177ac0b48d4.htm">Command Macros</a> &gt; <span class="chm-breadcrumb">Macro Programming Examples</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Macro Programming Examples</div><p>The following examples show you how to use macros, macro parameters, and macro files. For a command reference, see <a class="xref" href="ae8073a097774cad.htm#ID_4c4a33651fd5a4180a00206a01c234ff-cdbbecd51fd5a4180a00206a01255760-en-US">"Macro Commands"</a>.</p><div class="block"><div class="subtitle"><a name="ID_c05138ebff5ab7350a00206a01187fcd-c50099db1ff884650a00206a0093593f-en-US"></a>Macro handling using common control commands</div></div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Reset the instrument.
+// Define a macro to set the GPRF generator frequency to 1 GHz.
+// Query the contents of the macro (should be 
+// #247SOURce:GPRF:GENerator:RFSettings:FREQuency 1GHz).
+// Query labels of existing macros.
+// *****************************************************************************
+*RST
+*DMC 'SetFrequency', 'SOURce:GPRF:GENerator:RFSettings:FREQuency 1 GHz'
+*GMC? 'SetFrequency'
+*LMC?
+
+// *****************************************************************************
+// Query the GPRF generator frequency.
+// Enable macro execution.
+// Execute the macro.
+// Check whether the generator frequency has actually been changed.
+// *****************************************************************************
+SOURce:GPRF:GENerator:RFSettings:FREQuency?
+*EMC ON
+SetFrequency
+SOURce:GPRF:GENerator:RFSettings:FREQuency?
+
+// *****************************************************************************
+// Delete the macro.
+// Delete all macros in the active connection.
+// Check whether all macros have been deleted (response: "").
+// *****************************************************************************
+*RMC 'SetFrequency'
+*PMC
+*LMC?</pre></div><div class="block"><div class="subtitle"><a name="ID_5fd8d43aff5ab7350a00206a016e6c4a-c50099db1ff884650a00206a0093593f-en-US"></a>Macros with parameters</div></div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Reset the instrument.
+// Define a macro to set the GPRF generator frequency and level to arbitrary
+// values using macro parameters. 
+// Execute the macro and check the results. 
+// *****************************************************************************
+*RST
+*DMC 'RF_Settings', 'SOURce:GPRF:GENerator:RFSettings:FREQuency $1; LEVel $2'
+*EMC ON
+SOURce:GPRF:GENerator:RFSettings:FREQuency?; LEVel?
+RF_Settings 1 GHz,-10 dBm
+SOURce:GPRF:GENerator:RFSettings:FREQuency?; LEVel?</pre></div><div class="block"><div class="subtitle"><a name="ID_4426f198ff5ab7350a00206a0087a76d-c50099db1ff884650a00206a0093593f-en-US"></a>Using macro files and block data format</div></div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Store the macro to a file.
+// Delete the macro, check whether all macros have been deleted (response: "").
+// *****************************************************************************
+MMEMory:STORe:MACRo 'RF_Settings', '@USERDATA/macros/RF_Settings.txt'
+*PMC
+*LMC?
+
+// *****************************************************************************
+// Re-load the macro contents from the macro file, assigning the old label. 
+// Query the contents.
+// *****************************************************************************
+MMEMory:LOAD:MACRo 'RF_Settings', '@USERDATA/macros/RF_Settings.txt'
+*GMC? 'RF_Settings'
+*LMC?
+
+// *****************************************************************************
+// Re-define the macro using block data format. Check and store the macro.
+// *****************************************************************************
+*DMC 'RF_Settings', #0SOURce:GPRF:GENerator:RFSettings:FREQuency $1; LEVel $2
+*GMC? 'RF_Settings'
+MMEMory:STORe:MACRo 'RF_Settings', '@USERDATA/macros/RF_Settings.txt'</pre></div><div class="block"><div class="subtitle"><a name="ID_836fe24f6c4011e1b90dcdb749419c2c-c50099db1ff884650a00206a0093593f-en-US"></a>Recording macro files</div></div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Start recording.
+// Submit commands to be recorded.
+// Stop recording.
+// Load the recorded macro and check its contents.
+// *****************************************************************************
+SYSTem:RECord:MACRo:FILE:STARt '@USERDATA/macros/GPRF.txt'
+SOURce:GPRF:GENerator:RFSettings:FREQuency 1 GHz
+SOURce:GPRF:GENerator:RFSettings:EATTenuation 2
+SOURce:GPRF:GENerator:RFSettings:LEVel -70
+SYSTem:RECord:MACRo:FILE:STOP
+MMEMory:LOAD:MACRo 'RF_Settings1', '@USERDATA/macros/GPRF.txt'
+*GMC? 'RF_Settings1'</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

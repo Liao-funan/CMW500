@@ -1,0 +1,66 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Pathloss Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <span class="chm-breadcrumb">Pathloss Measurement</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><a name="ID_0aa08373ad0611e7bf62b8a78d7bd8ab-329be6c150c3fef70a00206a01b79165-en-US"></a><a name="ID_0aa08374ad0611e7bf62b8a78d7bd8ab-329be6c150c3fef70a00206a01b79165-en-US"></a><div class="chm-chaptertitle">Pathloss Measurement</div><p>The following example shows you how to configure the pathloss measurement via a remote-control program.</p><p>The script measures the pathloss for one signal path (connector R11) and returns the measurement results.</p><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// System-Reset
+// *************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *************************************************************************
+// Configure a frequency list with 4 entries for connector R11.
+// *************************************************************************
+CONF:GPRF:MEAS:PLOSs:LIST:FREQuency R11, 4, 100 MHz, 1.6 GHz, 3.6 GHz, 6 GHz
+
+// *************************************************************************
+// Configure averaging.
+// *************************************************************************
+CONFigure:GPRF:MEAS:PLOSs:VIEW:AFTaps 15
+
+// *************************************************************************
+// Start a measurement in mode "short".
+// *************************************************************************
+INITiate:GPRF:MEAS:PLOSs:SHORt R11
+
+// *************************************************************************
+// Wait until the measurement is complete. You can insert the following
+// command into a loop and wait until the command returns 0,RDY.
+// *************************************************************************
+FETCh:GPRF:MEAS:PLOSs:SHORt? R11
+
+// *************************************************************************
+// Start a measurement in mode "open".
+// *************************************************************************
+INITiate:GPRF:MEAS:PLOSs:OPEN R11
+
+// *************************************************************************
+// Wait until the measurement is complete. You can insert the following
+// command into a loop and wait until the command returns 0,RDY.
+// *************************************************************************
+FETCh:GPRF:MEAS:PLOSs:OPEN? R11
+
+// *************************************************************************
+// Start a measurement in mode "eval" to evaluate the previous measurements.
+// *************************************************************************
+INITiate:GPRF:MEAS:PLOSs:EVALuate R11
+
+// *************************************************************************
+// Wait until the measurement is complete. You can insert the following
+// command into a loop and wait until the command returns 0,RDY,RDY,RDY.
+// *************************************************************************
+FETCh:GPRF:MEAS:PLOSs:EVAL:STATe? R11
+
+// *************************************************************************
+// Query the result diagram:
+// gain values and frequencies at which the gain values have been measured
+// *************************************************************************
+FETCh:GPRF:MEAS:PLOSs:EVAL:TRACe:GAIN? R11
+FETCh:GPRF:MEAS:PLOSs:EVAL:TRACe:FREQuency? R11
+
+// *************************************************************************
+// Query the result table:
+// gain values and frequencies at which the gain values have been measured
+// *************************************************************************
+FETCh:GPRF:MEAS:PLOSs:EVAL:GAIN? R11
+FETCh:GPRF:MEAS:PLOSs:EVAL:FREQuency? R11</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

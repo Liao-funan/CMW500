@@ -1,0 +1,679 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GPRF Generator"/>
+<param name="Local" value="65af87a9b447421a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="a156e82a8049407c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.7.10 (Compared to V3.5.20)"/>
+<param name="Local" value="45eb005941b547f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.5.20 (Compared to V3.2.70)"/>
+<param name="Local" value="629701cb572b46d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.70 (Compared to V3.2.40)"/>
+<param name="Local" value="41e5b1bc6e664ca5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.40 (Compared to V3.2.20)"/>
+<param name="Local" value="1636e33d58ef4e87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.20 (Compared to V3.2.10)"/>
+<param name="Local" value="6b923e7d80704384.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.2.10 (Compared to V3.0.12)"/>
+<param name="Local" value="87213efe6aef4c1e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.12 (Compared to V3.0.11)"/>
+<param name="Local" value="3cc016f22ee942ca.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.11 (Compared to V3.0.10)"/>
+<param name="Local" value="0ddee849c2584d39.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V3.0.10 (Compared to V2.0.10)"/>
+<param name="Local" value="2f06f2dad4c84cdf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V2.0.10 (Compared to V1.0.15.20/21/22)"/>
+<param name="Local" value="2376eb156cab4553.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.20/21/22 (Compared to V1.0.15.0)"/>
+<param name="Local" value="f2994833cabd45ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.0 (Compared to V1.0.10.1)"/>
+<param name="Local" value="ea62e1c2ea1a447f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.10.1 (Compared to V1.0.4.11)"/>
+<param name="Local" value="31ff81728def476b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.4.11 (Compared to V1.0.3.6)"/>
+<param name="Local" value="29d6ffd6a00c4438.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="b486b9ef484f4115.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Output Scenarios"/>
+<param name="Local" value="408048c9950c4bf7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Standalone Scenario"/>
+<param name="Local" value="09011d0abe3a4a3f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="IQ Out Scenario"/>
+<param name="Local" value="87385794d5904115.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Constant-Frequency Signals"/>
+<param name="Local" value="fba14f044fc4446d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode"/>
+<param name="Local" value="c57b55c69eb342bb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Arbitrary Baseband Mode"/>
+<param name="Local" value="f742168a04c84bc3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Available Waveforms and Options"/>
+<param name="Local" value="e94e0380348b4cd7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ARB Marker Signals"/>
+<param name="Local" value="e3ab240980db48be.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combining RF and Baseband Modes"/>
+<param name="Local" value="01642c9e94b74591.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Application Sheets"/>
+<param name="Local" value="a136979f2a3d4385.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generating and Transferring Waveform Files"/>
+<param name="Local" value="bfa7527ac4e94a8d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Procedure"/>
+<param name="Local" value="2753d6c9090f4272.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Options and Equipment Required"/>
+<param name="Local" value="bf3673783d4a4082.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="WinIQSIM2 Operation"/>
+<param name="Local" value="d2d731c3231b4f82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Loading and Processing Waveform Files"/>
+<param name="Local" value="00edac70770d4658.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="1a91f20560264c9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Information"/>
+<param name="Local" value="1eb32a7be2bc40bb.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="a3892191aad04f7b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Control"/>
+<param name="Local" value="5eadbd9b88d14fcf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="18213c91a8974f3a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RF Settings (Standalone Scenario Only)"/>
+<param name="Local" value="1f1e9a3c79474e5d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DIG IQ Settings (IQ Out Scenario Only)"/>
+<param name="Local" value="7b663fd5059b4917.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Baseband Configuration (Standalone Scenario Only)"/>
+<param name="Local" value="3ac34a6a38734ace.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ARB Baseband Mode"/>
+<param name="Local" value="6ca846b6622c491b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Basic Settings"/>
+<param name="Local" value="c5045d8553f24c2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="86971dab3f0d4deb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Marker Delay Settings"/>
+<param name="Local" value="c907362ab7c648bf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Segment Settings"/>
+<param name="Local" value="21a9518129d44293.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="User-Defined Marker"/>
+<param name="Local" value="ea4cf09940ae45b3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Configuration"/>
+<param name="Local" value="3584cbab72ca4539.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="9a1f981fabb040ac.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Configuration"/>
+<param name="Local" value="872915d6f4424aee.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generating a CW Signal"/>
+<param name="Local" value="41ef843050964d4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generating a Dual-Tone Signal"/>
+<param name="Local" value="5ecc86d54c99439b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Generator List Mode"/>
+<param name="Local" value="df92c7a126c446f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using the Arbitrary Mode"/>
+<param name="Local" value="9d9be11b11564d62.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="703b1a46ae7e463f.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="e678de4c930344fe.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GEN&lt;i&gt;"/>
+<param name="Local" value="d665f64222cd4eab.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for Signal Path Selection"/>
+<param name="Local" value="022c92834df6412b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Control and States"/>
+<param name="Local" value="690a722124bc4c2b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:STATe"/>
+<param name="Local" value="344468105b06428e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RELiability:ALL?"/>
+<param name="Local" value="30237fe1b7eb49bf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Scenario Selection and Signal Routing"/>
+<param name="Local" value="9219ee1e39be43b6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:GEN&lt;i&gt;:SCENario?"/>
+<param name="Local" value="3ef5f8761c5c4739.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:GEN&lt;i&gt;:SCENario:SALone"/>
+<param name="Local" value="900cbd8cddee41d8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:GEN&lt;i&gt;:SCENario:IQOut"/>
+<param name="Local" value="fd1daa2d79d14aa3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GPRF:GEN&lt;i&gt;?"/>
+<param name="Local" value="e733eafedbca43d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RFSettings:EATTenuation"/>
+<param name="Local" value="678409580dae4b4f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:GEN&lt;i&gt;:CMWS:USAGe:TX"/>
+<param name="Local" value="1a0c81d0fb7845e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GPRF:GEN&lt;i&gt;:CMWS:USAGe:TX:ALL"/>
+<param name="Local" value="b31155c258e94aab.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Constant-Frequency Settings"/>
+<param name="Local" value="c815c9561da94387.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RFSettings:FREQuency"/>
+<param name="Local" value="63be2ad7d2c445e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RFSettings:LEVel"/>
+<param name="Local" value="c48095c2afe2477d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RFSettings:PEPower?"/>
+<param name="Local" value="88e003db637240c9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:RFSettings:DGAin"/>
+<param name="Local" value="847801f778f84f76.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Baseband Settings"/>
+<param name="Local" value="4f9e52bbba10434c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:BBMode"/>
+<param name="Local" value="c4ea994b8f0349e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:DTONe:OFRequency&lt;source&gt;"/>
+<param name="Local" value="8762e54990a34b07.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:DTONe:RATio"/>
+<param name="Local" value="351bd78ea9344201.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:DTONe:LEVel&lt;source&gt;?"/>
+<param name="Local" value="24f343ec2a614985.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ARB Settings"/>
+<param name="Local" value="810f61c18e744748.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:FOFFset"/>
+<param name="Local" value="77c69c26465c40f3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:REPetition"/>
+<param name="Local" value="1a3f0362ad9b4696.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:CYCLes"/>
+<param name="Local" value="b5169989685a425b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:ASAMples"/>
+<param name="Local" value="00a72d21b7004ad5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:FILE"/>
+<param name="Local" value="15c466bc6a124489.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:FILE:DATE?"/>
+<param name="Local" value="147569e87c0046b7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:FILE:VERSion?"/>
+<param name="Local" value="5eab1a36ba984e09.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:FILE:OPTion?"/>
+<param name="Local" value="36c68e773c9f4feb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:CRATe?"/>
+<param name="Local" value="33227e7ff23244db.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:SAMPles?"/>
+<param name="Local" value="d35e5949.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:SAMPles:RANGe"/>
+<param name="Local" value="ceb6665c2c9b457b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:LOFFset?"/>
+<param name="Local" value="93a945e8b9a24ff9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:POFFset?"/>
+<param name="Local" value="d35e6098.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:CRCProtect?"/>
+<param name="Local" value="d98e4a3ec553436b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:NUMBer?"/>
+<param name="Local" value="9726b72ff3ca40b8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:CRATe?"/>
+<param name="Local" value="ffcc99d159634170.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:SAMPles?"/>
+<param name="Local" value="825d537925ae49fd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:DURation?"/>
+<param name="Local" value="1a1d2002e3894ee1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:NAME?"/>
+<param name="Local" value="12234b439f0d47be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:PAR?"/>
+<param name="Local" value="a253517ebccc429e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MSEGment:POFFset?"/>
+<param name="Local" value="37f07cf4e60f4edf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:UDMarker"/>
+<param name="Local" value="e003b9f012e04b63.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:UDMarker:CLISt"/>
+<param name="Local" value="ef84fc91f69841ea.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ARB Trigger and Multi-Segment Settings"/>
+<param name="Local" value="b9686b9bfbfa4e0c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:RETRigger"/>
+<param name="Local" value="cd0aa118f3ba478a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:AUTostart"/>
+<param name="Local" value="f60e26d7414d4470.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:CATalog:SOURce?"/>
+<param name="Local" value="2a3f9ebdcbe340fd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:SOURce"/>
+<param name="Local" value="0584215816e34447.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:MANual:EXECute"/>
+<param name="Local" value="a36ed44ea731495c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:SLOPe"/>
+<param name="Local" value="ed635f032cf84cb6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:DELay"/>
+<param name="Local" value="171299825a58402d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:MARKer:DELays"/>
+<param name="Local" value="2ccf90179c80497b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:SEGMents:MODE"/>
+<param name="Local" value="cea1392b9b104f9c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:SEGMents:CURRent?"/>
+<param name="Local" value="671a49916150403e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:STATus?"/>
+<param name="Local" value="43ca9c2b4c3c4dfb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:SEGMents:NEXT"/>
+<param name="Local" value="147f119aafaa428e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GPRF:GEN&lt;i&gt;:ARB:SEGMents:MANual:EXECute"/>
+<param name="Local" value="737864aa45f046f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:ARB:SCOunt?"/>
+<param name="Local" value="df86df9525af4d5f.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ARB IQ Out Settings"/>
+<param name="Local" value="2b65fabc836d45a0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:IQSettings:SRATe"/>
+<param name="Local" value="1bd8dc4fdf1c4478.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:IQSettings:LEVel?"/>
+<param name="Local" value="b052b53c95e345ae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:IQSettings:PEP?"/>
+<param name="Local" value="a782657ae3064c14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:IQSettings:CRESt?"/>
+<param name="Local" value="02023bb095c84a8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:IQSettings:TMODe"/>
+<param name="Local" value="3b78ffe1b24a4baf.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Settings"/>
+<param name="Local" value="b50c891438b040cf.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST"/>
+<param name="Local" value="a6053a04e31d46b6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:SSTop"/>
+<param name="Local" value="ec1c091fc43841e0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:STARt"/>
+<param name="Local" value="b616160a66724f80.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:STOP"/>
+<param name="Local" value="815722ab2ca14e6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:COUNt?"/>
+<param name="Local" value="8dae787255dc4ab9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:GOTO"/>
+<param name="Local" value="2b6487ab60e8492e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:REPetition"/>
+<param name="Local" value="84a874b1574941f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:INCRement"/>
+<param name="Local" value="5324e14047e54ef0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:INCRement:CATalog?"/>
+<param name="Local" value="067c025f94a14a54.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:INCRement:ENABling"/>
+<param name="Local" value="7c592fb496a145e5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:INCRement:ENABling:CATalog?"/>
+<param name="Local" value="830e2e63f1724ff6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:CMWS:CSET"/>
+<param name="Local" value="e518f5e017eb44f4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:IREPetition"/>
+<param name="Local" value="d43baa1ff0084ad8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:IREPetition:ALL"/>
+<param name="Local" value="fe06b6fbb48c4462.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:FREQuency"/>
+<param name="Local" value="440e23545ca84a43.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:FREQuency:ALL"/>
+<param name="Local" value="16885af768eb4ac7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:RFLevel"/>
+<param name="Local" value="9a68bfb5c0534aa3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:RFLevel:ALL"/>
+<param name="Local" value="e10ec7e3e6b6447e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:DGAin"/>
+<param name="Local" value="e7b20c0f19f74815.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:DGAin:ALL"/>
+<param name="Local" value="2c5323dc8a27443f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:DTIMe"/>
+<param name="Local" value="0dcd237dfb2a4cdd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:DTIMe:ALL"/>
+<param name="Local" value="b5910d7d13f34029.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:MODulation"/>
+<param name="Local" value="c2713fef5b8e454f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:MODulation:ALL"/>
+<param name="Local" value="6598b2884e3e46d5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:REENabling"/>
+<param name="Local" value="2718a25b06eb49ac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:REENabling:ALL"/>
+<param name="Local" value="3fbf1900e96c42e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:CMWS:USAGe:TX"/>
+<param name="Local" value="57207cd6258044a7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:ESINgle"/>
+<param name="Local" value="0492f4274a9b422f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:SLISt"/>
+<param name="Local" value="2a67f69b341c4597.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:RLISt"/>
+<param name="Local" value="a6f989f4671f4489.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:FILL"/>
+<param name="Local" value="8ce207ed606b461e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SOURce:GPRF:GEN&lt;i&gt;:LIST:AINDex?"/>
+<param name="Local" value="96927472fdbd4200.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="abc2e9214a2f4d39.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

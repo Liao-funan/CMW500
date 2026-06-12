@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="e3f4784596584c6b.htm">Measurements with Combined Signal  Path Scenario</a> &gt; <span class="chm-breadcrumb">Specifying Limits</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Limits</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure UE power limits for "Max. Power E-DCH" measurements.
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:TPC:LIMit:MPEDch ON, 24, 1.7, -6.7
+
+// *****************************************************************************
+// Configure power step limit for "Change of TFC" measurements.
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:TPC:LIMit:CTFC 2.2, ON, 7
+
+// *****************************************************************************
+// Configure power step limit for "Power Control in UL CM" measurements,
+// CM test type pattern A and B.
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:TPC:LIMit:ULCM:PA 5 1 5
+CONFigure:WCDMa:MEAS:TPC:LIMit:ULCM:PB 3 2
+
+// *****************************************************************************
+// Set the limit for dual carrier HSPA in-band emission.
+// *****************************************************************************&nbsp;
+CONFigure:WCDMa:MEAS:TPC:LIMit:DHIB -22</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

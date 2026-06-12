@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring and Executing CPC</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fec8153bc8874bd0.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Configuring and Executing CPC</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring and Executing CPC</div><p>Enable CPC before HSPA connection.</p><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Set DTX-DRX timing information, send HS-SCCH order, and query the response.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CPC:DTRX:DELay 32
+CONFigure:WCDMa:SIGN:CELL:CPC:DTRX:OFFSet 1
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:SFORmat 4
+CONFigure:WCDMa:SIGN:CELL:CPC:HORDer:SEND
+CONFigure:WCDMa:SIGN:CELL:CPC:HORDer:SEND?
+
+// *****************************************************************************
+// Set UL DTX, configure cycle 1 and 2.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:ENABle ON
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:LPLength 15
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:CQITimer 32
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:CYCLe1:APATtern:TTI10 10
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:CYCLe1:BURSt 2
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:CYCLe2:ITHReshold 16
+CONFigure:WCDMa:SIGN:CELL:CPC:UDTX:CYCLe2:DSG 32
+
+// *****************************************************************************
+// Set DL DRX, configure UE grant monitoring.
+// *****************************************************************************
+
+CONFigure:WCDMa:SIGN:CELL:CPC:DDRX:ENABle ON
+CONFigure:WCDMa:SIGN:CELL:CPC:DDRX:CYCLe:APATtern 10
+CONFigure:WCDMa:SIGN:CELL:CPC:DDRX:CYCLe:ITHReshold 16
+CONFigure:WCDMa:SIGN:CELL:CPC:DDRX:GMONitoring:ENABle ON
+CONFigure:WCDMa:SIGN:CELL:CPC:DDRX:GMONitoring:ITHReshold 128
+
+// *****************************************************************************
+// Set E-DCH TX start time restriction.
+// *****************************************************************************
+
+CONFigure:WCDMa:SIGN:CELL:CPC:MAC:CYCLe:TTI10 10
+CONFigure:WCDMa:SIGN:CELL:CPC:MAC:CYCLe:ITHReshold 128
+
+// *****************************************************************************
+// Activate HS-SCCH less operation.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:ENABle ON
+
+// *****************************************************************************
+// Specify the transport block format and support of seccond HD-PDSCH
+// for the four preconfiguration sets. Select four sets to be signaled
+// to the UE. Enable HS-SCCH less operation for second 
+// carrier in UL and DL. Send HS-SCCH order and query the response.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:TBLock1 41
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:SCSupport1 ON
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:TBLock2 51
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:SCSupport2 OFF
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:TBLock3 63
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:SCSupport3 OFF
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:TBLock4 90
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:SCSupport4 OFF
+CONFigure:WCDMa:SIGN:CELL:CPC:HLOPeration:NTBLock 2
+CONFigure:WCDMa:SIGN:CELL:CPC:HORDer:SEND
+CONFigure:WCDMa:SIGN:CELL:CPC:HORDer:SEND?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Max Power E-DCH TPC Setup</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="0e96f9f4bb254c31.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="8d020af998fd41dc.htm">TPC Setups</a> &gt; <span class="chm-breadcrumb">Max Power E-DCH TPC Setup</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Max Power E-DCH TPC Setup</div><p>The conformance test specification 3GPP defines a test for verification of the maximum UE power with active HS-DPCCH and E-DCH. The test 3GPP TS 34.121, section 5.2B "Maximum Output Power with HS-DPCCH and E-DCH" comprises five subtests.</p><p>The test procedure for subtest 1 to 4 is complex. It requires that the E-TFCI sent by the UE is monitored and that the TPC pattern reacts to the monitored values. The test procedure is implemented in the WCDMA signaling application.</p><p>At the end of the test procedure, the UE power is kept constant via an alternating pattern and algorithm 2. According to 3GPP, this more or less constant UE power is measured. The measurement can be performed with the TPC measurement, triggered by the signaling application.</p><p>So a "Max Power E-DCH" measurement does only make sense as combined signal path measurement. A standalone "Max Power E-DCH" measurement does not evaluate any E-TFCI values sent by the UE. It only measures the UE power.</p><p>For description of the combined signal path "Max Power E-DCH" measurement, please refer to the documentation of the signaling application. The "Application Sheets" section of the signaling application chapter provides a detailed step-by-step description of a "Max Power E-DCH" measurement, including subtest 1 to 5.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

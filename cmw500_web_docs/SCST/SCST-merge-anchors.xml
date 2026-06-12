@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge-anchor-log>
+   <log-meta>
+      <creation-date>15:47:27 03/05/2017</creation-date>
+      <dio-name>CMW Help SCST</dio-name>
+      <dio-id>06041d6c4bb2e5950a001ae72d218838</dio-id>
+      <dio-version>2</dio-version>
+      <dio-languagevariant>en-US</dio-languagevariant>
+      <help_caption>R&amp;S CMW Help</help_caption>
+   </log-meta>
+   <merge-anchors>
+      <anchor key="ID_28f1af0472e2bfa40a0020190120bc7b-db055fb34bbe74d40a001ae760906aa0-en-US"
+              topic="e15e3e8d6e6d4a0b.htm"/>
+      <anchor key="ID_d4950fb24bf3e8b50a001ae72ad52f45-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_331065c05adf44930a001ae707ab2a6b-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_b140222b5a66c6bd0a001ae76ecf8d54-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_a15c793a5a66c6bd0a001ae70fe3e7d8-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_982400105a66c6bd0a001ae71005c54f-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_d16136cd5a66c6bd0a001ae72d09a5d5-73804f305afb68b90a001ae76422b804-en-US"
+              topic="b6106823b278402f.htm"/>
+      <anchor key="ID_52fac3e84bf3e8b50a001ae778b77801-73804f305afb68b90a001ae76422b804-en-US"
+              topic="976df199a88a4946.htm"/>
+      <anchor key="ID_33c323c94c3e4f470a001ae765447d63-9be0580555c5bcb90a001ae76e13ae67-en-US"
+              topic="3113e60dae754804.htm"/>
+      <anchor key="ID_def88bba4c3e515a0a001ae74869a4bd-e44144cb55c5c2080a001ae778e07890-en-US"
+              topic="01e9db47f552469f.htm"/>
+      <anchor key="ID_135c0f1d307d60610a001ae72594e380-be00a86855c5be5f0a001ae72c7cbbd3-en-US"
+              topic="a3d5705ca7124a8b.htm"/>
+      <anchor key="ID_a70c91da307d61f80a001ae727a0f6df-337313f455c5c3700a001ae7377e0df5-en-US"
+              topic="3a89ced6b2b347e9.htm"/>
+      <anchor key="ID_a52826824c3e53ac0a001ae72bcdcc10-d779a8e855ca77260a001ae753852d0d-en-US"
+              topic="46b963eee7f44a04.htm"/>
+      <anchor key="ID_a02ea7ffe146c9910a001ae7195af45c-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="821a195e161144ca.htm"/>
+      <anchor key="ID_f4dd0abae5e11aec0a001ae735de2ca9-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="821a195e161144ca.htm"/>
+      <anchor key="ID_b140222b5a66c6bd0a001ae76ecf8d54-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="821a195e161144ca.htm"/>
+      <anchor key="ID_a15c793a5a66c6bd0a001ae70fe3e7d8-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="821a195e161144ca.htm"/>
+      <anchor key="ID_75270cbf1df0fb920a001ae72b59211c-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="821a195e161144ca.htm"/>
+      <anchor key="ID_e2bb89fee146c9910a001ae72260d105-f62c39335afbab200a001ae70da8a5e7-en-US"
+              topic="bbc08bc07ef447b6.htm"/>
+      <anchor key="ID_73c7c3d0307d4c1e0a001ae715d582d8-fe3452c5e0aea22c0a001ae744e9120a-en-US"
+              topic="ee859e0d4f584993.htm"/>
+      <anchor key="ID_ccbbd30b307d4db40a001ae70d088d19-2292fa68e0af04040a001ae76c6c295b-en-US"
+              topic="8b8b1c1e090e4341.htm"/>
+      <anchor key="ID_d8a05713307d50d10a001ae7534002e0-b63f5bc4e0af5cf30a001ae76e6d53ea-en-US"
+              topic="84d1086cc4dd4be3.htm"/>
+      <anchor key="ID_10e99ad9307d52670a001ae700982487-9c06d145e0af94300a001ae77918416d-en-US"
+              topic="1dfe06a6ec2542dd.htm"/>
+      <anchor key="ID_cf9d7175307d53ee0a001ae76f5fb593-cc6b3851e0afdf820a001ae743c5482f-en-US"
+              topic="33ea109a85194405.htm"/>
+      <anchor key="ID_f0f18442307d4f2b0a001ae733ccef3a-68f10baae0b1c81d0a001ae71848b73c-en-US"
+              topic="4ec8cf17eb0e436f.htm"/>
+      <anchor key="ID_d4950fb24bf3e8b50a001ae72ad52f45-c31ffdb0b3cce3330a001ae74985ab27-en-US"
+              topic="a77b06feb7f64d59.htm"/>
+      <anchor key="ID_7bceeb40b45b1a890a001ae76eacce72-c31ffdb0b3cce3330a001ae74985ab27-en-US"
+              topic="a77b06feb7f64d59.htm"/>
+      <anchor key="ID_52fac3e84bf3e8b50a001ae778b77801-c31ffdb0b3cce3330a001ae74985ab27-en-US"
+              topic="28d28112eb9d4190.htm"/>
+      <anchor key="ID_f6df9a55b3c012e80a001ae73f265050-901d7665b3ca91a10a001ae701edf4aa-en-US"
+              topic="3cf0808eb8c949ff.htm"/>
+      <anchor key="ID_85010d63b3c00f8c0a001ae7453f37f3-266bb2e7b3cb43ea0a001ae72bad1f0d-en-US"
+              topic="8a6b5eb900184b07.htm"/>
+      <anchor key="ID_9cbb23b0b3c00e630a001ae75b9c5fe6-ce5e3a47b3ca1a4e0a001ae73bbc03c1-en-US"
+              topic="a3a49d0d9ae242f9.htm"/>
+      <anchor key="ID_828eeae8b445590b0a001ae7750932c5-6ce57c93b3cc59cf0a001ae7221be5b2-en-US"
+              topic="f5775be8a82046de.htm"/>
+      <anchor key="ID_a93ea8cbb3c00d4a0a001ae711f36f1a-74dfc1ddb3cb96500a001ae70df874e5-en-US"
+              topic="fc06872d703d4d23.htm"/>
+      <anchor key="ID_3e8eece3b3c011bf0a001ae7019f2f94-dad0f995b3cc03fe0a001ae75c83473b-en-US"
+              topic="0f7600753fa14d5b.htm"/>
+      <anchor key="ID_8dfa1254b3c00be30a001ae75c5c0e62-77b3535fb3c98ca40a001ae76763317c-en-US"
+              topic="5ffca93a81b840fa.htm"/>
+   </merge-anchors>
+</merge-anchor-log>

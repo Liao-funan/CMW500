@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Spectrum Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <span class="chm-breadcrumb">Spectrum Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Spectrum Measurements</div><pre class="verbatim" xml:space="preserve">// *************************************************************************
+// Specify the filter bandwidth for BR, EDR, and LE measurements.
+// LE measurements are provided for LE 1M, LE 2M and LE coded PHY. 
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:BRATe:FILTer:BWIDth WIDE
+CONFigure:BLUetooth:MEAS:MEValuation:EDRate:FILTer:BWIDth WIDE
+CONFigure:BLUetooth:MEAS:MEValuation:LENergy:LRANge:FILTer:BWIDth WIDE
+CONFigure:BLUetooth:MEAS:MEValuation:LENergy:LE1M:FILTer:BWIDth WIDE 
+CONFigure:BLUetooth:MEAS:MEValuation:LENergy:LE2M:FILTer:BWIDth WIDE
+CONFigure:BLUetooth:MEAS:MEValuation:LENergy:LRANge:FILTer:BWIDth WIDE
+
+// *************************************************************************
+// Perform single shot measurement
+// *************************************************************************
+INITiate:BLUetooth:MEAS:MEValuation
+
+// *******************************************************************************
+// BR: Monitor the spectrum ACP view.
+// Measure the ACP in all 79 Bluetooth channels 
+//
+// Set the frequency range channels and threshold. Perform single shot 
+// measurement; return frequency range and "Spectrum 20 dB Bandwidth" results. 
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:DISPlay SACP
+CONFigure:BLUetooth:MEAS:MEValuation:SACP:BRATe:MEASurement:MODE CH79
+CONFigure:BLUetooth:MEAS:ISIGnal:OSLots:BRATe 3,4,5
+READ:BLUetooth:MEAS:MEValuation:TRACe:SACP:PTX?
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SACP:CURRent?
+
+CONFigure:BLUetooth:MEAS:MEValuation:FRANge:BRATe:MEASurement 5,5,-30
+FETCh:BLUetooth:MEAS:MEValuation:FRANge:BRATe:CURRent?
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:FRANge:AVERage?
+
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SOBW:MAXimum?
+FETCh:BLUetooth:MEAS:MEValuation:SOBW:BRATe:MAXimum?
+
+// *******************************************************************************
+// EDR: Measure the gated ACP in all 79 Bluetooth channels with 3 off slots 
+// (the other BR input signal settings defined above are still valid).
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe EDR
+CONFigure:BLUetooth:MEAS:MEValuation:SGACp:EDRate:MEASurement:MODE CH79
+CONFigure:BLUetooth:MEAS:ISIGnal:OSLots:EDRate 3, 3, 3, 3, 3, 3
+INITiate:BLUetooth:MEAS:MEValuation
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SGAcp:PTX? 
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SGAcp:CURRent?
+FETCh:BLUetooth:MEAS:MEValuation:SGAcp:PTX? 
+
+// *******************************************************************************
+// LE: Measure the ACP in all 81 Bluetooth halfchannels for a signal with 2 off slots.
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe LE
+CONFigure:BLUetooth:MEAS:MEValuation:SACP:LENergy:LE1M:MEASurement:MODE CH40
+CONFigure:BLUetooth:MEAS:ISIGnal:OSLots:LENergy:LE1M 2
+INITiate:BLUetooth:MEAS:MEValuation
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SACP:PTX?
+FETCh:BLUetooth:MEAS:MEValuation:TRACe:SACP:CURRent?
+FETCh:BLUetooth:MEAS:MEValuation:SACP:LENergy?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing an Inter-RAT Handover</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Performing an Inter-RAT Handover</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing an Inter-RAT Handover</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// An inter-RAT handover is a handover to another signaling application.
+//
+// Query a list of possible handover destinations (signaling applications).
+// Select a handover destination from the list.
+// Select the handover mechanism.
+// Wait until the destination is ready to receive a handover.
+// Initiate the handover.
+//
+// Destination parameters like operating band or channel can be changed using
+// commands provided by the destination signaling application. Adjust these
+// parameters before executing the following commands.
+// *****************************************************************************
+PREPare:LTE:SIGN:HANDover:CATalog:DESTination?
+PREPare:LTE:SIGN:HANDover:DESTination "GSM Sig1"
+PREPare:LTE:SIGN:HANDover:MMODe REDirection
+WHILE SOURce:GSM:SIGN:CELL:STATe? &lt;&gt; "RFH"
+CALL:LTE:SIGN:PSWitched:ACTion HANDover</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

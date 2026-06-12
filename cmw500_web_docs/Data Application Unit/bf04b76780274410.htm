@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing IP Analysis</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing IP Analysis</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing IP Analysis</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable analysis of all results
+// *****************************************************************************
+CONF:DATA:MEAS:IPANalysis:RESult:ALL ON,ON,ON,ON,ON
+
+// *****************************************************************************
+// Configure the OK/NOK thresholds for the "TCP Analysis" results.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:TCPanalysis:TWSThreshold 80
+CONFigure:DATA:MEAS:IPANalysis:TCPanalysis:TRTHreshold 9
+CONFigure:DATA:MEAS:IPANalysis:TCPanalysis:TOTHreshold 40
+CONFigure:DATA:MEAS:IPANalysis:TCPanalysis:RTTThreshold 40
+
+// *****************************************************************************
+// Start the IP Analysis application.
+// *****************************************************************************
+INIT:DATA:MEAS:IPANalysis
+
+// *****************************************************************************
+// Query the "TCP Analysis" results:
+//     threshold check results for connection number 3
+//     threshold check results for all connections
+//     details for connection number 3
+//  traces for connection number 3
+// *****************************************************************************
+SENSe:DATA:MEAS:IPANalysis:TCPanalysis:FLOWid? 3
+FETCh:DATA:MEAS:IPANalysis:TCPanalysis:ALL?
+SENSe:DATA:MEAS:IPANalysis:TCPanalysis:DETails? 3
+FETCh:DATA:MEAS:IPANalysis:TCPanalysis:THRoughput:TRACe? 3
+FETCh:DATA:MEAS:IPANalysis:TCPanalysis:RTT:TRACe? 3
+FETCh:DATA:MEAS:IPANalysis:TCPanalysis:WSIZe:TRACe? 3
+FETCh:DATA:MEAS:IPANalysis:TCPanalysis:RETRansmiss:TRACe? 3
+
+// *****************************************************************************
+// Configure filter: only open connections, only L4 protocol TCP,
+// only destination ports from 16 to 29 but not 21
+// *****************************************************************************
+CONF:DATA:MEAS:IPAN:FILTer:CONNections OPEN
+CONF:DATA:MEAS:IPAN:IPC:FILT:EXT ON,L4PR,"TCP",ON,DSTP,"&gt;15, !21, &lt;30"
+
+// *****************************************************************************
+// Query the "IP Connectivity" results:
+//     overall statistical connection information
+//     connection-specific results for all connections
+//     connection-specific results for connection number 3
+// *****************************************************************************
+SENSe:DATA:MEAS:IPANalysis:IPConnect:STATistics?
+SENSe:DATA:MEAS:IPANalysis:IPConnect:FLOWid? 3
+SENSe:DATA:MEAS:IPANalysis:IPConnect:AFLowid? 3
+FETCh:DATA:MEAS:IPANalysis:IPConnect:ALL?
+
+// *****************************************************************************
+// Query the "Data Pie Charts" results:
+//     data per connection
+//     data per protocol
+//     data per layer
+//
+// Query the data per application results of the application layer.
+// Navigate to the next lower layer for the IMS application.
+// Query the data per application results of layer 7 (for the IMS application).
+// *****************************************************************************
+FETCh:DATA:MEAS:IPANalysis:DPCP:DPConnection?
+FETCh:DATA:MEAS:IPANalysis:DPCP:DPPRotocol?
+FETCh:DATA:MEAS:IPANalysis:DPCP:DPLayer? APP
+FETCh:DATA:MEAS:IPANalysis:DPCP:DPAPplic?
+CONFigure:DATA:MEAS:IPANalysis:DPCP:DPAPplic:APP 'IMS'
+FETCh:DATA:MEAS:IPANalysis:DPCP:DPAPplic?
+
+// *****************************************************************************
+// Assign connection number 3 to the throughput trace number 3.
+// Query the "Flow Throughput and Event Trigger" results:
+//     throughput trace number 3
+//     "open" events trace
+//     "close" events trace
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:FTTRigger:TRACe3:TFLowid 3
+FETCh:DATA:MEAS:IPANalysis:FTTRigger:TRACes3:FTHRoughput?
+FETCh:DATA:MEAS:IPANalysis:FTTRigger:TRIGger:STARt?
+FETCh:DATA:MEAS:IPANalysis:FTTRigger:TRIGger:END?
+
+// *****************************************************************************
+// Query the "Voice Over IMS" results:
+//     information at call level
+//     information at flow level
+//     measured DTX and PER
+//     measured jitter
+//     measured bitrates / codec mode requests
+// *****************************************************************************
+FETCh:DATA:MEAS:IPANalysis:VOIMs:ALL?
+SENSe:DATA:MEAS:IPANalysis:VOIMs:FLOWs? 34, 36, DL, VIDeo
+SENSe:DATA:MEAS:IPANalysis:VOIMs:PERDtx? 132
+SENSe:DATA:MEAS:IPANalysis:VOIMs:JITTer? 132
+SENSe:DATA:MEAS:IPANalysis:VOIMs:BITRate:CMR? 34, 36, DL
+
+// *****************************************************************************
+// Store the IP analysis result database to a file
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:EXPortdb</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

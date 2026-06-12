@@ -1,0 +1,40 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="cb10b8dd6fb84895.htm">LR-WPAN TX Measurement</a> &gt; <a class="chm-breadcrumb" href="e74bdbbce44345f3.htm">Programming</a> &gt; <span class="chm-breadcrumb">Performing Single Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Define stop condition (stop on limit failure) and error handling,
+// select a statistic count of 30 packets. Enable phase tracking.
+// Query whether all measurements are enabled (response: ON, ON ...)
+// *************************************************************************
+CONFigure:WPAN:MEAS:MEValuation:SCONdition SLFail
+CONFigure:WPAN:MEAS:MEValuation:MOEXception ON
+CONFigure:WPAN:MEAS:MEValuation:SCOunt:PVTime 30
+CONFigure:WPAN:MEAS:MEValuation:SCOunt:MODulation 30
+CONFigure:WPAN:MEAS:MEValuation:SCOunt:SPECtrum 30
+CONFigure:WPAN:MEAS:MEValuation:MODulation:PTRacking ON
+
+CONFigure:WPAN:MEAS:MEValuation:RESult:PVTime?
+CONFigure:WPAN:MEAS:MEValuation:RESult?
+
+// *************************************************************************
+// Start single-shot measurement and query modulation results.
+// Query the standard deviations and the meas. state (should be "RDY").
+// *************************************************************************
+READ:WPAN:MEAS:MEValuation:MODulation:OFFSet:CURRent?
+FETCh:WPAN:MEAS:MEValuation:MODulation:ABSolute:CURRent?
+FETCh:WPAN:MEAS:MEValuation:MODulation:ABSolute:SDEViation?
+FETCh:WPAN:MEAS:MEValuation:MODulation:OFFSet:SDEViation?
+FETCh:WPAN:MEAS:MEValuation:STATe?
+
+WAITKEY &gt;Single-slot meas. completed, press "OK" to proceed to next measurement&lt; 
+
+// *****************************************************************************
+// Query modulation and transmit power traces obtained in the last 
+// measurement, without re-starting the measurement.
+// *****************************************************************************
+FETCh:WPAN:MEAS:MEValuation:TRACe:EVMChip:OFFSet:CURRent?
+FETCh:WPAN:MEAS:MEValuation:TRACe:EVMChip:ABSolute:CURRent?
+FETCh:WPAN:MEAS:MEValuation:TRACe:PVTime:CURRent?
+FETCh:WPAN:MEAS:MEValuation:TRACe:IQABsolute?
+FETCh:WPAN:MEAS:MEValuation:TRACe:IQOFfset?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

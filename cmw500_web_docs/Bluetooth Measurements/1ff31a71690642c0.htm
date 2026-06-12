@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring an Rx Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="afaac1a2a0024378.htm">Rx Measurements</a> &gt; <span class="chm-breadcrumb">Configuring an Rx Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring an Rx Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+// *****************************************************************************
+// Initial configuration to create temporary ARB file: set automatic 
+// detection, specify routing, set burst type LE, PHY LE1M, advertiser
+// packet type. Specify advertiser channel frequency, or alternatively
+// channel index. Set no measurement stop condition, disable 
+// measure on exception, enable only PvT and modulation
+// views, set modulation and PvT statistic count to 1, set instrument
+// address and address type.Enable ARB generation and start Tx measurement. 
+// *****************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:DMODe AUTO
+ROUTe:BLUetooth:MEAS:SCENario:SALone R11,RX11
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe LE
+CONFigure:BLUetooth:MEAS:ISIGnal:LENergy:PHY LE1M       
+CONFigure:BLUetooth:MEAS:ISIGnal:PTYPe:LENergy ADV
+CONFigure:BLUetooth:MEAS:RFSettings:FREQuency   2402
+CONFigure:BLUetooth:MEAS:RXQuality:AINDex 37
+CONFigure:BLUetooth:MEAS:MEValuation:SCONdition NONE           
+CONFigure:BLUetooth:MEAS:MEValuation:MOEXception OFF            
+CONFigure:BLUetooth:MEAS:MEValuation:RESult:ALL OFF,OFF,ON,OFF,OFF,OFF,
+ OFF,OFF,ON,OFF,OFF,OFF,OFF,OFF
+CONFigure:BLUetooth:MEAS:MEValuation:SCOunt:MODulation 1           
+CONFigure:BLUetooth:MEAS:MEValuation:SCOunt:PVTime 1           
+CONFigure:BLUetooth:MEAS:RXQuality:SADDress #H1234
+CONFigure:BLUetooth:MEAS:RXQuality:SATYpe PUBL               
+CONFigure:BLUetooth:MEAS:RXQ:GARB ON             
+
+// *****************************************************************************
+// Execute training phase: Start TX Measurement, return PvT and 
+// modulation current results, payload length, advertiser address, 
+// packet and pattern type. Disable ARB file generation.
+// *****************************************************************************
+INITiate:BLUetooth:MEAS:MEValuation                      
+                                       
+FETCh:BLUetooth:MEAS:MEValuation:PVTime:LENergy:LE1M:CURR?
+FETCh:BLUetooth:MEAS:MEValuation:MODulation:LENergy:LE1M:CURR?                                       
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PLENgth:LENergy:LE1M? 
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:AADDress:LENergy:LE1M? 
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PTYPe:LENergy:LE1M? 
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PATTern:LENergy:LE1M? 
+                                       
+CONFigure:BLUetooth:MEAS:RXQ:GARB OFF     
+
+// *****************************************************************************
+// Alternatively to measure at multiple channels, use list mode: enable
+// list mode, specify the number of segments, enable only 
+// modulation and PvT measurements, set statistic count to 1.
+// Start TX Measurement, return PvT and modulation current results.
+// Disable list mode. Disable ARB file generation.
+// *****************************************************************************       
+CONFigure:BLUetooth:MEAS:MEValuation:LIST:COUNTt 2
+CONF:BLUetooth:MEAS:MEV:LIST:SEGM1:SET LE,ADV,OTH,27,1,1,OFF,7,2426E+6,NARR,ON
+CONF:BLUetooth:MEAS:MEV:LIST:SEGM2:SET LE,ADV,OTH,27,1,1,OFF,7,2480E+6,NARR,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIST:SEGM1:RESult ON,ON,OFF,OFF,OFF
+CONFigure:BLUetooth:MEAS:MEValuation:LIST:SEGM2:RESult ON,ON,OFF,OFF,OFF
+CONFigure:BLUetooth:MEAS:MEValuation:LIST:SEGM1:SCOunt 1,1,1,1,1
+CONFigure:BLUetooth:MEAS:MEValuation:LIST:SEGM2:SCOunt 1,1,1,1,1
+
+INITiate:BLUetooth:MEAS:MEValuation                    
+                                       
+FETCh:BLUetooth:MEAS:MEValuation:LIST:SEGM1:MODulation:CURRent?                                      
+FETCh:BLUetooth:MEAS:MEValuation:LIST:SEGM2:MODulation:CURRent?
+FETCh:BLUetooth:MEAS:MEValuation:LIST:SEGM1:PVTime:CURRent?                                      
+FETCh:BLUetooth:MEAS:MEValuation:LIST:SEGM2:PVTime:CURRent?                                       
+CONFigure:BLUetooth:MEAS:RXQ:GARB OFF                                
+
+// *****************************************************************************
+// Configure Rx measument: Enable the processing of ARB files and select 
+// RF output path routing, external attenuation and measurement mode. 
+// *****************************************************************************
+CONFigure:BLUetooth:MEAS:RXQuality:GARB ON
+CONFigure:BLUetooth:MEAS:RXQuality:ROUTe R11,RX11
+CONFigure:BLUetooth:MEAS:RXQuality:ROUTe:USAGe:ALL R118,ON,OFF,OFF,OFF,
+ OFF,OFF,OFF,OFF
+CONFigure:BLUetooth:MEAS:RXQuality:EATTenuation:OUTPut 5
+CONFigure:BLUetooth:MEAS:RXQuality:MMODe SENS
+
+// *****************************************************************************
+// For PER measurement, set Tx level and number of SCAN_REQ advertisers, 
+// to be sent.
+// *****************************************************************************
+CONFigure:BLUetooth:MEAS:RXQuality:PER:LEVel -40
+CONFigure:BLUetooth:MEAS:RXQuality:PER:RXPackets 1000
+
+// *****************************************************************************
+// For sensitivity search measurement, set number of retry attempts,
+// initial Tx level and decrease power step.
+// *****************************************************************************
+CONFigure:BLUetooth:MEAS:RXQuality:SENSitivity:RETRy 2
+CONFigure:BLUetooth:MEAS:RXQuality:SENSitivity:STARtlevel -40
+CONFigure:BLUetooth:MEAS:RXQuality:SENSitivity:STEPsize 1
+
+// *****************************************************************************
+// For spot check, set Tx level.
+// *****************************************************************************
+CONFigure:BLUetooth:MEAS:RXQuality:SPOTcheck:LEVel -40
+
+// *****************************************************************************
+// Set  trigger source to Bluetooth Meas:Power.
+// *****************************************************************************
+TRIGger:BLUetooth:MEAS:MEValuation:SOURce 'Bluetooth Meas:Power'</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

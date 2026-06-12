@@ -1,0 +1,52 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Buffer Programming Example</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="4be496f6fa304ede.htm">Remote Control</a> &gt; <a class="chm-breadcrumb" href="4a133a9e3ddb4bde.htm">Response Buffers</a> &gt; <span class="chm-breadcrumb">Buffer Programming Example</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Buffer Programming Example</div><p>The following example shows you how to work with response buffers. For a command reference, see <a class="xref" href="8e2097d2206849c9.htm#ID_4c4a33651fd5a4180a00206a01c234ff-8ee3fb001fe273bc0a00206a00936530-en-US">"Buffer Commands"</a>.</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Define a macro containing a query and create a buffer to record the responses 
+// *****************************************************************************
+*RST; *CLS
+*DMC 'Query_macro', 'SOURce:GPRF:GENerator:RFSettings:FREQuency $1; *WAI; 
+   :SOURce:GPRF:GENerator:RFSettings:FREQuency?'
+STARt:BASE:BUFFer 'Frequency_Buffer'
+
+// *****************************************************************************
+// Execute the macro repeatedly, stop recording in order to query the number of 
+// buffer lines (3) and the buffer line contents 
+// (the responses should be 3 GHz, 2 GHz, 1GHz) 
+// *****************************************************************************
+Query_macro 1 GHz
+Query_macro 2 GHz
+Query_macro 3 GHz
+STOP:BASE:BUFFer
+FETCh:BASE:BUFFer:LINEcount? 'Frequency_Buffer'
+FETCh:BASE:BUFFer? 'Frequency_Buffer',3
+FETCh:BASE:BUFFer? 'Frequency_Buffer',2
+FETCh:BASE:BUFFer? 'Frequency_Buffer',1
+
+// *****************************************************************************
+// With stopped buffer, no further lines are appended.
+// The line count query still returns 3.
+// *****************************************************************************
+Query_macro 1 GHz
+FETCh:BASE:BUFFer:LINEcount? 'Frequency_Buffer'
+
+// *****************************************************************************
+// Re-activate the buffer to appended further lines.
+// The line count query returns 4.
+// *****************************************************************************
+CONTinue:BASE:BUFFer 'Frequency_Buffer'
+Query_macro 4 GHz
+STOP:BASE:BUFFer
+FETCh:BASE:BUFFer:LINEcount? 'Frequency_Buffer'
+
+// *****************************************************************************
+// Clear the buffer contents: the line count query returns 0
+// Delete the buffer: the line count query times out and the error queue 
+// contains an entry with code -273 "Illegal macro label"
+// *****************************************************************************
+CLEAR:BASE:BUFFer 'Frequency_Buffer'
+FETCh:BASE:BUFFer:LINEcount? 'Frequency_Buffer'
+DELete:BASE:BUFFer 'Frequency_Buffer'
+FETCh:BASE:BUFFer:LINEcount? 'Frequency_Buffer'
+SYSTem:ERRor?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Associating the DUT</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <span class="chm-breadcrumb">Associating the DUT</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Associating the DUT</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Connect the DUT (switched off). Switch on the signaling application. Query the  
+// state until it equals ON,ADJ (signal available at RF output connector).
+// *****************************************************************************
+WAITKEY &gt;Ensure that the DUT is connected to the instrument and switched off&lt;
+SOURce:WLAN:SIGN:STATe ON
+WHILE SOURce:WLAN:SIGN:STATe:ALL? &lt;&gt; "ON,ADJ"
+
+// *****************************************************************************
+// Switch on the DUT.
+// *****************************************************************************
+WAITKEY &gt;Switch on the DUT&lt;
+
+// *****************************************************************************
+// Start WPS authentication. Wait until the DUT is associated.
+// *****************************************************************************
+CALL:WLAN:SIGN:ACTion:WPS:SCONnection
+WHILE FETCh:WLAN:SIGN:PSWitched:STATe? &lt;&gt; "ASS"</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

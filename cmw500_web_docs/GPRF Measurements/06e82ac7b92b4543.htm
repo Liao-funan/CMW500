@@ -1,0 +1,28 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="6e44ac34405e41c1.htm">I/Q Recorder Measurement</a> &gt; <span class="chm-breadcrumb">Specifying Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying Measurement-Specific Settings</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Set a measurement-specific timeout value of 1 s. Select a 1 kHz Gaussian
+// measurement filter and linear ("Raw") magnitude units.
+// *************************************************************************
+CONFigure:GPRF:MEAS:IQRecorder:TOUT 1
+CONFigure:GPRF:MEAS:IQRecorder:FILTer:TYPe GAUSs
+CONFigure:GPRF:MEAS:IQRecorder:FILTer:BANDpass:BWIDth 1000
+CONFigure:GPRF:MEAS:IQRecorder:MUNit RAW
+
+// *************************************************************************
+// Read list of possible trigger sources (for development purposes).
+// *************************************************************************
+TRIGger:GPRF:MEAS:IQRecorder:CATalog:SOURce?
+
+// *************************************************************************
+// Select an IF power trigger with appropriate characteristics.
+// Measure 1000 samples, starting at the trigger event.
+// *************************************************************************
+TRIGger:GPRF:MEAS:IQRecorder:SOURce "IF Power"
+TRIGger:GPRF:MEAS:IQRecorder:SLOPe REDGe
+TRIGger:GPRF:MEAS:IQRecorder:THReshold -25
+TRIGger:GPRF:MEAS:IQRecorder:TOUT 2
+TRIGger:GPRF:MEAS:IQRecorder:MGAP 550E-6
+CONFigure:GPRF:MEAS:IQRecorder:CAPTure 1, 1000</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

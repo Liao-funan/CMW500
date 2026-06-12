@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>How to Perform a Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="ede15f24158e427d.htm">WCDMA PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="214a5f4a47bb4523.htm">General Description</a> &gt; <span class="chm-breadcrumb">How to Perform a Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">How to Perform a Measurement</div><p>The measurement expects a WCDMA PRACH UL signal. Any other signals, e.g. a WCDMA UL signal without preambles (established connection) does not yield measurement results.</p><div class="block"><div class="listintro">After preparing the physical test setup, you have to adjust at least the following analyzer settings to the properties of the analyzed PRACH signal:</div><ul class="list"><li>Analyzer "Frequency"</li><li>"Expected Nominal Power", "User Margin" (optional) and "External Attenuation (Input)"<br>Recommended values: "Expected Nominal Power" = peak power of the first preamble; "User Margin" = 0 dB. The smallest possible value of the "Expected Nominal Power" plus the "User Margin" ensures maximum dynamic range.<br>For combined signal path scenario, let the signaling application calculate the expected nominal power from the UL power control settings (expected nominal power mode = "According to UL Power Control Settings"). Do not use the manual mode.</li><li>"UE Signal Info" setting "DL Scrambling Code"<br>Configure this parameter for a standalone measurement. For the combined signal path scenario, it is set automatically.</li><li>Power step limit setting "Preamble Power Steps"<br>For a standalone measurement, configure the power step size expected for consecutive preambles. The value is used to calculate the expected nominal power of the second preamble and of subsequent preambles.<br>For the combined signal path scenario, the value is set automatically.</li></ul></div><p>The default trigger settings are usually appropriate, see <a class="xref" href="4e18e96ef18e4fa1.htm#ID_228ca243fa5e26090a00206a0090053b-56329febb7e506b40a00201901dc328f-en-US">"Trigger Modes"</a>.</p><p>Start the measurement before switching on the UE. It ensures that the measurement starts with the first preamble of the preamble cycle.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

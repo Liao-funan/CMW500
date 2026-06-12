@@ -1,0 +1,61 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Physical Cell Setup</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Physical Cell Setup</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Physical Cell Setup</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Define cell bandwidth and physical cell ID for PCC and SCC1.
+// Select cyclic prefix. Allow 64-QAM in the uplink.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:BANDwidth:PCC:DL B100
+CONFigure:LTE:SIGN:CELL:BANDwidth:SCC:DL B100
+CONFigure:LTE:SIGN:CELL:PCC:PCID 10
+CONFigure:LTE:SIGN:CELL:SCC:PCID 15
+CONFigure:LTE:SIGN:CELL:CPRefix NORM
+CONFigure:LTE:SIGN:CELL:ULSupport:QAM64:ENABle ON
+
+// *****************************************************************************
+// Configure normal uplink signal (not SRS).
+// Configure PCC SRS settings for later use.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:PCC:SRS:ENABle OFF
+CONFigure:LTE:SIGN:CELL:PCC:SRS:MCENable ON
+CONFigure:LTE:SIGN:CELL:PCC:SRS:BWConfig 7
+CONFigure:LTE:SIGN:CELL:PCC:SRS:SFConfig 3
+CONFigure:LTE:SIGN:CELL:PCC:SRS:DCONfig ON
+CONFigure:LTE:SIGN:CELL:PCC:SRS:DBANdwidth 3
+CONFigure:LTE:SIGN:CELL:PCC:SRS:HBANdwidth 3
+CONFigure:LTE:SIGN:CELL:PCC:SRS:SCINdex:TDD 0
+CONFigure:LTE:SIGN:CELL:PCC:SRS:SCINdex:FDD 7
+CONFigure:LTE:SIGN:CELL:PCC:SRS:POFFset 4
+
+// *****************************************************************************
+// Select UL/DL config and special subframe config for PCC and SCC1.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:TDD:SPECific ON
+CONFigure:LTE:SIGN:CELL:ULDL 1
+CONFigure:LTE:SIGN:CELL:SCC1:ULDL 3
+CONFigure:LTE:SIGN:CELL:SSUBframe 5
+CONFigure:LTE:SIGN:CELL:SCC1:SSUBframe 7
+
+// *****************************************************************************
+// PRACH settings: answer preambles, set power step size,
+// PRACH configuration index, frequency offset,
+// logical root sequence index and zero correlation zone config.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:PRACh:NRPReambles OFF
+CONFigure:LTE:SIGN:CELL:PRACh:PRSTep P4DB
+CONFigure:LTE:SIGN:CELL:PRACh:PCINdex:FDD 15
+CONFigure:LTE:SIGN:CELL:PRACh:PCINdex:TDD 15
+CONFigure:LTE:SIGN:CELL:PRACh:PFOFfset 10
+CONFigure:LTE:SIGN:CELL:PRACh:LRSindex 120
+CONFigure:LTE:SIGN:CELL:PRACh:ZCZConfig 5
+
+// *****************************************************************************
+// CSAT settings: enable CSAT for SCC 1, LDS every 80 ms,
+// ON/OFF 20 ms, periodic MAC activation.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CELL:SCC1:CSAT:ENABle ON
+CONFigure:LTE:SIGN:CELL:SCC1:CSAT:DMTCperiod M80
+CONFigure:LTE:SIGN:CELL:SCC1:SCMuting:ONSDuration 20
+CONFigure:LTE:SIGN:CELL:SCC1:SCMuting:OFFSduration 20
+CONFigure:LTE:SIGN:CELL:SCC1:SCMuting:PMAC ON</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

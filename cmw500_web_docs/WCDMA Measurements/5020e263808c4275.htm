@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring the Trigger System</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="cee5d08bd2c3428a.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="e3f4784596584c6b.htm">Measurements with Combined Signal  Path Scenario</a> &gt; <span class="chm-breadcrumb">Configuring the Trigger System</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring the Trigger System</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************&nbsp;
+// Select the UL compressed mode trigger for UL compressed mode and
+// the change of TFC trigger for change of TFC mode. Use TPC trigger
+// for all other modes.
+// *****************************************************************************&nbsp;
+TRIGger:WCDMa:MEAS:TPC:SOURce 'WCDMA Sig1: UL Compressed Mode Trigger'
+TRIGger:WCDMa:MEAS:TPC:SOURce 'WCDMA Sig1: Change of TFC Trigger'
+TRIGger:WCDMa:MEAS:TPC:SOURce 'WCDMA Sig1: TPC Trigger'
+
+// *****************************************************************************
+// A high trigger timeout is required for "Max. Power E-DCH" subtest 1 to 4.
+// The UE power must be ramped up via algorithm 2, from the target power to the
+// maximum power, before the measurement is triggered.
+// The trigger source is selected automatically when the scenario is activated.
+//
+// Set a trigger timeout of 10 s.
+// *****************************************************************************&nbsp;
+TRIGger:WCDMa:MEAS:TPC:TOUT 10
+</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

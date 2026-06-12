@@ -1,0 +1,44 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="8b952bc9389540da.htm">FFT Spectrum Analyzer</a> &gt; <span class="chm-breadcrumb">Specifying Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying Measurement-Specific Settings</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Set a measurement-specific timeout value of 1 s.
+// Increase the frequency span (and thus the sampling rate). Use maximum
+// FFT length for minimum resolution bandwidth. Use the RMS detector,
+// logarithmic averaging, and keep potentially faulty or inaccurate 
+// measurement results.
+// *************************************************************************
+CONFigure:GPRF:MEAS:FFTSanalyzer:TOUT 1
+CONFigure:GPRF:MEAS:FFTSanalyzer:FSPan 2e+07
+CONFigure:GPRF:MEAS:FFTSanalyzer:FFTLength MAX
+CONFigure:GPRF:MEAS:FFTSanalyzer:DETector RMS
+CONFigure:GPRF:MEAS:FFTSanalyzer:AMODe LOG
+CONFigure:GPRF:MEAS:FFTSanalyzer:MOEXception ON
+
+// *************************************************************************
+// Select 5 peak search markers and configure 5 adjacent peak search 
+// ranges covering the entire frequency span, disable full span search. 
+// *************************************************************************
+CONFigure:GPRF:MEAS:FFTSanalyzer:PSEarch:NOAMarkers 5
+CONFigure:GPRF:MEAS:FFTSanalyzer:PSEarch OFF, -10e+06, -6e-06, OFF, -6e-06,
+    -2E-06, OFF, -2E-06, +2E-06, OFF, +2E-06, +6E-06, OFF, +6E-06, +10E-06
+
+// *************************************************************************
+// Read list of possible trigger sources (for development purposes).
+// *************************************************************************
+TRIGger:GPRF:MEAS:FFTSanalyzer:CATalog:SOURce?
+
+// *************************************************************************
+// Select an IF power trigger with appropriate characteristics. Shift
+// the time domain curve by 1 ms. Check fixed and variable offset mode.
+// *************************************************************************
+TRIGger:GPRF:MEAS:FFTSanalyzer:SOURce "IF Power"
+TRIGger:GPRF:MEAS:FFTSanalyzer:SLOPe REDGe
+TRIGger:GPRF:MEAS:FFTSanalyzer:THReshold -25
+TRIGger:GPRF:MEAS:FFTSanalyzer:TOUT 2
+TRIGger:GPRF:MEAS:FFTSanalyzer:MGAP 550E-6
+TRIGger:GPRF:MEAS:FFTSanalyzer:OMODe FIXed
+TRIGger:GPRF:MEAS:FFTSanalyzer:OFFSet 1E-3
+TRIGger:GPRF:MEAS:FFTSanalyzer:OMODe VARiable
+TRIGger:GPRF:MEAS:FFTSanalyzer:OSStop -1E-3, 1E-3</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

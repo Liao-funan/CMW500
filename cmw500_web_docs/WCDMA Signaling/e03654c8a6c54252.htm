@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring the HSDPA CQI Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="54f1a717bc874cc3.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0537fe2ec35d41c7.htm">HSDPA CQI Tests</a> &gt; <span class="chm-breadcrumb">Configuring the HSDPA CQI Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring the HSDPA CQI Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Configure number of HSDPA subframes to be measured in both stages,
+// specify test case AWGN.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:HCQI:CQI:MSFRames 3000
+CONFigure:WCDMa:SIGN:HCQI:BLER:MSFRames 2000
+CONFigure:WCDMa:SIGN:HCQI:TCASe AWGN
+
+// *****************************************************************************
+// Configure limits for both test cases.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:HCQI:LIMit:AWGN 95
+CONFigure:WCDMa:SIGN:HCQI:LIMit:AWGN:BLER 10,10,10
+CONFigure:WCDMa:SIGN:HCQI:LIMit:AWGN:DTX 10,10,10
+CONFigure:WCDMa:SIGN:HCQI:LIMit:FADing:BLER 60,15
+CONFigure:WCDMa:SIGN:HCQI:LIMit:FADing:DTX 10,10</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

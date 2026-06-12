@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Using WLAN List Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <span class="chm-breadcrumb">Using WLAN List Mode</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Using WLAN List Mode</div><div class="block"><div class="listintro">The WLAN multi-evaluation list mode is programmed as follows:</div><ul class="list"><li>The measurement is controlled by SCPI commands with the following syntax: <span class="command">...WLAN:MEAS:MEValuation:LIST...</span></li><li>Use general commands of the type <span class="command">...:WLAN:MEAS...</span> (no <span class="command">:MEValuation</span> mnemonic) to define the signal routing and perform RF and analyzer settings.</li><li>After a <span class="command">*RST</span>, the measurement is switched off and list mode is disabled. Use <span class="command">CONFigure:WLAN:MEAS:MEValuation:LIST ON</span> to enable the list mode and <span class="command">INIT:WLAN:MEAS:MEValuation</span> to initiate a single-shot measurement.</li><li>Use <span class="command">FETCh:WLAN:MEAS:MEValuation:LIST:...?</span> commands to retrieve the results.</li></ul></div><div class="block"><div class="subtitle"><a name="shiv_rs_cmw_ev_do_2947-b6d63758f9f73df00a00206a017f2977-en-US"></a>Speed considerations</div></div><div class="block"><div class="listintro">The following measurement settings have an impact on the measurement speed:</div><ul class="list"><li>The number and size of the segments and the number of measured bursts in each segment</li><li>The number and type of results that the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW needs to calculate</li></ul></div>
+						<div class="chapter_toc"><div class="chapter_toc_title">Contents</div><ul><li><a href="16df495cd15a4205.htm" class="chapter_title_toc">Specifying General Measurement Settings</a></li><li><a href="b35badebb2204875.htm" class="chapter_title_toc">Specifying Measurement-Specific Settings</a></li><li><a href="535e2979a20a48ff.htm" class="chapter_title_toc">Performing Single-Shot Measurements</a></li></ul></div>
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

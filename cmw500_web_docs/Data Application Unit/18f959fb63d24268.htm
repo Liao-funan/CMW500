@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing a Ping Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing a Ping Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing a Ping Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure the measurement:
+// Specify destination IP address, interval between two requests, timeout,
+// payload size and ping count.
+// *****************************************************************************
+CONFigure:DATA:MEAS:PING:DIPaddress '172.22.1.110'
+CONFigure:DATA:MEAS:PING:INTerval 0.5
+CONFigure:DATA:MEAS:PING:TIMeout 3
+CONFigure:DATA:MEAS:PING:PSIZe 50
+CONFigure:DATA:MEAS:PING:PCOunt 10
+
+// *****************************************************************************
+// Start the measurement.
+// *****************************************************************************
+INIT:DATA:MEAS:PING
+
+// *****************************************************************************
+// Wait until the measurement is complete ("RDY").
+// *****************************************************************************
+WHILE FETCh:DATA:MEAS:PING:STATe? &lt;&gt; 'RDY'
+
+// *****************************************************************************
+// Query all results.
+// *****************************************************************************
+FETCh:DATA:MEAS:PING?
+FETCh:DATA:MEAS:PING:OVERall?
+FETCh:DATA:MEAS:PING:NRCount?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

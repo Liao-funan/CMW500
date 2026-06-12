@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="6f5b41b9033a497c.htm">LTE PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="04517196750747b3.htm">Programming</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable all measurements.
+// *****************************************************************************
+CONFigure:LTE:MEAS:PRACh:RESult:ALL ON,ON,ON,ON,ON,ON,ON,ON
+&nbsp;
+// *****************************************************************************
+// Start single-shot measurement, return average EVM trace.
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+READ:LTE:MEAS:PRACh:TRACe:EVM:AVERage?
+FETCh:LTE:MEAS:PRACh:STATe?
+
+// *****************************************************************************
+// Retrieve detected PRACH frequency offset, sequence index and
+// sequence correlation for single-preamble measurements and for
+// preamble number four of multi-preamble measurements.
+// *****************************************************************************
+FETCh:LTE:MEAS:PRACh:MODulation:DPFoffset?
+FETCh:LTE:MEAS:PRACh:MODulation:DSINdex?
+FETCh:LTE:MEAS:PRACh:MODulation:SCORrelation?
+FETCh:LTE:MEAS:PRACh:MODulation:DPFoffset:PREamble4?
+FETCh:LTE:MEAS:PRACh:MODulation:DSINdex:PREamble4?
+FETCh:LTE:MEAS:PRACh:MODulation:SCORrelation:PREamble4?
+
+// *****************************************************************************
+// Read other traces obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:LTE:MEAS:PRACh:TRACe:MERRor:AVERage?
+FETCh:LTE:MEAS:PRACh:TRACe:MERRor:MAXimum?
+FETCh:LTE:MEAS:PRACh:TRACe:PERRor:AVERage?
+FETCh:LTE:MEAS:PRACh:TRACe:PERRor:MAXimum?
+FETCh:LTE:MEAS:PRACh:TRACe:EVPReamble?
+FETCh:LTE:MEAS:PRACh:TRACe:PVPReamble?
+FETCh:LTE:MEAS:PRACh:TRACe:IQ?
+FETCh:LTE:MEAS:PRACh:TRACe:PDYNamics:AVERage?
+FETCh:LTE:MEAS:PRACh:TRACe:PDYNamics:MAXimum?
+
+// *****************************************************************************
+// Read single value results obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+FETCh:LTE:MEAS:PRACh:MODulation:AVERage?
+FETCh:LTE:MEAS:PRACh:MODulation:EXTReme?
+FETCh:LTE:MEAS:PRACh:MODulation:PREamble4?
+FETCh:LTE:MEAS:PRACh:PDYNamics:AVERage?
+FETCh:LTE:MEAS:PRACh:PDYNamics:MINimum?
+FETCh:LTE:MEAS:PRACh:PDYNamics:MAXimum?
+&nbsp;
+// *****************************************************************************
+// Read limit check results obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+CALCulate:LTE:MEAS:PRACh:MODulation:AVERage?
+CALCulate:LTE:MEAS:PRACh:MODulation:EXTReme?
+CALCulate:LTE:MEAS:PRACh:PDYNamics:AVERage?
+CALCulate:LTE:MEAS:PRACh:PDYNamics:MINimum?
+CALCulate:LTE:MEAS:PRACh:PDYNamics:MAXimum?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

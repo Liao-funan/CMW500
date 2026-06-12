@@ -1,0 +1,26 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Single-Shot and Continuous Power Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="441d0fcfcc9a4933.htm">GPRF Measurements</a> &gt; <a class="chm-breadcrumb" href="5b3cb576c9034154.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="d3078eab594241eb.htm">Power Measurement</a> &gt; <span class="chm-breadcrumb">Single-Shot and Continuous Power Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Single-Shot and Continuous Power Measurements</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Start single-shot measurement, return RMS-averaged power in last 
+// measured timeslot. Return standard deviation of the RMS power results 
+// without repeating the measurement. 
+// Query the measurement state (should be "RDY").
+// *************************************************************************
+INIT:GPRF:MEAS:POWer
+FETCh:GPRF:MEAS:POWer:CURRent?
+FETCh:GPRF:MEAS:POWer:SDEViation?
+FETCh:GPRF:MEAS:POWer:STATe?
+
+// *************************************************************************
+// Start continuous measurement. Wait for 5 ms and return last valid result
+// for the power in last measured timeslot of the current measurement 
+// cycle. Query measurement state and substates (should be "RUN,ADJ,ACT").
+// *************************************************************************
+CONFigure:GPRF:MEAS:POWer:REPetition CONTinuous
+INIT:GPRF:MEAS:POWer
+Pause 5
+FETCh:GPRF:MEAS:POWer:CURRent?
+FETCh:GPRF:MEAS:POWer:STATe:ALL?
+FETCh:GPRF:MEAS:POWer:ESTatistics?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

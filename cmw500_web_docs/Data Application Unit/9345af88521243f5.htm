@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring QoS Profiles</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Configuring QoS Profiles</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring QoS Profiles</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable the QoS feature. Enable QoS profile number 1.
+// *****************************************************************************
+SOURce:DATA:MEAS:QOS:STATe ON
+CONFigure:DATA:MEAS:QOS:FILTer1:ENABle ON
+
+// *****************************************************************************
+// Configure filter criteria of QoS profile number 1.
+// *****************************************************************************
+CONFigure:DATA:MEAS:QOS:FILTer1:IPADdress '172.22.1.110'
+CONFigure:DATA:MEAS:QOS:FILTer1:PROTocol TCP
+CONFigure:DATA:MEAS:QOS:FILTer1:SRCPrange 0, 0
+CONFigure:DATA:MEAS:QOS:FILTer1:PRANge 0, 0
+
+// *****************************************************************************
+// Configure actions for QoS profile number 1.
+// *****************************************************************************
+CONFigure:DATA:MEAS:QOS:FILTer1:TCPackprio:ENABle ON
+CONFigure:DATA:MEAS:QOS:FILTer1:HOPLmt 10
+
+// *****************************************************************************
+// Configure network impairments for QoS profile number 1.
+// *****************************************************************************
+CONFigure:DATA:MEAS:QOS:FILTer1:PLRate 10
+CONFigure:DATA:MEAS:QOS:FILTer1:DELay 1
+CONFigure:DATA:MEAS:QOS:FILTer1:JITTer 0.5
+CONFigure:DATA:MEAS:QOS:FILTer1:JDIStribut UNIForm
+CONFigure:DATA:MEAS:QOS:FILTer1:RRATe 10
+CONFigure:DATA:MEAS:QOS:FILTer1:DRATe 0
+CONFigure:DATA:MEAS:QOS:FILTer1:CRATe 1
+CONFigure:DATA:MEAS:QOS:FILTer1:BITRate 100000
+
+// *****************************************************************************
+// Create Q0S profile number 2, enable it and assign a target address
+// *****************************************************************************
+CONFigure:DATA:MEAS:QOS:FILTer:ADD
+CONFigure:DATA:MEAS:QOS:FILTer2:ENABle ON
+CONFigure:DATA:MEAS:QOS:FILTer2:IPADdress '172.22.4.220'</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

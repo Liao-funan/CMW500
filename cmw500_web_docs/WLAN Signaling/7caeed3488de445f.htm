@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>MIMO Scenario</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="430e10572a694669.htm">General Description</a> &gt; <span class="chm-breadcrumb">MIMO Scenario</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">MIMO Scenario</div><p>Option R&amp;S CMW-KS670 is required for MIMO tests. It extends option R&amp;S CMW-KS651.</p><p>The  R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW simulates an access point supporting TX MIMO with two DL signals.</p><div class="block"><div class="listintro">The following transmission modes are supported:</div><ul class="list"><li><b>Spatial multiplexing</b><br>Data streams are transmitted on multiple spatial channels, with multiple antennas at the transmitter and receiver.</li><li><b>TX diversity</b><br>There are more TX antennas than RX antennas. The same data is transmitted redundantly over several antennas.</li><li><b>Space time block coding (STBC)</b><br>The number of spatial streams is less than the number of space-time streams.<br>N<sub>SS</sub> &lt; N<sub>STS</sub></li></ul></div><p>The two DL signals are routed to different RF output connectors.</p><p>The supported connection standards are "802.11a/n", "802.11g(OFDM)/n" and "802.11n(GF)".</p><p>MIMO tests are possible in the 5-GHz band. If your DUT is able to connect using 802.11g (OFDM), operation at 2.4 GHz is also possible.</p><p>The following table shows the supported downlink MCS rates depending on the connection standard and the transmission mode.</p><div class="block"><a name="ID_75574b9bb39c410f0a00201901e771d6-9281ac82ab65b72a0a00206a013c5332-en-US"></a><table border="1"><colgroup><col><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top">&nbsp;</th><th valign="top"><p>Spatial multiplexing</p></th><th valign="top"><p>TX diversity</p></th><th valign="top"><p>STBC = 1</p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p><b>11a/n, 11g(OFDM)/n</b></p></td><td valign="top"><p>MCS 8 to 15</p></td><td valign="top"><p>6, 9, 12, 18, 24, 36, 48, 54 Mbit/s</p><p>MCS 0 to 7</p></td><td valign="top"><p>MCS 0 to 7</p></td></tr><tr class="evenrow"><td valign="top"><p><b>11n(GF)</b></p></td><td valign="top"><p>MCS 8 to 15</p></td><td valign="top"><p>MCS 0 to 7</p></td><td valign="top"><p>MCS 0 to 7</p></td></tr></tbody></table></div><p>With spatial multiplexing, the DUT receiver performance for MCS 8 to 15 can be tested.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

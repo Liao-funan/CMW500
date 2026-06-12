@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Troubleshooting a Failed Registration</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="b3d2c606623345d9.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="a92417568691426f.htm">Using the IMS Server</a> &gt; <span class="chm-breadcrumb">Troubleshooting a Failed Registration</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Troubleshooting a Failed Registration</div><p>If your DUT registers to the radio access network, but not to the IMS, check the following settings.</p><div class="block"><a name="ID_87f9bb326e86d48e0a7100bf00abfe21-6ec4f390414e16cb0a00206a008ccbb3-en-US"></a><div><ol class="procedure"><li id="ID_9a466884ed82049e0a710a6a0085fb4f-6ec4f390414e16cb0a00206a008ccbb3-en-US"><p>Is the internal IMS server used and switched on?</p><ol type="a" class="proc2"><li><p>Check the upper right corner of the "IMS" tab. It must state "intern IMS", not "extern IMS".</p><p>To modify this setting, press the "Config" hotkey.</p></li><li><p>Check the "IMS Service" softkey. It must state "ON", not "OFF".</p></li></ol></li><li id="ID_007e68266e86d4880a7100bf00138349-6ec4f390414e16cb0a00206a008ccbb3-en-US"><p>Subscriber settings (hotkey "Subscriber"):</p><ol type="a" class="proc2"><li><p>Is the private user ID correct?</p><p>If you are not sure which ID your DUT uses, you can analyze SIP register messages sent by your DUT. The private user ID is contained in the header as <em>username="..."</em>.</p></li><li><p>Are the authentication settings correct?</p><p>If the DUT does not support or require authentication, set "No Authentication".</p><p>If the DUT requires authentication, select the AKA version and configure all "Authentication Data" settings compatible to your DUT.</p></li></ol></li><li id="ID_c6e468cd6e86d4810a7100bf011007aa-6ec4f390414e16cb0a00206a008ccbb3-en-US"><p>"P-CSCF" settings (hotkey "P-CSCF").</p><p>Search the tab containing the IP address to which the DUT sends the REGISTER message and check the settings:</p><ol type="a" class="proc2"><li><p>The "Behavior" must be "Normal".</p></li><li><p>If the DUT suggests an expiration interval in its REGISTER message, check "Registration" &gt; "Expiration Time". The value suggested by the DUT must be within the range "MIN" to "MAX".</p></li></ol></li></ol></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring CQI Reporting</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring CQI Reporting</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring CQI Reporting</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Enable periodic CQI reporting, set the CSI reporting mode,
+// allow simultaneous ACK/NACK and CQI transmission,
+// enable PMI/RI reporting and set the cqi-pmi-ConfigIndex for PCC
+// and SCC1. Query the reporting period and reporting offset
+// resulting for the active duplex mode. 
+// *****************************************************************************
+CONFigure:LTE:SIGN:CQIReporting:ENABle PER
+CONFigure:LTE:SIGN:CQIReporting:CSIRmode S2
+CONFigure:LTE:SIGN:CQIReporting:SANCqi ON
+CONFigure:LTE:SIGN:CQIReporting:PRIReporting:ENABle ON
+CONFigure:LTE:SIGN:CQIReporting:PCC:CINDex:FDD 17
+CONFigure:LTE:SIGN:CQIReporting:SCC:CINDex:FDD 13
+CONFigure:LTE:SIGN:CQIReporting:PCC:CINDex:TDD 17
+CONFigure:LTE:SIGN:CQIReporting:SCC:CINDex:TDD 13
+CONFigure:LTE:SIGN:CQIReporting:SCC:CINDex:LAA 13
+SENSe:LTE:SIGN:CQIReporting:PCC:RPERiod?
+SENSe:LTE:SIGN:CQIReporting:PCC:ROFFset?
+SENSe:LTE:SIGN:CQIReporting:SCC:RPERiod?
+SENSe:LTE:SIGN:CQIReporting:SCC:ROFFset?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

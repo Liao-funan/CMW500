@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Test Setup for 3C-HSDPA Scenario</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="c11def44c8df496c.htm">Test Setups</a> &gt; <span class="chm-breadcrumb">Test Setup for 3C-HSDPA Scenario</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Test Setup for 3C-HSDPA Scenario</div><p>This test setup involves two uplink HSUPA signals and three HSDPA+ carriers in downlink. The three downlink carriers can be routed via only two TX modules. The two uplink carriers can be routed via only one RX module.</p><p>Use a bidirectional RF connector for uplink (UL1, UL2) and for the first and third downlink (DL1, DL3) signal and another bidirectional RF connector for the second downlink (DL2) signal. Connect the RF connectors to the UE antennas.</p><p>The following figure illustrates this example.</p><div class="block" id="ID_2d7f93c94cf911e3b6d1f9ec5a1132e8-e7dae453057db7110a00206a007fe261-en-US"><div class="graphic"><img border="0" src="images/imgc3e2cc93ca92bd330a001ae762e33dcd_1_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Test setup for 3C-HSDPA (basic frontend)</div><div class="legend"><div class="legentry">1 = DL1, DL3 and UL1, UL2 to the first antenna of the UE</div><div class="legentry">2 = DL2 to the second antenna of the UE</div></div></div><p>For the DUT with only one WCDMA antenna, connect both R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW RF connectors to an external combiner and connect the combiner to the UE.</p><p>The instrument with advanced frontend supports also a setup with only one bidirectional RF connector for all uplink and downlink signals. This test setup is identical with the <a class="xref" href="85feb86e502947bb.htm#ID_69f1996235ed71460a00206a00081e58-e7dae453057db7110a00206a007fe261-en-US">"Test Setup for Standard Cell Scenario"</a>.</p><p>For the limitation for two DL carriers combined on only one TX module, refer to <a class="xref" href="bd751cc98c6f4441.htm#ID_ebdab355c818931a0a00206a003733db-b1a95472898cb4f00a0020190036f1e2-en-US">"Output Power (Ior)"</a>. To avoid such limitation, it is also possible to route the downlink/uplink carriers via different TX/RX modules.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

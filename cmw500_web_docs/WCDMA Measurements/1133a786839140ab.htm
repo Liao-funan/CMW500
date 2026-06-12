@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="8f3a6f142e1c46fa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7eb3b41753474c90.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Single-Shot Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Enable measurements
+// *****************************************************************************
+CONF:WCDM:MEAS:MEV:RES:ALL ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON
+&nbsp;
+// *****************************************************************************
+// Start single-shot measurement, return an EVM trace.
+// Query the measurement state (should be "RDY").                                                  
+// *****************************************************************************
+READ:WCDMa:MEAS:MEValuation:TRACe:EVMagnitude:RMS:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:STATe?
+&nbsp;
+// *****************************************************************************
+// Read CDP and CDE traces obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:DPCCh:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:DPCCh:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:HSDPcch:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:HSDPcch:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:EDPDch1:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPower:EDPDch2:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:DPCCh:CURRent?&nbsp;
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:DPCCh:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:HSDPcch:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:HSDPcch:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:EDPDch1:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDERror:EDPDch2:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPMonitor:QSIGnal:CURRent?&nbsp;
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDPMonitor:ISIGnal:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDEMonitor:QSIGnal:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:CDEMonitor:ISIGnal:CURRent?
+&nbsp;
+// *****************************************************************************
+// Read relative CDE traces obtained in the last measurement
+// without re-starting the measurement.
+// *****************************************************************************&nbsp;
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:DPCCh:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:HSDPcch:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:EDPDch2:AVERage?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:SF:DPDCh?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:SF:HSDPcch?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:RCDerror:SF:EDPDch2?
+&nbsp;
+// *****************************************************************************
+// Read spectrum traces obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EMASk:MFLeft:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EMASk:MFRight:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EMASk:HKFLeft:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EMASk:HKFRight:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EMASk:KFILter:CURRent?
+&nbsp;
+// *****************************************************************************
+// Read modulation and power traces obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EVMagnitude:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EVMagnitude:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:EVMagnitude:CHIP:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:MERRor:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:MERRor:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:MERRor:CHIP:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PERRor:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PERRor:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PERRor:CHIP:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PHD:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:FERRor:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:FERRor:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:UEPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:UEPower:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PSTeps:CURRent?&nbsp;
+FETCh:WCDMa:MEAS:MEValuation:TRACe:PSTeps:SDEViation?
+FETCh:WCDMa:MEAS:MEValuation:TRACe:IQ:CURRent?
+&nbsp;
+// *****************************************************************************
+// Read statistical results obtained in the last measurement
+// without re-starting the measurement
+// *****************************************************************************
+FETCh:WCDMa:MEAS:MEValuation:CDPower:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:CDERror:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:RCDerror:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:RCDerror:SF?
+FETCh:WCDMa:MEAS:MEValuation:RCDerror:OCINfo?
+FETCh:WCDMa:MEAS:MEValuation:PCDE:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:SPECtrum:CURRent? REL
+FETCh:WCDMa:MEAS:MEValuation:MODulation:CURRent?
+FETCh:WCDMa:MEAS:MEValuation:MODulation:UEPHd?
+FETCh:WCDMa:MEAS:MEValuation:MODulation:PHDHsdpcch?
+FETCh:WCDMa:MEAS:MEValuation:BER?
+&nbsp;
+// *****************************************************************************
+// Read limit check results obtained in the last measurement
+// without re-starting the measurement
+// *****************************************************************************
+CALCulate:WCDMa:MEAS:MEValuation:MODulation:CURRent?
+CALCulate:WCDMa:MEAS:MEValuation:MODulation:UEPHd?
+CALCulate:WCDMa:MEAS:MEValuation:MODulation:PHDHsdpcch?
+CALCulate:WCDMa:MEAS:MEValuation:RCDerror:AVERage?
+CALCulate:WCDMa:MEAS:MEValuation:SPECtrum:CURRent?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

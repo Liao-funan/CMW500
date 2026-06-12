@@ -1,0 +1,24 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Measuring in Signal Quality Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="c11621d35a5d4f21.htm">BER CS Tests</a> &gt; <span class="chm-breadcrumb">Measuring in Signal Quality Mode</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Measuring in Signal Quality Mode</div><p>Before proceeding, configure the signaling application (band, channel, power levels, slots ...) and set up a circuit switched connection.</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Disable enhanced measurement report, set the number of bursts to be measured
+// to 100 and mode to "Signal Quality". Configure round trip delay.
+// *****************************************************************************
+CONFigure:GSM:SIGN:RREPort:CSWitched:EMReport:ENABle OFF
+CONFigure:GSM:SIGN:BER:CSWitched:MMODe SQUality
+CONFigure:GSM:SIGN:BER:CSWitched:SCOunt 100
+CONFigure:GSM:SIGN:BER:CSWitched:RTDelay MAN,8
+
+// *****************************************************************************
+// Initiate the measurement and return the contents of the result
+// table, stop the measurement.
+// *****************************************************************************
+WAITKEY &gt;Set up a CS connection via the signaling application&lt;
+INIT:GSM:SIGN:BER:CSWitched
+
+FETCh:GSM:SIGN:BER:CSWitched?
+SENSe:GSM:SIGN:BER:CSWitched:RTDelay?
+
+STOP:GSM:SIGN:BER:CSWitched</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

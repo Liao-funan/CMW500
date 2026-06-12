@@ -1,0 +1,146 @@
+# Specifying General Settings
+
+Module: WCDMA Signaling
+Source: 62ce13e7ba054d4f.htm
+
+## 原始指令文档说明
+WCDMA Signaling
+ > 
+Programming
+ > 
+Signaling Application
+ > 
+Specifying General Settings
+Specifying General Settings
+// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+// *****************************************************************************
+// Enable a connection to the DAU.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:ETOE ON
+// *****************************************************************************
+// Specify the maximal release of the NodeB signal.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CELL:MRVersion R11
+// *****************************************************************************
+// Define paths for a standard cell with or without external fading,
+// with or without RX diversity, including signal routing,
+// external attenuation and time delay compensation.
+// ROUTe commands also activate the scenario. Send only one of the
+// route commands.
+// *****************************************************************************
+ROUTe:WCDMa:SIGN:SCENario:SCELl:FLEXible SUW1,RF2C,RX1,RF2C,TX1
+ROUTe:WCDMa:SIGN:SCENario:SCFading:FLEXible:INTernal SUW1,RF2C,RX1,RF2C,TX1
+ROUTe:WCDMa:SIGN:SCENario:SCFading:FLEXible:EXTernal SUW1,RF2C,RX1,RF2C,TX1,IQ2O
+ROUTe:WCDMa:SIGN:SCENario:SCFDiversity:FLEXible:INTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2
+ROUTe:WCDMa:SIGN:SCENario:SCFDiversity:FLEXible:EXTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2,IQ2O,IQ4O
+CONFigure:WCDMa:SIGN:RFSettings:CARRier:EATTenuation:OUTPut 2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier:EATTenuation:INPut 2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier:EDC:OUTPut 20E-6
+CONFigure:WCDMa:SIGN:RFSettings:CARRier:EDC:INPut 20E-6
+// *****************************************************************************
+// Alternatively define paths for dual carrier with or without 
+// dual uplink, external fading, and RX diversity. Define external 
+// attenuation, time delay compensation. ROUTe commands also activate
+// the scenario. Send only one of the route commands.
+// *****************************************************************************
+ROUTe:WCDMa:SIGN:SCENario:DCARrier:FLEXible SUW1,RF1C,RX1,RF1C,TX1,RF3C,TX2
+ROUTe:WCDMa:SIGN:SCEN:DCHSpa:FLEXible SUW1,RF1C,RX1,RF2C,RX2,RF1C,TX1,RF2C,TX2
+ROUTe:WCDMa:SIGN:SCENario:DCFading:FLEXible:EXTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2,IQ2O,IQ4O
+ROUTe:WCDMa:SIGN:SCENario:DCFDiversity:FLEXible:INTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2
+ROUTe:WCDMa:SIGN:SCENario:DCFDiversity:FLEXible:EXTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2,IQ2O,IQ4O
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:EATTenuation:OUTPut 2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:EATTenuation:OUTPut 2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier:EATTenuation:INPut 2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:EDC:OUTPut 20E-6
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:EDC:OUTPut 20E-6
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:EDC:INPut 20E-6
+// *****************************************************************************
+// Define paths for dual band dual carrier with internal or 
+// external fading, with or without RX diversity. ROUTe  commands 
+// also activate the scenario. Send only one of the commands.
+// *****************************************************************************
+ROUTe:WCDMa:SIGN:SCEN:DBF:FLEXible:INTernal SUW1,RF1C,RX1,RF1C,TX1,RF3C,TX2
+ROUTe:WCDMa:SIGN:SCENario:DBFading:FLEXible:EXTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF3C,TX2,IQ2O,IQ4O
+ROUTe:WCDMa:SIGN:SCENario:DBFDiversity:FLEXible:INTernal SUW1,RF1C,RX1,
+ RF1C,TX1,RF2C,TX2,RF3C,TX3,RF4C,TX4
+ROUTe:WCDMa:SIGN:SCENario:DBFDiversity:FLEXible:EXTernal SUW1,RF1C,RX1,
+    RF1C,TX1,RF2C,TX2,RF3C,TX3,RF4C,TX4,IQ2O,IQ4O,IQ60,IQ80
+// *****************************************************************************
+// Alternatively define paths for three carrier HSDPA scenario.
+// *****************************************************************************
+ROUTe:WCDMa:SIGN:SCENario:TCHSpa:FLEXible SUW1,RF1C,RX1,RF2C,RX2,RF1C,TX1,
+ RF2C,TX2,RF3C,TX3,
+// *****************************************************************************
+// Specify operating band, DL channel number for carrier 1, and 
+// DL/UL frequency offsets for all carriers. 
+// Set carrier separation to 10 MHz and query the automatically
+// calculated UL channel number for carrier 2.
+// Alternatively configure the same channels via their center frequency.
+// Alternatively use a single command to set band and channel for dual
+// band HSDPA operation.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:CARRier:BAND OB2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:CHANnel:DL 9700
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:FOFFset:DL 10000
+CONFigure:WCDMa:SIGN:RFSettings:DCARrier:SEParation 10E+6
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:CHANnel:DL?
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:FOFFset:DL 10000
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:FOFFset:UL 10000
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:CHANnel:UL?
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:FREQuency:DL 1940E+6
+CONFigure:WCDMa:SIGN:RFSettings:DCARrier:SEParation 10E+6
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:FREQuency:DL?
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:FREQuency:UL?
+CONFigure:WCDMa:SIGN:RFSettings:DBDC ON,C2
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:DL OB2, 9700
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:DL OB4, 1700
+// *****************************************************************************
+// Alternativelly specify user-defined RF frequencies and channels
+// including UL/DL separation value.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:CHANnel:DL:MAXimum 10838
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:CHANnel:DL:MINimum 10562
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:CHANnel:UL:MAXimum 9888
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:CHANnel:UL:MINimum 9612
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:FREQuency:DL:MAXimum 21676E5
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:FREQuency:DL:MINimum 21124E5
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:FREQuency:UL:MAXimum 6000E6
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:FREQuency:UL:MINimum 59448E5
+CONFigure:WCDMa:SIGN:RFSettings:UDEFined:UDSeparation 190
+// *****************************************************************************
+// Carrier1: Define the power of the base station signal, enable AWGN, define
+// the AWGN power and query the resulting total power.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:COPower -50
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:AWGN ON, -80
+CONFigure:WCDMa:SIGN:RFSettings:CARRier1:TOPower?
+// *****************************************************************************
+// Repeat settings for carrier2
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:COPower -50
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:AWGN ON, -80
+CONFigure:WCDMa:SIGN:RFSettings:CARRier2:TOPower?
+// *****************************************************************************
+// Modify total base station signal power of all carriers and query the
+// resulting total power for the sum of all carriers.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:RFSettings:COPower:TOTal -50
+CONFigure:WCDMa:SIGN:RFSettings:TOPower:TOTal?
+// *****************************************************************************
+// Select manual expected nominal power mode and specify the expected power
+// and the user margin.
+// *****************************************************************************
+CONFigure:WCDMa:SIGN:RFSettings:ENPMode MANual
+CONFigure:WCDMa:SIGN:RFSettings:ENPower 7
+CONFigure:WCDMa:SIGN:RFSettings:MARGin 1
+Top

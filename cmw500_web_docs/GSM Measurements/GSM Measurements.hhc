@@ -1,0 +1,1483 @@
+<HTML>
+<HEAD><!--Sitemap 1.0--></HEAD>
+<BODY>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM Measurements"/>
+<param name="Local" value="5a2941f310e9453b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="What's New in This Version"/>
+<param name="Local" value="7f4826a6b06a449d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.5.10 (Compared to V3.2.70)"/>
+<param name="Local" value="27c6da2e6c004cda.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.2.70 (Compared to V3.2.30)"/>
+<param name="Local" value="1f7c986a0bc64102.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.2.30 (Compared to V3.2.10)"/>
+<param name="Local" value="a6cca563024148f9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.2.10 (Compared to V3.0.20)"/>
+<param name="Local" value="2e49febb05554726.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.0.20 (Compared to V3.0.10)"/>
+<param name="Local" value="63ca43bd12cc4cb2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 3.0.10 (Compared to V2.1.60)"/>
+<param name="Local" value="eded70fbbaa9418d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 2.1.60 (Compared to V2.1.25)"/>
+<param name="Local" value="cd29bc4af74a4442.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 2.1.25 (Compared to V2.0.20)"/>
+<param name="Local" value="a251522b7e4a4782.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 2.0.20 (Compared to V2.0.10)"/>
+<param name="Local" value="3d03d98446614fe6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Version 2.0.10 (Compared to V1.0.15.21)"/>
+<param name="Local" value="fa445de947134cfb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.21 (Compared to V1.0.15.20)"/>
+<param name="Local" value="f07b67bd3ca14518.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.20 (Compared to V1.0.15.0)"/>
+<param name="Local" value="7921a24fec1048dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.15.0 (Compared to V1.0.10.1)"/>
+<param name="Local" value="33b2e460528d4797.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.10.1 (Compared to V1.0.5.3)"/>
+<param name="Local" value="ff36cdd458bf4be8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.5.3 and 1.0.6.1 (Compared to V1.0.4.11)"/>
+<param name="Local" value="c738ca618b734dbc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="V1.0.4.11 (Compared to V1.0.3.6)"/>
+<param name="Local" value="8aa8d9f1cb9c4666.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Description"/>
+<param name="Local" value="cd63aa9609fe46f0.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM TX Tests"/>
+<param name="Local" value="30e7a165448f4b45.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="8c7c1b7202fa4d63.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measuring an UL GSM Signal"/>
+<param name="Local" value="a54679fc5b874276.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Defining the Scope of the Measurement"/>
+<param name="Local" value="587b6822d6844e65.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring the Spectrum Measurement"/>
+<param name="Local" value="63049efb22a74aae.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Speed Considerations"/>
+<param name="Local" value="749161ecbb4447e2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parallel Signaling and Measurement"/>
+<param name="Local" value="221475697a7a4989.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM RX Tests"/>
+<param name="Local" value="ab3389cef86c457b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="f8ab8356e1c5422b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing a GSM RX Test"/>
+<param name="Local" value="497d5ca021414dd3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode"/>
+<param name="Local" value="45f195638e6b4fec.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Configuration"/>
+<param name="Local" value="8cc9d628ff3545cb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Extension for Multislot Measurements"/>
+<param name="Local" value="39309b2b9f324c15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conditions and Restrictions"/>
+<param name="Local" value="4312c27ec23a4ba4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Offline Mode and Offline Segment"/>
+<param name="Local" value="862c6ecb87f64b3e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM UL Signal Properties"/>
+<param name="Local" value="b7c6663c878b40a5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM Frequency Bands and Channels"/>
+<param name="Local" value="569299f72ca7459e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Burst Types"/>
+<param name="Local" value="9de577883baf4777.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limit Settings and Conformance Requirements"/>
+<param name="Local" value="aa42b99b6b074dc8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Transmit Modulation Limits"/>
+<param name="Local" value="3ea22ab9f6794e18.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Avg. Burst Power Limits"/>
+<param name="Local" value="32942442b03c420f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power Templates"/>
+<param name="Local" value="ccc3854bbe2b406d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Limits"/>
+<param name="Local" value="b334e8b486824036.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="d51e8321c7f749d7.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview"/>
+<param name="Local" value="d043bfcaa06e486a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: EVM, Magnitude Error, Phase Error and Spectrum"/>
+<param name="Local" value="1a9a82ba7aa8420e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: Power vs. Time"/>
+<param name="Local" value="866f977cae2e48b5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detailed Views: IQ Constellation Diagram"/>
+<param name="Local" value="44dc6193c6ba4bed.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TX Measurement Scalar and BER"/>
+<param name="Local" value="f7dc298d81b64daa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting and Modifying Views"/>
+<param name="Local" value="880f4af352c3451a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Markers"/>
+<param name="Local" value="cb924bccd26d4e87.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common View Elements"/>
+<param name="Local" value="a97945a83b764faa.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Application Sheets"/>
+<param name="Local" value="821aec92f2194f49.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Detecting GSM Multislot Frames"/>
+<param name="Local" value="af4c02dbba394060.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Principle"/>
+<param name="Local" value="89d17fc79db54a23.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="72aac8c0a6744ffd.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Capturing GSM Burst Sequences"/>
+<param name="Local" value="71266d602ea6457a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Principle"/>
+<param name="Local" value="0eab167cfe854f62.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="bedecf294f774efb.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using GSM List Mode"/>
+<param name="Local" value="371b6052ea0d4000.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Options and Equipment Required"/>
+<param name="Local" value="7f534027bbd24a4b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Configuration"/>
+<param name="Local" value="7d9f9d35c1ce4fb0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Using Offline Mode"/>
+<param name="Local" value="4e84a407f1b14232.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Possible Extensions"/>
+<param name="Local" value="809500b587ca4b05.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM BER Tests on ARB Signals"/>
+<param name="Local" value="8c4af410da2f421a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Options and Equipment Required"/>
+<param name="Local" value="ffa574340dbd4cc2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Test Setup"/>
+<param name="Local" value="dbf1c3264bd04b13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Procedure (GMSK Bursts)"/>
+<param name="Local" value="3aceba2339d5449e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Comparison of GMSK and 8PSK Test Settings"/>
+<param name="Local" value="30ee43ea85f84a14.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Information"/>
+<param name="Local" value="541f9818c1214e29.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GUI Reference"/>
+<param name="Local" value="526f4c653878437c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control"/>
+<param name="Local" value="84a7a8c31ed74212.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Parameters and Settings"/>
+<param name="Local" value="5e57d3018b2749f1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing and Analyzer Settings"/>
+<param name="Local" value="0ce35e454d7c4cc5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Common Measurement Control Settings"/>
+<param name="Local" value="74c35bec52bd4a1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation View Settings"/>
+<param name="Local" value="531b825d8b124134.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Configuration"/>
+<param name="Local" value="aa220713f85547fa.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power vs. Time Settings"/>
+<param name="Local" value="ded4aa57b6ad4b9f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Settings"/>
+<param name="Local" value="f659de2737d9475f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Settings"/>
+<param name="Local" value="67e39c7944e54aac.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Settings"/>
+<param name="Local" value="d24ac7d441834b94.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="d201663a417b48fb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits"/>
+<param name="Local" value="229a2728e265426b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Display Configuration"/>
+<param name="Local" value="3a3301dad8634b0f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Generator Shortcut"/>
+<param name="Local" value="4dca00aa7651447b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Additional Softkeys and Hotkeys"/>
+<param name="Local" value="40fce724089d4202.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Results"/>
+<param name="Local" value="c75474705387476d.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Programming"/>
+<param name="Local" value="bbf415c4c4ee4329.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Examples"/>
+<param name="Local" value="bc44393fa6ad4d3e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying General Measurement Settings"/>
+<param name="Local" value="64fa30f18e294489.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Measurement-Specific Settings"/>
+<param name="Local" value="91f5f664283349d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="eb0110b6391949c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Single-Shot and Continuous Measurements"/>
+<param name="Local" value="41f16a56b4824af5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Configuring a Spectrum Measurement"/>
+<param name="Local" value="1a81b7aad6ab4098.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Selecting Specific Burst Types"/>
+<param name="Local" value="ccc34f9d890143fe.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GSM List Mode"/>
+<param name="Local" value="54cdba69b68a4708.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying Global Measurement Settings"/>
+<param name="Local" value="31c4c87cfdbc4815.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Specifying List Mode Settings"/>
+<param name="Local" value="cd04c1aace3842d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Performing Single-Shot Measurements"/>
+<param name="Local" value="37289f27c0ca443a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Retrieving Single Results for All Segments"/>
+<param name="Local" value="0b4a34d8cfaf434b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Measurement"/>
+<param name="Local" value="06a87253e0f349d1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Diagram"/>
+<param name="Local" value="21f8b4d7b1aa40c7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command Reference"/>
+<param name="Local" value="5d2b1e51bf274724.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Conventions and General Information"/>
+<param name="Local" value="62b5501dd50a4fc2.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MEAS&lt;i&gt;"/>
+<param name="Local" value="d35e8521.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh, READ and CALCulate Commands"/>
+<param name="Local" value="b09f2044294b4616.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Current and Statistical Results"/>
+<param name="Local" value="d35e8609.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Values for RF Path Selection"/>
+<param name="Local" value="3ce7d86a057e4866.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keywords"/>
+<param name="Local" value="2bfd7ed319054f1c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reliability Indicator"/>
+<param name="Local" value="b10f61fac8b54338.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="General Measurement Settings"/>
+<param name="Local" value="19bd210ddde24a8e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signal Routing"/>
+<param name="Local" value="92969d065a474869.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:MEAS&lt;i&gt;:SCENario:SALone"/>
+<param name="Local" value="15268f4a43d84424.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:MEAS&lt;i&gt;:SCENario:CSPath"/>
+<param name="Local" value="d35e9347.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:MEAS&lt;i&gt;:SCENario:MAPRotocol"/>
+<param name="Local" value="ac5e7f18a03e4552.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:EATTenuation"/>
+<param name="Local" value="ca696fd34c5b4e5c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:MEAS&lt;i&gt;:SCENario?"/>
+<param name="Local" value="283a6ce0de384419.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ROUTe:GSM:MEAS&lt;i&gt;?"/>
+<param name="Local" value="3a908fa7c20442c8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Analyzer Settings"/>
+<param name="Local" value="158afcd799954031.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:BAND"/>
+<param name="Local" value="ac70a9d178e54663.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:CHANnel"/>
+<param name="Local" value="e907fa5ce3154f6e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:FREQuency"/>
+<param name="Local" value="a794f140c7fd4026.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:FOFFset"/>
+<param name="Local" value="fd18c0d55bf54a17.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="91d7bf4a82104c5e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="aea4ad0ebe9840be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="db127d3ece2e4bf0.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Multi-Evaluation Measurement Commands"/>
+<param name="Local" value="cd2ca630b354488d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Control and States"/>
+<param name="Local" value="c3143d1871374fd3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="INITiate:GSM:MEAS&lt;i&gt;:MEValuation"/>
+<param name="Local" value="934b9e05509748d3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:STATe?"/>
+<param name="Local" value="79e0434d6832401e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:STATe:ALL?"/>
+<param name="Local" value="b1d607bbd09c4ce0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Enabling Results and Views"/>
+<param name="Local" value="0ecc518fb52c4fc4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:RESult:PVTime"/>
+<param name="Local" value="643149d641854e15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:RESult:AMPM"/>
+<param name="Local" value="a1c0b956adf74058.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:RESult[:ALL]"/>
+<param name="Local" value="a049891e6e84495e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Statistical Settings"/>
+<param name="Local" value="2d232c41af2e4ec8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="23d287c52dfd4a13.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:REPetition"/>
+<param name="Local" value="d35e10774.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCOunt:PVTime"/>
+<param name="Local" value="6cd46aba2de04ddb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCOunt:MODulation"/>
+<param name="Local" value="e506a19f60394465.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCOunt:SMODulation"/>
+<param name="Local" value="20f28f02cea040fc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCOunt:SSWitching"/>
+<param name="Local" value="5ca6df68ecdb4987.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCOunt:BER"/>
+<param name="Local" value="d35e11036.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SCONdition"/>
+<param name="Local" value="d35e11088.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:MOEXception"/>
+<param name="Local" value="d35e11135.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:MSLots"/>
+<param name="Local" value="f69dbf8a3e0d4e3b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Measurement Settings"/>
+<param name="Local" value="fa89940cbf184971.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:FCRange"/>
+<param name="Local" value="1ad21bae1c024575.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:HDALevel"/>
+<param name="Local" value="64e165153b2d400f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:NBQSearch"/>
+<param name="Local" value="21de4f7575bb45dc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:ABSearch"/>
+<param name="Local" value="e5fef671841a4b2a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:TSEQuence"/>
+<param name="Local" value="4bebafc5e322408a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:VAMos:TSCSet"/>
+<param name="Local" value="5856742b82714cf1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:MVIew"/>
+<param name="Local" value="d35e11523.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:IIOFrames"/>
+<param name="Local" value="58055137eae74e55.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Settings"/>
+<param name="Local" value="3c397bb156be45a9.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST"/>
+<param name="Local" value="d35e11632.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:LRANge"/>
+<param name="Local" value="406e0957354e4223.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:OSINdex"/>
+<param name="Local" value="e54d3ded6ba54f42.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODE"/>
+<param name="Local" value="8bc8ac1cf69e40de.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:IIFRames"/>
+<param name="Local" value="5f924f124cac475b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SLENgth"/>
+<param name="Local" value="a42ad759af0046eb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:CMWS:CMODe"/>
+<param name="Local" value="a98ebc46af5d4b67.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:CMWS:CONNector"/>
+<param name="Local" value="7547e9053d124190.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation"/>
+<param name="Local" value="d35e12041.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PVTime"/>
+<param name="Local" value="d35e12173.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SMODulation"/>
+<param name="Local" value="5ecb19ba01844871.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SSWitching"/>
+<param name="Local" value="5bd4c2a5979847ef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:BER"/>
+<param name="Local" value="3cb43b889c3943ce.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SETup"/>
+<param name="Local" value="c7ec1f47f4ab48a6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power vs. Time Settings"/>
+<param name="Local" value="9f5c310c66834284.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:RPMode"/>
+<param name="Local" value="a9e26951379b4679.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:FILTer:PVTime"/>
+<param name="Local" value="58ccb05013fe4c1a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:PCLMode"/>
+<param name="Local" value="0838583d155940d9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:PCL"/>
+<param name="Local" value="5590e501ce0d43ad.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Settings"/>
+<param name="Local" value="ae708cee9c254177.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:DECode"/>
+<param name="Local" value="2199f62ecb474dc5.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Modulation Settings"/>
+<param name="Local" value="ed4de8af872b4860.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SMODulation:OFRequence"/>
+<param name="Local" value="3327cd6dbaf0466e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SMODulation:EARea"/>
+<param name="Local" value="92a307af1f594903.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SMODulation:TDFSelect"/>
+<param name="Local" value="ebac4169f3ac4939.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Switching Settings"/>
+<param name="Local" value="05f9723b9da04f37.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SSWitching:OFRequence"/>
+<param name="Local" value="1624c03bba4040c2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SSWitching:TDFSelect"/>
+<param name="Local" value="56404320662e424f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:SSWitching:PHMode"/>
+<param name="Local" value="2f48ad3a0dfc4095.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Settings"/>
+<param name="Local" value="5c1e2561d38a42f4.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:BER:LOOP"/>
+<param name="Local" value="d35e13388.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:BER:TSTart"/>
+<param name="Local" value="4feb4ab5c4d24309.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:BER:TRUN"/>
+<param name="Local" value="fb9afd62dce74943.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Settings"/>
+<param name="Local" value="4bbdc1ff962c4a3b.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:ROTation:IQ"/>
+<param name="Local" value="9b36de46ffb64880.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:FILTer:IQ"/>
+<param name="Local" value="124699b2b027478e.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Trigger Settings"/>
+<param name="Local" value="e55c8bbd27504f5e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:CATalog:SOURce?"/>
+<param name="Local" value="ee68616879c449f7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:SOURce"/>
+<param name="Local" value="e4e772f66a654986.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:SLOPe"/>
+<param name="Local" value="d35e13680.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:THReshold"/>
+<param name="Local" value="86a3b82f5da64c8f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:TOUT"/>
+<param name="Local" value="24e603a5225644b9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TRIGger:GSM:MEAS&lt;i&gt;:MEValuation:MGAP"/>
+<param name="Local" value="5ba5e79b2a1e45be.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:AMODe"/>
+<param name="Local" value="d35e13852.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:GLENgth"/>
+<param name="Local" value="d35e13896.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:APATtern"/>
+<param name="Local" value="d35e13942.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (GMSK Modulation)"/>
+<param name="Local" value="1747206aaeb24cc8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:EVMagnitude"/>
+<param name="Local" value="7f4bc24009f44320.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:MERRor"/>
+<param name="Local" value="76f0209de25c42a9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:PERRor"/>
+<param name="Local" value="8fa0a3683fb74daf.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:IQOFfset"/>
+<param name="Local" value="b70c779cd2d04ef5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:IQIMbalance"/>
+<param name="Local" value="3e168f2dea984bef.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:TERRor"/>
+<param name="Local" value="907b7e81db4d441d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:FERRor"/>
+<param name="Local" value="4b9deeea0b0442ee.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (8PSK Modulation)"/>
+<param name="Local" value="e11daea0f4064b28.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:EVMagnitude"/>
+<param name="Local" value="d8fd092025e8465c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:MERRor"/>
+<param name="Local" value="b482ba70a6244848.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:PERRor"/>
+<param name="Local" value="43d7e2778fb94b47.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:IQOFfset"/>
+<param name="Local" value="6f795c379c144ada.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:IQIMbalance"/>
+<param name="Local" value="10bcc5144ccb40bb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:TERRor"/>
+<param name="Local" value="5323d0476147448d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:FERRor"/>
+<param name="Local" value="41d7e297249742c3.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (16-QAM Modulation)"/>
+<param name="Local" value="9fa96b6e07e449b6.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:EVMagnitude"/>
+<param name="Local" value="c2cddee571434925.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:MERRor"/>
+<param name="Local" value="4925863902884bbb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:PERRor"/>
+<param name="Local" value="d29af09ebc1c4462.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:IQOFfset"/>
+<param name="Local" value="35418f60dfaa478e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:IQIMbalance"/>
+<param name="Local" value="38f1ca85f79d439d.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:TERRor"/>
+<param name="Local" value="4c9b0e6f28d842fc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:QAM&lt;ModOrder&gt;:FERRor"/>
+<param name="Local" value="0c7d9162b71048f8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Power vs. Time)"/>
+<param name="Local" value="ed3f4f0959134ab8.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:PVTime:ABPower&lt;no&gt;"/>
+<param name="Local" value="8c5a9576c7554736.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:PVTime:GPLevel"/>
+<param name="Local" value="b8384d6365aa441b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:PVTime:UPPer:REDGe&lt;no&gt;:STATic"/>
+<param name="Local" value="b6c93f57f3184964.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:PVTime:LOWer:UPARt&lt;no&gt;:STATic"/>
+<param name="Local" value="4a6000a29db74218.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:PVTime:UPPer:REDGe&lt;no&gt;:DYNamic&lt;Range&gt;"/>
+<param name="Local" value="1bb94337aed34059.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:PVTime:LOWer:UPARt&lt;no&gt;:DYNamic&lt;Range&gt;"/>
+<param name="Local" value="9be2e2b4db4349b6.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Spectrum Modulation)"/>
+<param name="Local" value="7cb2bec106814930.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:SMODulation:RPOWer"/>
+<param name="Local" value="7af0ce59286f4129.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:SMODulation:MPOint&lt;no&gt;"/>
+<param name="Local" value="409aea89ea3b4e01.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:SMODulation:RPOWer"/>
+<param name="Local" value="177f7ab342b1417e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:SMODulation:MPOint&lt;no&gt;"/>
+<param name="Local" value="cf8f3b5f05d84b11.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Limits (Spectrum Switching)"/>
+<param name="Local" value="f2d5de4bc95a4cd3.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:SSWitching:PLEVel"/>
+<param name="Local" value="c8f090627ca84509.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:GMSK:SSWitching:MPOint&lt;no&gt;"/>
+<param name="Local" value="be6afafdeda943d4.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:SSWitching:PLEVel"/>
+<param name="Local" value="ce83158aa86b4250.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:MEAS&lt;i&gt;:MEValuation:LIMit:EPSK:SSWitching:MPOint&lt;no&gt;"/>
+<param name="Local" value="478ae3196ccf4df7.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation View Throughput Result"/>
+<param name="Local" value="2efb4a1a7f7e4f56.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:MVTHroughput?"/>
+<param name="Local" value="3b1e5d17fcae4821.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EVM Results (Traces)"/>
+<param name="Local" value="6392e025eb184ce1.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:EVMagnitude:CURRent?"/>
+<param name="Local" value="6207808d5c30440b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Magnitude Error Results (Traces)"/>
+<param name="Local" value="d847f12eb722427d.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:MERRor:CURRent?"/>
+<param name="Local" value="fd93aed568304119.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Phase Error Results (Traces)"/>
+<param name="Local" value="4769b430839d42fb.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:PERRor:CURRent?"/>
+<param name="Local" value="9bc4f955b5f74783.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Modulation Results (Single Values)"/>
+<param name="Local" value="73fb29bb23284e9a.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:CURRent?"/>
+<param name="Local" value="b2afe44207094dc6.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:AVERage?"/>
+<param name="Local" value="f37d0b955f1e42a9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="READ:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:SDEViation?"/>
+<param name="Local" value="b6fb6ca166c2456e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:PERCentile?"/>
+<param name="Local" value="f58064231a254561.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:MODulation:DBITs?"/>
+<param name="Local" value="1e9ca1888b194ece.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power vs. Time Results (Traces)"/>
+<param name="Local" value="87e2288333f64221.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:PVTime:CURRent?"/>
+<param name="Local" value="c00a04bfb48441e8.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Power vs. Time Results (Single Values)"/>
+<param name="Local" value="660a0f02eed545ea.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:PVTime[:ALL]?"/>
+<param name="Local" value="f4dc35e2ada04f60.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:PVTime:CURRent:SVECtor?"/>
+<param name="Local" value="438d915865e7458e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:PVTime:BTYPe?"/>
+<param name="Local" value="d35e23827.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:PVTime:RSTiming?"/>
+<param name="Local" value="5db69a8b3cf54263.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:PVTime:TSC?"/>
+<param name="Local" value="126b692863ca41b0.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Modulation Results"/>
+<param name="Local" value="09ffcaf04fc04d1c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:SMODulation:FREQuency?"/>
+<param name="Local" value="4af626e091d646e9.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:SMODulation:TIME[:CURRent]?"/>
+<param name="Local" value="d4cdf02b1a264aad.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="READ:GSM:MEAS&lt;i&gt;:MEValuation:SMODulation?"/>
+<param name="Local" value="7b4f66b928184a6a.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Spectrum Switching Results"/>
+<param name="Local" value="1ff4934546714f34.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:SSWitching:FREQuency?"/>
+<param name="Local" value="4fa54a95c2e746e7.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:SSWitching:TIME[:CURRent]?"/>
+<param name="Local" value="0f27d63e6e4e4754.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="READ:GSM:MEAS&lt;i&gt;:MEValuation:SSWitching?"/>
+<param name="Local" value="8b1168f9f4844bef.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="I/Q Constellation Results (Traces)"/>
+<param name="Local" value="6b611e81e20f4e4e.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:TRACe:IQ[:CURRent]?"/>
+<param name="Local" value="f201d18248094ac1.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BER Results"/>
+<param name="Local" value="9a833cba59204485.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:BER?"/>
+<param name="Local" value="4705c1bef54b40ed.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (One Segment)"/>
+<param name="Local" value="2a59a59f58994302.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PVTime:CURRent?"/>
+<param name="Local" value="d43af0b6ccbf4827.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:PVTime:CURRent:SVECtor?"/>
+<param name="Local" value="67c9cf4e22ce4367.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation:CURRent?"/>
+<param name="Local" value="d253dbf756e44052.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:MODulation:PERCentile?"/>
+<param name="Local" value="a26eed34bb3347f1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SMODulation?"/>
+<param name="Local" value="574d0a07e2e44671.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:SSWitching?"/>
+<param name="Local" value="c79257649a354dd5.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SEGMent&lt;no&gt;:BER?"/>
+<param name="Local" value="1d27d761b5af409b.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (All Segments, One Result)"/>
+<param name="Local" value="9aa6f14899694fca.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SRELiability?"/>
+<param name="Local" value="6eb971e13755469e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:ABPower:CURRent?"/>
+<param name="Local" value="cfa7a328a3ab4b7c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:SVECtor:UMAXimum:CURRent?"/>
+<param name="Local" value="916f9138cefe414e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:SVECtor:UMINimum:CURRent?"/>
+<param name="Local" value="adb92d076eb24240.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:SVECtor:SUBVector&lt;no&gt;:CURRent?"/>
+<param name="Local" value="32ea8476a03c4c29.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:EVM:RMS:CURRent?"/>
+<param name="Local" value="3e84a9929e334ccc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:EVM:PEAK:CURRent?"/>
+<param name="Local" value="79ba8eb3571e4de3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:EVM:PERCentile?"/>
+<param name="Local" value="fad1c881699a4e15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:MERRor:RMS:CURRent?"/>
+<param name="Local" value="2552d1a6dc6f4ea0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:MERRor:PEAK:CURRent?"/>
+<param name="Local" value="44cf24777e7a471c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:MERRor:PERCentile?"/>
+<param name="Local" value="b2e06bdac5e6453f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERRor:RMS:CURRent?"/>
+<param name="Local" value="f3a227cdb0f142e8.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERRor:PEAK:CURRent?"/>
+<param name="Local" value="ab5d841c4c764069.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERRor:PERCentile?"/>
+<param name="Local" value="fba2ea2672a142fe.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:IQOFfset:CURRent?"/>
+<param name="Local" value="f34f24ff6c544394.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:IQIMbalance:CURRent?"/>
+<param name="Local" value="b0233b36e673404c.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:FERRor:CURRent?"/>
+<param name="Local" value="b9d0106f38b04126.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:TERRor:CURRent?"/>
+<param name="Local" value="1119f7a19cb14913.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:BPOWer:CURRent?"/>
+<param name="Local" value="83708dce5e5b462b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:APDelay:CURRent?"/>
+<param name="Local" value="1af2a16eb1dd419f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:BER:BER?"/>
+<param name="Local" value="7468c103e2b7434b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:BER:ABSolute?"/>
+<param name="Local" value="16c87a2a4002492f.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:BER:COUNt?"/>
+<param name="Local" value="af5ce38b40794966.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SMODulation:CPOWer?"/>
+<param name="Local" value="47e9e1ee31374830.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SMODulation:POFFset&lt;no&gt;?"/>
+<param name="Local" value="7179510c8440483e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CALCulate:GSM:MEAS&lt;i&gt;:MEValuation:LIST:SSWitching:POFFset&lt;no&gt;?"/>
+<param name="Local" value="f3ee97b930e746f9.htm"/>
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List Mode Results (All Segments, Result Groups)"/>
+<param name="Local" value="831bbca48d014741.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:CURRent?"/>
+<param name="Local" value="8a5db47a36c84aa2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:PVTime:CURRent:SVECtor?"/>
+<param name="Local" value="cdfc65f878eb43d0.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:CURRent?"/>
+<param name="Local" value="97643ae064384f34.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:SDEViation?"/>
+<param name="Local" value="4fdb12c8a6324726.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:MODulation:PERCentile?"/>
+<param name="Local" value="b99879e59c0542dd.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:BER?"/>
+<param name="Local" value="666ceeb4d5e943d2.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FETCh:GSM:MEAS&lt;i&gt;:MEValuation:LIST:OVERview?"/>
+<param name="Local" value="7fd067fa782f4f8d.htm"/>
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Combined Signal Path Commands"/>
+<param name="Local" value="5ef1af4c651f429c.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Signaling Commands for Multi-Evaluation Measurement Settings"/>
+<param name="Local" value="e843553bd0924440.htm"/>
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:EATTenuation:INPut"/>
+<param name="Local" value="4fb786cb00584586.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:BAND:BCCH"/>
+<param name="Local" value="425d8aff4f2e4e6a.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SENSe:GSM:SIGN&lt;i&gt;:BAND:TCH?"/>
+<param name="Local" value="42cb90dd85324beb.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:CHANnel:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="1b59f4e5a85f4fb1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:CHCCombined:TCH:CSWitched"/>
+<param name="Local" value="0f285ec313e247e1.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:ENABle:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="78be1ef8a05743ba.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:MAIO:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="2940f77f1e204814.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:HSN:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="062bb2fb8b6f4b2b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:HOPPing:SEQuence:TCH[:CARRier&lt;c&gt;]"/>
+<param name="Local" value="e04e9a06a555498e.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:FOFFset:UL"/>
+<param name="Local" value="aa5df6c863ae4dd3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CONNection:RFOFfset"/>
+<param name="Local" value="8de4370edfaa4587.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:ENPMode"/>
+<param name="Local" value="528308846e9d4f8b.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:ENPower"/>
+<param name="Local" value="6e7d6584c48d4ecc.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:UMARgin"/>
+<param name="Local" value="fc81aaa9cf144b15.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:MLOFfset"/>
+<param name="Local" value="52b437f3d6b843b3.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:MSLot:UL"/>
+<param name="Local" value="be2cca3841014d22.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:CELL:BCC"/>
+<param name="Local" value="deb139f1f22d4f82.htm"/>
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CONFigure:GSM:SIGN&lt;i&gt;:RFSettings:PCL:TCH:CSWitched"/>
+<param name="Local" value="826c0b8884b04203.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="List of Commands"/>
+<param name="Local" value="d3a1340409d64e8e.htm"/>
+</OBJECT>
+</UL>
+</UL>
+</BODY>
+</HTML>

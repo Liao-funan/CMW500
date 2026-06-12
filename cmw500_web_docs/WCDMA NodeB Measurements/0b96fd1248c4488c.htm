@@ -1,0 +1,83 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="f9780cd590b54eb4.htm">WCDMA NodeB Measurements</a> &gt; <a class="chm-breadcrumb" href="d1830c6ac949481c.htm">Programming</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single-Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Enable all measurements.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:ACLR ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:CDERror ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:CDpower ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:CHIP:EVM ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:CHIP:MERRor ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:CHIP:PERRor ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:EMASk ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:EVMagnitude ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:FERRor ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:MERRor ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:PERRor ON
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult:Power ON
+
+// *****************************************************************************
+// Alternatively use single command to enable all measurements.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:NB:MEValuation:RESult ON, ON, ON, ON, ON, 
+    ON, ON, ON, ON, ON, ON, ON
+
+// *****************************************************************************
+// Start single-shot measurement, return average modulation values.
+// Query the measurement state (should be "RDY") and the modulation results.
+// *****************************************************************************
+READ:WCDMa:MEAS:NB:MEValuation:MODulation:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:STATe?
+FETCh:WCDMa:MEAS:NB:MEValuation:MODulation:MAXimum?
+FETCh:WCDMa:MEAS:NB:MEValuation:MODulation:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:MODulation:SDEViation?
+
+// *****************************************************************************
+// Return all average modulation trace results obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EVMagnitude:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EVMagnitude:PEAK:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EVMagnitude:CHIP:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:MERRor:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:MERRor:PEAK:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:MERRor:CHIP:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:PERRor:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:PERRor:PEAK:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:PERRor:CHIP:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:FERRor:AVERage?
+
+// *****************************************************************************
+// Read average power results obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:POWer:AVERage?
+FETCh:WCDMa:MEAS:NB:MEValuation:POWer:AVERage?
+
+// *****************************************************************************
+// Read spectrum emission results (maximum) obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EMASk:MFLeft:MAXimum?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EMASk:MFRight:MAXimum?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:EMASk:KFILter:MAXimum?
+FETCh:WCDMa:MEAS:NB:MEValuation:SPECtrum:MAXimum?
+
+// *****************************************************************************
+// Return current code domain results obtained in the last
+// measurement without re-starting the measurement.
+// *****************************************************************************
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:CDERror:CURRent?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:CDEMonitor:CURRent?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:CDPMonitor:CDE:CURRent?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:CDPMonitor:CDP:CURRent?
+FETCh:WCDMa:MEAS:NB:MEValuation:TRACe:CDPower:CURRent?
+
+// *****************************************************************************
+// Read limit check results obtained in the last measurement
+// without re-starting the measurement
+// *****************************************************************************
+CALCulate:WCDMa:MEAS:NB:MEValuation:SPECtrum:CURRent?
+CALCulate:WCDMa:MEAS:NB:MEValuation:MODulation:CURRent?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

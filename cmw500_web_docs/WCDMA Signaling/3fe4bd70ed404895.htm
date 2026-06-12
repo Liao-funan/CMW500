@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing RLC Throughput Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="a02d4d0d0b6c4d09.htm">RLC Throughput Measurement</a> &gt; <span class="chm-breadcrumb">Performing RLC Throughput Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing RLC Throughput Measurements</div><p>Perform the "RLC Throughput Measurements" using either an end-to-end data connection or an RMC test mode connection.</p><p>The required steps are described below for both alternatives.</p><div class="block"><a name="ID_364471e69faeae410a710a6a012c1080-aaded19c9ef5ebe00a002019001489e9-en-US"></a><div class="procedure_title">Measurement with end-to-end data connection</div><p>Set up an end-to-end data connection and generate IP traffic. For these tasks, you need a data application unit (DAU) and related options.</p><div><ol class="procedure"><li id="ID_70ee51869faeae120a710a6a00e5c895-aaded19c9ef5ebe00a002019001489e9-en-US"><p>Set up an end-to-end data connection as described in <a class="xref" href="654f1794828547ad.htm#shiv_rs_cmw_ev_do_0126-a38026e49f887ced0a0020190101283d-en-US">"End-to-End Packet Data Connections"</a>.</p><p>Refer there also the required options.</p></li><li id="ID_82c89a359fb638570a002019007d7dbd-aaded19c9ef5ebe00a002019001489e9-en-US"><p>Use the DAU to generate IP traffic in the measured direction (uplink and/or downlink). You can, for example, perform an "IPerf" measurement. Or you could transfer data via FTP.</p><p>For details, refer to the DAU documentation.</p></li><li id="ID_03004fea9fb638570a00201900723c21-aaded19c9ef5ebe00a002019001489e9-en-US"><p>Start the "RLC Throughput" measurement.</p></li></ol></div></div><div class="block"><a name="ID_a89cfe1bdbb511e19725903e8ef14781-aaded19c9ef5ebe00a002019001489e9-en-US"></a><div class="procedure_title">Measurement with RMC test mode connection</div><p>Set up an RMC test mode connection with specific loop settings. A DAU is not required.</p><div><ol class="procedure"><li id="ID_a89cfe1cdbb511e19725903e8ef14781-aaded19c9ef5ebe00a002019001489e9-en-US"><p>Set up an RMC test mode connection with the following settings:</p><div class="block"><ul class="list"><li style="margin-bottom:0; padding-bottom:0;">Parameter <a class="xref" href="fc2307aef45a4e8f.htm#ID_2d1f79cdcff511e1a658b2a8711f6129-d2d16b1ae685b7f80a00206a0052ed18-en-US">"Test Mode"</a> = "Loop Mode 1 RLC"</li><li style="margin-bottom:0; padding-bottom:0;">Parameter <a class="xref" href="fc2307aef45a4e8f.htm#ID_31f285b5cff511e1a658b2a8711f6129-d2d16b1ae685b7f80a00206a0052ed18-en-US">"Loop Mode 1 RLC"</a> = "Acknowledge"</li></ul></div></li><li id="ID_a89cfe23dbb511e19725903e8ef14781-aaded19c9ef5ebe00a002019001489e9-en-US"><p>Start the "RLC Throughput" measurement.</p></li></ol></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

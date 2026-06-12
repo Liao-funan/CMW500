@@ -1,0 +1,38 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Internal Fading</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring Internal Fading</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring Internal Fading</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Select a standard cell scenario with internal fading.
+// *****************************************************************************
+
+ROUTe:GSM:SIGN:SCENario:SCFading:FLEXible:INTernal SUU1,RF2C,RX1,RF2C,TX1,FAD1
+
+// *****************************************************************************
+// Configure the fading simulator: enable it, select a fading profile,
+// start fading automatically, set start seed and calculate insertion
+// loss automatically. Query the insertion loss. Alternatively set
+// the insertion loss manually.
+// *****************************************************************************
+CONFigure:GSM:SIGN:FADing:FSIMulator:ENABle ON
+CONFigure:GSM:SIGN:FADing:FSIMulator:STANdard T3
+CONFigure:GSM:SIGN:FADing:FSIMulator:RESTart:MODE AUTO
+CONFigure:GSM:SIGN:FADing:FSIMulator:GLOBal:SEED 0
+CONFigure:GSM:SIGN:FADing:FSIMulator:ILOSs:MODE NORMal
+CONFigure:GSM:SIGN:FADing:FSIMulator:ILOSs:NORMal?
+
+CONFigure:GSM:SIGN:FADing:FSIMulator:ILOSs:MODE USER
+CONFigure:GSM:SIGN:FADing:FSIMulator:ILOSs 15
+
+// *****************************************************************************
+// Configure AWGN insertion:
+// Enable AWGN, set min noise/system BW ratio, set signal to noise ratio,
+// query calculated noise power and clipped samples.
+// *****************************************************************************
+CONFigure:GSM:SIGN:FADing:AWGN:ENABle ON
+CONFigure:GSM:SIGN:FADing:AWGN:BWIDth:RATio 1
+CONFigure:GSM:SIGN:FADing:AWGN:SNRatio 1
+CONFigure:GSM:SIGN:FADing:POWer:NOISe?
+CONFigure:GSM:SIGN:FADing:FSIMulator:ILOSs:CSAMples?
+CONFigure:GSM:SIGN:FADing:FSIMulator:DSHift:MODE NORM
+CONFigure:GSM:SIGN:FADing:FSIMulator:DSHift?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

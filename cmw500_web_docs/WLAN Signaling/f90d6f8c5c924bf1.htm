@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring a PER Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="70705e785adf4cb0.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="5e97a6dbc79d477d.htm">PER Measurements</a> &gt; <span class="chm-breadcrumb">Configuring a PER Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring a PER Measurement</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Configure the generated signal and the PER limit.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:PER:FDEF HTG, BW20, MCS6
+CONFigure:WLAN:SIGN:PER:DPATtern PN5
+CONFigure:WLAN:SIGN:PER:PACKets 200
+CONFigure:WLAN:SIGN:PER:DINTerval 25
+CONFigure:WLAN:SIGN:PER:PAYLoad:SIZE 90
+CONFigure:WLAN:SIGN:PER:LIMit 50
+
+/// *****************************************************************************
+// Configure data frame rate control for PER: set RU allocation subfield,
+// query RU allocations.
+// Configure payload: map user 1 and dummy users to RU. Set MCS and coding
+// type for corresponding users. Set TID for PER.
+// *****************************************************************************
+CONFigure:WLAN:SIGN:CONNection:DFDef ENABle, HES, BW20, MCS10, GI08, X1, PE4
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:ALSField A200 CHA1
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:BLALlocation?
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:RUALlocation USR1,CHA1,RU1
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:RUALlocation DMY1,CHA1,RU2
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:RUALlocation DMY2,CHA1,RU3
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:USER1:ALLocation CHA1,RU1
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:USER1:MCS MCS5
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:USER1:CTYPe BCC
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:DUMMy1:MCS MCS10
+CONFigure:WLAN:SIGN:PER:DFRame:HEMU:DUMMy2:MCS MCS10
+CONFigure:WLAN:SIGN:PER:TIDentifier TID6</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

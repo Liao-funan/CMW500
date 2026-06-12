@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Signaling Tests</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="c5c4e981dd1a400a.htm">WLAN Signaling</a> &gt; <a class="chm-breadcrumb" href="d38ffe3214f64619.htm">Application Sheets</a> &gt; <a class="chm-breadcrumb" href="10aa990014714285.htm">WLAN Signaling Tests (Remote Control)</a> &gt; <span class="chm-breadcrumb">Performing Signaling Tests</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing Signaling Tests</div><div class="block"><div class="listintro">This example describes the following signaling tests:</div><ul class="list"><li>"UE Info": informs about properties of the mobile WLAN device reported to the instrument, e.g. MAC address</li><li>"PER": packet error rate measurement performed by the instrument</li></ul></div><div class="block"><a name="shiv_rs_cmw_ev_do_4559-7f5dc3207d31e4b50a00206a012678ec-en-US"></a><div><ol class="procedure"><li id="shiv_rs_cmw_ev_do_4560-7f5dc3207d31e4b50a00206a012678ec-en-US"><p>Wait until the mobile has completed association. Then retrieve the "UE Info": MAC address and MAC version.</p><p>Wait until <span class="command">FETCh:WLAN:SIGN:PSWitched:STATe?</span> returns <span class="command">ASS</span></p><p><span class="command">SENSe:WLAN:SIGN:UECapability:MAC:ADDRess?</span></p><p><span class="command">SENSe:WLAN:SIGN:UECapability:MAC:VERSion?</span></p></li><li id="shiv_rs_cmw_ev_do_4567-7f5dc3207d31e4b50a00206a012678ec-en-US"><p>Configure the packet error rate (PER) measurement over 1000 packets. Start the measurement. Retrieve the PER results including the "Current Number of Packets" (indicating the progress of the measurement). When the measurement has finished, the current number is identical to the specified number of packets.</p><p><span class="command">CONFigure:WLAN:SIGN:PER:PACKets 1000</span></p><p><span class="command">INITiate:WLAN:SIGN:PER</span></p><p><span class="command">FETCh:WLAN:SIGN:PER?</span></p></li><li id="shiv_rs_cmw_ev_do_4572-7f5dc3207d31e4b50a00206a012678ec-en-US"><p>Leave the remote control mode and return to manual operation using the command <span class="command">&amp;GTL</span>.</p><p>In manual mode, the results are displayed as shown below.</p></li></ol></div></div><div class="block" id="ID_e008284b8874fe800a00206a007bc17c-7f5dc3207d31e4b50a00206a012678ec-en-US"><div class="graphic"><img border="0" src="images/imgdfc8960e63611e760a00206a00535adb_6_--_--_PNG96Small.png" alt="" title=""></div></div><p>The PER results appear in the main view of the "WLAN PER" measurement.</p><div class="block" id="ID_472407cc8874fe900a00206a00dbc179-7f5dc3207d31e4b50a00206a012678ec-en-US"><div class="graphic"><img border="0" src="images/imgd6901fae63b1a0020a00206a00d0fa01_7_--_--_PNG96Small.png" alt="" title=""></div></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

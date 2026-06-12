@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="328eb24f1e904be9.htm">WCDMA Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="8f3a6f142e1c46fa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="7eb3b41753474c90.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Configuring Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Configuring Measurement-Specific Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define stop condition (stop on limit failure) and error handling,
+// select a measurement length of 30 slots (2 WCDMA frames),
+// starting with slot 0 and using slot no. 3 as the preselected slot.
+// Display slot 0 of the frame as first slot.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:MEValuation:SCONdition SLFail
+CONFigure:WCDMa:MEAS:MEValuation:MOEXception ON
+CONFigure:WCDMa:MEAS:MEValuation:MSCount 30
+CONFigure:WCDMa:MEAS:MEValuation:PSLot 3
+CONFigure:WCDMa:MEAS:MEValuation:SYNCh SL0
+
+// *****************************************************************************
+// Specifiy modulation/CDP settings:
+// Full-slot measurement over 20 statistics cycles,
+// analysis without origin offset, channel detection threshold -5 dB,
+// statistical results in slot 4, spreading factor 16, query detection mode,
+// set offset 45° for I/Q constellation diagram.
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:MEValuation:MPERiod:MODulation FULL
+CONFigure:WCDMa:MEAS:MEValuation:SCOunt:MODulation 20
+CONFigure:WCDMa:MEAS:MEValuation:AMODe:MODulation NOOF
+CONFigure:WCDMa:MEAS:MEValuation:CDTHreshold:MODulation -5
+CONFigure:WCDMa:MEAS:MEValuation:SSCalar:MODulation 4
+CONFigure:WCDMa:MEAS:MEValuation:DSFactor:MODulation SF16
+CONFigure:WCDMa:MEAS:MEValuation:DMODe:MODulation?
+CONFigure:WCDMa:MEAS:MEValuation:ROTation:MODulation 45
+&nbsp;
+// *****************************************************************************
+// Specify spectrum settings:
+// select a measurement length of 30 slots (2 WCDMA frames)
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:MEValuation:SCOunt:SPECtrum 30
+&nbsp;
+// *****************************************************************************
+// Specify BER settings:
+// select a measurement length of 30 slots (2 WCDMA frames)
+// *****************************************************************************
+CONFigure:WCDMa:MEAS:MEValuation:SCOunt:BER 30</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

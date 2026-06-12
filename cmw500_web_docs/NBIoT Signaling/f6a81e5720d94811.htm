@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trigger Signals</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="a48b68c16c094d59.htm">NB-IoT Signaling</a> &gt; <a class="chm-breadcrumb" href="abb761246c0b4260.htm">General Description</a> &gt; <span class="chm-breadcrumb">Trigger Signals</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<a name="ID_d7af2cd57c214c130a00206a0158d8d5-3e2314da74bb790d0a001ae760807028-en-US"></a><div class="chm-chaptertitle">Trigger Signals</div><p>The NB-IoT signaling application provides trigger signals that can be used by other R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW applications to synchronize to the generated NB-IoT downlink signal.</p><div class="block"><div class="listintro">To address the trigger signals in remote commands, use the following strings, with &lt;i&gt; replaced by the instance number of the signaling application:</div><ul class="list"><li>"NB-IoT Sig&lt;i&gt;: NPUSCH format 1 Trigger"</li><li>"NB-IoT Sig&lt;i&gt;: NPUSCH format 2 Trigger"</li><li>"NB-IoT Sig&lt;i&gt;: NPRACH Trigger"</li></ul></div><div class="block"><div class="subtitle"><a name="ID_94517ef9e627f6150a710a6a00cbfbed-3e2314da74bb790d0a001ae760807028-en-US"></a>NPUSCH trigger, format 1/2</div></div><p>Trigger event at the beginning of the first UL slot of each NPUSCH transmission with format 1/2.</p><p>There are two trigger signals, one for transmissions with NPUSCH format 1 and the other one for transmissions with NPUSCH format 2.</p><p>The signals can be used to trigger NB-IoT multi-evaluation measurements (option R&amp;S&nbsp;CMW-KM300).</p><div class="block"><div class="listintro">For combined signal path measurements, the signaling application sets the trigger source of the multi-evaluation measurement as follows:</div><ul class="list"><li>If the configured scheduling includes a UL, the NPUSCH format 1 trigger signal is selected.</li><li>If the configured scheduling comprises only a DL, the NPUSCH format 2 trigger signal is selected.</li></ul></div><p>You can modify the trigger source selection in the measurement, so that you can measure NPUSCH format 1 and 2 for schedulings with UL and DL.</p><div class="block"><div class="subtitle"><a name="ID_d7a41346c19b11dfa60285cea50be04f-3e2314da74bb790d0a001ae760807028-en-US"></a>NPRACH trigger</div></div><p>Trigger event for each received NPRACH preamble. When a preamble has been successfully received and detected by the signaling application, a trigger signal is generated 10 ms after the start of the preamble.</p><p>The NPRACH trigger signal can be used to trigger NB-IoT "NPRACH" measurements (option R&amp;S&nbsp;CMW-KM300). When the measurement receives a trigger event, it evaluates already measured data to provide results for the preamble.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

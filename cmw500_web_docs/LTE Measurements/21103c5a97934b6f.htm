@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Preambles in the Time Domain</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="6f5b41b9033a497c.htm">LTE PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="3ce2a93c755348f3.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="5885e66029704abe.htm">LTE PRACH UL Signal Properties</a> &gt; <span class="chm-breadcrumb">Preambles in the Time Domain</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Preambles in the Time Domain</div><p>In the time domain, a preamble consists of a cyclic prefix (CP) and the preamble sequence.</p><div class="block" id="ID_874eed7e384bc0970a00206a014c5e00-d2defbfc37402a170a00206a01b9fb8b-en-US"><div class="graphic"><img border="0" src="images/img459bcf7c3814b32c0a00206a0098c9eb_1_--_--_PNG96.png" alt="" title=""></div><div class="caption_figure">Preamble structure</div></div><p>The lengths of CP and preamble sequence depend on the preamble format as shown in the following table. T<sub>s</sub> is the basic LTE time unit (1 T<sub>s</sub> = 1/30.72 MHz <span style="font-family: Arial Unicode MS; font-size: 10.5pt">≈</span> 32.55 ns).</p><div class="block"><a name="ID_7a2b334b384bc0970a00206a00181019-d2defbfc37402a170a00206a01b9fb8b-en-US"></a><span class="table-caption">Preambles in the time domain</span><table border="1"><colgroup><col><col><col><col></colgroup><thead><tr class="oddrow"><th valign="top"><p>Preamble format</p></th><th valign="top"><p>CP length / T<sub>s</sub></p></th><th valign="top"><p>Sequence length / T<sub>s</sub></p></th><th valign="top"><p>Preamble length / T<sub>s</sub></p></th></tr></thead><tbody><tr class="oddrow"><td valign="top"><p>0</p></td><td valign="top"><p>3168</p></td><td valign="top"><p>24576</p></td><td valign="top"><p>27744</p></td></tr><tr class="evenrow"><td valign="top"><p>1</p></td><td valign="top"><p>21024</p></td><td valign="top"><p>24576</p></td><td valign="top"><p>45600</p></td></tr><tr class="oddrow"><td valign="top"><p>2</p></td><td valign="top"><p>6240</p></td><td valign="top"><p>2*24576</p></td><td valign="top"><p>55392</p></td></tr><tr class="evenrow"><td valign="top"><p>3</p></td><td valign="top"><p>21024</p></td><td valign="top"><p>2*24576</p></td><td valign="top"><p>70176</p></td></tr><tr class="oddrow"><td valign="top"><p>4</p></td><td valign="top"><p>448</p></td><td valign="top"><p>4096</p></td><td valign="top"><p>4544</p></td></tr></tbody></table></div><p>Thus a preamble with format 0 to 3 requires 2 to 6 UL timeslots for transmission. A preamble with format 4 is only relevant for TDD and is transmitted in uplink pilot timeslots (UpPTS).</p><p>The time resources allowed for transmission of preambles are restricted by 3GPP. There are 64 configurations for FDD and 58 configurations for TDD, identified via the PRACH configuration index. The index defines which radio frames, subframes etc. can be used and which preamble format is used. For details, refer to 3GPP TS 36.211 section 5.7.1.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

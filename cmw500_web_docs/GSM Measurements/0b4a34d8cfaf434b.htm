@@ -1,0 +1,50 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Retrieving Single Results for All Segments</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a2941f310e9453b.htm">GSM Measurements</a> &gt; <a class="chm-breadcrumb" href="bbf415c4c4ee4329.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="54cdba69b68a4708.htm">GSM List Mode</a> &gt; <span class="chm-breadcrumb">Retrieving Single Results for All Segments</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Retrieving Single Results for All Segments</div><div class="verbatim"><pre class="verbatim_text">// *************************************************************************
+// Return selected power vs time results
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:ABPower:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:SVECtor:UMAXimum:MAXimum?
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:SVECtor:UMINimum:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:PVTime:SVECtor:SUBVector10:MINimum?
+
+// *************************************************************************
+// Return selected modulation results
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:EVM:RMS:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:EVM:PEAK:CURRent?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:EVM:PERCentile?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:MERRor:RMS:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:MERRor:PEAK:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:MERRor:PERCentile?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:PERRor:RMS:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:PERRor:PEAK:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:PERRor:PERCentile?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:IQOFfset:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:IQIMbalance:MAXimum?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:FERRor:SDEViation?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:TERRor:MAXimum?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:BPOWer:AVERage?
+FETCh:GSM:MEAS:MEValuation:LIST:MODulation:APDelay:AVERage?
+
+// *************************************************************************
+// Return all BER results
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:BER:BER?
+FETCh:GSM:MEAS:MEValuation:LIST:BER:ABSolute?
+FETCh:GSM:MEAS:MEValuation:LIST:BER:COUNt?
+
+// *************************************************************************
+// Return selected spectrum due to modulation/switching results
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:SMODulation:CPOWer?
+FETCh:GSM:MEAS:MEValuation:LIST:SSWitching:CPOWer?
+FETCh:GSM:MEAS:MEValuation:LIST:SMODulation:POFFset15?
+FETCh:GSM:MEAS:MEValuation:LIST:SSWitching:POFFset16?
+
+// *************************************************************************
+// Return the individual segment reliability indicators
+// *************************************************************************
+FETCh:GSM:MEAS:MEValuation:LIST:SRELiability?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

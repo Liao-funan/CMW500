@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>IPv4 and IPv6 Address Formats</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="b3d2c606623345d9.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="21dbc75e99114ebf.htm">Adapting the DAU IP Configuration</a> &gt; <span class="chm-breadcrumb">IPv4 and IPv6 Address Formats</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">IPv4 and IPv6 Address Formats</div><p>An IPv4 address is unique within a subnet. The subnet is identified by a subnet mask. Both parameters consist of 32 bits, typically written in dot-decimal notation.</p><p>Example: address = <span class="command">192.168.168.170</span>, subnet mask = <span class="command">255.255.255.0</span>, all addresses from <span class="command">192.168.168.0</span> to <span class="command">192.168.168.255</span> belong to the subnet.</p><p>An IPv6 address consists of 128 bits, typically written in blocks of four-digit hexadecimal numbers, separated by a colon. Addresses can be abbreviated by omitting leading zeros within a block and by replacing consecutive blocks of zeros by a double colon (only once per address).</p><div class="block"><div class="listintro">Example - the following addresses are equivalent:</div><ul class="list"><li><span class="command">fcb1:cafe:0001:86c1:0000:0000:0000:0001</span></li><li><span class="command">fcb1:cafe:1:86c1:0000:0000:0000:1</span></li><li><span class="command">fcb1:cafe:1:86c1::1</span></li></ul></div><p>The initial bits of an address are called prefix and identify the subnet. The maximum length of the prefix is 64 bits. The remaining bits are called interface identifier and uniquely identify a link within the subnet.</p><p>The DAU must know both its own address and the prefix identifying its subnet. This information can be combined into a single string by appending the prefix length to the address. Example: The address <span class="command">fcb1:cafe:1:86c1::1</span> with the initial 64 bits identifying the subnet can be written as <span class="command">fcb1:cafe:1:86c1::1/64</span>.</p><p>IPv6 prefixes are written in the same notation (address + length). Prefixes with less than 64 bits indicate a whole group of 64-bit prefixes with the same initial digits.</p><div class="block"><div class="listintro">Examples for prefixes:</div><ul class="list"><li>64-bit prefix: <span class="command">fcb1:cafe:0001:86c1::/64</span></li><li>Abbreviations: <span class="command">ac42:45d2:0001:0000::/64</span> = <span class="command">ac42:45d2:1:0::/64</span> = <span class="command">ac42:45d2:1::/64</span></li><li>Prefix groups: <span class="command">fcb1:cafe:0001::/48</span> comprises the 64-bit prefixes <span class="command">fcb1:cafe:0001:0000::/64</span> to <span class="command">fcb1:cafe:0001:ffff::/64</span></li></ul></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

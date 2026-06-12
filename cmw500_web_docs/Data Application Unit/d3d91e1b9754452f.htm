@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing IP Security Tests</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing IP Security Tests</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing IP Security Tests</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Add an entry to the keyword list. Query the keyword list.
+// Alternatively, import a keyword list from a file.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:KYWord:SEARch:ADD "pwd"
+SENSe:DATA:MEAS:IPANalysis:IPCSecurity:KYWord:SEARch:LIST?
+CONF:DATA:MEAS:IPANalysis:IPCSecurity:KYWord:SEARch:IMPort "myKeywordList.txt"
+
+// *****************************************************************************
+// Start the IP Analysis application.
+// *****************************************************************************
+INIT:DATA:MEAS:IPANalysis
+
+// *****************************************************************************
+// Query the results on the applications tab.
+// *****************************************************************************
+SENSe:DATA:MEAS:IPANalysis:IPCSecurity:APPLications?
+FETCh:DATA:MEAS:IPANalysis:IPCSecurity:CAPPlication? "Wikipedia"
+
+// *****************************************************************************
+// Query handshake information for a connection.
+// *****************************************************************************
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:VERSion? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:CIPSuite? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:COMPression? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:SHALgorithm? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:ECURve? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:ECPFormat? 3
+FETCh:DATA:MEAS:IPAN:IPCSecurity:CAPPlication:HANDshake:OFFered:SRINdication? 3
+
+// *****************************************************************************
+// Query the keyword search results.
+// *****************************************************************************
+FETCh:DATA:MEAS:IPANalysis:IPCSecurity:KYWord:SEARch?
+
+// *****************************************************************************
+// Configure a port scan.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:DESTip '172.22.1.110'
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:RANGe 5000, 5999
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:LAYer:PROTocol TCP
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:TIMeout 30
+
+// *****************************************************************************
+// Start a port scan and check that it is running.
+// Wait 10 s, query the results and stop the port scan.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:STARt
+SENSe:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:STATus?
+PAUSE 10
+FETCh:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan?
+CONFigure:DATA:MEAS:IPANalysis:IPCSecurity:PRTScan:STOP</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

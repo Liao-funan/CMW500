@@ -1,0 +1,58 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Modifying Parameters for an Established Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Modifying Parameters for an Established Connection</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Modifying Parameters for an Established Connection</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Modify inserted transport block errors and additional spectrum emission
+// requirements. Set PCC scheduling type to 3GPP-compliant RMC.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:DLEinsertion 20
+CONFigure:LTE:SIGN:CONNection:ASEMission NS03
+CONFigure:LTE:SIGN:CONNection:PCC:STYPe RMC
+
+// *****************************************************************************
+// Redefine the PCC RMCs: DL RMC with 50 RBs, 64-QAM modulation and 
+// transport block size index 5. UL RMC with 50 RBs, QPSK modulation and
+// block size index 6.
+// Position the resource blocks at the lower end of the cell bandwidth.
+// *****************************************************************************
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:DL N50,QPSK,T5
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:UL N50,QPSK,T6
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:RBPosition:DL LOW
+CONFigure:LTE:SIGN:CONNection:PCC:RMC:RBPosition:UL LOW
+
+// *****************************************************************************
+// Modify the RS EPRE level for the PCC.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:RSEPre:LEVel -83
+
+// *****************************************************************************
+// Command the UE to change the UL power of the PCC by +3 dB:
+// Select single pattern as active TPC setup, define a single pattern of
+// 3 steps UP, execute the pattern.
+// *****************************************************************************
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:SET SINGle
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:SINGle 3, UP
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:PEXecute
+
+// *****************************************************************************
+// Apply a continuous TPC command pattern of 5x -1 dB and 4x +1 dB:
+// Define the pattern and select the active TPC setup.
+// *****************************************************************************
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:UDPattern 9,-1,-1,-1,-1,-1,1,1,1,1
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:SET UDContinuous
+
+// *****************************************************************************
+// Command the UE to a target power of -10 dBm.
+// For the SCC, use a 3 dB higher power.
+// *****************************************************************************
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:CLTPower -10
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:SET CLOop
+CONFigure:LTE:SIGN:UL:SCC:PUSCh:TPC:CLTPower:OFFSet 3
+
+// *****************************************************************************
+// Execute ramping up pattern B for a 3GPP relative power control test.
+// *****************************************************************************
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:SET RPControl
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:RPControl RUB
+CONFigure:LTE:SIGN:UL:PCC:PUSCh:TPC:PEXecute</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

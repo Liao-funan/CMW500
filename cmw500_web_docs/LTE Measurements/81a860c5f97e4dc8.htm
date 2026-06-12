@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Trigger Modes</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="9094c30fb5234407.htm">LTE Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="d0ebd0054d4c4164.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="8c669f17331a4183.htm">LTE TX Tests</a> &gt; <span class="chm-breadcrumb">Trigger Modes</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Trigger Modes</div><div class="block"><div class="listintro">The LTE multi-evaluation measurement can be performed in the following trigger modes:</div><ul class="list"><li>"Free Run (Fast Sync)": The measurement starts immediately after it is initiated. The R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW decodes the signal to derive its slot timing and frame timing so that the "Measurement Length" can start at a slot or subframe boundary of the UL LTE signal.<br>Use this trigger mode only if all uplink subframes are used for transmission.</li><li>"Free Run (No Sync)": The measurement starts immediately after it is initiated, without any synchronization.<br>This trigger mode is faster than the "Free Run (Fast Sync)" mode. It can be used for power monitor, ACLR and emission mask measurements, if the resource block allocation and uplink power are continuous. All other results must be ignored (e.g. modulation results, RB allocation and power dynamics).</li><li>"IF Power": With an internal IF power trigger, the measurement is triggered by the power ramp of the received bursts.</li><li>"External Trigger": External trigger signal fed in via the rear panel of the instrument. The availability of a trigger input connector depends on the instrument model.</li><li>Additional trigger modes: Other firmware applications, for example the LTE signaling application or the GPRF generator provide additional trigger modes. Refer to the documentation of the corresponding firmware application for a description of these trigger modes.</li></ul></div><p>For configuration, see <a class="xref" href="fd2411830ecc4d3d.htm#ID_66893e21fb0a9b700a00206a00e86228-96d7cda3fb0a9b700a00206a008436b6-en-US">"Trigger Settings"</a></p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

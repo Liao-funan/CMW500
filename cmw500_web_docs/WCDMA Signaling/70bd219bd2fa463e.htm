@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>AWGN Generator</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="70cfacbd5bf641ee.htm">Internal Fading</a> &gt; <span class="chm-breadcrumb">AWGN Generator</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">AWGN Generator</div><p>Additional white Gaussian noise (AWGN) is typically modeled in receiver tests, because it leads to a decrease of throughput. The quality of the received signal is affected by the ratio of the signal power to the surrounding traffic noise level (signal to noise ratio). The modulated signals from neighbor cells simply appear as noise. This effect is simulated by adding AWGN to the signal.</p><p>The internal fading module supports AWGN insertion with configurable noise level. Insertion loss at the baseband level is calculated and compensated automatically at the HF.</p><div class="block"><div class="listintro">The properties of the AWGN interferer comply with the requirements of 3GPP TS 34.121, section D1.1 defined as follows:</div><ul class="list"><li>For tests with single carrier: minimum bandwidth 5.76 MHz, flatness less than ±0.5 dB</li><li>For tests with dual carrier HSDPA: minimum bandwidth 11.52 MHz, flatness less than ±1.0 dB</li><li>Peak to average ratio at a probability of 0.001 % above 10 dB</li></ul></div><p>It is needed for many of the performance tests and support of RRM tests described in 3GPP TS 34.121.</p><div class="block"><div class="listintro">The noise to system bandwidth ratio of the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW signal depends on the <a class="xref" href="4891f05f1b1c4e52.htm#ID_b6358f150af711e39e45cd7422ac09fb-1d2505bea49c212c0a001ae77a61aa52-en-US">"Carrier Separation"</a> value as follows:</div><ul class="list"><li>For single carrier, the value equals 1.5 (5.76 MHz / 3.84 MHz)</li><li>For multi-carrier scenarios with the carrier separation less than 9 MHz, the AWGN signal is transmitted at first carrier only with the noise bandwidth = 23.76 MHz. AWGN signal affects all carriers. The minimum noise to system bandwidth ratio equals 6.1875.</li><li>For multi-carrier scenarios with the carrier separation <span style="font-family: Arial Unicode MS; font-size: 10.5pt">≧</span> 9 MHz, the AWGN signal is transmitted per carrier with the noise bandwidth = 5.76 MHz.</li></ul></div><p>AWGN insertion via the signaling unit is disabled for fading scenarios (see <a class="xref" href="bd751cc98c6f4441.htm#ID_8ac13060c818931a0a00206a0161a71a-b1a95472898cb4f00a0020190036f1e2-en-US">"AWGN Noise (Ioc)"</a>).</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

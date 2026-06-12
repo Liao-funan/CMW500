@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Automatic Detection Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <span class="chm-breadcrumb">Automatic Detection Mode</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Automatic Detection Mode</div><pre class="verbatim" xml:space="preserve">// *******************************************************************************
+// Activate automatic detection mode 
+// Define the basic input signal settings for BR/EDR: Burst Type (BR), BD Address  
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:DMODe AUTO
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe BR
+CONFigure:BLUetooth:MEAS:ISIGnal:LAP #H121212
+CONFigure:BLUetooth:MEAS:ISIGnal:UAP #H34
+CONFigure:BLUetooth:MEAS:ISIGnal:NAP #H5656
+CONFigure:BLUetooth:MEAS:ISIGnal:BDADdress?
+
+// *******************************************************************************
+// Start a measurement and read the modulation results. 
+// Read the auto-detected signal properties and the yield.
+// *******************************************************************************
+READ:BLUetooth:MEAS:MEValuation:MODulation:BRATe:CURRent?
+
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PTYPe:BRATe?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PATTern:BRATe?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PLENgth:BRATe?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:NOSLots:BRATe?
+
+FETCh:BLUetooth:MEAS:MEValuation:MODulation:BRATe:YIELd?
+
+// *******************************************************************************
+// Change the signal configuration and R&amp;S CMW settings for EDR packets with the 
+// BD Address defined above. Start a measurement, read the auto-detected signal 
+// properties
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe EDR
+READ:BLUetooth:MEAS:MEValuation:MODulation:EDRATe:CURRent?
+
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PTYPe:EDRate?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PLENgth:EDRate?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:NOSLots:EDRate?
+
+// *******************************************************************************
+// Change the signal configuration and R&amp;S CMW settings for LE packets. 
+// Start an LE 1M measurement, read the auto-detected signal properties
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe LE
+CONFigure:BLUetooth:MEAS:ISIGnal:LENergy:PHY LE1M
+READ:BLUetooth:MEAS:MEValuation:MODulation:LENergy:LE1M:CURRent?
+FETCh:BLUetooth:MEAS:MEValuation:MODulation:LENergy:LE1M:YIELd?
+
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PTYPe:LENergy
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:AADDress:LENergy:LE1M?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PATTern:LENergy:LE1M?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PLENgth:LENergy:LE1M?
+
+// *******************************************************************************
+// Change the signal configuration and R&amp;S CMW settings for LE packets. 
+// Start a LE 2M PHY measurement, read the auto-detected signal
+// properties.
+// *******************************************************************************
+CONFigure:BLUetooth:MEAS:ISIGnal:BTYPe LE
+CONFigure:BLUetooth:MEAS:ISIGnal:LENergy:PHY LE2M
+READ:BLUetooth:MEAS:MEValuation:MODulation:LENergy:LE2M:AVERage?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PTYPe:LENergy:LRANge?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PATTern:LENergy:LE2M?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:PLENgth:LENergy:LE2M?
+FETCh:BLUetooth:MEAS:ISIGnal:ADETected:CODing:LENergy:LE2M?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

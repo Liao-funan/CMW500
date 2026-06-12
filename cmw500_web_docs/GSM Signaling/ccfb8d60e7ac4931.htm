@@ -1,0 +1,53 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring General CS Connection Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring General CS Connection Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring General CS Connection Settings</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Set the timeslot for circuit switched calls;
+// (optionally) set the uplink slot for GSM measurement applications.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:TSLot 3
+CONFigure:GSM:SIGN:MSLot:UL 3
+
+// *****************************************************************************
+// Select the AMR narrowband half-rate GMSK codec for voice calls and use
+// subchannel 1.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:TMODe ANHG
+CONFigure:GSM:SIGN:CONNection:CSWitched:HRSubchannel 1
+
+// *****************************************************************************
+// Select echo as data source, set echo delay.
+//
+// Alternatively select PRBS 2E9-1 as data source.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:DSOurce ECHO
+CONFigure:GSM:SIGN:CONNection:CSWitched:EDELay 10
+
+CONFigure:GSM:SIGN:CONNection:CSWitched:DSOurce PR9
+
+// *****************************************************************************
+// Enable DL DTX and set the level of the DTX and SID frames.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:DTX:DL ON, -20, -10
+
+// *****************************************************************************
+// Select normal CS call release.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:CRELease NREL
+
+// *****************************************************************************
+// Enable a TCH burst-by-burst loop that is re-closed after channel change.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:LOOP C
+CONFigure:GSM:SIGN:CONNection:CSWitched:LREClose ON
+
+// *****************************************************************************
+// Set the caller Id.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:CID 00498941290
+
+// *****************************************************************************
+// Configure late traffic channel assignment (off-air call setup).
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:TCHassign LATE</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

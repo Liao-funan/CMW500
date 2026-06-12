@@ -1,0 +1,64 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Using the Generator List Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="65af87a9b447421a.htm">GPRF Generator</a> &gt; <a class="chm-breadcrumb" href="9a1f981fabb040ac.htm">Programming</a> &gt; <span class="chm-breadcrumb">Using the Generator List Mode</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Using the Generator List Mode</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// System-Reset
+// *****************************************************************************
+*RST; *OPC?
+
+// *****************************************************************************
+// Activate list mode, set frequencies and levels for 5 steps
+// using two alternative command sets
+// *****************************************************************************
+SOURce:GPRF:GEN:LIST ON
+SOURce:GPRF:GEN:LIST:SSTop 0, 4
+SOURce:GPRF:GEN:LIST:STARt?
+SOURce:GPRF:GEN:LIST:STOP?
+SOURce:GPRF:GEN:LIST:IREP 0,1; IREP 1,1; IREP 2,5; IREP 3,5; IREP 4,1
+SOURce:GPRF:GEN:LIST:COUNt?
+SOURce:GPRF:GEN:LIST:FREQ 0,1.9224E+9; FREQ 1,1.9224E+9; 
+    FREQ 2,1.9224E+9; FREQ 3,1.9224E+9; FREQ 4,1.9224E+9
+SOURce:GPRF:GEN:LIST:RFLevel 0,-20; RFL 1,-23; RFL 2,-26; RFL 3,-29; RFL 4,-32
+SOURce:GPRF:GEN:LIST:DGAin 0,-2; DGA 1,-2; DGA 2,-2; DGA 3,-2; DGA 4,-2
+SOURce:GPRF:GEN:LIST:IREPetition:ALL?
+SOURce:GPRF:GEN:LIST:FREQuency:ALL?
+SOURce:GPRF:GEN:LIST:RFLevel:ALL?
+SOURce:GPRF:GEN:LIST:DGAin:ALL?
+SOURce:GPRF:GEN:LIST:FREQuency:ALL 1.9224E+9, 1.9224E+9, 1.9224E+9,
+    1.9224E+9, 1.9224E+9
+SOURce:GPRF:GEN:LIST:RFLevel:ALL -20, -23, -26, -29, -32
+SOURce:GPRF:GEN:LIST:DGAin:ALL -2, -2, -2, -2, -2
+
+// *****************************************************************************
+// Start the list in the second and the following cycles at step no. 1
+// *****************************************************************************
+SOURce:GPRF:GEN:LIST:GOTO 1
+
+// *****************************************************************************
+// Set dwell time equal to the duration of a WCDMA slot,
+// let the generator cycle through the list,
+// changing the frequency/level after the dwell times.
+// *****************************************************************************
+SOURce:GPRF:GEN:LIST:DTIMe:ALL 666.67E-6, 666.67E-6, 666.67E-6, 666.67E-6,
+    666.67E-6
+SOURce:GPRF:GEN:LIST:INCRement:CATalog?
+SOURce:GPRF:GEN:LIST:INCRement 'Dwell Time'
+
+// *****************************************************************************
+// For routing to connector bench:
+// Configure the output connectors per list entry.
+// Use the first four connectors for list entry 0 to 2.
+// Use the last four connectors for list entry 3 and 4.
+// *****************************************************************************
+SOURce:GPRF:GEN:LIST:CMWS:CSET LIST
+SOURce:GPRF:GEN:LIST:CMWS:USAGe:TX 0,ON,ON,ON,ON,OFF,OFF,OFF,OFF
+SOURce:GPRF:GEN:LIST:CMWS:USAGe:TX 1,ON,ON,ON,ON,OFF,OFF,OFF,OFF
+SOURce:GPRF:GEN:LIST:CMWS:USAGe:TX 2,ON,ON,ON,ON,OFF,OFF,OFF,OFF
+SOURce:GPRF:GEN:LIST:CMWS:USAGe:TX 3,OFF,OFF,OFF,OFF,ON,ON,ON,ON
+SOURce:GPRF:GEN:LIST:CMWS:USAGe:TX 4,OFF,OFF,OFF,OFF,ON,ON,ON,ON
+
+// *****************************************************************************
+// Switch on generator
+// *****************************************************************************
+SOURce:GPRF:GEN:STATe ON: *OPC?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

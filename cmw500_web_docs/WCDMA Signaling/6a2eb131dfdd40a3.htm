@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Synchronization</title><style>
+					@import url(html_help.css);
+				</style><meta name="topic-keyword" value="HDD__54435970_C724_4BB0_86AA_F91B84CFF420__Node_Synchronization"><meta name="topic-id" value="706"><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="8cc1f312208b4d8f.htm">GUI Reference</a> &gt; <a class="chm-breadcrumb" href="469af46d7fc14a07.htm">Network Settings</a> &gt; <span class="chm-breadcrumb">Synchronization</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Synchronization</div><p>The parameters in this section configure the synchronization to other signaling applications.</p><div class="block" id="ID_42b9a53c2b43c0000a001ae70c0730aa-e074fdb0e687099c0a00206a00e457c0-en-US"><div class="graphic"><img border="0" src="images/img26440e222af2806f0a001ae759bd7c5e_1_--_--_PNG96Small.png" alt="" title=""></div><div class="caption_figure">Synchronization settings</div></div><div class="function_heading"><a name="ID_82eb879e21f311e3a50383a1463b7c96-e074fdb0e687099c0a00206a00e457c0-en-US"></a><span style="font-weight: bold">Synchronization Zone</span></div><p>Select the same synchronization zone in all signaling applications that you want to synchronize. "None" means that the application is not synchronized to other signaling applications.</p><p>Synchronizing signaling applications means synchronizing the used system time. It is useful, for example, for evaluation of message logs, because the time stamps in the logs are synchronized.</p><p>Synchronizing two WCDMA signaling applications means also synchronizing the used system frame numbers.</p><div class="block"><p>This parameter is suspended in the state CEST (connection established).</p></div>Remote command:&nbsp;<div class="rcclist_right"><p><a class="xref" href="0ec13c3df683450e.htm#ID_3bafc6c22c1393620a001ae77e0b3370-8c581ce22ac3067d0a001ae75bf5ab73-en-US" style="font-family: &#34;Courier New&#34;, Courier, monospace;"><nobr>CONFigure:</nobr>​<nobr>WCDMa:</nobr>​<nobr>SIGN&lt;i&gt;:</nobr>​<nobr>CELL:</nobr>​<nobr>SYNC:</nobr>​<nobr>ZONE</nobr></a></p></div><div style="clear:left;">&nbsp;</div><div class="function_heading"><a name="ID_82f2b39621f311e3a50383a1463b7c96-e074fdb0e687099c0a00206a00e457c0-en-US"></a><span style="font-weight: bold">Synchronization Offset</span></div><p>Configures the timing offset at cell start, relative to the time zone.</p><p>Without offset, the cell signal starts with system frame number 0 and a system time according to the time zone. With an offset, the cell starts with delay: system frame number 0 plus the |offset| and a system time according to the time zone plus the |offset|.</p><div class="block"><p>This parameter is suspended in the state CEST (connection established).</p></div><p>Option R&amp;S CMW-KS410 is required.</p>Remote command:&nbsp;<div class="rcclist_right"><p><a class="xref" href="9c1545a7fa1f4edd.htm#ID_f2bb351d2ac30a170a001ae7551a77dc-c86ac1262ac308af0a001ae75bf5ab73-en-US" style="font-family: &#34;Courier New&#34;, Courier, monospace;"><nobr>CONFigure:</nobr>​<nobr>WCDMa:</nobr>​<nobr>SIGN&lt;i&gt;:</nobr>​<nobr>CELL:</nobr>​<nobr>SYNC:</nobr>​<nobr>OFFSet</nobr></a></p></div><div style="clear:left;">&nbsp;</div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

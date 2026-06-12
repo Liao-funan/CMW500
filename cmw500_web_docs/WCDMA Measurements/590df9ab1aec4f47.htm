@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Parallel Signaling and Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="d7b32fb9733e4113.htm">WCDMA TPC Measurement</a> &gt; <a class="chm-breadcrumb" href="0e96f9f4bb254c31.htm">General Description</a> &gt; <span class="chm-breadcrumb">Parallel Signaling and Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Parallel Signaling and Measurement</div><p>The WCDMA TPC measurement can be used in parallel to the WCDMA signaling application (option R&amp;S CMW-KS400). The signaling application sends TPC commands to the UE and the TPC measurement evaluates the UE power and power steps.</p><p>To use both applications in parallel, the combined signal path scenario must be activated (see <a class="xref" href="b8d611b86fe54d82.htm#ID_ea5aa676fb50b0e10a710a6a01aa7598-d5d8e8c0857623830a00206a00387fcd-en-US">"Scenario = Combined Signal Path"</a>). The signal routing and analyzer settings and some measurement control settings are then configured by the signaling application. The TPC measurement displays the corresponding signaling settings instead of its own settings. These signaling settings can be configured both in the measurement GUI and in the GUI of the signaling application. To configure the signaling settings via remote commands, the commands of the signaling application have to be used. For a command mapping table, see <a class="xref" href="deeebf5ed4f74701.htm#ID_101aa2c1842976e50a00206a01ca9103-c464135229ea93d80a001ae77839a1d5-en-US">"Combined Signal Path Commands"</a>.</p><p>Additional signaling parameters, e.g. the TPC settings, can be accessed in the measurement GUI via hotkeys, see <a class="xref" href="253feaf28b1047c7.htm#ID_f80ee640fb0af1210a00206a01da2ccf-a0ac46766e4142740a00206a01dc1323-en-US">"Additional Softkeys and Hotkeys"</a>.</p><p>For combined signal path measurements, a suitable trigger signal provided by the signaling application is selected automatically. This selection is done, for example, when the combined signal path scenario is activated, the controlling application is changed or the TPC setup is changed.</p><div class="block"><div class="listintro">The TPC measurement provides several ways to trigger the execution of a TPC setup by the signaling application:</div><ul class="list"><li>Press the softkey "TPC Meas." and the hotkey "Execute".</li><li>Press the softkey "Signaling Parameter", the hotkey "TPC" and the "Execute" button.</li><li>Enable auto execution. The TPC setup execution is triggered automatically whenever the measurement is started.<br>Auto execution is supported for the measurement modes "Inner Loop Power Control" and "Max. Power E-DCH". It can be enabled or disabled as part of the mode-specific settings, see <a class="xref" href="7d49409fa245484b.htm#ID_4d6a764efb0974080a00206a01e1de09-f2df39316e41510a0a00206a00c61f76-en-US">"Measurement Control Settings"</a>.</li></ul></div>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

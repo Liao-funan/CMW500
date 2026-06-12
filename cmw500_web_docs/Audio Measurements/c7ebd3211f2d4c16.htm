@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>FFT Noise Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="4bbdc5b8a85e4d60.htm">Audio Measurements</a> &gt; <a class="chm-breadcrumb" href="598d8da5f6cd474f.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="fa88647d34524b09.htm">Audio Measurement and Generator Scenario</a> &gt; <span class="chm-breadcrumb">FFT Noise Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">FFT Noise Measurement</div><p>The following example configures all settings specific for an FFT noise measurement, starts the audio generator, starts the audio measurement and queries the measurement results.</p><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Select FFT noise as signal type and couple the generator to a measurement.
+// *****************************************************************************
+SOURce:AUDio:GEN:ANALog:STYPe FFTNoise
+SOURce:AUDio:GEN:ANALog:ACOupling ANAL
+
+// *****************************************************************************
+// Specify the level of the generated noise signal.
+// *****************************************************************************
+SOURce:AUDio:GEN:ANALog:FFTNoise:LEVel 3
+
+// *****************************************************************************
+// Configure the statistic count of the measurement.
+// *****************************************************************************
+CONFigure:AUDio:MEAS:ANALog:FFTNoise:SCOunt 14
+
+// *****************************************************************************
+// Configure the FFT noise measurement filters.
+// *****************************************************************************
+CONFigure:AUDio:MEAS:ANALog:FFTNoise:FILTer:LPASs OFF
+CONFigure:AUDio:MEAS:ANALog:FFTNoise:FILTer:HPASs OFF
+CONFigure:AUDio:MEAS:ANALog:FFTNoise:FILTer:WEIGhting OFF
+
+// *****************************************************************************
+// Switch on the audio generator. Wait until the command has been executed and
+// query the generator state (should be ON). 
+// *****************************************************************************
+SOURce:AUDio:GEN:ANALog:STATe ON; *OPC?
+SOURce:AUDio:GEN:ANALog:STATe?
+
+// *****************************************************************************
+// Start the audio measurement.
+// Query the current FFT noise trace (Y-values) and the frequencies (X-values).
+// Query the measurement state (should be RDY).
+// *****************************************************************************
+INITiate:AUDio:MEAS:ANALog
+FETCh:AUDio:MEAS:ANALog:FFTNoise:CURRent?
+FETCh:AUDio:MEAS:ANALog:FFTNoise:FREQuency?
+FETCh:AUDio:MEAS:ANALog:STATe?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing Single-Shot Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">NB-IoT Measurements</a> &gt; <a class="chm-breadcrumb" href="8f06d4d11d794030.htm">NB-IoT Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="935b964c005f4ae6.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="312db3f45d774e10.htm">Using the List Mode</a> &gt; <span class="chm-breadcrumb">Performing Single-Shot Measurements</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Performing Single-Shot Measurements</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Start single-shot measurement.
+// Return the individual segment reliability indicators.
+// *****************************************************************************
+INIT:NIOT:MEAS:MEValuation
+FETCh:NIOT:MEAS:MEValuation:LIST:SRELiability?
+
+// *****************************************************************************
+// Return average and extreme modulation results. 
+// Return extreme inband emission results.
+// *****************************************************************************
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent1:MODulation:AVERage?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:MODulation:AVERage?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent1:MODulation:EXTReme?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:MODulation:EXTReme?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent1:IEMission:MARGin:EXTReme?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:IEMission:MARGin:EXTReme?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent1:IEMission:MARGin:EXTReme:SCINdex?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:IEMission:MARGin:EXTReme:SCINdex?
+
+// *****************************************************************************
+// Return average and extreme spectrum emission results.
+// Return spectrum emission margins: X- and Y-values of minimum margins and
+// Y-values of all margins.
+// *****************************************************************************
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:SEMask:AVERage?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:SEMask:EXTReme?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:MINimum:POSitiv?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:MINimum:NEGativ?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:SEMask:MARGin:ALL?
+
+// *****************************************************************************
+// Return current and average ACLR results.
+// *****************************************************************************
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:ACLR:CURRent?
+FETCh:NIOT:MEAS:MEValuation:LIST:SEGMent2:ACLR:AVERage?
+
+// *****************************************************************************
+// Select segment no. 2 as offline segment (and implicitly enable the
+// offline mode). Restart the measurement to calculate all results in
+// segment 2. Go to local to view the results.
+// *****************************************************************************
+CONFigure:NIOT:MEAS:MEValuation:LIST:OSINdex 2
+INIT:NIOT:MEAS:MEValuation
+&amp;GTL</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Initialization and Basic Configuration</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="04681c53bb73486b.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Signaling</a> &gt; <a class="chm-breadcrumb" href="5fc10ead187c44fe.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="f0e09183c8684c02.htm">Signaling Application</a> &gt; <span class="chm-breadcrumb">Initialization and Basic Configuration</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Initialization and Basic Configuration</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Reset the CMW settings and clear the error queue
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Set operating mode to connection test.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:OPMode CNT; *OPC?
+
+// *****************************************************************************
+// Configure routing and external attenuation
+// *****************************************************************************
+ROUTe:BLUetooth:SIGN:SCENario:OTRX RF2C,RX1,RF2C,TX1; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:EATTenuation:OUTPut 4; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:EATTenuation:INPut 4; *OPC?
+
+// *****************************************************************************
+// Alternativelly configure routing using SUA
+// *****************************************************************************
+ROUTe:BLUetooth:SIGN:SCENario:OTRX:FLEXible SUA1,RF2C,RX1,RF2C,TX1; *OPC?
+
+// *****************************************************************************
+// Disable auto ranging, specify the expected nominal 
+// power (RX level), TX power level and user margin.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:RFSettings:ARANging OFF; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:ENPower 7; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:LEVel -50; *OPC?
+CONFigure:BLUetooth:SIGN:RFSettings:UMARgin 1; *OPC?
+
+// *****************************************************************************
+// Specify the CMW BD address
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:BDADdress:CMW #H123456123456; *OPC?
+
+// *****************************************************************************
+// Specify the burst type and activate enhanced power control.
+// *****************************************************************************
+CONFigure:BLUetooth:SIGN:CONNection:BTYPe EDR; *OPC?
+CONFigure:BLUetooth:SIGN:CONNection:PCONtrol:EPCMode AUTO; *OPC?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

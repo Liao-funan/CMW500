@@ -1,0 +1,17 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Setting Up a CS Connection</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Setting Up a CS Connection</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Setting Up a CS Connection</div><div class="verbatim"><pre class="verbatim_text">// ***************************************************************************** 
+// Set up a mobile terminating connection.
+// Query the connection state until it equals CEST (call established).
+// Query the connection delay. Query and clean the connection attempt
+// and reject counters.
+// ***************************************************************************** 
+CALL:GSM:SIGN:CSWitched:ACTion CONNect
+WHILE FETCh:GSM:SIGN:CSWitched:STATe? &lt;&gt; "CEST"
+SENSe:GSM:SIGN:CVINfo?
+SENSe:GSM:SIGN:CONNection:CSWitched:CONNection:ATTempt
+SENSe:GSM:SIGN:CONNection:CSWitched:CONNection:REJect
+CLEan:GSM:SIGN:CONNection:CSWitched:CONNection:ATTempt
+CLEan:GSM:SIGN:CONNection:CSWitched:CONNection:REJect</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

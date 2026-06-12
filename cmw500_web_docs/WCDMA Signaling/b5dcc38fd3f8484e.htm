@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Max. Power E-DCH TPC Setup</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="f3c34c8634e0432e.htm">Transmit Power Control (TPC)</a> &gt; <span class="chm-breadcrumb">Max. Power E-DCH TPC Setup</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Max. Power E-DCH TPC Setup</div><p>The conformance test specification 3GPP defines a test for verification of the maximum UE power with active HS-DPCCH and E-DCH. Particularly 3GPP TS 34.121, section 5.2B "Maximum Output Power with HS-DPCCH and E-DCH". The test comprises five subtests.</p><p>Subtest 1 to 4 verify the maximum UE power for different RMC plus HSPA signals. The test procedure is identical for all four subtests. It requires algorithm 2 and the test pattern "m*11111+n*00000...01..".. So m times a +1 TPC_cmd is sent, then n times a -1 TPC_cmd and finally the UE power is kept constant via an alternating pattern. The numbers n and m are dynamic and depend on the E-TFCI values received from the UE during the subtest.</p><p>Subtest 5 verifies the maximum UE power for an SRB plus HSPA signal (no RMC). It requires algorithm 1 and an "All 1" TPC pattern.</p><p>The "Max. Power E-DCH" TPC setup sends a TPC pattern suitable for subtest 1 to 4, if an "RMC+HSPA" test mode connection is configured. If an "HSPA" test mode connection is configured, it sends a TPC pattern suitable for subtest 5.</p><p>The signaling application provides a wizard for comfortable configuration of the signals required for the individual subtests, see <a class="xref" href="8521f2dd22e54fc1.htm#ID_f8de689cf77ff53b0a00206a0151da8a-a29279b0f77ff53b0a00206a00e2a1e1-en-US">"WCDMA Wizards"</a>.</p><p>Please note that measurement resources are required by the "Max. Power E-DCH" setup for monitoring of the E-TFCI. Do not execute an HSUPA measurement in parallel (for example the E-HICH measurement) to avoid resource conflict. In that case, execution of the "Max. Power E-DCH" setup is either slowed down, or fail (TPC state "Missing Resource").</p><p>For a detailed description of a combined signal path measurement including subtest 1 to 5, see <a class="xref" href="d1855b8434174256.htm#shiv_rs_cmw_ev_do_4516-752e2ad14253a3520a0020190193a26b-en-US">"Maximum Power Measurements with E-DCH"</a>.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

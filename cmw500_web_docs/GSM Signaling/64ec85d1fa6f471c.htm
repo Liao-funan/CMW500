@@ -1,0 +1,23 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Measuring in BER Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="c11621d35a5d4f21.htm">BER CS Tests</a> &gt; <span class="chm-breadcrumb">Measuring in BER Mode</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Measuring in BER Mode</div><p>Before proceeding, configure the signaling application and set up a circuit switched connection.</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Set the number of speech frames to be measured to 100 and
+// measurement mode to BER.
+// *****************************************************************************
+CONFigure:GSM:SIGN:BER:CSWitched:MMODe BER
+CONFigure:GSM:SIGN:BER:CSWitched:SCOunt 100
+
+// *****************************************************************************
+// Set the error rate limits for Class II and Class Ib bits to 0.2% and 0.4%.
+// Tell the BER Measurement to stop if one of these limits is exceeded. 
+// *****************************************************************************
+CONFigure:GSM:SIGN:BER:CSWitched:LIMit:CIIBits 0.2
+CONFigure:GSM:SIGN:BER:CSWitched:LIMit:CIBBits 0.4
+CONFigure:GSM:SIGN:BER:CSWitched:SCONdition FLIM
+
+// *****************************************************************************
+// Initiate the measurement and retrieve the results.
+// *****************************************************************************
+READ:GSM:SIGN:BER:CSWitched?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

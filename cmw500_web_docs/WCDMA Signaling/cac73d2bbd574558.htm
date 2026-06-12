@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing E-HICH Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="d5166e44b3c4442e.htm">E-HICH Measurement</a> &gt; <span class="chm-breadcrumb">Performing E-HICH Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing E-HICH Measurements</div><p>For E-HICH measurements, set up a connection with HSDPA and HSUPA (test mode or end-to-end data).</p><p>Conformance tests require that an all ACK and an all DTX pattern are transmitted via the E-HICH. To select these patterns see <a class="xref" href="b777d4e853724f48.htm#ID_b1c6345bbecf11e1b1ecb999cd445e68-113b5b55141d15c40a00201900f0bb81-en-US">"HARQ Feedback (E-HICH)"</a>.</p><div class="block"><div class="listintro">While the measurement is running, the R&amp;S<span style="font-family: Arial Unicode MS; font-size: 10.5pt">&nbsp;</span>CMW evaluates the retransmission sequence number (RSN) that the UE transmits on the UL E-DPCCH:</div><ul class="list"><li>After receiving an ACK value, the UE is expected to indicate the transmission of a new data block (no retransmission).</li><li>After receiving a NACK value or DTX, the UE is expected to indicate a retransmission.</li></ul></div><p>In response to a received NACK or DTX value, each block can be retransmitted several times until the maximum number of retransmissions is reached. After this limit, the UE will send new data, irrespective of the received HARQ indicator value. The first new data block after a complete retransmission cycle is not counted as a test sample.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

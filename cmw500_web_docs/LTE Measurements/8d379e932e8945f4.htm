@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Single-Shot and Continuous Measurements</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="df760600fac4413a.htm">LTE SRS Measurement</a> &gt; <a class="chm-breadcrumb" href="8d5f029bc6a1438e.htm">Programming</a> &gt; <span class="chm-breadcrumb">Single-Shot and Continuous Measurements</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Single-Shot and Continuous Measurements</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Start single-shot measurement, return current power dynamics trace,
+// return average trace (without repeating the measurement).
+// Query the measurement state (should be "RDY").
+// *****************************************************************************
+INIT:LTE:MEAS:SRS
+FETCh:LTE:MEAS:SRS:TRACe:PDYNamics:CURRent?
+FETCh:LTE:MEAS:SRS:TRACe:PDYNamics:AVERage?
+FETCh:LTE:MEAS:SRS:STATe?
+
+// *****************************************************************************
+// Start continuous measurement and wait for 5 ms.
+// Return average trace.
+// Query measurement state and substates (should be "RUN,ADJ,ACT").
+// *****************************************************************************
+CONFigure:LTE:MEAS:SRS:REPetition CONTinuous
+INIT:LTE:MEAS:SRS
+Pause 5000
+FETCh:LTE:MEAS:SRS:TRACe:PDYNamics:AVERage?
+FETCh:LTE:MEAS:SRS:STATe:ALL?</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

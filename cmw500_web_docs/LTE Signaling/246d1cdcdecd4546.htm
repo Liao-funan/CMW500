@@ -1,0 +1,41 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring DL Power Levels</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="b71cce6eaa8040c0.htm">LTE Signaling</a> &gt; <a class="chm-breadcrumb" href="190d5810d6d6419d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="18791811a3ef485f.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring DL Power Levels</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring DL Power Levels</div><p>The following commands configure the PCC. To configure the SCC number &lt;n&gt;, substitute <span class="command">:PCC:</span> by <span class="command">:SCC&lt;n&gt;:</span> (<span class="command">:SSC1:</span>, <span class="command">:SCC2:</span>, ...).</p><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Define the RS EPRE level and the power of the DL channels and signals
+// relative to the RS EPRE level. Query full cell BW power.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:RSEPre:LEVel -80
+CONFigure:LTE:SIGN:DL:PCC:PSS:POFFset -3
+CONFigure:LTE:SIGN:DL:PCC:SSS:POFFset -3
+CONFigure:LTE:SIGN:DL:PCC:PBCH:POFFset 0
+CONFigure:LTE:SIGN:DL:PCC:PCFich:POFFset 0
+CONFigure:LTE:SIGN:DL:PCC:PHICh:POFFset 0
+CONFigure:LTE:SIGN:DL:PCC:PDCCh:POFFset -3
+SENSe:LTE:SIGN:DL:PCC:FCPower?
+
+// *****************************************************************************
+// Configure the used CSI-RS power offset manually,
+// independent from the signaled power offset.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:CSIRs:MODE MANual
+CONFigure:LTE:SIGN:DL:PCC:CSIRs:POFFset -10
+
+// *****************************************************************************
+// Enable the OFDMA channel noise generator.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:OCNG ON
+
+// *****************************************************************************
+// Define power offset, power ratio index and antenna port power
+// for calculation of the PDSCH power level.
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:PDSCh:PA ZERO
+CONFigure:LTE:SIGN:DL:PCC:POWer:PORTs 0
+CONFigure:LTE:SIGN:DL:PCC:PDSCh:RINDex 1
+
+// *****************************************************************************
+// Define the AWGN power level (also activates the AWGN interferer).
+// *****************************************************************************
+CONFigure:LTE:SIGN:DL:PCC:AWGN -100</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

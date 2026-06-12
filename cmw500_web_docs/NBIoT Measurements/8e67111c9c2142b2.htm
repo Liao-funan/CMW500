@@ -1,0 +1,35 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Limits</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">NB-IoT Measurements</a> &gt; <a class="chm-breadcrumb" href="8f06d4d11d794030.htm">NB-IoT Multi-Evaluation Measurement</a> &gt; <a class="chm-breadcrumb" href="935b964c005f4ae6.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="2bfecc2d22d4407b.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Specifying Limits</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Specifying Limits</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Define modulation limits.
+// *****************************************************************************&nbsp;
+CONFigure:NIOT:MEAS:MEValuation:LIMit:EVMagnitude 20, 40
+CONFigure:NIOT:MEAS:MEValuation:LIMit:MERRor 20, OFF
+CONFigure:NIOT:MEAS:MEValuation:LIMit:PERRor 20, OFF
+CONFigure:NIOT:MEAS:MEValuation:LIMit:FERRor ON, 0.15, 0.1
+CONFigure:NIOT:MEAS:MEValuation:LIMit:IQOFfset ON, -26, -21, -11
+CONFigure:NIOT:MEAS:MEValuation:LIMit:IBE ON, -20, -60, -27
+CONFigure:NIOT:MEAS:MEValuation:LIMit:IBE:IQOFfset -26, -21, -11
+
+// *****************************************************************************
+// Define ACLR limits.
+// *****************************************************************************&nbsp;
+CONFigure:NIOT:MEAS:MEValuation:LIMit:ACLR:GSM 20, -50
+CONFigure:NIOT:MEAS:MEValuation:LIMit:ACLR:UTRA 35, -50
+
+// *****************************************************************************
+// Define spectrum emission limits.
+// *****************************************************************************&nbsp;
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:OBWLimit 199E+3
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:LIMit1 ON,1.5E+4,8.5E+4,23.0,1.0
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:LIMit2 ON,1.1E+5,1.3E+5,-4.5,-5.5
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:LIMit3 ON,1.6E+5,2.8E+5,-8.6,-25.4
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:LIMit4 ON,3.1E+5,4.8E+5,-28,-33
+CONFigure:NIOT:MEAS:MEValuation:LIMit:SEMask:LIMit5 ON,5.1E+5,1.7E+6,-33,-33
+
+// *****************************************************************************
+// Define power dynamics limits.
+// *****************************************************************************&nbsp;
+CONFigure:NIOT:MEAS:MEValuation:LIMit:PDYNamics ON, 26, 20, -48.8</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

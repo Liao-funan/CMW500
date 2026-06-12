@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Closed Loop TPC Setup</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="58617a80bcbf4e4f.htm">WCDMA Signaling</a> &gt; <a class="chm-breadcrumb" href="cd81377337054f9e.htm">General Description</a> &gt; <a class="chm-breadcrumb" href="f3c34c8634e0432e.htm">Transmit Power Control (TPC)</a> &gt; <span class="chm-breadcrumb">Closed Loop TPC Setup</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Closed Loop TPC Setup</div><p>The closed loop TPC setup allows you to command the UE to a configurable target power.</p><p>When the setup is executed, the instrument measures the UL power, sends suitable TPC commands to the UE. The instrument measures the UL power again, and so on, until the target power is reached. Then it sends an alternating pattern.</p><p>You can define the target power either as maximum UL DPCH power or as maximum total UL power. "Maximum" because both the DPCH power and the total power can vary during a call, even if the UL power is not changed via TPC commands. The DPDCH power, for example, can vary during a voice call, causing a change of the DPCH power and the total power. Or the HS-DPCCH power can vary depending on the transmitted contents (CQI, ACK/NACK, DTX), causing a change of the total power.</p><p>Please note that the closed loop algorithms use the configured gain factors to calculate the maximum expected power from measured UL power values. If the UE fails to apply the gain factors correctly, it results in a deviation of the reached target power.</p><p>Many conformance test cases in 3GPP TS 34.121 request that the power level of UE is set to a specific value. Applying a total target power is appropriate in that case. Some test cases also request a specific uplink DPCH power, so that the target power has to be defined as DPCH power. An example is 3GPP TS 34.121, section 5.13.1AA.4.2, step 5, where -18 dBm are requested for the half-slot period with the lowest output power (no HS-DPCCH power, only DPCH power).</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

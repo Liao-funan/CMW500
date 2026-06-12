@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying General and Common Measurement Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">LTE UE Measurements</a> &gt; <a class="chm-breadcrumb" href="6f5b41b9033a497c.htm">LTE PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="04517196750747b3.htm">Programming</a> &gt; <span class="chm-breadcrumb">Specifying General and Common Measurement Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying General and Common Measurement Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Initial system-reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC?
+
+// *****************************************************************************
+// Set duplex mode TDD and query the resulting frame structure type (T2).
+// Specify channel bandwidth 1.4 MHz.
+// *****************************************************************************
+CONFigure:LTE:MEAS:DMODe TDD
+CONFigure:LTE:MEAS:FSTRucture?
+CONFigure:LTE:MEAS:CC:CBANdwidth B014
+
+// *****************************************************************************
+// Define signal routing and perform RF and analyzer settings:
+// Carrier center frequency 1850 MHz, frequency offset 1 kHz, peak power 7 dBm,
+// 5 dB user margin and 1 dB mixer level offset.
+// *****************************************************************************
+ROUTe:LTE:MEAS:SCENario:SALone RF1C, RX1
+CONFigure:LTE:MEAS:RFSettings:EATTenuation 2
+CONFigure:LTE:MEAS:RFSettings:CC:FREQuency 1850E+6
+CONFigure:LTE:MEAS:RFSettings:FOFFset 1000
+CONFigure:LTE:MEAS:RFSettings:ENPower 7
+CONFigure:LTE:MEAS:RFSettings:UMARgin 5
+CONFigure:LTE:MEAS:RFSettings:MLOFfset 1</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

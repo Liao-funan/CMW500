@@ -1,0 +1,52 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Configuring AMR Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="15baa4beeead4382.htm">GSM Signaling</a> &gt; <a class="chm-breadcrumb" href="1156177f4c064b0d.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="a43742d43b6b4f20.htm">General Configuration</a> &gt; <span class="chm-breadcrumb">Configuring AMR Settings</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Configuring AMR Settings</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Specify AMR signaling mode.
+// *****************************************************************************
+CONF:GSM:SIGN:CONN:CSW:AMR:SIGN:MODE RATS
+
+// *****************************************************************************
+// Configure rate sets and thresholds for different AMR types.
+// *****************************************************************************
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:NB:FRATe:GMSK C1220,C0795,C0590,C0475
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:NB:HRATe:GMSK OFF,OFF,C0795,C0515
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:NB:HRATe:EPSK OFF,C1220,C0795,C0590
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:WB:FRATe:GMSK OFF,C0885,C0660
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:WB:FRATe:EPSK OFF,C2385,C1585,C1265
+CONF:GSM:SIGN:CONN:CSW:AMR:RSET:WB:HRATe:EPSK OFF,C1265,C0885
+CONF:GSM:SIGN:CONN:CSW:AMR:THR:WB:HRATe:EPSK OFF,OFF,1.15,1.35,6.5,8.5
+
+// *****************************************************************************
+// Specify the initial codec modes.
+// *****************************************************************************
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:FRATe:GMSK:DL 3
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:FRATe:GMSK:UL 3
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:HRATe:GMSK:DL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:HRATe:GMSK:UL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:HRATe:EPSK:DL 3
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:NB:HRATe:EPSK:UL 3
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:FRATe:GMSK:DL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:FRATe:GMSK:UL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:FRATe:EPSK:DL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:FRATe:EPSK:UL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:HRATe:EPSK:DL 2
+CONFigure:GSM:SIGN:CONNection:CSWitched:AMR:CMODe:WB:HRATe:EPSK:UL 2
+
+// *****************************************************************************
+// Query the DL codec modes requested by the MS (DL) and the actual codec modes 
+// used by the MS (UL).
+// *****************************************************************************
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:FRATe:GMSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:FRATe:GMSK:UL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:HRATe:GMSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:HRATe:GMSK:UL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:HRATe:EPSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:NB:HRATe:EPSK:UL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:FRATe:GMSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:FRATe:GMSK:UL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:FRATe:EPSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:FRATe:EPSK:UL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:HRATe:EPSK:DL?
+SENSe:GSM:SIGN:MSSinfo:AMR:CMODe:WB:HRATe:EPSK:UL?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

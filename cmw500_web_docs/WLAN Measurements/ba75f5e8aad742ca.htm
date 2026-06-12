@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Specifying Measurement-Specific Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0be03d498c8f43b9.htm">General Examples</a> &gt; <span class="chm-breadcrumb">Specifying Measurement-Specific Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Specifying Measurement-Specific Settings</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Define error handling.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:SCONdition SLFail
+CONFigure:WLAN:MEAS:MEValuation:MOEXception ON
+
+// *****************************************************************************
+// Define modulation measurement settings.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:SCOunt:MODulation 20
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:TRACking:PHASe OFF
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:TRACking:TIMing OFF
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:TRACking:LEVel OFF
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:CESTimation PAYL
+CONFigure:WLAN:MEAS:MEValuation:DEMod:FFT:OFFSet AUTO
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:EFTaps OFF
+CONFigure:WLAN:MEAS:MEValuation:EMEThod ST2007
+CONFigure:WLAN:MEAS:MEValuation:COMPensation:SKIPsymbols 1, 1
+
+// *****************************************************************************
+// Define spectrum measurement settings.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:SCOunt:TSMask 20
+CONFigure:WLAN:MEAS:MEValuation:TSMask:TROTime 0.0001
+CONFigure:WLAN:MEAS:MEValuation:TSMask:AFFTnum 5
+CONFigure:WLAN:MEAS:MEValuation:TSMask:OBWPercent ON
+
+// *****************************************************************************
+// Define power measurement settings.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MEValuation:SCOunt:PVTime 20
+CONFigure:WLAN:MEAS:MEValuation:PVTime:ALENgth 5
+CONFigure:WLAN:MEAS:MEValuation:PVTime:RPOWer MEAN
+
+// *****************************************************************************
+// Enable all measurements (DSSS and OFDM).
+// *****************************************************************************&nbsp;
+CONFigure:WLAN:MEAS:MEValuation:RESult ON,ON,ON,ON,ON,ON,ON,ON,ON</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

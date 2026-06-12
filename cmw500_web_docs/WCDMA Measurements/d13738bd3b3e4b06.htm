@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Parallel Signaling and Measurement</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="helpmerge-hooknode.htm">WCDMA UE Measurements</a> &gt; <a class="chm-breadcrumb" href="ede15f24158e427d.htm">WCDMA PRACH Measurement</a> &gt; <a class="chm-breadcrumb" href="214a5f4a47bb4523.htm">General Description</a> &gt; <span class="chm-breadcrumb">Parallel Signaling and Measurement</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Parallel Signaling and Measurement</div><p>The PRACH measurement can be used in parallel to the WCDMA signaling application (option R&amp;S CMW-KS400). The signaling application emulates a UTRAN cell signal so that the UE tries to attach and sends random access preambles. These preambles can then be measured using the PRACH measurement.</p><p>To use both applications in parallel, the combined signal path scenario must be activated (see <a class="xref" href="b8d611b86fe54d82.htm#ID_ea5aa676fb50b0e10a710a6a01aa7598-d5d8e8c0857623830a00206a00387fcd-en-US">"Scenario = Combined Signal Path"</a>). The signal routing and analyzer settings, the UE signal info settings and some measurement control settings are then configured by the signaling application. The PRACH measurement displays the corresponding signaling settings instead of its own settings. These signaling settings can be configured both in the measurement GUI and in the GUI of the signaling application. To configure the signaling settings via remote commands, the commands of the signaling application have to be used. For a command mapping table, see <a class="xref" href="6ac5b24a77e44f74.htm#ID_101aa2c1842976e50a00206a01ca9103-9ee6e7a729e9efd70a001ae763379630-en-US">"Combined Signal Path Commands"</a>.</p><p>Additional signaling parameters, e.g. the PRACH settings, can be accessed in the measurement GUI via hotkeys, see <a class="xref" href="ec391a8f3e384124.htm#ID_f80ee640fb0af1210a00206a01da2ccf-3dff570bb31ab8b20a00201900a556a5-en-US">"Additional Softkeys and Hotkeys"</a>.</p><p>Whenever the combined signal path scenario is activated or the controlling application is changed, the PRACH trigger signal provided by the controlling signaling application is selected automatically as trigger source.</p><p>You can configure the signaling application so that it does not answer the received preambles (enhanced AICH settings, "Acknowledge = Negative") and the UE performs several preamble cycles. However, this setting is not recommended, as the measurement is designed to measure one preamble cycle only. Correct triggering on the first preamble of a cycle can only be ensured for the first preamble cycle.</p>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

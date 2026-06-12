@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Performing IP Replay</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="aadd99266cfe4196.htm">Data Application Unit</a> &gt; <a class="chm-breadcrumb" href="899d894e950d4856.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="1f7977da23014bbf.htm">Data Application Measurements</a> &gt; <span class="chm-breadcrumb">Performing IP Replay</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Performing IP Replay</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Query a list of all available files.
+// Add two of the files to the playlist.
+// *****************************************************************************
+FETCh:DATA:MEAS:IPReplay:FILelist?
+CONFigure:DATA:MEAS:IPReplay:CREatelist 'myfile.pcap',3,MULTicast
+CONFigure:DATA:MEAS:IPReplay:CREatelist 'file42.pcap',1,MULTicast
+
+// *****************************************************************************
+// Start the IP replay application and wait until it is running.
+// *****************************************************************************
+INIT:DATA:MEAS:IPReplay
+WHILE FETCh:DATA:MEAS:IPReplay:STATe? &lt;&gt; 'RUN'
+
+// *****************************************************************************
+// Trigger analysis of the files. Use a loop to query the results
+// repeatedly until the analysis is finished and the results are available.
+// *****************************************************************************
+WHILE SENSe:DATA:MEAS:IPReplay:INFofile? 'myfile.pcap' = INV,INV,INV,INV,INV,INV
+WHILE SENSe:DATA:MEAS:IPReplay:INFofile? 'file42.pcap' = INV,INV,INV,INV,INV,INV
+
+// *****************************************************************************
+// Query information about the IP connections in the files.
+// *****************************************************************************
+SENSe:DATA:MEAS:IPReplay:TRAFficfile? 'myfile.pcap'
+SENSe:DATA:MEAS:IPReplay:TRAFficfile? 'file42.pcap'
+
+// *****************************************************************************
+// Start playlist execution.
+// Continue until the user closes a dialog box. Query the playlist progress.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPReplay:PLAYall
+WAITKEY &gt;Check the progress?&lt;
+SENSe:DATA:MEAS:IPReplay:PROGress?
+
+// *****************************************************************************
+// Stop the playlist. Modify the number of iterations for one file and the
+// interface for the other file. Play the playlist again.
+// *****************************************************************************
+CONFigure:DATA:MEAS:IPReplay:STOPall
+CONFigure:DATA:MEAS:IPReplay:ITERation 'file42.pcap',4
+CONFigure:DATA:MEAS:IPReplay:INTerface 'myfile.pcap',IP
+CONFigure:DATA:MEAS:IPReplay:PLAYall
+
+// *****************************************************************************
+// Switch off the IP replay application and clear the list.
+// *****************************************************************************
+ABORt:DATA:MEAS:IPReplay
+CONFigure:DATA:MEAS:IPReplay:REMovelist</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

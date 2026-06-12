@@ -1,0 +1,54 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Generating a CW Signal</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="65af87a9b447421a.htm">GPRF Generator</a> &gt; <a class="chm-breadcrumb" href="9a1f981fabb040ac.htm">Programming</a> &gt; <span class="chm-breadcrumb">Generating a CW Signal</span></span></div><div id="mainbody"><div style="width: 95%"><a name="top"></a><div class="chm-chaptertitle">Generating a CW Signal</div><div class="verbatim"><pre class="verbatim_text">// *****************************************************************************
+// Initial system-reset
+// *****************************************************************************
+*RST; *OPC?
+*CLS; *OPC? 
+
+// *****************************************************************************
+// Route output signal for single R&amp;S&nbsp;CMW500/2xx
+// *****************************************************************************
+ROUTe:GPRF:GEN:SCENario:SALone RF1C, TX1 
+
+// *****************************************************************************
+// Route output signal for R&amp;S&nbsp;CMW100:
+// - Select the connector bench 
+// - Activate the first four connectors / deactivate the last four
+// - Deactivate the first connector
+// *****************************************************************************
+ROUTe:GPRF:GEN:SCENario:SALone R118, TX11
+CONFigure:GPRF:GEN:CMWS:USAGe:TX:ALL R118, ON, ON, ON, ON, OFF, OFF, OFF, OFF
+CONFigure:GPRF:GEN:CMWS:USAGe:TX R11, OFF 
+
+// *****************************************************************************
+// Route output signal for setup with R&amp;S CMWS:
+// - Select the connector bench
+// - Activate the first four connectors / deactivate the last four
+// - Deactivate the first connector
+// *****************************************************************************
+ROUTe:GPRF:GEN:SCENario:SALone R118, TX1
+CONFigure:GPRF:GEN:CMWS:USAGe:TX:ALL R118, ON, ON, ON, ON, OFF, OFF, OFF, OFF
+CONFigure:GPRF:GEN:CMWS:USAGe:TX R11, OFF
+
+// ****************************************************************************
+// Define external attenuation
+// ****************************************************************************
+SOURce:GPRF:GEN:RFSettings:EATTenuation 2
+
+// *****************************************************************************
+// Set frequency and level, query peak envelope power, activate CW mode
+// *****************************************************************************
+SOURce:GPRF:GEN:RFSettings:FREQuency 1.000000E+009
+SOURce:GPRF:GEN:RFSettings:LEVel -70
+SOURce:GPRF:GEN:RFSettings:PEPower?
+SOURce:GPRF:GEN:BBMode CW
+
+// *****************************************************************************
+// Switch on generator. With command synchronization, the queried
+// generator state is "ON".
+// *****************************************************************************
+SOURce:GPRF:GEN:STATe ON; *OPC?
+SOURce:GPRF:GEN:STATe?</pre></div><div class="chm-go-to-top"><span><a class="chm-go-to-top" href="#top">Top</a></span></div></div></div></body></html>

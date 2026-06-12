@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Limit Settings</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="93770f5b4def4208.htm">Bluetooth<sup><span style="font-family: Arial Unicode MS">®</span></sup> Measurements</a> &gt; <a class="chm-breadcrumb" href="4bd87bec26254604.htm">Programming</a> &gt; <span class="chm-breadcrumb">Limit Settings</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">Limit Settings</div><pre class="verbatim" xml:space="preserve">
+// *************************************************************************
+// Define and enable common timing error limit
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:PVTime -10,10,ON
+
+// *************************************************************************
+// Define limits and enable limit check for BR packets
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:PVTime
+   -6.0,4.0,23.0,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:DELTa 115E+3, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:MRATio 8E-1, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:FACCuracy 
+   75E+3, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:FDRift:APACkets 
+   25E+3,25E+3,40E+3,20E+3,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:DMINimum 
+   115E+3, 175E+3, 115E+3, 175E+3, ON, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:DMAXimum 
+   115E+3, 175E+3, 115E+3, 175E+3, ON, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:BRATe:DAVerage 
+   115E+3, 175E+3, 115E+3, 175E+3, ON, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:SOBW 0.0E+0,1.0E+6,1.5E+6,ON,OFF
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:FRANge -5E+6,5E+6,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:SACP -20.0,-30.0,3,ON,ON
+
+// *************************************************************************
+// Define limits and enable limit check for EDR packets
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRATe:PVTime
+   -4.0,1.0,4.75,5.25,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:FSTability?
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:DQPSk:DEVM?
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:DPSK:DEVM?
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:FSTability 
+   75E+3, 10E+3, 75E+3, ON, ON, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:DQPSk:DEVM 
+   0.2, 0.35, 0.3, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:DPSK:DEVM 
+   0.13, 0.25, 0.2, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:SGACp 
+   -1.900000E+001,-3.800000E+001,3,-2.600000E+001,-2.600000E+001,OFF,OFF,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:EDRate:PENCoding 0.85 ON
+
+// *************************************************************************
+// Define limits and enable limit check for LE 1M PHY
+// *************************************************************************
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:PVTime
+   -20.0, 10.0, 3.0, ON, ON, ON, ON, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:DELTa 115E+3, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:MRATio 8E-1, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:FACCuracy 
+   75E+3, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:FOFFset 
+   150E+3, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:FDRift 
+   50E+003,20E+3,20E+3,ON,ON,ON,ON,ON,ON,ON,ON,ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:DMINimum 
+   225E+3, 275E+3, OFF, OFF, OFF, OFF
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:DMAXimum 
+   225E+3, 275E+3, OFF, OFF, OFF, OFF
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:DAVerage 
+   225E+3, 275E+3, ON, ON, ON, ON
+CONFigure:BLUetooth:MEAS:MEValuation:LIMit:LENergy:LE1M:SACP 
+   -20.0,-40.0,3,ON,ON
+
+WAITKEY &gt;Limit settings completed, press "OK" to start single-shot measurement&lt;</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>

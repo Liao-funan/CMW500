@@ -1,0 +1,47 @@
+# List Mode Settings
+
+Module: GPRF Generator
+Source: b50c891438b040cf.htm
+
+## 原始指令文档说明
+GPRF Generator
+ > 
+Command Reference
+ > 
+List Mode Settings
+List Mode Settings
+The following commands configure the list mode of the RF generator.
+List of Commands
+SOURce:GPRF:GEN<i>:LIST
+SOURce:GPRF:GEN<i>:LIST:SSTop
+SOURce:GPRF:GEN<i>:LIST:STARt
+SOURce:GPRF:GEN<i>:LIST:STOP
+SOURce:GPRF:GEN<i>:LIST:COUNt?
+SOURce:GPRF:GEN<i>:LIST:GOTO
+SOURce:GPRF:GEN<i>:LIST:REPetition
+SOURce:GPRF:GEN<i>:LIST:INCRement
+SOURce:GPRF:GEN<i>:LIST:INCRement:CATalog?
+SOURce:GPRF:GEN<i>:LIST:INCRement:ENABling
+SOURce:GPRF:GEN<i>:LIST:INCRement:ENABling:CATalog?
+SOURce:GPRF:GEN<i>:LIST:CMWS:CSET
+SOURce:GPRF:GEN<i>:LIST:IREPetition
+SOURce:GPRF:GEN<i>:LIST:IREPetition:ALL
+SOURce:GPRF:GEN<i>:LIST:FREQuency
+SOURce:GPRF:GEN<i>:LIST:FREQuency:ALL
+SOURce:GPRF:GEN<i>:LIST:RFLevel
+SOURce:GPRF:GEN<i>:LIST:RFLevel:ALL
+SOURce:GPRF:GEN<i>:LIST:DGAin
+SOURce:GPRF:GEN<i>:LIST:DGAin:ALL
+SOURce:GPRF:GEN<i>:LIST:DTIMe
+SOURce:GPRF:GEN<i>:LIST:DTIMe:ALL
+SOURce:GPRF:GEN<i>:LIST:MODulation
+SOURce:GPRF:GEN<i>:LIST:MODulation:ALL
+SOURce:GPRF:GEN<i>:LIST:REENabling
+SOURce:GPRF:GEN<i>:LIST:REENabling:ALL
+SOURce:GPRF:GEN<i>:LIST:CMWS:USAGe:TX
+SOURce:GPRF:GEN<i>:LIST:ESINgle
+SOURce:GPRF:GEN<i>:LIST:SLISt
+SOURce:GPRF:GEN<i>:LIST:RLISt
+SOURce:GPRF:GEN<i>:LIST:FILL
+SOURce:GPRF:GEN<i>:LIST:AINDex?
+Top

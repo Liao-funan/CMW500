@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>CMIMO Training Mode</title><style>
+					@import url(html_help.css);
+				</style><meta http-equiv="X-UA-Compatible" content="IE=8"><link disabled="disabled" href="html_help.css" rel="stylesheet" type="text/css"><script src="nsr.js"></script></head><body><div id="nsr"><span><a class="chm-breadcrumb" href="5a67165499554b22.htm">WLAN Measurements</a> &gt; <a class="chm-breadcrumb" href="2fb507e7d93840aa.htm">Programming</a> &gt; <a class="chm-breadcrumb" href="0be03d498c8f43b9.htm">General Examples</a> &gt; <span class="chm-breadcrumb">CMIMO Training Mode</span></span></div><div id="mainbody"><div style="width: 95%" xml:space="preserve">
+						<a name="top">
+							
+						</a>
+						
+						
+						<div class="chm-chaptertitle">CMIMO Training Mode</div><pre class="verbatim" xml:space="preserve">// *****************************************************************************
+// Prerequisite: Adequate input signal settings
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MODE TMODe
+CLEar:WLAN:MEAS:TMODe:DATA
+CONFigure:WLAN:MEAS:TMODe:NOANtennas 2
+
+// *****************************************************************************
+// Make sure antenna 1 is connected to the configured RX port.
+// *****************************************************************************&nbsp;
+READ:WLAN:MEAS:TMODe:ANTenna1?
+
+// *****************************************************************************
+// Disconnect antenna 1 and connect antenna 2.
+// *****************************************************************************&nbsp;
+READ:WLAN:MEAS:TMODe:ANTenna2?
+
+// *****************************************************************************
+// If the decode status is OK, save acquired training data to file.
+// *****************************************************************************&nbsp;
+CONFigure:WLAN:MEAS:TMODe:FILE:SAVE "my_training_data.mif"
+
+// *****************************************************************************
+// Switch back to measurement mode.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:MODE MMODe
+
+// *****************************************************************************
+// Use training data still present in internal memory.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:ISIGnal:TDATa "Internal"
+
+// *****************************************************************************
+// Alternatively, load training data from file.
+// *****************************************************************************
+CONFigure:WLAN:MEAS:ISIGnal:TDATa "my_training_data.mif"
+
+// *****************************************************************************
+// Make sure the composite signal is fed to the configured RX port.
+// Then start measuring ...
+// *****************************************************************************</pre>
+						
+						<div class="chm-go-to-top">
+							<span>
+								<a class="chm-go-to-top" href="#top">Top</a>
+							</span>
+						</div>
+					</div></div></body></html>
